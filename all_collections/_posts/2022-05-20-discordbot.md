@@ -20,8 +20,9 @@ For me, my personal achievement was when I finally got the buttons right.
 
 This webpage will be updated with any new features or improvements. Most importantly, you'll know when it will be ready for public usage! At the moment, only a few servers and users have been authorized to beta test the bot out on my behalf. If you're one of those lucky folk by any chance, then I thank you for visiting this website.
 
-Alright, you know what? Go ahead and invite the bot to your server. Remove any permissions which you believe are not necessary.
 
 <ul id="buttons05" class="buttons"><a href="https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot" class="button n01"><svg><use xlink:href="#icon-93f"></use></svg><span class="label">Invite</span></a></ul>
+
+Alright, you know what? Go ahead and invite the bot to your server. Remove any permissions which you believe are not necessary.
 
 Stay tuned!
