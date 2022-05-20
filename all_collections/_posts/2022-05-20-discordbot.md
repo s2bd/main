@@ -9,6 +9,8 @@ Hey there! You must be here for witnessing any news about my latest invention, M
 
 Unfortunately, I am still busy setting things up on my end for this virtual Discord fox.
 
+![](/assets/images/MuxDay%20discordbot%20banner.png)
+
 So far, I was struggling to troubleshoot and patch up lots of errors. Particularly, today was my first day handling NodeJS from scratch. I mainly tried to migrate some of the previous plugins for my bots written in Python to NodeJS. And boy, o boy! Took me more than 4 hours to get the fair basics completed. Anyways, I'm glad that things are going the way I expected them... at the cost of time and mental strain!
 
 For me, my personal achievement was when I finally got the buttons right.
