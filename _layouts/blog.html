@@ -3,6 +3,15 @@
   {% include head.html %}
   <body>
     <main>
+      <code class="code-container" content="// Based on Jane's design">
+  <div class="glow-container">
+    <div class="augs" data-augmented-ui></div>
+  </div>
+  <section class="augs bg" data-augmented-ui>
+    <button class="dots" onclick="changeMode()" title="change mode"></button>
+    <input value="propjockey.io">
+    <div class="code highcontrast-dark">
+      <div id="code">
       {% include header.html %} {% include bio.html %}
       <section class="articles">
         {% for post in site.posts %}
@@ -22,6 +31,9 @@
         {%endfor%}
       </section>
       {% include footer.html %}
+      </div>
+  </section>
+</div>
     </main>
     {% include category-modal.html%}
   </body>
