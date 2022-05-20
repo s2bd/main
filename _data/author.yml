@@ -1,23 +1,21 @@
-name: Sharad Raj
-dp: https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4
+name: MuxDay
+dp: https://media.discordapp.net/attachments/817313984264536114/977031963980472340/MuxFox_youtube.png?width=574&height=574
 description: "
   <p>
-    Developed by Sharad Raj who lives in India building useful things for the world.
+    MuxDay here. Nothing to see here.
   </p>
   <br/>
   <p>
-    You should follow him on <a href='https://github.com/sharadcodes' target='_blank'>Github</a>
+    This website uses this particular <a href='https://github.com/sharadcodes/jekyll-theme-serial-programmer' target='_blank'>theme</a>, and runs on Jekyll and GitHub Pages.
   </P>
 "
-email: dev_sharad@outlook.com
+email: 
 contact:
-  - title: linkedin
-    url: https://www.linkedin.com/in/srsmaurya
-  - title: github
-    url: https://github.com/sharadcodes
-  - title: twitter
-    url: https://twitter.com/iamsharadraj
-  - title: dev
-    url: https://dev.to/sharadcodes
-  - title: email
-    url: mailto:dev_sharad@outlook.com
+  - title: youtube
+    url: https://www.youtube.com/channel/UCamHjwad92NLtXGPblFpHUg
+  - title: twitch
+    url: https://www.twitch.tv/muxday
+  - title: patreon
+    url: https://www.patreon.com/muxday
+  - title: discord
+    url: https://discord.com/invite/RUVPF75
