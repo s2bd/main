@@ -7,7 +7,10 @@ description: "
   <br/>
   <p>
     This website uses this particular <a href='https://github.com/sharadcodes/jekyll-theme-serial-programmer' target='_blank'>theme</a>, and runs on <a href='https://jekyllrb.com/' target='_blank'>Jekyll</a> and <a href='https://pages.github.com/' target='_blank'>GitHub Pages</a>.
-  </P>
+  </p>
+  <p>
+    Made with ❤️ by <a href='https://muxsites.com/' target='_blank'>MuxSites</a>
+  </p>
 "
 email: 
 contact:
