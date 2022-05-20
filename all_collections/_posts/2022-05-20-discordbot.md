@@ -22,9 +22,6 @@ This webpage will be updated with any new features or improvements. Most importa
 
 Alright, you know what? Go ahead and invite the bot to your server. Remove any permissions which you believe are not necessary.
 
-<style>
-  
-</style>
-<ul id="buttons05" class="buttons"><li><a href="https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot" class="button n01"><svg><use xlink:href="#icon-93f"></use></svg><span class="label">Invite</span></a></li></ul>
+<ul id="buttons05" class="buttons"><a href="https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot" class="button n01"><svg><use xlink:href="#icon-93f"></use></svg><span class="label">Invite</span></a></ul>
 
 Stay tuned!
