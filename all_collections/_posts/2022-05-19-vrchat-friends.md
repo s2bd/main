@@ -7,13 +7,13 @@ categories: [vrchat, friends]
 
 The following usernames refer to my friends on VRChat. Scroll all the way down for details about the "tier" ranks.
 
-### 🌟 Tier A
+### 🌟 Tier S
 - VengeanceX d827
 - Lοki
 - sUwUicide
 - Simp Hunter 8dac
 
-### ⭐ Tier B
+### ⭐ Tier A
 - Generaljames10 05d9
 - MicDyer22 5365
 - PurpleNightmare
@@ -24,7 +24,7 @@ The following usernames refer to my friends on VRChat. Scroll all the way down f
 - JeffRollason d9fd
 - TheLogieBear12 2f9d
 
-### ✨ Tier C
+### ✨ Tier B
 - Axolotl_Uchiha․Sans․Gaster 884a
 - AmieAfton
 - I_Got_Beans
@@ -33,7 +33,7 @@ The following usernames refer to my friends on VRChat. Scroll all the way down f
 - sammiepineapple b389
 - baconbro100 c7f9
 
-### 💫 Tier D
+### 💫 Tier C
 - PhantomReaper_09 ad7f
 - Lynniex
 - 栗 Agusta 140d
@@ -64,6 +64,9 @@ The following usernames refer to my friends on VRChat. Scroll all the way down f
 - KillerCutigni 47e8
 - mike1104200 02f7
 - BlueWolf90 5016
+
+### 🟡 Tier D
+- (none yet)
 
 Missing your name? No problem. Wait for the next update. Usually I scan through my friend list every 2-3 days for new additions. Tier ranks depend on factors such as whether I know you in-person or not, how much time you spent with me, how much valuable you are to me, etc.
 
