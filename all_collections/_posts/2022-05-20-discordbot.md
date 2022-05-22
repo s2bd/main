@@ -9,15 +9,34 @@ categories: [discordbot]
 </head>
 
 Hey there! You must be here for witnessing any news about my latest invention, MuxDay the Discord bot!
-
 Unfortunately, I am still busy setting things up on my end for this virtual Discord fox.
+
 
 ![](/assets/images/MuxDay%20discordbot%20banner.png)
 
-So far, I was struggling to troubleshoot and patch up lots of errors. Particularly, today was my first day handling NodeJS from scratch. I mainly tried to migrate some of the previous plugins for my bots written in Python to NodeJS. And boy, o boy! Took me more than 4 hours to get the fair basics completed. Anyways, I'm glad that things are going the way I expected them... at the cost of time and mental strain!
+So far, I was struggling to troubleshoot and patch up lots of errors. Particularly, 20th May 2022 was my first day handling NodeJS from scratch. I mainly tried to migrate some of the previous plugins for my bots written in Python to NodeJS. And boy, o boy! Took me more than 4 hours to get the fair basics completed. Anyways, I'm glad that things are going the way I expected them... at the cost of time and mental strain!
 
-For me, my personal achievement was when I finally got the buttons right.
+### Features
+* [x] ⏳ Average uptime : 12 hours
+* [x] 🎵 Music player
+* [x] 🎧 Music filters
+* [x] 🎼 YouTube, SoundCloud, Spotify
+* [] 🚧 Moderation
+* [] 🚧 Role management
+* [] 🚧 Memes
+* [] 🚧 Economy
+* [] 🚧 Security
+* [] 🚧 Dashboard
+* [] 🚧 CMS
 
+### Devlog
+```
+✔️ 20 May 2022 : Development started. Fierce programming in progress. Managed to create buttons using DiscordJS v13.
+✔️ 21 May 2022 : Began implementing music commands. Was programming for more than 10 hours. Result not complete yet.
+🔥 22 May 2022 : Success! Music features are now available. But I still gotta find a way to reduce latency to improve the bitrate.
+```
+
+### About
 This webpage will be updated with any new features or improvements. Most importantly, you'll know when it will be ready for public usage! At the moment, only a few servers and users have been authorized to beta test the bot out on my behalf. If you're one of those lucky folk by any chance, then I thank you for visiting this website.
 
 
