@@ -20,7 +20,8 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 * [x] ⏳ Average uptime : 12 hours
 * [x] 🎵 Music player
 * [x] 🎧 Music filters
-* [x] 🎼 YouTube, SoundCloud, Spotify
+* [x] 🎼 Lyrics 
+* [x] ☁️ YouTube, SoundCloud, Spotify
 * [] 🚧 Moderation
 * [] 🚧 Role management
 * [] 🚧 Memes
