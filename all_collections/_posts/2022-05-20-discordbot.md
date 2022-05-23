@@ -27,6 +27,7 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 * [] 🚧 Memes
 * [] 🚧 Economy
 * [] 🚧 Security
+* [] 🚧 Social feeds
 * [] 🚧 Dashboard
 * [] 🚧 CMS
 
