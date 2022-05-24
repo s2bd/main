@@ -16,40 +16,25 @@ Alright, you know what? Go ahead and invite the bot to your server. Remove any p
 | | |
 |     :---:      |     :---:      |
 |![](/assets/images/MuxDay_bot_banner.png)|![](/assets/images/MuxMusic_bot_banner.png)|
-|<a href="https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot" class="button n01"><svg><use xlink:href="#icon-93f"></use></svg>Invite</a>|<a href="https://discord.com/api/oauth2/authorize?client_id=900766190266368051&permissions=1644971949559&scope=bot" class="button n01"><svg><use xlink:href="#icon-93f"></use></svg>Invite</a>|
+|[Invite](https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot)|[Invite](https://discord.com/api/oauth2/authorize?client_id=900766190266368051&permissions=1644971949559&scope=bot)|
 
 |||
 |     :---      |     :---      |
-|* [x] ⏳ Average uptime : 20-24 hours|* [x] ⏳ Average uptime : 20-24 hours|
-|* [x] 🎵 Music player|* [x] 🎵 Music player|
-|* [x] 🎧 Music filters|* [x] 🎧 Music filters|
-|* [x] 🎼 Lyrics |* [x] 🎼 Lyrics |
-|* [x] ☁️ YouTube, SoundCloud, Spotify|* [x] ☁️ YouTube, SoundCloud, Spotify|
-|* [] 🚧 Moderation||
-|* [] 🚧 Role management||
-|* [] 🚧 Memes||
-|* [] 🚧 Economy||
-|* [] 🚧 Security||
-|* [] 🚧 Social feeds||
-|* [] 🚧 Dashboard||
-|* [] 🚧 CMS||
+|⏳ Average uptime : 20-24 hours|⏳ Average uptime : 14-20 hours|
+|🎵 Music player| 🎵 Music player|
+|🎧 Music filters|🎧 Music filters|
+|🎼 Lyrics |🎼 Lyrics |
+|☁️ YouTube, SoundCloud, Spotify|☁️ YouTube, SoundCloud, Spotify|
+|🚧 Moderation||
+|🚧 Role management||
+|🚧 Memes||
+|🚧 Economy||
+|🚧 Security||
+|🚧 Social feeds||
+|🚧 Dashboard||
+|🚧 CMS||
 
 So far, I was struggling to troubleshoot and patch up lots of errors. Particularly, 20th May 2022 was my first day handling NodeJS from scratch. I mainly tried to migrate some of the previous plugins for my bots written in Python to NodeJS. And boy, o boy! Took me more than 4 hours to get the fair basics completed. Anyways, I'm glad that things are going the way I expected them... at the cost of time and mental strain!
-
-### Features
-* [x] ⏳ Average uptime : 20-24 hours
-* [x] 🎵 Music player
-* [x] 🎧 Music filters
-* [x] 🎼 Lyrics 
-* [x] ☁️ YouTube, SoundCloud, Spotify
-* [] 🚧 Moderation
-* [] 🚧 Role management
-* [] 🚧 Memes
-* [] 🚧 Economy
-* [] 🚧 Security
-* [] 🚧 Social feeds
-* [] 🚧 Dashboard
-* [] 🚧 CMS
 
 ### Devlog
 ```
