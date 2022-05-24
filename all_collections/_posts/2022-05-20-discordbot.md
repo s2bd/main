@@ -41,6 +41,7 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 ✔️ 20 May 2022 : Development started. Fierce programming in progress. Managed to create buttons using DiscordJS v13.
 ✔️ 21 May 2022 : Began implementing music commands. Was programming for more than 10 hours. Result not complete yet.
 ✔️ 22 May 2022 : Success! Music features are now available. But I still gotta find a way to reduce latency to improve the bitrate.
-🔥 23 May 2022 : Decided to switch to a different bot for all of MuxDay's music features. Designed new logos using Canva.
+✔️ 23 May 2022 : Decided to switch to a different bot for all of MuxDay's music features. Designed new logos using Canva.
+🔥 24 May 2022 : Set up a new website for MuxMusic. Spent majority of today's time working on that.
 ```
 Stay tuned!
