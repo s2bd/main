@@ -13,26 +13,12 @@ This webpage will be updated with any new features or improvements. Most importa
 
 Alright, you know what? Go ahead and invite the bot to your server. Remove any permissions which you believe are not necessary.
 
-| | |
-|     :---:      |     :---:      |
-|![](/assets/images/MuxDay_bot_banner.png)|![](/assets/images/MuxMusic_bot_banner.png)|
-|[Invite](https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot)|[Invite](https://discord.com/api/oauth2/authorize?client_id=900766190266368051&permissions=1644971949559&scope=bot)|
+![](/assets/images/MuxDay_bot_banner.png)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot)
 
-|||
-|     :---      |     :---      |
-|⏳ Average uptime : 20-24 hours|⏳ Average uptime : 14-20 hours|
-|🎵 Music player| 🎵 Music player|
-|🎧 Music filters|🎧 Music filters|
-|🎼 Lyrics |🎼 Lyrics |
-|☁️ YouTube, SoundCloud, Spotify|☁️ YouTube, SoundCloud, Spotify|
-|🚧 Moderation||
-|🚧 Role management||
-|🚧 Memes||
-|🚧 Economy||
-|🚧 Security||
-|🚧 Social feeds||
-|🚧 Dashboard||
-|🚧 CMS||
+Previously, MuxDay had music features built into it. But now MuxMusic has them all.
+![](/assets/images/MuxMusic_bot_banner.png)
+[Invite](https://muxworks.com/musicbot)
 
 So far, I was struggling to troubleshoot and patch up lots of errors. Particularly, 20th May 2022 was my first day handling NodeJS from scratch. I mainly tried to migrate some of the previous plugins for my bots written in Python to NodeJS. And boy, o boy! Took me more than 4 hours to get the fair basics completed. Anyways, I'm glad that things are going the way I expected them... at the cost of time and mental strain!
 
@@ -42,6 +28,7 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 ✔️ 21 May 2022 : Began implementing music commands. Was programming for more than 10 hours. Result not complete yet.
 ✔️ 22 May 2022 : Success! Music features are now available. But I still gotta find a way to reduce latency to improve the bitrate.
 ✔️ 23 May 2022 : Decided to switch to a different bot for all of MuxDay's music features. Designed new logos using Canva.
-🔥 24 May 2022 : Set up a new website for MuxMusic. Spent majority of today's time working on that.
+✔️ 24 May 2022 : Set up a new website for MuxMusic. Spent majority of today's time working on that.
+🔥 26 May 2022 : New feature for MuxDay that auto-deletes any messages containing unknown links.
 ```
 Stay tuned!
