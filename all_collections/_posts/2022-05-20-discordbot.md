@@ -14,11 +14,15 @@ This webpage will be updated with any new features or improvements. Most importa
 Alright, you know what? Go ahead and invite the bot to your server. Remove any permissions which you believe are not necessary.
 
 ![](/assets/images/MuxDay_bot_banner.png)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot)
+||
+|:---:|
+|[Invite](https://discord.com/api/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot)|
 
 Previously, MuxDay had music features built into it. But now MuxMusic has them all.
 ![](/assets/images/MuxMusic_bot_banner.png)
-[Invite](https://muxworks.com/musicbot)
+||
+|:---:|
+|[Invite](https://muxworks.com/musicbot)|
 
 So far, I was struggling to troubleshoot and patch up lots of errors. Particularly, 20th May 2022 was my first day handling NodeJS from scratch. I mainly tried to migrate some of the previous plugins for my bots written in Python to NodeJS. And boy, o boy! Took me more than 4 hours to get the fair basics completed. Anyways, I'm glad that things are going the way I expected them... at the cost of time and mental strain!
 
