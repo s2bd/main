@@ -2,11 +2,11 @@
   --gray-1: #ffffff;
   --gray-2: #f1f1f1;
   --gray-3: #afafaf;
-  --gray-4: #eeffee;
-  --gray-5: #ffeeee;
-  --gray-6: #eeeeff;
-  --white-1: #109123;
-  --white-2: #29834a;
+  --gray-4: #ffffff;
+  --gray-5: #ffffff;
+  --gray-6: #ffffff;
+  --white-1: #282338;
+  --white-2: #1a083b;
 }
 #category-modal-bg {
   position: fixed;
