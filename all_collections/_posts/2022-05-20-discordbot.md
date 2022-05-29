@@ -30,7 +30,7 @@ Alright, you know what? Go ahead and invite the bot to your server. Remove any p
 - 🚧 [⚒️Tools] **Invite logging**
 - 🚧 [⚒️Tools] **Auto moderation**
 - 🚧 [⚒️Tools] **Content Management System**
-- 🚧 [🪙Economy] **Virtual currency**
+- ✔️ [🪙Economy] **Virtual currency**
 - 🚧 [🪙Economy] **Currency-based services**
 - 🚧 [🛡️Safety] **CAPTCHA verification**
 - 🚧 [🛡️Safety] **Anti-raid maneuver**
@@ -54,6 +54,7 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 ✔️ 23 May 2022 : Decided to switch to a different bot for all of MuxDay's music features. Designed new logos using Canva.
 ✔️ 24 May 2022 : Set up a new website for MuxMusic. Spent majority of today's time working on that.
 ✔️ 26 May 2022 : New feature for MuxDay that auto-deletes any messages containing unknown links.
-🔥 27 May 2022 : New meme/image fetching features for MuxDay.
+✔️ 27 May 2022 : New meme/image fetching features for MuxDay.
+🔥 28 May 2022 : New virtual currency system and economy! DayCoins and NyteCoins. Balance, Create, Transfer and Steal!
 ```
 Stay tuned!
