@@ -31,7 +31,8 @@ Alright, you know what? Go ahead and invite the bot to your server. Remove any p
 - 🚧 [⚒️Tools] **Invite logging**
 - 🚧 [⚒️Tools] **Auto moderation (auto detect toxicity, spam, etc.)**
 - 🚧 [⚒️Tools] **Content Management System**
-- 🚧 [🎭Entertainment] ***Pokemon*-like gacha & card battles**
+- ✔️ [🎭Entertainment] **Gacha card collection**
+- 🚧 [🎭Entertainment] ***Pokemon*-like card battles**
 - 🚧 [🎭Entertainment] ***AmongUs*-like game**
 - ✔️ [🪙Economy] **Virtual currency**
 - 🚧 [🪙Economy] **Currency-based services**
@@ -61,6 +62,7 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 ✔️ 26 May 2022 : New feature for MuxDay that auto-deletes any messages containing unknown links.
 ✔️ 27 May 2022 : New meme/image fetching features for MuxDay.
 ✔️ 28 May 2022 : New virtual currency system and economy! DayCoins and NyteCoins. Balance, Create, Transfer and Steal!
-🔥 29 May 2022: Added a shop. Buy tools, weapons, protection equipment. Crimes increase wanted levels gradually. JSONs JSONs everywhere!
+✔️ 29 May 2022 : Added a shop. Buy tools, weapons, protection equipment. Crimes increase wanted levels gradually. JSONs JSONs everywhere!
+🔥 30 May 2022 : Today marks the 10th day of progress. Added gacha rolls (cards) and a card showcasing system. Need to add a feature to sell duplicates.
 ```
 Stay tuned!
