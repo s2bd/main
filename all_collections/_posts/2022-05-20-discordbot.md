@@ -27,13 +27,15 @@ Alright, you know what? Go ahead and invite the bot to your server. Remove any p
 - ✔️ [🎭Entertainment] **Memes, images from Reddit**
 - ❌ [🎭Entertainment] **Music playback, lyrics, playlists (see below)**
 - ❌ [🎭Entertainment] **Audio filters (see below)**
-- 🚧 [⚒️Tools] **Moderation (kick, ban, mute)**
+- 🚧 [⚒️Tools] **Moderation (kick, ban, mute, etc.)**
 - 🚧 [⚒️Tools] **Invite logging**
-- 🚧 [⚒️Tools] **Auto moderation (auto detect toxicity, spam, violation)**
+- 🚧 [⚒️Tools] **Auto moderation (auto detect toxicity, spam, etc.)**
 - 🚧 [⚒️Tools] **Content Management System**
+- 🚧 [🎭Entertainment] ***Pokemon*-like gacha & card battles**
+- 🚧 [🎭Entertainment] ***AmongUs*-like game**
 - ✔️ [🪙Economy] **Virtual currency**
 - 🚧 [🪙Economy] **Currency-based services**
-- ✔️ [🪙Economy] **RolePlay (Earn currency, live life)**
+- ✔️ [🪙Economy] ***GTA Online*-like RPG (Earn currency, buy stuff, work, etc.)**
 - ✔️ [🪙Economy] **Marketplace**
 - 🚧 [🛡️Safety] **CAPTCHA verification**
 - 🚧 [🛡️Safety] **Anti-raid maneuver**
