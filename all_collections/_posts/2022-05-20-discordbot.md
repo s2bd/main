@@ -25,13 +25,16 @@ Alright, you know what? Go ahead and invite the bot to your server. Remove any p
 - ✔️ [⚒️Tools] **Mass message deletion ('purge' feature)**
 - ✔️ [⚒️Tools] **Count to infinity**
 - ✔️ [🎭Entertainment] **Memes, images from Reddit**
-- ❌ [🎭Entertainment] **Music playback, lyrics, playlists (see note below)**
-- ❌ [🎭Entertainment] **Audio filters (see note below)**
+- ❌ [🎭Entertainment] **Music playback, lyrics, playlists (see below)**
+- ❌ [🎭Entertainment] **Audio filters (see below)**
+- 🚧 [⚒️Tools] **Moderation (kick, ban, mute)**
 - 🚧 [⚒️Tools] **Invite logging**
-- 🚧 [⚒️Tools] **Auto moderation**
+- 🚧 [⚒️Tools] **Auto moderation (auto detect toxicity, spam, violation)**
 - 🚧 [⚒️Tools] **Content Management System**
 - ✔️ [🪙Economy] **Virtual currency**
 - 🚧 [🪙Economy] **Currency-based services**
+- ✔️ [🪙Economy] **RolePlay (Earn currency, live life)**
+- ✔️ [🪙Economy] **Marketplace**
 - 🚧 [🛡️Safety] **CAPTCHA verification**
 - 🚧 [🛡️Safety] **Anti-raid maneuver**
 - 🚧 [⚒️Tools] **Dashboard**
@@ -55,6 +58,7 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 ✔️ 24 May 2022 : Set up a new website for MuxMusic. Spent majority of today's time working on that.
 ✔️ 26 May 2022 : New feature for MuxDay that auto-deletes any messages containing unknown links.
 ✔️ 27 May 2022 : New meme/image fetching features for MuxDay.
-🔥 28 May 2022 : New virtual currency system and economy! DayCoins and NyteCoins. Balance, Create, Transfer and Steal!
+✔️ 28 May 2022 : New virtual currency system and economy! DayCoins and NyteCoins. Balance, Create, Transfer and Steal!
+🔥 29 May 2022: Added a shop. Buy tools, weapons, protection equipment. Crimes increase wanted levels gradually. JSONs JSONs everywhere!
 ```
 Stay tuned!
