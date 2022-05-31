@@ -27,7 +27,7 @@ Alright, you know what? Go ahead and invite the bot to your server. Remove any p
 - ✔️ [🎭Entertainment] **Memes, images from Reddit**
 - ❌ [🎭Entertainment] **Music playback, lyrics, playlists (see below)**
 - ❌ [🎭Entertainment] **Audio filters (see below)**
-- 🚧 [⚒️Tools] **Moderation (kick, ban, mute, etc.)**
+- ✔️ [⚒️Tools] **Moderation (kick, ban, mute, etc.)**
 - 🚧 [⚒️Tools] **Invite logging**
 - 🚧 [⚒️Tools] **Auto moderation (auto detect toxicity, spam, etc.)**
 - 🚧 [⚒️Tools] **Content Management System**
@@ -63,6 +63,7 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 ✔️ 27 May 2022 : New meme/image fetching features for MuxDay.
 ✔️ 28 May 2022 : New virtual currency system and economy! DayCoins and NyteCoins. Balance, Create, Transfer and Steal!
 ✔️ 29 May 2022 : Added a shop. Buy tools, weapons, protection equipment. Crimes increase wanted levels gradually. JSONs JSONs everywhere!
-🔥 30 May 2022 : Today marks the 10th day of progress. Added gacha rolls (cards) and a card showcasing system. Need to add a feature to sell duplicates.
+✔️ 30 May 2022 : Today marks the 10th day of progress. Added gacha rolls (cards) and a card showcasing system. Need to add a feature to sell duplicates.
+🔥 31 May 2022 : Worked on the job feature. Managed to get the job board right, and also the daily reward system.
 ```
 Stay tuned!
