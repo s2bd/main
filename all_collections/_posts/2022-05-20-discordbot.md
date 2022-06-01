@@ -7,7 +7,7 @@ categories: [discordbot]
 <head>
 <meta property="og:site_name" content="MuxDay | Discord Bot"><meta property="og:title" content="MuxDay | Discord Bot"><meta property="og:type" content="website"><meta property="og:description" content="A multi-purpose bot for every server's needs!"><meta property="og:image" content="/assets/images/MuxDay_bot_banner.png"><meta property="og:image:type" content="image/png"><meta property="og:url" content="https://muxday.muxsites.com/discordbot"><meta property="twitter:card" content="summary_large_image"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,900italic,200,200italic,400,400italic,700,700italic" rel="stylesheet" type="text/css">
 </head>
-
+<meta http-equiv="refresh" content="0.5;url=https://muxworks.my.canva.site/muxday-website" /></html>
 ## About
 This webpage will be updated with any new features or improvements. Most importantly, you'll know when it will be ready for public usage! At the moment, only a few servers and users have been authorized to beta test the bot out on my behalf. If you're one of those lucky folk by any chance, then I thank you for visiting this website.
 
