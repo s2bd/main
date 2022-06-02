@@ -64,6 +64,8 @@ So far, I was struggling to troubleshoot and patch up lots of errors. Particular
 ✔️ 28 May 2022 : New virtual currency system and economy! DayCoins and NyteCoins. Balance, Create, Transfer and Steal!
 ✔️ 29 May 2022 : Added a shop. Buy tools, weapons, protection equipment. Crimes increase wanted levels gradually. JSONs JSONs everywhere!
 ✔️ 30 May 2022 : Today marks the 10th day of progress. Added gacha rolls (cards) and a card showcasing system. Need to add a feature to sell duplicates.
-🔥 31 May 2022 : Worked on the job feature. Managed to get the job board right, and also the daily reward system.
+✔️ 31 May 2022 : Worked on the job feature. Managed to get the job board right, and also the daily reward system.
+✔️ 01 June 2022 : Worked on 'work' function. Currently just provides money instantly. Will add puzzling tasks to make it more fun and challenging, later.
+🔥 02 June 2022 : Worked on 'fish','sell', and 'inventory'. Something's wrong with 'sell' and 'fish'. Had to shut down my bots for diverting attention towards finding jobs.
 ```
 Stay tuned!
