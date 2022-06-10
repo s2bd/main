@@ -2,7 +2,7 @@
 layout: post
 title: Favorite VRChat Worlds
 date: 2022-05-19
-categories: [vrchat]
+categories: [worlds]
 ---
 
 Throughout my journey across several realms and dimensions of VRChat, I've come across worlds which seemed interesting to me. Thus, I saved them in my "favorites" list for future reference and also to recommend others to try them out!
