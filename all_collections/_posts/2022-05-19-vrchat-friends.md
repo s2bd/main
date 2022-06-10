@@ -2,7 +2,7 @@
 layout: post
 title: VRChat Friends
 date: 2022-05-19
-categories: [vrchat, friends]
+categories: [people, friends]
 ---
 
 The following usernames refer to my friends on VRChat. Scroll all the way down for details about the "tier" ranks.
