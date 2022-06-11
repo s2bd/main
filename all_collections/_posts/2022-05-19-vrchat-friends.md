@@ -8,10 +8,13 @@ categories: [people, friends]
 The following usernames refer to friends of this website's admins on VRChat. Scroll all the way down for details about the "tier" ranks.
 
 ### 🌟 Tier S
+- MuxDay
 - VengeanceX d827
 - Lοki
 - sUwUicide
 - Simp Hunter 8dac
+- Mirabelle Moko
+- Lenr
 
 ### ⭐ Tier A
 - Generaljames10 05d9
