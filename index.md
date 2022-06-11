@@ -1,4 +1,4 @@
 ---
-title: Official Website
+title: Home
 layout: blog
 ---
