@@ -5,7 +5,7 @@ date: 2022-05-19
 categories: [people, friends]
 ---
 
-The following usernames refer to my friends on VRChat. Scroll all the way down for details about the "tier" ranks.
+The following usernames refer to friends of this website's admins on VRChat. Scroll all the way down for details about the "tier" ranks.
 
 ### 🌟 Tier S
 - VengeanceX d827
@@ -23,6 +23,10 @@ The following usernames refer to my friends on VRChat. Scroll all the way down f
 - johndoe711
 - JeffRollason d9fd
 - TheLogieBear12 2f9d
+- aveylf e47d
+- ClintEastwood34 1993
+- Mitsuki 97ee
+- nuriko 2d99
 
 ### ✨ Tier B
 - Axolotl_Uchiha․Sans․Gaster 884a
@@ -32,6 +36,7 @@ The following usernames refer to my friends on VRChat. Scroll all the way down f
 - Kelsey․toto
 - sammiepineapple b389
 - baconbro100 c7f9
+- Riddle_Rose 8771
 
 ### 💫 Tier C
 - PhantomReaper_09 ad7f
@@ -64,11 +69,21 @@ The following usernames refer to my friends on VRChat. Scroll all the way down f
 - KillerCutigni 47e8
 - mike1104200 02f7
 - BlueWolf90 5016
+- Paige32 7a72
 
 ### 🟡 Tier D
-- (none yet)
+- bee_ran
+- EllaHollow55 343e
+- landanghost56 e91b
+- amelnamik 5e19
+- bengalvr d963
+- DauphDaddy e6b0
+- Diamond-_-Rose
+- TiraFisu
+- tokyo_mikado
+- Nana-Melody 7164
 
-Missing your name? No problem. Wait for the next update. Usually I scan through my friend list every 2-3 days for new additions. Tier ranks depend on factors such as whether I know you in-person or not, how much time you spent with me, how much valuable you are to me, etc.
+Missing your name? No problem. Wait for the next update. Usually we scan through our friend list every 2-3 days for new additions. Tier ranks depend on factors such as whether we know you in-person or not, how much time you spent with us, how much valuable you are to us, how much of a good person you are, etc.
 
 Sounds rather grim, but it's the truth.
 
