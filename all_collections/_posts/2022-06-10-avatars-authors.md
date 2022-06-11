@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My favorite VRChat avatars and where to find them
+title: Favorite VRChat avatars and where to find them
 date: 2022-05-19
 categories: [vrchat, friends]
 ---
