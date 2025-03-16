@@ -1,11 +1,11 @@
-title: VRChat Multiplexor
+title: MuxAI
 markdown: kramdown
 url: ""
 baseurl: 
 
 # for atom feed
 author:
-  name: MuxDay
+  name: Dewan Mukto
   email: 
 
 plugins:
