@@ -1,1 +1,124 @@
-{Coming soon}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mux Web Platform | Map</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        svg { width: 100vw; height: 100vh; }
+    </style>
+</head>
+<body>
+    <h2>Brute-Force File Discovery</h2>
+    <svg></svg>
+    <script>
+        async function bruteForceFiles(path = "") {
+            const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            const maxLen = 64;
+            let foundItems = [];
+
+            async function checkName(name) {
+                try {
+                    const response = await fetch(`/${path}${name}`);
+                    if (response.ok) {
+                        return name;
+                    }
+                } catch (e) {}
+                return null;
+            }
+
+            async function generateNames(prefix = "") {
+                if (prefix.length > maxLen) return;
+                let result = await checkName(prefix);
+                if (result) {
+                    foundItems.push(result);
+                    if (!result.includes(".")) {
+                        await bruteForceFiles(path + result + "/");
+                    }
+                }
+                for (let c of chars) {
+                    await generateNames(prefix + c);
+                }
+            }
+
+            await generateNames();
+            return foundItems.map(item => ({ name: item, path: path + item }));
+        }
+
+        async function startBruteForce() {
+            let discovered = await bruteForceFiles();
+            visualizeGraph(discovered);
+        }
+
+        function visualizeGraph(data) {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            const svg = d3.select("svg").attr("width", width).attr("height", height);
+
+            const nodes = [{ name: "root", path: "" }, ...data];
+            const links = data.map(d => ({ source: "root", target: d.name }));
+
+            const simulation = d3.forceSimulation(nodes)
+                .force("link", d3.forceLink(links).id(d => d.name).distance(100))
+                .force("charge", d3.forceManyBody().strength(-200))
+                .force("center", d3.forceCenter(width / 2, height / 2));
+
+            const link = svg.append("g").selectAll("line")
+                .data(links)
+                .enter().append("line")
+                .style("stroke", "#999");
+
+            const node = svg.append("g").selectAll("circle")
+                .data(nodes)
+                .enter().append("circle")
+                .attr("r", 10)
+                .style("fill", "blue")
+                .call(d3.drag()
+                    .on("start", dragStarted)
+                    .on("drag", dragged)
+                    .on("end", dragEnded));
+
+            const text = svg.append("g").selectAll("text")
+                .data(nodes)
+                .enter().append("text")
+                .text(d => d.name)
+                .attr("x", 12)
+                .attr("y", 3);
+
+            simulation.on("tick", () => {
+                link.attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                node.attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+
+                text.attr("x", d => d.x + 12)
+                    .attr("y", d => d.y + 3);
+            });
+
+            function dragStarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragEnded(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+        }
+
+        startBruteForce();
+    </script>
+</body>
+</html>
