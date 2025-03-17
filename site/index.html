@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.2));
+            background: linear-gradient(135deg, rgba(0, 20, 40, 0.9), rgba(10, 30, 60, 0.8), rgba(20, 40, 80, 0.7), rgba(30, 50, 100, 0.6));
             backdrop-filter: blur(10px);
             color: white;
             text-align: center;
@@ -60,9 +60,9 @@
 
             for (let dir of possibleDirs) {
                 try {
-                    let response = await fetch(`/${dir}/index.html`, { method: 'HEAD' });
+                    let response = await fetch(`${dir}/index.html`, { method: 'HEAD' });
                     if (response.ok) {
-                        let metadataResponse = await fetch(`/${dir}/index.html`);
+                        let metadataResponse = await fetch(`${dir}/index.html`);
                         let text = await metadataResponse.text();
                         let parser = new DOMParser();
                         let doc = parser.parseFromString(text, 'text/html');
