@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mux Web Platform | Map</title>
+    <title>MWP Map</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; }
@@ -11,40 +11,74 @@
     </style>
 </head>
 <body>
-    <h2>Brute-Force File Discovery</h2>
+    <h2>Mux Web Presence</h2>
     <svg></svg>
     <script>
-        async function bruteForceFiles(path = "") {
-            const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            const maxLen = 64;
-            let foundItems = [];
+        const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        const maxLen = 64;
+        const maxDepth = 10;
+        const numWorkers = navigator.hardwareConcurrency || 4;
+        let workers = [];
 
-            async function checkName(name) {
-                try {
-                    const response = await fetch(`/${path}${name}`);
-                    if (response.ok) {
-                        return name;
-                    }
-                } catch (e) {}
-                return null;
-            }
-
-            async function generateNames(prefix = "") {
-                if (prefix.length > maxLen) return;
-                let result = await checkName(prefix);
-                if (result) {
-                    foundItems.push(result);
-                    if (!result.includes(".")) {
-                        await bruteForceFiles(path + result + "/");
+        function generateNames(maxLength) {
+            let queue = [""];
+            let names = [];
+            while (queue.length > 0) {
+                let prefix = queue.shift();
+                if (prefix.length > 0) names.push(prefix);
+                if (prefix.length < maxLength) {
+                    for (let c of chars) {
+                        queue.push(prefix + c);
                     }
                 }
-                for (let c of chars) {
-                    await generateNames(prefix + c);
-                }
             }
+            return names;
+        }
 
-            await generateNames();
-            return foundItems.map(item => ({ name: item, path: path + item }));
+        function createWorker() {
+            const worker = new Worker(URL.createObjectURL(new Blob([`
+                self.onmessage = async function(event) {
+                    let { names, path } = event.data;
+                    let found = [];
+                    for (let name of names) {
+                        try {
+                            const response = await fetch(`/${path}${name}`);
+                            if (response.ok) found.push({ name, path: path + name });
+                        } catch (e) {}
+                    }
+                    self.postMessage(found);
+                };
+            `], { type: 'application/javascript' })));
+            return worker;
+        }
+
+        function bruteForceFiles(path = "", depth = 0) {
+            return new Promise(async (resolve) => {
+                if (depth > maxDepth) return resolve([]);
+                let names = generateNames(6); // Start with shorter names
+                let chunkSize = Math.ceil(names.length / numWorkers);
+                let foundItems = [];
+                let pendingWorkers = numWorkers;
+                workers = [];
+
+                for (let i = 0; i < numWorkers; i++) {
+                    let worker = createWorker();
+                    workers.push(worker);
+                    worker.onmessage = async function(event) {
+                        foundItems.push(...event.data);
+                        pendingWorkers--;
+                        if (pendingWorkers === 0) {
+                            let subFolders = foundItems.filter(f => !f.name.includes("."));
+                            for (let folder of subFolders) {
+                                let subResults = await bruteForceFiles(folder.path + "/", depth + 1);
+                                foundItems.push(...subResults);
+                            }
+                            resolve(foundItems);
+                        }
+                    };
+                    worker.postMessage({ names: names.slice(i * chunkSize, (i + 1) * chunkSize), path });
+                }
+            });
         }
 
         async function startBruteForce() {
