@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites by Mux</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.2));
+            backdrop-filter: blur(10px);
+            color: white;
+            text-align: center;
+            padding: 40px;
+            overflow: hidden;
+            position: relative;
+        }
+        .grain {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="3.5" numOctaves="10" stitchTiles="stitch"/></filter><rect width="100" height="100" filter="url(#noiseFilter)"/></svg>');
+            opacity: 0.2;
+            pointer-events: none;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+        .item {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="grain"></div>
+    <div class="container">
+        <h1>Available Sites</h1>
+        <div id="directory-list">Loading...</div>
+    </div>
+
+    <script>
+        async function fetchDirectories() {
+            const possibleDirs = ["amrella", "projects", "dewanmukto","muktoverse"]; // Add more if needed
+            let listContainer = document.getElementById('directory-list');
+            listContainer.innerHTML = '';
+
+            for (let dir of possibleDirs) {
+                try {
+                    let response = await fetch(`/${dir}/index.html`, { method: 'HEAD' });
+                    if (response.ok) {
+                        let metadataResponse = await fetch(`/${dir}/index.html`);
+                        let text = await metadataResponse.text();
+                        let parser = new DOMParser();
+                        let doc = parser.parseFromString(text, 'text/html');
+
+                        let title = doc.querySelector('meta[property="og:title"]')?.content || dir;
+                        let description = doc.querySelector('meta[property="og:description"]')?.content || 'No description available';
+                        let image = doc.querySelector('meta[property="og:image"]')?.content || '';
+
+                        let listItem = document.createElement('div');
+                        listItem.className = 'item';
+                        listItem.innerHTML = `<strong>${title}</strong><br><small>${description}</small>`;
+                        listItem.onclick = () => window.location.href = `/${dir}`;
+
+                        if (image) {
+                            listItem.style.backgroundImage = `url(${image})`;
+                            listItem.style.backgroundSize = 'cover';
+                            listItem.style.color = 'black';
+                        }
+
+                        listContainer.appendChild(listItem);
+                    }
+                } catch (error) {
+                    console.log(`Could not fetch ${dir}/index.html`, error);
+                }
+            }
+
+            if (listContainer.innerHTML === '') {
+                listContainer.innerHTML = '<p>No directories found.</p>';
+            }
+        }
+        fetchDirectories();
+    </script>
+</body>
+</html>
