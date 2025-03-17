@@ -22,7 +22,8 @@
         function parseSitemap(data, parentPath = "", nodes = [], links = []) {
             Object.entries(data).forEach(([name, children]) => {
                 const path = parentPath ? `${parentPath}/${name}` : name;
-                nodes.push({ name, path });
+                const node = { name, path, size: Array.isArray(children) ? children.length : 0 };
+                nodes.push(node);
                 if (parentPath) links.push({ source: parentPath, target: path });
                 if (children) parseSitemap(children, path, nodes, links);
             });
@@ -35,8 +36,18 @@
 
             const width = window.innerWidth;
             const height = window.innerHeight;
-            const svg = d3.select("svg").attr("width", width).attr("height", height);
+            const svg = d3.select("svg")
+                .attr("width", width)
+                .attr("height", height);
 
+            // Zoom behavior
+            const zoom = d3.zoom()
+                .scaleExtent([0.5, 8])  // Limits the zoom scale
+                .on("zoom", zoomed);
+
+            svg.call(zoom);
+
+            // Simulation with force-directed layout
             const simulation = d3.forceSimulation(nodes)
                 .force("link", d3.forceLink(links).id(d => d.path).distance(100))
                 .force("charge", d3.forceManyBody().strength(-200))
@@ -50,7 +61,7 @@
             const node = svg.append("g").selectAll("circle")
                 .data(nodes)
                 .enter().append("circle")
-                .attr("r", 10)
+                .attr("r", d => 5 + d.size * 2) // Size nodes based on the number of files
                 .style("fill", "blue")
                 .call(d3.drag()
                     .on("start", dragStarted)
@@ -76,6 +87,10 @@
                 text.attr("x", d => d.x + 12)
                     .attr("y", d => d.y + 3);
             });
+
+            function zoomed(event) {
+                svg.attr("transform", event.transform); // Apply the zoom transform
+            }
 
             function dragStarted(event, d) {
                 if (!event.active) simulation.alphaTarget(0.3).restart();
