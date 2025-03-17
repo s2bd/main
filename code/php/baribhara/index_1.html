@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Real Estate Management Login</title>
+</head>
+<body>
+  <div class="overlay-text">BARIBHARA</div>
+    <div class="container">
+        <h1>Welcome</h1>
+        <form id="form">
+            <div class="form-group login-fields">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="form-group login-fields">
+                <input type="password" placeholder="Password" required>
+            </div>
+
+            <div class="form-group register-fields">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="form-group register-fields">
+                <input type="password" placeholder="Enter Password" required>
+            </div>
+            <div class="form-group register-fields">
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="switch" onclick="toggleMode()">
+                <div class="switch-button">
+                    <div class="slider"></div>
+                    <span>Sign In</span>
+                    <span>Register</span>
+                </div>
+            </div>
+
+            <button class="button" type="submit">Submit</button>
+        </form>
+    </div>
+  <div class="credits">
+    Photo by <a href="https://unsplash.com/@kyddvisuals?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Dillon Kydd</a> on 
+    <a href="https://unsplash.com/photos/gray-and-white-concrete-house-2keCPb73aQY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+</div>
+ <div class="about-panel" onclick="toggleAboutPanel()">
+    About this platform
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
+

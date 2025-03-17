@@ -1,0 +1,378 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, rgba(0, 128, 255, 0.8), rgba(255, 255, 255, 0.2));
+        }
+
+        .container {
+            position: relative;
+            width: 400px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            font-size: 16px;
+            color: #333;
+            background: rgba(255, 255, 255, 0.8);
+            transition: 0.3s;
+        }
+
+        .form-group input:focus {
+            background: #fff;
+            box-shadow: 0 0 5px rgba(0, 128, 255, 0.8);
+        }
+
+        .switch {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .switch-button {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 25px;
+            padding: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .switch-button span {
+            flex: 1;
+            text-align: center;
+            font-size: 14px;
+            color: #000;
+            transition: 0.3s;
+            opacity: 0.5;
+        }
+
+        .slider {
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            background: linear-gradient(135deg, #0080ff, #00e0ff);
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            color: #fff;
+            background: linear-gradient(135deg, #0080ff, #00e0ff);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: linear-gradient(135deg, #00e0ff, #0080ff);
+            box-shadow: 0 4px 10px rgba(0, 128, 255, 0.5);
+        }
+
+        .register-fields {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .register-active .register-fields {
+            display: block;
+            opacity: 1;
+        }
+
+        .register-active .login-fields {
+            display: none;
+            opacity: 0;
+        }
+
+        .register-active .slider {
+            transform: translateX(100%);
+        }
+
+/* Overlay Text Styling */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw; /* Autosize based on viewport width */
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    z-index: 1;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Background Hover Effect with Circular Mask */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: invert(100%);
+    clip-path: circle(0% at 0 0); /* Initially hidden */
+    transition: clip-path 0.2s ease;
+    z-index: 0;
+    pointer-events: none;
+}
+
+body:hover::before {
+    clip-path: circle(10% at var(--mouse-x, 0px) var(--mouse-y, 0px)); /* Show small region around cursor */
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Credits Panel Styling */
+.credits {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+.credits a {
+    color: #00e0ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.credits a:hover {
+    color: #fff;
+}
+
+/* About Panel Styling */
+.about-panel {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 200px;
+}
+
+.about-panel:hover {
+    padding-right: 25px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.about-panel:hover::after {
+    content: ' - by Group 3';
+    color: #aaa;
+}
+
+.about-panel.expanded {
+    max-width: 400px;
+    white-space: normal;
+    padding: 20px;
+}
+
+.about-panel.expanded::after {
+    content: '';
+}
+
+.about-panel a {
+    color: #00e0ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.about-panel a:hover {
+    color: #fff;
+}
+
+.dashboard {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Glassy Effect */
+.glassy {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Center the search panel */
+.search-panel {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+/* Style the search input and button */
+.search-panel input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-panel .search-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-panel .search-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the table */
+.search-results table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.search-results th, .search-results td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-results th {
+    background-color: #007bff;
+    color: white;
+}
+
+.search-results tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style the View Details button */
+.view-details {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.view-details:hover {
+    background-color: #0056b3;
+}
+
