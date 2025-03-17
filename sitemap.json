@@ -1,0 +1,626 @@
+{
+    "main": {
+        "404.md": null,
+        "CNAME": null,
+        "Gemfile": null,
+        "Gemfile.lock": null,
+        "index.html": null,
+        "posts.md": null,
+        "README.md": null,
+        "note": {
+            "Desmos_AA4MM.txt": null,
+            "Roblox usernames to char.txt": null
+        },
+        "app": {
+            "index.html": null,
+            "jammy": {
+                "index.html": null
+            },
+            "bracu": {
+                "course-search": {
+                    "index.html": null,
+                    "script.js": null,
+                    "styles.css": null
+                }
+            },
+            "oozbok": {
+                "index.html": null
+            },
+            "meet": {
+                "index.html": null,
+                "script.js": null,
+                "styles.css": null
+            },
+            "repeat": {
+                "index.html": null
+            },
+            "metrobus": {
+                "tracker": {
+                    "index.html": null,
+                    "script.js": null,
+                    "styles.css": null
+                }
+            },
+            "paint": {
+                "index.html": null,
+                "script.js": null,
+                "styles.css": null
+            },
+            "rong": {
+                "index.html": null,
+                "script.js": null,
+                "styles.css": null
+            }
+        },
+        "sitemapper.py": null,
+        "assets": {
+            "css": {
+                "blog.css": null,
+                "common.css": null,
+                "post.css": null,
+                "propjockey.css": null,
+                "syntax.css": null
+            },
+            "js": {
+                "categories.js": null,
+                "lbox.js": null,
+                "propjockey.js": null
+            },
+            "images": {
+                "blanc": null,
+                "MuxDay discordbot banner.png": null,
+                "MuxDay_bot_banner.png": null,
+                "MuxMusic_bot_banner.png": null
+            },
+            "icons": {
+                "dev.png": null,
+                "discord.png": null,
+                "email.png": null,
+                "github.png": null,
+                "instagram.png": null,
+                "linkedin.png": null,
+                "patreon.png": null,
+                "telegram.png": null,
+                "twitch.png": null,
+                "twitter.png": null,
+                "youtube.png": null
+            }
+        },
+        "_config.yml": null,
+        "_data": {
+            "author.yml": null
+        },
+        "_layouts": {
+            "blog.html": null,
+            "post.html": null
+        },
+        "_posts": {
+            "dewanmukto": {
+                "2022-05-20-discordbot.md": null
+            }
+        },
+        "_includes": {
+            "bio.html": null,
+            "category-modal.html": null,
+            "footer.html": null,
+            "head.html": null,
+            "header.html": null
+        },
+        "doc": {
+            "Colors-Of-Infinite-Grief-Dewan-Mukto-cover.pdf": null,
+            "Colors-Of-Infinite-Grief-Dewan-Mukto.pdf": null,
+            "Cooper-Black-Dewan-Mukto-cover.pdf": null,
+            "Cooper-Black-Dewan-Mukto.pdf": null,
+            "Dead-Man-Alive-Dewan-Mukto-cover.pdf": null,
+            "Dead-Man-Alive-Dewan-Mukto.pdf": null,
+            "IELTS-Guide-Dewan-Mukto-cover.pdf": null,
+            "IELTS-Guide-Dewan-Mukto.pdf": null,
+            "In-The-Wildest-Dimensions-BD-Dewan-Mukto-cover.pdf": null,
+            "In-The-Wildest-Dimensions-BD-Dewan-Mukto.pdf": null,
+            "In-The-Wildest-Dimensions-Dewan-Mukto-cover.pdf": null,
+            "In-The-Wildest-Dimensions-Dewan-Mukto.pdf": null,
+            "Knightspeak-Dewan-Mukto-cover.pdf": null,
+            "Knightspeak-Dewan-Mukto.pdf": null,
+            "One-Dewan-Mukto-cover.pdf": null,
+            "One-Dewan-Mukto.pdf": null,
+            "Sun-Of-A-Beach-Dewan-Mukto-cover.pdf": null,
+            "Sun-Of-A-Beach-Dewan-Mukto.pdf": null,
+            "Synaesthetic-Symphonies-Dewan-Mukto-cover.pdf": null,
+            "Synaesthetic-Symphonies-Dewan-Mukto.pdf": null,
+            "The-Inkmaster-Dewan-Mukto-cover.pdf": null,
+            "The-Inkmaster-Dewan-Mukto.pdf": null
+        },
+        "audio": {
+            "ai": {
+                "Broken Beat female _ Suno AI.mp3": null,
+                "Broken Beat _ Suno AI.mp3": null,
+                "Mahir Hasan.mp3": null,
+                "Uncaged and Wild_ The Dewan Mukto Anthem.mp3": null,
+                "Originals": {
+                    "Hope (Female) v1.mp3": null,
+                    "Hope (Female) v2.mp3": null,
+                    "Hope (Male).mp3": null,
+                    "Steve's Suffering.mp3": null,
+                    "The Journey.mp3": null
+                },
+                "Remixes": {
+                    "Alan Walker - Faded (Suno Remix) V2.mp3": null,
+                    "Blacklite District - Cold as Ice (Suno Remix).mp3": null,
+                    "Blacklite District - Goodbye (Suno Remix).mp3": null,
+                    "Chainsmokers - Something Just Like This (Suno Remix) V2.mp3": null,
+                    "League of Legends - Take Over (Suno Remix).mp3": null,
+                    "The Band Perry - If I Die Young (Suno Remix).mp3": null
+                },
+                "Videos": {
+                    "Break the Chains _ Bing Copilot Suno AI.mp4": null,
+                    "Broken Years.mp4": null,
+                    "Cooper Black's Journey.mp4": null,
+                    "Echoes of Yesterday.mp4": null,
+                    "Endless Goodbyes.mp4": null,
+                    "Fading Fireflies _ Bing Copilot Suno AI.mp4": null,
+                    "Hellfire Symphony _ Bing Copilot Suno AI.mp4": null,
+                    "Lost Memories.mp4": null,
+                    "Rise Up _ Bing Copilot Suno AI.mp4": null,
+                    "Whispers Fade.mp4": null
+                },
+                "Sad": {
+                    "Broken Years.mp3": null,
+                    "Dust in the Wind.mp3": null,
+                    "Echoes of Yesterday _ Suno AI.mp3": null,
+                    "Endless Goodbyes.mp3": null,
+                    "Invisible Tears.mp3": null,
+                    "Life We Lost.mp3": null,
+                    "Lost Memories.mp3": null,
+                    "Memories of St. John's.mp3": null,
+                    "One Last Promise v2.mp3": null,
+                    "Whispers Fade v2.mp3": null,
+                    "Whispers Fade.mp3": null,
+                    "\u0985\u09a8\u09cd\u09a4\u09bf\u09ae\u09c7\u09b0 \u0986\u09a1\u09bc\u09be\u09b2\u09c7 v1.mp3": null,
+                    "\u0985\u09a8\u09cd\u09a4\u09bf\u09ae\u09c7\u09b0 \u0986\u09a1\u09bc\u09be\u09b2\u09c7.mp3": null,
+                    "\u0985\u09aa\u09c7\u0995\u09cd\u09b7\u09be v1.mp3": null
+                },
+                "Motivational": {
+                    "Amnesic Fallacies.mp3": null,
+                    "Billionaire's Thrill.mp3": null,
+                    "Chasing the Thrill.mp3": null,
+                    "City Shadows.mp3": null,
+                    "Cooper Black Rides Again _ Suno AI.mp3": null,
+                    "Final Stand.mp3": null,
+                    "Gunfire Symphony v2.mp3": null,
+                    "Gunfire Symphony.mp3": null,
+                    "In The Wildest Dimensions female.mp3": null,
+                    "In The Wildest Dimensions male.mp3": null,
+                    "Neon Knights.mp3": null,
+                    "Shadow's Calling v2.mp3": null,
+                    "Shadow's Calling.mp3": null,
+                    "Soldier Poet King v1.mp3": null,
+                    "Soldier Poet King v2.mp3": null,
+                    "Switchblade Memories.mp3": null,
+                    "The Final Hour.mp3": null,
+                    "The Guided One.mp3": null,
+                    "\u09ac\u09bf\u09a6\u09cd\u09b0\u09cb\u09b9\u09c7\u09b0 \u09b8\u09c1\u09b0.mp3": null,
+                    "\u767e\u306e\u7406\u7531.mp3": null
+                }
+            }
+        },
+        "code": {
+            "roblox": {
+                "Broken.rbxl": null,
+                "Demon_Hunting_Paradise.rbxl": null,
+                "Goofy_Gunners.rbxl": null
+            },
+            "php": {
+                "muxlink": {
+                    "index.php": null
+                },
+                "bracket": {
+                    "avatar.png": null,
+                    "chat.php": null,
+                    "db_connection.php": null,
+                    "css": {
+                        "chat.css": null,
+                        "index.css": null
+                    },
+                    "db_init.sql": null,
+                    "index.php": null,
+                    "img": {
+                        "background.jpg": null
+                    },
+                    "searchUsers.php": null,
+                    "js": {
+                        "chat.js": null,
+                        "index.js": null
+                    }
+                },
+                "baribhara": {
+                    "404.php": null,
+                    "add-property.php": null,
+                    "admin-dashboard.php": null,
+                    "admin-signin.php": null,
+                    "admin-signup.php": null,
+                    "admin_styles.css": null,
+                    "client-dashboard.php": null,
+                    "client-register.php": null,
+                    "client-signin.php": null,
+                    "client.php": null,
+                    "client_styles.css": null,
+                    "dbconnect.php": null,
+                    "db_init.sql": null,
+                    "delete-property.php": null,
+                    "edit-property.php": null,
+                    "get-property-details.php": null,
+                    "index.php": null,
+                    "index_1.html": null,
+                    "logout.php": null,
+                    "owner-dashboard.php": null,
+                    "owner-signin.php": null,
+                    "owner-signup.php": null,
+                    "process_payment.php": null,
+                    "scripts.js": null,
+                    "styles.css": null,
+                    "update-profile.php": null
+                }
+            },
+            "python": {
+                "bookworm.py": null,
+                "oozbok": {
+                    "Oozbok.exe": null,
+                    "yip.ico": null
+                },
+                "painigger": {
+                    "automation.py": null,
+                    "gui.py": null,
+                    "__pycache__": {
+                        "automation.cpython-312.pyc": null
+                    }
+                },
+                "googformer": {
+                    "GoogFormer.exe": null,
+                    "GoogFormer.py": null,
+                    "GoogFormer_v0.py": null,
+                    "GoogFormer_v1.py": null,
+                    "GoogFormer_v2.1.py": null,
+                    "GoogFormer_v2.py": null,
+                    "GoogFormer_v3.1.py": null,
+                    "GoogFormer_v3.py": null,
+                    "GoogSheeter.py": null,
+                    "jackbus.py": null,
+                    "ooz.ico": null,
+                    "Oozbok.exe": null,
+                    "Oozbok.py": null,
+                    "Oozbok_v0.2.py": null,
+                    "Oozbok_vE.py": null,
+                    "sheet.xlsx": null,
+                    "Survey Sheet.xlsx": null,
+                    "yip.ico": null
+                },
+                "muxrepeat": {
+                    "automation.json": null,
+                    "automation2.json": null,
+                    "bladeball.json": null,
+                    "chat.json": null,
+                    "hiiamabot.json": null,
+                    "immaffkk.json": null,
+                    "dist": {
+                        "MuxRepeat.exe": null,
+                        "MuxRepeater.ico": null
+                    },
+                    "jjkshena.json": null,
+                    "MuxRepeat.py": null,
+                    "MuxRepeat.spec": null,
+                    "MuxRepeater.ico": null,
+                    "MuxRepeat_20250205_0.py": null,
+                    "MuxRepeat_20250206_0.py": null,
+                    "MuxRepeat_20250206_1.py": null,
+                    "build": {
+                        "MuxRepeat": {
+                            "Analysis-00.toc": null,
+                            "base_library.zip": null,
+                            "EXE-00.toc": null,
+                            "MuxRepeat.pkg": null,
+                            "PKG-00.toc": null,
+                            "PYZ-00.pyz": null,
+                            "PYZ-00.toc": null,
+                            "warn-MuxRepeat.txt": null,
+                            "localpycs": {
+                                "pyimod01_archive.pyc": null,
+                                "pyimod02_importers.pyc": null,
+                                "pyimod03_ctypes.pyc": null,
+                                "pyimod04_pywin32.pyc": null,
+                                "struct.pyc": null
+                            },
+                            "xref-MuxRepeat.html": null
+                        }
+                    },
+                    "MuxRepeat_20250206_2.1.py": null,
+                    "MuxRepeat_20250206_2.2.1.py": null,
+                    "MuxRepeat_20250206_2.2.py": null,
+                    "MuxRepeat_20250206_2.py": null,
+                    "Ohio_lol2.json": null,
+                    "Ohio_lolwalk3.json": null,
+                    "Ohio_walkjumplol.json": null,
+                    "rivalsshoot.json": null,
+                    "spinaround.json": null
+                }
+            }
+        },
+        "site": {
+            "amrella": {
+                "index.html": null
+            },
+            "index.html": null,
+            "muktoverse": {
+                "index.html": null
+            },
+            "projects": {
+                "index.html": null,
+                "script.js": null,
+                "styles.css": null
+            },
+            "dewanmukto": {
+                "9videos": {
+                    "index.html": null
+                },
+                "index.html": null,
+                "imagelock": {
+                    "index.html": null
+                },
+                "muxpass": {
+                    "index.html": null
+                },
+                "books": {
+                    "cooper-black.md": null,
+                    "dead-man-alive.md": null,
+                    "ielts-guide.md": null,
+                    "index.md": null,
+                    "itwd.md": null,
+                    "syn-sym.md": null
+                },
+                "paperlock": {
+                    "index.html": null
+                },
+                "apps": {
+                    "amrella.md": null,
+                    "bracket-messenger.md": null,
+                    "broken.md": null,
+                    "delta-telekom.md": null,
+                    "discordbot.md": null,
+                    "jackbus.md": null,
+                    "mandelex.md": null,
+                    "oozbok.md": null,
+                    "zen-g.md": null
+                },
+                "productpitch": {
+                    "index.html": null
+                },
+                "roblox": {
+                    "friends.md": null,
+                    "waitlist.md": null
+                },
+                "designs": {
+                    "amrella-themes.md": null,
+                    "book-covers.md": null,
+                    "bus-tracking-app.md": null,
+                    "clothing-store-app.md": null,
+                    "crypto-trading-app.md": null,
+                    "fortenox-website.md": null,
+                    "game-streaming-platform.md": null,
+                    "invitation-cards.md": null,
+                    "landing-page.md": null
+                },
+                "style.css": null,
+                "social": {
+                    "index.md": null
+                },
+                "treasured": {
+                    "relaxing-music.md": null
+                },
+                "sites": {
+                    "9videos": {
+                        "index.html": null
+                    },
+                    "amrella": {
+                        "index.html": null
+                    },
+                    "imagelock": {
+                        "index.html": null
+                    },
+                    "muxpass": {
+                        "index.html": null
+                    },
+                    "paper": {
+                        "index.html": null
+                    },
+                    "productpitch": {
+                        "index.html": null
+                    },
+                    "metrobus-tracker": {
+                        "favicon.ico": null,
+                        "favicon.png": null,
+                        "index.html": null,
+                        "script.js": null,
+                        "styles.css": null
+                    },
+                    "bracu": {
+                        "courses": {
+                            "favicon.ico": null,
+                            "favicon.png": null,
+                            "index.html": null,
+                            "ogimage.png": null,
+                            "script.js": null,
+                            "styles.css": null
+                        }
+                    }
+                },
+                "home": {
+                    "404.md": null,
+                    "apps.txt": null,
+                    "archive.md": null,
+                    "articles.txt": null,
+                    "books.md": null,
+                    "books.txt": null,
+                    "comments.md": null,
+                    "designs.txt": null,
+                    "index.html": null,
+                    "intro.mp4": null,
+                    "logo.png": null,
+                    "merger.md": null,
+                    "script.js": null,
+                    "styles.css": null,
+                    "tags.md": null,
+                    "videos.txt": null,
+                    "what-you-want.md": null
+                },
+                "asset": {
+                    "MandelEx.jar": null,
+                    "audio": {
+                        "blanc": null,
+                        "frlegendsost2.mp3": null,
+                        "rickroll.mp3": null,
+                        "tenno_luna.mp3": null,
+                        "Track01.mp3": null,
+                        "Track02.mp3": null,
+                        "Track03.mp3": null,
+                        "Track04.mp3": null,
+                        "Track05.mp3": null,
+                        "Track06.mp3": null,
+                        "Track07.mp3": null
+                    },
+                    "images": {
+                        "AKhajiitsTale_cover.png": null,
+                        "appimage01.png": null,
+                        "appimage02.jpg": null,
+                        "appimage03.png": null,
+                        "appimage04.png": null,
+                        "appimage05.png": null,
+                        "blanc": null,
+                        "book01.png": null,
+                        "book02.png": null,
+                        "book03.png": null,
+                        "book04.png": null,
+                        "book05.png": null,
+                        "CooperBlack_cover.png": null,
+                        "dewanmuktosite.gif": null,
+                        "dewanmukto_bg.png": null,
+                        "DMA_cover.png": null,
+                        "favicon.png": null,
+                        "IELTS_cover.png": null,
+                        "ITWD_cover.png": null,
+                        "muxwow.png": null,
+                        "post1.jpg": null,
+                        "PrisonOfSentience_cover.png": null,
+                        "roman.png": null,
+                        "SoaB_cover.png": null,
+                        "SynSym_cover.png": null
+                    }
+                }
+            }
+        },
+        "img": {
+            "1033519824_Gigachad.png": null,
+            "111 bookcover 2021.png": null,
+            "111 logo 2021.png": null,
+            "111logo_new_2021.png": null,
+            "111summary.png": null,
+            "111_wande_face.jpg": null,
+            "1267517807_Gigachad.png": null,
+            "1498700498_Gigachad.png": null,
+            "1532203096_A_dream_of_anime_girls__matte_painting_trending_on_artstation_HQ.png": null,
+            "1735437736_Gigachad.png": null,
+            "1739352178_Nendoroid.png": null,
+            "1790062026_Gigachad.png": null,
+            "181713322_Gigachad_wearing_sunglasses_and_smiling.png": null,
+            "1951009592_Nendoroid.png": null,
+            "1996505275_man_holding_laptop_up_with_one_arm.png": null,
+            "2017014777_Nendoroid.png": null,
+            "2119587175_Gigachad.png": null,
+            "2152809841_nendoroid.png": null,
+            "2197494297_Gigachad.png": null,
+            "2507290394_wearing_cool_sunglasses.png": null,
+            "2508398206_Gigachad.png": null,
+            "2571490546_Gigachad.png": null,
+            "2812079463_Gigachad (1).png": null,
+            "2812079463_Gigachad.png": null,
+            "2928077895_Gigachad.png": null,
+            "2945843421_Nendoroid.png": null,
+            "2986025469_Gigachad.png": null,
+            "3036216108_alan_walker_logo__realistic_trending_on_artstation_HQ.png": null,
+            "3190323008_Gigachad.png": null,
+            "3509468663_minecraft_logo__realistic_trending_on_artstation_HQ.png": null,
+            "3651672950_Nendoroid (1).png": null,
+            "3651672950_Nendoroid (2).png": null,
+            "393796715_Gigachad.png": null,
+            "402100757_Gigachad_driving_a_Ferrari.png": null,
+            "432836737_Gigachad.png": null,
+            "482341545_Nendoroid.png": null,
+            "492317965_A_dream_of_knights_fighting_dragons__matte_painting_trending_on_artstation_HQ.png": null,
+            "6d62b72ceb51b55232be70b4cfaa6622.png": null,
+            "797971786_Nendoroid_.png": null,
+            "805595708_Nendoroid.png": null,
+            "asdasd.jpg": null,
+            "asdasdasd.jpg": null,
+            "Asenturisk 2023 banner.png": null,
+            "ASENTURISK CORPORATION banner 2.png": null,
+            "Asenturisk logo 2019 main.png": null,
+            "CBTH bookcover.png": null,
+            "CGPT DALLE 1.jpeg": null,
+            "CGPT DALLE 1.webp": null,
+            "bongojukti": {
+                "bangjukti banner 2025.png": null,
+                "Bongojukti logo 2025.png": null,
+                "Bongojukti_icon.jpg": null
+            },
+            "CGPT DALLE 2.jpeg": null,
+            "CGPT DALLE 2.webp": null,
+            "CGPT DALLE 3.jpeg": null,
+            "CGPT DALLE 3.webp": null,
+            "d5876980-b07a-42a3-9fc4-51b7076ca0eb.jpeg": null,
+            "DALL\u00b7E 2024-12-12 23.48.20 - A scenic outdoor setting with a gentle river flowing through a lush green meadow, surrounded by tall, majestic trees with dense foliage. The sky is a .webp": null,
+            "DALL\u00b7E 2025-01-09 15.47.38 - A serene landscape at sunrise featuring a tranquil lake surrounded by lush green hills, with mist gently rising from the water. The sky is painted in .webp": null,
+            "DALL\u00b7E 2025-01-09 15.49.19 - A serene scene of a lush green forest with sunlight streaming through tall trees, creating a magical ambiance. The forest floor is covered in moss and.webp": null,
+            "DALL\u00b7E 2025-01-09 15.50.45 - A surreal and vivid landscape featuring a bright, colorful sunset over rolling hills covered in wildflowers. A single large tree with sprawling branch.webp": null,
+            "dma_01_mockup01.png": null,
+            "dma_01_mockup02.png": null,
+            "dwnlding_on_exhdd.png": null,
+            "dwnlding_on_exhdd2.png": null,
+            "faction_akamine_111.png": null,
+            "faction_alkyne_111.png": null,
+            "faction_sirutov_111.png": null,
+            "genshin_impact_firstimpression.png": null,
+            "genshin_impact_firstimpression2.png": null,
+            "genshin_impact_update.png": null,
+            "hnkai_loading.png": null,
+            "hnkai_scrnsht_colections.png": null,
+            "images_12.jpeg": null,
+            "IMG_20210824_193952.jpg": null,
+            "IMG_20210910_205537_844.jpg": null,
+            "InerTIA DriFT.png": null,
+            "mockup_ACBL_20210330-nontp.png": null,
+            "mockup_CBEE_20210330.jpg": null,
+            "mockup_PSN_20210401.jpg": null,
+            "mu-xin.jpg": null,
+            "OIG1 (1).jpg": null,
+            "OIG1 (2).jpg": null,
+            "OIG2.b.jpg": null,
+            "OIG2.jpg": null,
+            "OIG4 (2).jpg": null,
+            "OIG4.h.jpg": null,
+            "OIG4.jpg": null,
+            "one-one-one-icon_orig.png": null,
+            "qe2e.jpg": null,
+            "wallpaper9.png": null,
+            "mux": {
+                "Data that Matters.jpg": null,
+                "Mux Anime logo icon 2025.png": null,
+                "Mux App logo icon 2025.png": null,
+                "Mux Games logo icon 2025.png": null,
+                "Mux logo icon 2025.gif": null,
+                "Mux logo icon 2025.png": null,
+                "mux logo.svg": null,
+                "mux studios banner.png": null,
+                "Mux Studios logo icon 2025.png": null,
+                "mux.best_logo.png": null
+            }
+        }
+    }
+}

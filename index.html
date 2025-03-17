@@ -14,88 +14,31 @@
     <h2>Mux Web Presence</h2>
     <svg></svg>
     <script>
-        const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        const maxLen = 64;
-        const maxDepth = 10;
-        const numWorkers = navigator.hardwareConcurrency || 4;
-        let workers = [];
-
-        function generateNames(maxLength) {
-            let queue = [""];
-            let names = [];
-            while (queue.length > 0) {
-                let prefix = queue.shift();
-                if (prefix.length > 0) names.push(prefix);
-                if (prefix.length < maxLength) {
-                    for (let c of chars) {
-                        queue.push(prefix + c);
-                    }
-                }
-            }
-            return names;
+        async function fetchSitemap() {
+            const response = await fetch("sitemap.json");
+            return response.json();
         }
 
-        function createWorker() {
-            const worker = new Worker(URL.createObjectURL(new Blob([`
-                self.onmessage = async function(event) {
-                    let { names, path } = event.data;
-                    let found = [];
-                    for (let name of names) {
-                        try {
-                            const response = await fetch(`/${path}${name}`);
-                            if (response.ok) found.push({ name, path: path + name });
-                        } catch (e) {}
-                    }
-                    self.postMessage(found);
-                };
-            `], { type: 'application/javascript' })));
-            return worker;
-        }
-
-        function bruteForceFiles(path = "", depth = 0) {
-            return new Promise(async (resolve) => {
-                if (depth > maxDepth) return resolve([]);
-                let names = generateNames(6); // Start with shorter names
-                let chunkSize = Math.ceil(names.length / numWorkers);
-                let foundItems = [];
-                let pendingWorkers = numWorkers;
-                workers = [];
-
-                for (let i = 0; i < numWorkers; i++) {
-                    let worker = createWorker();
-                    workers.push(worker);
-                    worker.onmessage = async function(event) {
-                        foundItems.push(...event.data);
-                        pendingWorkers--;
-                        if (pendingWorkers === 0) {
-                            let subFolders = foundItems.filter(f => !f.name.includes("."));
-                            for (let folder of subFolders) {
-                                let subResults = await bruteForceFiles(folder.path + "/", depth + 1);
-                                foundItems.push(...subResults);
-                            }
-                            resolve(foundItems);
-                        }
-                    };
-                    worker.postMessage({ names: names.slice(i * chunkSize, (i + 1) * chunkSize), path });
-                }
+        function parseSitemap(data, parentPath = "", nodes = [], links = []) {
+            Object.entries(data).forEach(([name, children]) => {
+                const path = parentPath ? `${parentPath}/${name}` : name;
+                nodes.push({ name, path });
+                if (parentPath) links.push({ source: parentPath, target: path });
+                if (children) parseSitemap(children, path, nodes, links);
             });
+            return { nodes, links };
         }
 
-        async function startBruteForce() {
-            let discovered = await bruteForceFiles();
-            visualizeGraph(discovered);
-        }
+        async function visualizeGraph() {
+            const sitemapData = await fetchSitemap();
+            const { nodes, links } = parseSitemap(sitemapData.main);
 
-        function visualizeGraph(data) {
             const width = window.innerWidth;
             const height = window.innerHeight;
             const svg = d3.select("svg").attr("width", width).attr("height", height);
 
-            const nodes = [{ name: "root", path: "" }, ...data];
-            const links = data.map(d => ({ source: "root", target: d.name }));
-
             const simulation = d3.forceSimulation(nodes)
-                .force("link", d3.forceLink(links).id(d => d.name).distance(100))
+                .force("link", d3.forceLink(links).id(d => d.path).distance(100))
                 .force("charge", d3.forceManyBody().strength(-200))
                 .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -152,7 +95,7 @@
             }
         }
 
-        startBruteForce();
+        visualizeGraph();
     </script>
 </body>
 </html>
