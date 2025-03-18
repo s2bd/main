@@ -1,4 +1,0 @@
-Manifest-Version: 1.4
-Main-Class: Main
-Developer: Dewan Mukto
-Publisher: Muxday

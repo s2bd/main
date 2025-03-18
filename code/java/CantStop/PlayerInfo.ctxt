@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=PlayerInfo
-comment0.text=\n\ Abstract\ class\ for\ characters\ in-game\n\ \n\ @author\ Dewan\ Mukto\n\ @version\ 2024-10-13\n
-comment1.params=name\ type\ character
-comment1.target=PlayerInfo(java.lang.String,\ java.lang.String,\ int)
-numComments=2
