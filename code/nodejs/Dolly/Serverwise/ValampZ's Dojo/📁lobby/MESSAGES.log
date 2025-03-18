@@ -1,0 +1,190 @@
+[Tue Oct 04 2022 17:17:38]DewanMukto#8815 said: ooo
+[Tue Oct 04 2022 17:17:40]DewanMukto#8815 said: right
+[Tue Oct 04 2022 17:17:45]DewanMukto#8815 said: GNOME is the desktop env
+[Tue Oct 04 2022 17:18:56]ValampZ#3213 said: <@531811739746959360> try antix linux 🤣
+[Tue Oct 04 2022 17:19:41]DewanMukto#8815 said: Antix Linux?
+[Tue Oct 04 2022 17:19:51]ValampZ#3213 said: another distro
+[Tue Oct 04 2022 17:19:59]ValampZ#3213 said: based on ubuntu i think
+[Tue Oct 04 2022 17:20:09]DewanMukto#8815 said: ohh
+[Tue Oct 04 2022 17:20:42]ValampZ#3213 said: it can revive very old pc's, imagine it on modern hardwares 🤣
+[Tue Oct 04 2022 17:21:05]DewanMukto#8815 said: I see
+[Tue Oct 04 2022 17:21:09]DewanMukto#8815 said: very lightweight, huh?
+[Tue Oct 04 2022 17:21:15]ValampZ#3213 said: ye
+[Tue Oct 04 2022 17:21:25]ValampZ#3213 said: xfce DE
+[Tue Oct 04 2022 17:23:00]DewanMukto#8815 said: hmm
+[Tue Oct 04 2022 17:23:10]DewanMukto#8815 said: Today I reinstalled Ubuntu as dual boot
+[Tue Oct 04 2022 17:23:18]DewanMukto#8815 said: after tinkering with disk partitions myself
+[Tue Oct 04 2022 17:23:25]DewanMukto#8815 said: without any prior knowledge 🥴
+[Tue Oct 04 2022 17:23:27]ValampZ#3213 said: cool
+[Tue Oct 04 2022 17:23:30]DewanMukto#8815 said: good thing I didn't break anything
+[Tue Oct 04 2022 17:23:32]DewanMukto#8815 said: maybe
+[Tue Oct 04 2022 17:23:44]ValampZ#3213 said: on laptop right?
+[Tue Oct 04 2022 17:23:59]DewanMukto#8815 said: is this disk part. table OK ?
+[Tue Oct 04 2022 17:24:03]DewanMukto#8815 said: yep
+[Tue Oct 04 2022 17:24:13]DewanMukto#8815 said: I wonder why are there gaps of 'free space'
+[Tue Oct 04 2022 17:24:18]DewanMukto#8815 said: They were there from before
+[Tue Oct 04 2022 17:24:26]ValampZ#3213 said: yep looks gudd
+[Tue Oct 04 2022 17:24:32]DewanMukto#8815 said: Should I add some free space between partitions?
+[Tue Oct 04 2022 17:24:37]DewanMukto#8815 said: Or will they clash? 🥴
+[Tue Oct 04 2022 17:24:40]DewanMukto#8815 said: Also....
+[Tue Oct 04 2022 17:25:08]ValampZ#3213 said: it's like an remainder
+[Tue Oct 04 2022 17:25:17]DewanMukto#8815 said: I realized I don't have any swap memory
+[Tue Oct 04 2022 17:25:30]DewanMukto#8815 said: will there be any problems without any swap?
+[Tue Oct 04 2022 17:25:53]ValampZ#3213 said: don't think so,if it's for normal partion.ntfs can be read by both, ext4 is for linux only
+[Tue Oct 04 2022 17:26:05]ValampZ#3213 said: naah
+[Tue Oct 04 2022 17:26:29]ValampZ#3213 said: i can get a little laggy if overloaded but nothing serious
+[Tue Oct 04 2022 17:27:11]ValampZ#3213 said: if u wanna go back to single boot windows,delete linux first and the grub bootloader
+[Tue Oct 04 2022 17:27:27]DewanMukto#8815 said: yeah
+[Tue Oct 04 2022 17:27:31]ValampZ#3213 said: i made a mistake back then
+[Tue Oct 04 2022 17:27:34]DewanMukto#8815 said: I had already done it back in January
+[Tue Oct 04 2022 17:27:53]ValampZ#3213 said: had to do a lot of research to get back that laptop working normally again 🤣🤣
+[Tue Oct 04 2022 17:27:55]DewanMukto#8815 said: I just deleted the whole partition last time
+[Tue Oct 04 2022 17:28:00]DewanMukto#8815 said: oh
+[Tue Oct 04 2022 17:28:22]ValampZ#3213 said: noiccee
+[Tue Oct 04 2022 17:28:24]DewanMukto#8815 said: also I had GRUB existing on my laptop even after removing Ubuntu
+[Tue Oct 04 2022 17:28:35]DewanMukto#8815 said: I realized when I went to reinstall Ubu
+[Tue Oct 04 2022 17:28:45]DewanMukto#8815 said: but it didn't do anything
+[Tue Oct 04 2022 17:28:54]ValampZ#3213 said: yea,it has to be uninstalled manuallly
+[Tue Oct 04 2022 17:28:55]DewanMukto#8815 said: it just loaded a CLI with `grub>`
+[Tue Oct 04 2022 17:29:06]ValampZ#3213 said: ye
+[Tue Oct 04 2022 17:29:11]DewanMukto#8815 said: ohh... I thought I had uninstalled it. Didn't bother my Windows at all.
+[Tue Oct 04 2022 17:29:28]DewanMukto#8815 said: Although I had to disable Secure Boot for installing ubuntu this time
+[Tue Oct 04 2022 17:29:53]ValampZ#3213 said: bootloader is connected with bios,clean installation does nothing TBH if not removed manually
+[Tue Oct 04 2022 17:30:08]ValampZ#3213 said: w8 what 🤣
+[Tue Oct 04 2022 17:30:21]ValampZ#3213 said: u have been using windows 11?
+[Tue Oct 04 2022 17:30:22]DewanMukto#8815 said: yeah
+[Tue Oct 04 2022 17:30:34]ValampZ#3213 said: oh
+[Tue Oct 04 2022 17:30:35]DewanMukto#8815 said: In January I upgraded to Win 11 and removed Ubuntu
+[Tue Oct 04 2022 17:30:45]ValampZ#3213 said: is win11 stable now?
+[Tue Oct 04 2022 17:30:53]DewanMukto#8815 said: yeah, it always was (for me)
+[Tue Oct 04 2022 17:30:59]ValampZ#3213 said: haven't touched it since first month of release 🤣
+[Tue Oct 04 2022 17:31:01]DewanMukto#8815 said: no bugs or glitches or perf issues
+[Tue Oct 04 2022 17:31:06]DewanMukto#8815 said: ohh 😅
+[Tue Oct 04 2022 17:31:28]ValampZ#3213 said: u probably have intel pc
+[Tue Oct 04 2022 17:31:50]DewanMukto#8815 said: yeah, Intel i5
+[Tue Oct 04 2022 17:31:56]DewanMukto#8815 said: Intel Iris for GPU
+[Tue Oct 04 2022 17:32:11]DewanMukto#8815 said: Both CPU and GPU are Intel x86_64
+[Tue Oct 04 2022 17:32:17]ValampZ#3213 said: amd builds has/had a problem with win11.no idea if it's fixed or not haven't tried myself but heard that they patched the memory issue
+[Tue Oct 04 2022 17:32:22]DewanMukto#8815 said: ohh
+[Tue Oct 04 2022 17:32:42]ValampZ#3213 said: decent specs
+[Tue Oct 04 2022 17:32:55]DewanMukto#8815 said: I personally wanted to switch to Linux but I still kept Windows for games and other software which don't have Linux versions 🥲
+[Tue Oct 04 2022 17:33:11]DewanMukto#8815 said: Also I once tried to install macOS on a Virtual Machine. But didn't work.
+[Tue Oct 04 2022 17:33:13]ValampZ#3213 said: same buddy 🥲
+[Tue Oct 04 2022 17:33:38]ValampZ#3213 said: personally I hade everything corporate based,that includes microsoft...so yeah 🙂
+[Tue Oct 04 2022 17:34:26]ValampZ#3213 said: it won't,u have to tinker with somethings.hackintosh is pain though
+[Tue Oct 04 2022 17:35:08]DewanMukto#8815 said: lol.... hackintosh 🤣
+[Tue Oct 04 2022 17:35:28]DewanMukto#8815 said: Today I was interested in building native software/apps for Ubuntu using GTK
+https://python-gtk-3-tutorial.readthedocs.io/en/latest/introduction.html
+[Tue Oct 04 2022 17:35:32]DewanMukto#8815 said: F
+[Tue Oct 04 2022 17:35:49]DewanMukto#8815 said: anyways... you can see my msg
+[Tue Oct 04 2022 17:35:52]DewanMukto#8815 said: 😅
+[Tue Oct 04 2022 17:36:02]ValampZ#3213 said: ayy Dolly is online again
+[Tue Oct 04 2022 17:36:18]DewanMukto#8815 said: ....after battling with NPM package hell
+[Tue Oct 04 2022 17:36:24]ValampZ#3213 said: yep
+[Tue Oct 04 2022 17:36:31]ValampZ#3213 said: 🤣
+[Tue Oct 04 2022 17:36:36]DewanMukto#8815 said: I wanted to migrate <@977262952354828308> to Java
+[Tue Oct 04 2022 17:36:47]DewanMukto#8815 said: I've had enough of JS nonsense
+[Tue Oct 04 2022 17:37:03]DewanMukto#8815 said: Have to "re-invent the wheel" to make things independently work
+[Tue Oct 04 2022 17:37:26]DewanMukto#8815 said: 'cause Python's too slow and C and C++ aren't popular choices for Discord, I guess
+[Tue Oct 04 2022 17:37:27]ValampZ#3213 said: yea IK
+[Tue Oct 04 2022 17:37:30]DewanMukto#8815 said: I could try Rust, though
+[Tue Oct 04 2022 17:37:34]DewanMukto#8815 said: Discord.rs exists
+[Tue Oct 04 2022 17:38:18]ValampZ#3213 said: isn't rust a compiled language too?
+[Tue Oct 04 2022 17:39:03]ValampZ#3213 said: I have no idea, never messed with rust neither have interest on it before 🤣
+[Tue Oct 04 2022 17:39:20]DewanMukto#8815 said: yeah
+[Tue Oct 04 2022 17:39:24]DewanMukto#8815 said: I like compiled langs
+[Tue Oct 04 2022 17:39:31]DewanMukto#8815 said: Python 👎
+[Tue Oct 04 2022 17:39:37]ValampZ#3213 said: so it's slow like python?
+[Tue Oct 04 2022 17:39:48]DewanMukto#8815 said: what? Nah
+[Tue Oct 04 2022 17:39:53]DewanMukto#8815 said: Python is interpreted
+[Tue Oct 04 2022 17:39:59]ValampZ#3213 said: oh mb
+[Tue Oct 04 2022 17:40:02]DewanMukto#8815 said: C, Java, etc. are compiled
+[Tue Oct 04 2022 17:40:10]ValampZ#3213 said: i mixed things up 🤣
+[Tue Oct 04 2022 17:40:18]DewanMukto#8815 said: for a moment you got it upside-down, yeah 😅
+[Tue Oct 04 2022 17:40:27]ValampZ#3213 said: yep 🤣🤣
+[Tue Oct 04 2022 17:40:31]DewanMukto#8815 said: Rust is also considered secure and safe
+[Tue Oct 04 2022 17:40:51]ValampZ#3213 said: ye ez to learn too I heard
+[Tue Oct 04 2022 17:41:28]DewanMukto#8815 said: Nowadays I'm suffering with custom data structures in Python
+[Tue Oct 04 2022 17:41:36]DewanMukto#8815 said: for a uni course
+[Tue Oct 04 2022 17:41:50]ValampZ#3213 said: R.I.P
+[Tue Oct 04 2022 17:41:50]DewanMukto#8815 said: Also doing Java OOP, but that one's easy.
+[Tue Oct 04 2022 17:42:15]DewanMukto#8815 said: Worse... I gotta theoretically work through them
+[Tue Oct 04 2022 17:43:03]ValampZ#3213 said: fr that's pain man 🥴
+[Tue Oct 04 2022 17:43:40]DewanMukto#8815 said: ||This is my 2nd time with this particular course. Already failed last year.||
+[Tue Oct 04 2022 17:43:40]ValampZ#3213 said: how do u manage 🤣
+[Tue Oct 04 2022 17:43:52]DewanMukto#8815 said: somehow... I just need to pass
+[Tue Oct 04 2022 17:43:59]ValampZ#3213 said: oh 🥲
+[Tue Oct 04 2022 17:44:04]DewanMukto#8815 said: The practical parts I can manage, atleast
+[Tue Oct 04 2022 17:44:08]ValampZ#3213 said: best of luck
+[Tue Oct 04 2022 17:44:16]DewanMukto#8815 said: thanks
+[Tue Oct 04 2022 17:44:24]DewanMukto#8815 said: speaking of which, what's news about ya?
+[Tue Oct 04 2022 17:44:34]DewanMukto#8815 said: It's a rare sight to see ya nowadays
+[Tue Oct 04 2022 17:45:07]ValampZ#3213 said: hahahahah 🤣
+[Tue Oct 04 2022 17:45:18]ValampZ#3213 said: nothing new TBH
+[Tue Oct 04 2022 17:45:38]DewanMukto#8815 said: studies? college/uni ?
+[Tue Oct 04 2022 17:46:25]ValampZ#3213 said: HSC is starting from 6th of next month and still have't studied properly 🤣
+[Tue Oct 04 2022 17:47:33]DewanMukto#8815 said: damn
+[Tue Oct 04 2022 17:47:49]DewanMukto#8815 said: Good luck to you too!
+[Tue Oct 04 2022 17:47:59]ValampZ#3213 said: thnks
+[Tue Oct 04 2022 17:48:52]DewanMukto#8815 said: try Stable Diffusion DreamStudio A.I.
+[Tue Oct 04 2022 17:49:02]DewanMukto#8815 said: I think you already saw many examples above
+[Tue Oct 04 2022 17:49:06]DewanMukto#8815 said: with my and Mahir's pics
+[Tue Oct 04 2022 17:49:09]DewanMukto#8815 said: XD
+[Tue Oct 04 2022 17:49:20]DewanMukto#8815 said: https://beta.dreamstudio.ai
+[Tue Oct 04 2022 17:49:28]ValampZ#3213 said: yea will try it later, don't have any pics of mine atm 🥴
+[Tue Oct 04 2022 17:49:46]DewanMukto#8815 said: no worries. It works with ANY pic or even just a  text prompt.
+[Tue Oct 04 2022 17:49:46]ValampZ#3213 said: bro having a fight with his own bot 🤣
+[Tue Oct 04 2022 17:50:10]DewanMukto#8815 said: usually it recognizes my user ID but I guess I forgot to update its databases
+[Tue Oct 04 2022 17:50:23]DewanMukto#8815 said: since my previous acc got hacked
+[Tue Oct 04 2022 17:50:28]DewanMukto#8815 said: and then I had to move to this one
+[Tue Oct 04 2022 17:50:29]ValampZ#3213 said: yea
+[Tue Oct 04 2022 17:50:38]DewanMukto#8815 said: so now even my 'premium' status is lost
+[Tue Oct 04 2022 17:50:44]DewanMukto#8815 said: md balance
+[Tue Oct 04 2022 17:51:04]DewanMukto#8815 said: but no worries for me, since I can just manually edit the JSONs 😎
+[Tue Oct 04 2022 17:51:24]ValampZ#3213 said: that's cheating 🤣
+[Tue Oct 04 2022 17:51:48]DewanMukto#8815 said: lol
+[Tue Oct 04 2022 17:58:37]LolQuattro#0125 said: Anyone here know how to skate? <@939812858034810880> <@531811739746959360>
+[Tue Oct 04 2022 17:58:45]ValampZ#3213 said: yep
+[Tue Oct 04 2022 17:58:57]ValampZ#3213 said: skateboarding to be precise
+[Tue Oct 04 2022 17:59:00]LolQuattro#0125 said: Nice I need some tips I just bought a new skateboard
+[Tue Oct 04 2022 17:59:05]ValampZ#3213 said: can't roller skate
+[Tue Oct 04 2022 17:59:12]DewanMukto#8815 said: Oooo
+[Tue Oct 04 2022 17:59:17]LolQuattro#0125 said: I’ve never skated before
+[Tue Oct 04 2022 17:59:24]DewanMukto#8815 said: me neither
+[Tue Oct 04 2022 17:59:36]DewanMukto#8815 said: We 3 Stooges don't know
+[Tue Oct 04 2022 17:59:41]DewanMukto#8815 said: 😆
+[Tue Oct 04 2022 17:59:53]ValampZ#3213 said: try to balance first while moving
+[Tue Oct 04 2022 18:00:02]DewanMukto#8815 said: Nice design
+[Tue Oct 04 2022 18:00:20]ValampZ#3213 said: in small room first,going for big room or place is risky
+[Tue Oct 04 2022 18:00:26]LolQuattro#0125 said: I see
+[Tue Oct 04 2022 18:00:30]ValampZ#3213 said: that's how I learnt 🤣
+[Tue Oct 04 2022 18:00:39]ValampZ#3213 said: in my room hahahah🤣
+[Tue Oct 04 2022 18:01:04]LolQuattro#0125 said: Lol I’ve got the balance but it feels weird pivoting your front foot to front and sideways
+[Tue Oct 04 2022 18:01:34]ValampZ#3213 said: u gotta bend ur knees a little bit
+[Tue Oct 04 2022 18:01:39]LolQuattro#0125 said: I want to learn so I can go around places without having to walk 😂
+[Tue Oct 04 2022 18:02:20]LolQuattro#0125 said: Thanks I like monke
+[Tue Oct 04 2022 18:02:38]ValampZ#3213 said: it's fun to skate but I can't skate in the streets or...u know how it's in BD 🤣
+[Tue Oct 04 2022 18:02:48]LolQuattro#0125 said: Yeah
+[Tue Oct 04 2022 18:02:50]LolQuattro#0125 said: Lol
+[Tue Oct 04 2022 18:02:53]DewanMukto#8815 said: Mentioning monke reminds me of your bro's Monke obsession (back in 2020)
+[Tue Oct 04 2022 18:03:02]LolQuattro#0125 said: Lol
+[Tue Oct 04 2022 18:03:07]ValampZ#3213 said: reject humanity,return to monke
+[Tue Oct 04 2022 18:03:11]LolQuattro#0125 said: We still like monke
+[Tue Oct 04 2022 18:03:30]DewanMukto#8815 said: alright my brethren, I may have to take a subtle and sudden leave now. See ya later 👋
+[Tue Oct 04 2022 18:03:43]ValampZ#3213 said: cya
+[Tue Oct 04 2022 18:03:50]ValampZ#3213 said: I gtg too
+[Tue Oct 04 2022 18:04:18]LolQuattro#0125 said: Alright it was good talking
+[Tue Oct 04 2022 18:04:20]LolQuattro#0125 said: Bye
+[Tue Oct 04 2022 21:24:17]DewanMukto#8815 said: somewhere in another universe........ a bad-ass version of myself may exist.
+[Tue Oct 04 2022 21:24:31]DewanMukto#8815 said: <@977262952354828308> heh heh... it didn't block bad-ass
+[Tue Oct 04 2022 21:24:33]DewanMukto#8815 said: fuck
+[Tue Oct 04 2022 21:24:35]DewanMukto#8815 said: okay
+[Tue Oct 04 2022 21:24:45]DewanMukto#8815 said: maybe I forgot to turn on the anti-profanity filters
+[Sat Oct 08 2022 22:18:28]DewanMukto#8815 said: Damn.... I didn't expect him to be the first person to notice this! 😅
+[Sat Oct 08 2022 22:56:48]LolQuattro#0125 said: lol getting caught by the owner is kinda awkward
+[Sun Oct 09 2022 22:30:42]DewanMukto#8815 said: md botinfo
+[Sun Oct 09 2022 22:31:06]DewanMukto#8815 said: <@977262952354828308> is now running directly on my device instead of a virtual machine like last time.
+[Sun Oct 09 2022 22:31:21]DewanMukto#8815 said: More RAM to eat, more CPU to suck.
+[Sun Oct 09 2022 22:38:56]LolQuattro#0125 said: <@531811739746959360> you should consider building a cheap server pc to run these things in the future
+[Sun Oct 09 2022 22:44:06]DewanMukto#8815 said: a Raspberry Pi / Arduino would be enough
+[Sun Oct 09 2022 22:44:33]LolQuattro#0125 said: yeah something like that

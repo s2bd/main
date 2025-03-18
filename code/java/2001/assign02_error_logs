@@ -1,0 +1,100 @@
++ 10/10 SUCCESS CollegeRecordsTest codeNoLoops() 
++ 1/1 SUCCESS CollegeRecordsTest add() 
+x 0/1 FAIL    CollegeRecordsTest getStudentMethodExists() <=== registrar.Registration.getStudent()
+x 0/1 FAIL    CollegeRecordsTest getCourseIDMethodExists() <=== registrar.Registration.getCourseID()
++ 1/1 SUCCESS CollegeRecordsTest getProfessorMethodExists() 
+x 0/1 FAIL    CollegeRecordsTest getSectionMethodExists() <=== registrar.Registration.getSection()
+x 0/1 FAIL    CollegeRecordsTest getTimeSlotExists() <=== registrar.Registration.getTimeSlot()
+x 0/1 FAIL    CollegeRecordsTest verifySlotExists() <=== registrar.CollegeRecords.verifySlot(registrar.Registration)
+x 0/1 FAIL    CollegeRecordsTest verifySectionExists() <=== registrar.CollegeRecords.verifySection(registrar.Registration)
+x 0/1 FAIL    CollegeRecordsTest verifyCourseMethodExists() <=== registrar.CollegeRecords.verifyCourseID(registrar.Registration)
+x 0/1 FAIL    CollegeRecordsTest registrationToString() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/1 FAIL    CollegeRecordsTest collegeRecordsToString() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/1 FAIL    CollegeRecordsTest addValidCourses() <=== do not allow courseID to be added twice ==> expected: <false> but was: <true>
+x 0/3 FAIL    CollegeRecordsTest clean() <=== do not allow courseID to be added twice ==> expected: <false> but was: <true>
+x 0/2 FAIL    CollegeRecordsTest sectionRecords() <=== Wrong number of records in result ==> expected: <7> but was: <157>
+x 0/2 FAIL    CollegeRecordsTest removeDuplicates() <=== test duplicates not removed correctly ==> expected: <157> but was: <171>
+x 0/2 FAIL    CollegeRecordsTest dropAllClassesForStudent() <=== Wrong number of records in result ==> expected: <18> but was: <157>
+x 0/2 FAIL    CollegeRecordsTest courseCount() <=== course count is not correct ==> expected: <18> but was: <0>
+x 0/2 FAIL    CollegeRecordsTest recordsForProfessor() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/2 FAIL    CollegeRecordsTest profCourses() <=== Missing course COMP 1501 ==> expected: <true> but was: <false>
+x 0/2 FAIL    CollegeRecordsTest testRecordsForStudent() <=== Wrong number of records in result ==> expected: <18> but was: <157>
+x 0/4 FAIL    CollegeRecordsTest chain1() <=== recordsForStudent/recordsForProfessor/count chain wrong ==> expected: <5> but was: <39>
+x 0/4 FAIL    CollegeRecordsTest chain2() <=== clean/dropAllClassesForStudent/count chain wrong ==> expected: <10> but was: <157>
+Total: 12/47 for these tests.
+Score for CollegeRecordsTest is 12/60. Other tests needed for an additional 13 points
++ 10/10 SUCCESS CollegeRecordsTest codeNoLoops() 
++ 1/1 SUCCESS CollegeRecordsTest add() 
++ 1/1 SUCCESS CollegeRecordsTest getStudentMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getCourseIDMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getProfessorMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getSectionMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getTimeSlotExists() 
+x 0/1 FAIL    CollegeRecordsTest verifySlotExists() <=== registrar.CollegeRecords.verifySlot(registrar.Registration)
+x 0/1 FAIL    CollegeRecordsTest verifySectionExists() <=== registrar.CollegeRecords.verifySection(registrar.Registration)
+x 0/1 FAIL    CollegeRecordsTest verifyCourseMethodExists() <=== registrar.CollegeRecords.verifyCourseID(registrar.Registration)
+x 0/1 FAIL    CollegeRecordsTest registrationToString() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/1 FAIL    CollegeRecordsTest collegeRecordsToString() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/1 FAIL    CollegeRecordsTest addValidCourses() <=== do not allow courseID to be added twice ==> expected: <false> but was: <true>
+x 0/3 FAIL    CollegeRecordsTest clean() <=== do not allow courseID to be added twice ==> expected: <false> but was: <true>
+x 0/2 FAIL    CollegeRecordsTest sectionRecords() <=== Wrong number of records in result ==> expected: <7> but was: <157>
+x 0/2 FAIL    CollegeRecordsTest removeDuplicates() <=== test duplicates not removed correctly ==> expected: <157> but was: <171>
+x 0/2 FAIL    CollegeRecordsTest dropAllClassesForStudent() <=== Wrong number of records in result ==> expected: <18> but was: <157>
+x 0/2 FAIL    CollegeRecordsTest courseCount() <=== course count is not correct ==> expected: <18> but was: <0>
+x 0/2 FAIL    CollegeRecordsTest recordsForProfessor() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/2 FAIL    CollegeRecordsTest profCourses() <=== Missing course COMP 1501 ==> expected: <true> but was: <false>
+x 0/2 FAIL    CollegeRecordsTest testRecordsForStudent() <=== Wrong number of records in result ==> expected: <18> but was: <157>
+x 0/4 FAIL    CollegeRecordsTest chain1() <=== recordsForStudent/recordsForProfessor/count chain wrong ==> expected: <5> but was: <39>
+x 0/4 FAIL    CollegeRecordsTest chain2() <=== clean/dropAllClassesForStudent/count chain wrong ==> expected: <10> but was: <157>
+Total: 16/47 for these tests.
+Score for CollegeRecordsTest is 16/60. Other tests needed for an additional 13 points
++ 10/10 SUCCESS CollegeRecordsTest codeNoLoops() 
++ 1/1 SUCCESS CollegeRecordsTest add() 
++ 1/1 SUCCESS CollegeRecordsTest getStudentMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getCourseIDMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getProfessorMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getSectionMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getTimeSlotExists() 
+x 0/1 FAIL    CollegeRecordsTest verifySlotExists() <=== registrar.CollegeRecords.verifySlot(registrar.Registration)
+x 0/1 FAIL    CollegeRecordsTest verifySectionExists() <=== registrar.CollegeRecords.verifySection(registrar.Registration)
++ 1/1 SUCCESS CollegeRecordsTest verifyCourseMethodExists() 
+x 0/1 FAIL    CollegeRecordsTest registrationToString() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/1 FAIL    CollegeRecordsTest collegeRecordsToString() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/1 FAIL    CollegeRecordsTest addValidCourses() <=== do not allow courseID to be added twice ==> expected: <false> but was: <true>
+x 0/3 FAIL    CollegeRecordsTest clean() <=== do not allow courseID to be added twice ==> expected: <false> but was: <true>
+x 0/2 FAIL    CollegeRecordsTest sectionRecords() <=== Wrong number of records in result ==> expected: <7> but was: <157>
+x 0/2 FAIL    CollegeRecordsTest removeDuplicates() <=== test duplicates not removed correctly ==> expected: <157> but was: <171>
+x 0/2 FAIL    CollegeRecordsTest dropAllClassesForStudent() <=== Wrong number of records in result ==> expected: <18> but was: <157>
+x 0/2 FAIL    CollegeRecordsTest courseCount() <=== course count is not correct ==> expected: <18> but was: <0>
+x 0/2 FAIL    CollegeRecordsTest recordsForProfessor() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/2 FAIL    CollegeRecordsTest profCourses() <=== Missing course COMP 1501 ==> expected: <true> but was: <false>
+x 0/2 FAIL    CollegeRecordsTest testRecordsForStudent() <=== Wrong number of records in result ==> expected: <18> but was: <157>
+x 0/4 FAIL    CollegeRecordsTest chain1() <=== recordsForStudent/recordsForProfessor/count chain wrong ==> expected: <5> but was: <39>
+x 0/4 FAIL    CollegeRecordsTest chain2() <=== clean/dropAllClassesForStudent/count chain wrong ==> expected: <10> but was: <157>
+Total: 17/47 for these tests.
+Score for CollegeRecordsTest is 17/60. Other tests needed for an additional 13 points
++ 10/10 SUCCESS CollegeRecordsTest codeNoLoops() 
++ 1/1 SUCCESS CollegeRecordsTest add() 
++ 1/1 SUCCESS CollegeRecordsTest getStudentMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getCourseIDMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getProfessorMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getSectionMethodExists() 
++ 1/1 SUCCESS CollegeRecordsTest getTimeSlotExists() 
++ 1/1 SUCCESS CollegeRecordsTest verifySlotExists() 
++ 1/1 SUCCESS CollegeRecordsTest verifySectionExists() 
++ 1/1 SUCCESS CollegeRecordsTest verifyCourseMethodExists() 
+x 0/1 FAIL    CollegeRecordsTest registrationToString() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/1 FAIL    CollegeRecordsTest collegeRecordsToString() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/1 FAIL    CollegeRecordsTest addValidCourses() <=== do not allow courseID to be added twice ==> expected: <false> but was: <true>
+x 0/3 FAIL    CollegeRecordsTest clean() <=== do not allow courseID to be added twice ==> expected: <false> but was: <true>
+x 0/2 FAIL    CollegeRecordsTest sectionRecords() <=== Wrong number of records in result ==> expected: <7> but was: <157>
+x 0/2 FAIL    CollegeRecordsTest removeDuplicates() <=== test duplicates not removed correctly ==> expected: <157> but was: <171>
+x 0/2 FAIL    CollegeRecordsTest dropAllClassesForStudent() <=== Wrong number of records in result ==> expected: <18> but was: <157>
+x 0/2 FAIL    CollegeRecordsTest courseCount() <=== course count is not correct ==> expected: <18> but was: <0>
+x 0/2 FAIL    CollegeRecordsTest recordsForProfessor() <=== include COMP 1501/0/15/Bob Jones/B. Hindin toString() ==> expected: <true> but was: <false>
+x 0/2 FAIL    CollegeRecordsTest profCourses() <=== Missing course COMP 1501 ==> expected: <true> but was: <false>
+x 0/2 FAIL    CollegeRecordsTest testRecordsForStudent() <=== Wrong number of records in result ==> expected: <18> but was: <157>
+x 0/4 FAIL    CollegeRecordsTest chain1() <=== recordsForStudent/recordsForProfessor/count chain wrong ==> expected: <5> but was: <39>
+x 0/4 FAIL    CollegeRecordsTest chain2() <=== clean/dropAllClassesForStudent/count chain wrong ==> expected: <10> but was: <157>
+Total: 19/47 for these tests.
+Score for CollegeRecordsTest is 19/60. Other tests needed for an additional 13 points

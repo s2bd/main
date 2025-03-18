@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Character
+comment0.text=\n\ Abstract\ class\ for\ characters\ in-game\n\ \n\ @author\ Dewan\ Mukto\n\ @version\ 2024-10-10\n
+comment1.params=x\ y\ spritesheet
+comment1.target=Character(int,\ int,\ java.awt.image.BufferedImage)
+comment2.params=g
+comment2.target=void\ draw(java.awt.Graphics)
+comment2.text=\n\ Renders\ specific\ frames\ from\ the\ spritesheet\n\n\ @param\ g\ graphical\ image\ provided,\ containing\ all\ the\ directional\ frames\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\n\ Updates\ the\ character\ state,\ should\ be\ implemented\ in\ derived\ classes.\n
+comment4.params=width\ height
+comment4.target=void\ keepWithinBounds(int,\ int)
+comment5.params=
+comment5.target=int\ getX()
+comment6.params=
+comment6.target=int\ getY()
+comment7.params=
+comment7.target=int\ getWidth()
+comment8.params=
+comment8.target=int\ getHeight()
+numComments=9

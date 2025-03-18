@@ -1,0 +1,190 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": false,
+    "cutInterfaceStructures": false,
+    "cutDataStructures": false,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 6,
+    "backwardDepth": 6,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "Menu",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_2394495 { 
+   	label=Menu
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   Menu2394495[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Menu</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   NUM_OF_PLAYERS: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   amber: Color [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   azure: Color [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   blueViolet: Color [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   char1: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   char2: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   char3: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   char4: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   char5: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   char6: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   char7: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   char8: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   orangePantone: Color [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   playerColumns: ArrayList&lt;PlayerColumn&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   rose: Color [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   selectedCharacters: HashSet&lt;Integer&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   timer: Timer [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   warningLabel: JLabel [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >- createButton(text: String): JButton</TD></TR>
+<TR><TD ALIGN="LEFT" >- showHelpScreen()</TD></TR>
+<TR><TD ALIGN="LEFT" >- showMainMenu()</TD></TR>
+<TR><TD ALIGN="LEFT" >- showStartScreen()</TD></TR>
+<TR><TD ALIGN="LEFT" >- startGame()</TD></TR>
+<TR><TD ALIGN="LEFT" >- updatePlayerColumns(numPlayers: int)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+PlayerColumn2394495[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)PlayerColumn</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   character: Character [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   nextChar: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   playerIndex: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   playerName: JTextField [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   playerType: JComboBox&lt;String&gt; [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   selectedCharacter: int [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ activate()</TD></TR>
+<TR><TD ALIGN="LEFT" >- changeCharacter(delta: int)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ deactivate()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+
+subgraph cluster_726803703 { 
+   	label=Character
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   Character726803703[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Character</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   direction: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   down: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   frame: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   lastFrameChangeTime: long [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   left: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   right: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   speed: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   spritesheet: BufferedImage [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   up: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   x: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   y: int [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ draw(g: Graphics)</TD></TR>
+<TR><TD ALIGN="LEFT" ># keepWithinBounds(width: int, height: int)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ update()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+
+'edges    
+Menu2394495 -> PlayerColumn2394495[label="playerColumns
+[0..*]"];
+PlayerColumn2394495 -> Character726803703[label="character
+[0..1]"];
+    
+}
+@enduml

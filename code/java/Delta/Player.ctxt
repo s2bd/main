@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\n\ The\ player\ character\n\n\ @author\ Dewan\ Mukto\n\ @version\ 2024-10-10\n
+comment1.params=x\ y\ spritesheet
+comment1.target=Player(int,\ int,\ java.awt.image.BufferedImage)
+comment2.params=
+comment2.target=void\ update()
+comment3.params=k
+comment3.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment3.text=\n\ Detecting\ which\ keyboard\ button\ has\ been\ pressed\n
+comment4.params=k
+comment4.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment4.text=\n\ Detecting\ which\ keyboard\ button\ has\ been\ released\n
+numComments=5

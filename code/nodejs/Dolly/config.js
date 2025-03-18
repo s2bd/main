@@ -1,0 +1,10 @@
+module.exports = {
+    TOKEN: "OTc3MjYyOTUyMzU0ODI4MzA4.GVV0Qu.OadGqegq7EbKaHp6W1F-EZAZQISh9IayDPwqsE",
+    PREFIX: "",
+    LEAVE_IDLE: true,
+    LEAVE_IDLE_COUNTDOWN: 60,
+    LEAVE_FINISH: false,
+    LEAVE_STOP: false,
+    WEBHOOK_ID: 980158201297248257,
+    WEBHOOK_TOKEN: "vMjZOZY4R2Czxaxp2w9Dlzuudnnt90Srm1nlFsxZyMual96s9W3MFFFhtn3tU0mMgUQJ",
+}

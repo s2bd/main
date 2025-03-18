@@ -1,0 +1,7 @@
+{"jobs":[{"id":"police","icon":":police_officer:","name":":police_officer: Police Officer","pay":"<:daycoin:980178737553342525> 15","isPremium":false,"isNytecoin":false,"info":"Be a cop, arrest criminals, raise extra money."},
+{"id":"detective","icon":":detective:","name":":detective: Police Detective","pay":"<:daycoin:980178737553342525> 60","isPremium":true,"isNytecoin":false,"info":"Stay hidden till the right moment, strike with pleasure and earn even better!"},
+{"id":"lawyer","icon":":person_in_tuxedo:","name":":person_in_tuxedo: Lawyer","pay":"<:daycoin:980178737553342525> 24","isPremium":false,"isNytecoin":false,"info":"You ears are going to ring with `Objection!` and `Order! Order!` if you pick this career."},
+{"id":"judge","icon":":judge:","name":":judge: Court Judge","pay":"<:daycoin:980178737553342525> 96","isPremium":true,"isNytecoin":false,"info":"Handle legal cases carefully, otherwise end up at the jaws of the Mafia and lose everything you love"},
+{"id":"swat","icon":":ninja:","name":":ninja: SWAT","pay":"<:daycoin:980178737553342525> 20","isPremium":true,"isNytecoin":false,"info":"No, you're not a ninja. You're a member of the SWAT. High risk, high pay, high requirements."},
+{"id":"fbi","icon":":person_in_tuxedo:","name":":person_in_tuxedo: FBI","pay":"<:nytecoin:980178777118216192> 3","isPremium":true,"isNytecoin":true,"info":"Don't expect to be breaking down doors and yelling your iconic bureau's name; most of the time is spent doing heavy research on potential threats"}
+]}

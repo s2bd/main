@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Vector
+comment1.params=x\ y\ z
+comment1.target=Vector(float,\ float,\ float)
+numComments=2

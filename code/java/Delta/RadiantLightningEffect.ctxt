@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RadiantLightningEffect
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=g2d
+comment3.target=void\ drawBackground(java.awt.Graphics2D)
+comment4.params=g2d\ startX\ startY\ branches
+comment4.target=void\ drawLightning(java.awt.Graphics2D,\ int,\ int,\ int)
+comment5.params=g2d\ x\ y
+comment5.target=void\ drawGlow(java.awt.Graphics2D,\ int,\ int)
+numComments=6

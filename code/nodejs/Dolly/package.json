@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "reddit-image-fetcher": "^2.0.11",
+    "urllib": "^3.5.0"
+  }
+}
