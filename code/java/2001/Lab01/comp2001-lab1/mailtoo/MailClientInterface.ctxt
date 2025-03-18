@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MailClientInterface
+comment0.text=\n\ Copyright\ (C)\ 2022\ E\ Brown\n\n\ This\ work\ is\ derived\ from\ code\ accompanying\ the\ Barnes\ and\ Kolling\ BlueJ\ book\ and\ \n\ is\ subject\ to\ their\ copyright\n\ License\ is\ given\ to\ COMP2001\ students\ and\ staff\ of\ Memorial\ \n\ University\ during\ the\ operation\ of\ the\ course.\n\n
+comment1.params=
+comment1.target=MailItem\ getNextMailItem()
+comment1.text=\n\ Return\ the\ next\ mail\ item\ (if\ any)\ for\ this\ user.\n
+comment2.params=
+comment2.target=void\ printNextMailItem()
+comment2.text=\n\ Print\ the\ next\ mail\ item\ (if\ any)\ for\ this\ user\ to\ the\ text\n\ terminal.\n
+comment3.params=to\ message
+comment3.target=MailItem\ sendMailItem(java.lang.String,\ java.lang.String)
+comment3.text=\n\ Send\ the\ given\ message\ to\ the\ given\ recipient\ via\n\ the\ attached\ mail\ server.\ If\ either\ field\ is\ null\ or\ blank,\n\ do\ not\ send\ a\ message\ and\ return\ null.\n\n\ @param\ to\ \ \ \ \ \ The\ intended\ recipient.\n\ @param\ message\ The\ text\ of\ the\ message\ to\ be\ sent.\n\n\ @return\ The\ MailItem\ that\ was\ sent\ or\ null\n
+comment4.params=item\ newRecipient
+comment4.target=MailItem\ reSend(MailItem,\ java.lang.String)
+comment4.text=\n\ Resend\ a\ MailItem\ to\ a\ different\ recipient.\n\n\ @param\ item\ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ old\ MailItem.\n\ @param\ newRecipient\ \ \ \ \ \ The\ new\ Recipient.\n\n\ @return\ The\ MailItem\ that\ was\ sent\n
+numComments=5
