@@ -1,0 +1,41 @@
+<h1 id="comp2001-f2022-assignment-2-instructions">COMP2001 F2022 Assignment 2 Instructions</h1>
+<h2 id="objectives">Objectives</h2>
+<p>Practice functional style coding.</p>
+<p>The problem concerns representing a list of student/course registrations maintained in a CollegeRecords object.</p>
+<h2 id="activity">Activity</h2>
+<ul>
+<li>Checkout comp2001-assign2 repository from github classroom for the following credit work</li>
+<li>Confirm that the <strong>registrar</strong> package and the <strong>grading</strong> package are present in the project</li>
+<li>Open the project <code>registrar</code> package in Bluej.</li>
+<li>Modify the <strong>CollegeRecords</strong> class to implement the methods as described in <strong>CollegeRecordsInterface</strong> Note the declaration line of <strong>CollegeRecords</strong> indicates the implementation requirement to the compiler.
+<ul>
+<li><p>In your solution, make changes to CollegeRecords code but do not alter the class declaration line</p>
+<pre><code> public class CollegeRecords implements CollegeRecordsInterface</code></pre></li>
+</ul></li>
+<li>Open the <strong>grading</strong> package to run the JUNIT tests. You should be able to compile and run the JUNIT tests immediately as many of the required methods are already implemented or stubbed out with incorrect implementations.</li>
+<li>Some tests we use for grading will be held back and not released with the assignment.</li>
+<li>The following methods are provided correct as written:
+<ul>
+<li>CollegeRecords.count()</li>
+<li>CollegeRecords.add()</li>
+<li>CollegeRecords.recordsForProfessor()</li>
+</ul></li>
+<li>Other methods need to be corrected with code modifications.</li>
+<li>Three standard accessor/getter methods are missing from the Registration class. Implement them to pass three of the tests.</li>
+<li>Three private predicate methods are required in the <code>CollegeRecords</code> class. Because they are private, they do not appear in the Interface description, but they are relevant to the tests.
+<ul>
+<li><code>CollegeRecords.verifyCourseID(Registration r)</code> is true if and only if the registration object refers to a course previously added as valid using the CollegeRecords.addValidCourseID(String courseId) method.</li>
+<li><code>CollegeRecords.verifySection(Registration r)</code> is true if and only if the registration object’s section is between 0 and 2 inclusive.</li>
+<li><code>CollegeRecords.verifySlot(Registration r)</code> is true if and only if the registration object’s time slot is between 12 and 25 inclusive.</li>
+</ul></li>
+<li>The <code>clean()</code> method should use all three verify predicates to determine whether to remove a registration or not. A registration failing any of the three validations should be cleaned out.</li>
+<li>Instead of calling printing methods within the classes, you can use method chaining and terminate the function chain with a call to <code>System.out::println</code> to view the objects you construct. There are no printing calls within the Classes. This is a departure from the code the book has used up to this point; the authors put print calls inside their classes.</li>
+<li>For printing to work satisfactorily, implement the <code>toString()</code> method for the classes:
+<ul>
+<li><code>Registration.toString()</code> should return a string containing values of the attributes in the Registration object.</li>
+<li><code>CollegeRecords.toString()</code> should return a String combining all of the toString’s for each Registration in its records. To construct this, call <code>Registration.toString()</code> for each Registration object.</li>
+</ul></li>
+<li>Many of the subsequent tests use <code>toString</code> to check results, so get <code>toString</code> methods working correctly before moving on to the rest of the tests.</li>
+<li>Many of the methods require you to return a different <code>CollegeRecords</code> object. <code>CollegeRecords.recordsForProfessor()</code> illustrates how you can populate a new object with a forEach call at the end of a function chain. Streams also have collection methods that serve this purpose, but we do not cover them in lecture, so you may explore them on your own if you wish; but they are not necessary for the assignment.</li>
+<li>Use reduce for the <code>profCourses()</code> method; it is the only one that makes use of reduce and you will need the practice for the mid-term.</li>
+</ul>

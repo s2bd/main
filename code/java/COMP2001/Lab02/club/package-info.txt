@@ -1,0 +1,10 @@
+/**
+ * This submission is for COMP 2001 F2022 Assignment 1
+ *
+ * @author Dewan Mukto (dmimukto)
+ * @version 2022 September 28
+ * @attribution Ed Brown - specific code snippets and files
+ *
+ *
+ */
+package inventory;

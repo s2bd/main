@@ -1,0 +1,37 @@
+<h1 id="lab-3-instruction-comp-2001-f-2022">Lab 3 instruction COMP 2001 F 2022</h1>
+<p>The problems are loosely based on the exercises presented in the book.</p>
+<p>Note that the code in this submission is to be written in functional style, with no explicit while or for loops. You will fail unit tests if you user for or while in your code submission.</p>
+<h2 id="non-credit-practice-problems">Non Credit practice problems</h2>
+<ol type="1">
+<li>Open the <em>animal-monitoring-v1</em> project
+<ol type="1">
+<li>Create an instance of the <strong>AnimalMonitor</strong> class. The file sightings.csv in the project directory contains a small sample of sighting records in comma-separated values (CSV) format. Pass the name of this file (“sightings.csv”) to the <strong>addSightings</strong> method of the <strong>AnimalMonitor</strong> object and then call <strong>printList</strong> to show details of the data that has been read.</li>
+<li>Try out the other methods of the <strong>AnimalMonitor</strong> object, using animal names, spotter and area IDs shown in the output from <strong>printList</strong>.</li>
+<li>Read through the full source code of the <strong>AnimalMonitor</strong> class to understand how the methods work.</li>
+<li>Why does the <strong>removeZeroCounts</strong> method use a while loop with an iterator, instead of a for-each loop as used in the other methods? Could it be written with a for-each loop? Could the other methods be written using a while loop?</li>
+</ol></li>
+<li>Continue working on the <em>animal-monitoring-v1</em> project (now you will be using <strong>lambdas</strong> and <strong>streams</strong>)
+<ol type="1">
+<li>Rewrite the <strong>printList</strong> method in your version of the <strong>AnimalMonitor</strong> class to use a lambda, as shown in class.</li>
+<li>Write a method in the <strong>AnimalMonitor</strong> class to print details of all the sightings recorded on a particular reporting period, which is passed as a parameter to the method.</li>
+<li>Write a method that uses two <strong>filter</strong> calls to print details of all the sightings of a particular animal made on a particular reporting period—the method takes the animal name and reporting period as parameters.</li>
+<li>Does the order of the two filter calls matter in your solution? Justify your answer.</li>
+<li>Rewrite the <strong>printSightingsOf</strong> method in your <strong>Animal­Monitor</strong> class to use streams and lambdas. Test to make sure the project still works as before.</li>
+<li>If a pipeline contains a filter operation and a map operation, does the order of the operations matter to the final result? Justify your answer.</li>
+<li>Rewrite the <strong>printEndangered</strong> method in your project to use streams. Test. (To test this method, it may be easiest to write a test method that creates an <strong>ArrayList</strong> of animal names and calls the <strong>printEndangered</strong> method with it.)</li>
+<li>Rewrite your <strong>getCount</strong> method using streams</li>
+<li>Add a method to <strong>AnimalMonitor</strong> that takes three parameters: <strong>animal</strong>, <strong>spotterID</strong>, and <strong>reporting period</strong>, and returns a count of how many sightings of the given animal were made by the spotter on a particular reporting period.</li>
+<li>Add a method to <strong>AnimalMonitor</strong> that takes two parameters—<strong>spotterID</strong> and <strong>reporting period</strong>—and returns a <strong>String</strong> containing the names of the animals seen by the spotter on a particular reporting period. You should include only animals whose sighting count is greater than zero, but don’t worry about excluding duplicate names if multiple non-zero sighting records were made of a particular animal. Hint: The principles of using reduce with String elements and a String result are very similar to those when using integers. Decide on the correct identity and formulate a two-parameter lambda that combines the running “sum” with the next element of the stream.</li>
+<li>Rewrite the <strong>removeZeroCounts</strong> method using the <strong>removeIf</strong> method of the ArrayList collection.</li>
+<li>Write a method <strong>removeSpotter</strong> that removes all records reported by a given spotter.</li>
+</ol></li>
+<li>Open the <em>music-organizer-v5 project</em> (chapter 4)
+<ul>
+<li>Rewrite the <strong>listAllTracks</strong> and <strong>listByArtist</strong> methods of the MusicOrganizer class to use streams and lambdas.</li>
+</ul></li>
+<li>Find out about Java’s <strong>switch-case</strong> statement. What is its purpose? How is it used? Write an example. (This is also a control flow statement, so you will find information in similar locations as for the do-while loop.)</li>
+</ol>
+<h2 id="credit-problem">Credit problem</h2>
+<ol start="5" type="1">
+<li>Accept the invitation for lab3, and checkout the repository which includes elements from part 2 above with some extensions. The AnimalMonitor interface to implement and some of the tests are provided in the usual grading package. The remaining tests will be available at the beginning of lab 3. Remember to push your solution before the lab time expires.</li>
+</ol>

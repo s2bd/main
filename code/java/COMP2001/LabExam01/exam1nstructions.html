@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>exam1nstructions</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+</head>
+<body>
+<h1 id="comp2001-f2022-lab-exam-1">COMP2001 F2022 Lab Exam 1</h1>
+<ul>
+<li><p>Rules for the lab exam:</p>
+<ul>
+<li>90 minutes duration. Push your solution code often, and your last revision before the time expires.</li>
+<li>You must attend the lab, remote will not be accepted</li>
+<li>Attendance will be taken</li>
+<li>Use the lab computers, not your own laptop</li>
+<li>Online resources may be used, except communication with other people
+<ul>
+<li>You may not post new questions or interact with people; only material that already exists on discussion boards, or elsewhere may be accessed.</li>
+<li>You may use your own material you have loaded on your labnet account.</li>
+</ul></li>
+<li>Interaction with other students in the lab is not permitted.</li>
+<li>Do not look at other students’ work.</li>
+<li>Rules concerning academic misconduct apply to the exam.</li>
+</ul></li>
+</ul>
+<h1 id="problem-steps">Problem steps</h1>
+<ol type="1">
+<li><p>Write standard setter/mutator methods for the attributes/fields of the <code>Registration</code> class. The test in ExamSetterTests should compile and run once you have completed this step.</p></li>
+<li><p>Complete the <code>CollegeRecord.toString()</code> method as described in its javadoc. To get full marks, do not use explicit loops, use functional style and a reduce() stream method to produce the result.</p></li>
+<li><p>Complete the ‘Registration.getProfLast()’ method as described in its javadoc. There are three tests for this method.</p></li>
+<li><p>In the CollegeRecords class, create an instance variable String to Integer hashmap called <code>capacity</code> which will map each course to an enrollment (maximum registrations) capacity.</p></li>
+<li><p>(requires #4) Complete the setMaxCapacity method with the functionality to set the capacity of a course in the capacity HashMap.</p></li>
+<li><p>(requires #4 and #5) Complete the <code>safeAdd</code> method which performs the same function as add, but will not add the registration if the course capacity is set (in the capacity HashMap) and the course is full (registrations are at or above capacity). There are two tests for this method.</p></li>
+<li><p>Change the modifiers of <code>CollegeRecords.verifyCourseID</code> so this method can be accessed from outside the class, and it does not require an instance object to use the method. You will also have to alter the <code>clean()</code> method to use the new version of <code>CollegeRecords.verifyCourseID</code> before it will compile again. (Best to push your working exam code before attempting this change.)</p></li>
+<li><p>Modify the <code>CollegeRecords.conflicts</code> method to return the correct value according to its javadoc. (Hint: the nested loop is working correctly)</p></li>
+<li><p>Re-write the <code>CollegeRecords.conflicts</code> method in functional style instead of using explicit loops.</p></li>
+<li><p>Complete the <code>CollegeRecords.teaching</code> method as described in its javadoc. For full marks, use functional style with no loops.</p></li>
+<li><p>Modify <code>Responder.responseGenerator()</code> to implement the following rule A:</p>
+<pre><code>25% of the time (at random), the responder should 
+respond with the phrase &quot;Tell me more about that.&quot;</code></pre></li>
+<li><p>Modify <code>Responder.responseGenerator()</code> to implement the following rule B:</p>
+<pre><code>Unless rule A is in effect, if a key word from the 
+response map is input, the responder should use the  
+corresponding  response from the responseMap. However, 
+each response from the responseMap can only be used 
+one time.</code></pre></li>
+<li><p>Modify <code>Responder.responseGenerator()</code> to implement the following rule C:</p>
+<pre><code>As a modification to rule A, instead of &quot;Tell me more 
+about that.&quot; the responder should respond with &quot;Tell me
+more about X&quot;, where X is the word that has appeared in 
+the most user inputs, and X is more than 3 letters long. 
+(Hint: use a HashMap to count the occurances of the words.)</code></pre></li>
+</ol>
+</body>
+</html>

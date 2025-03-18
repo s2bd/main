@@ -1,0 +1,17 @@
+#Wed Sep 28 22:05:06 NDT 2022
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.yourName=Dewan Mukto
+bluej.teamsettings.git.server=github.com
+bluej.teamsettings.yourEmail=dmimukto@mun.ca
+bluej.teamsettings.git.repositoryPrefix=/MUN-Staff/assignment-1-dmimukto
+bluej.teamsettings.vcs=git
+bluej.teamsettings.user=dmimukto
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.git.branch=
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.git.protocol=https
+bluej.teamsettings.ignore8=\\.DS_Store

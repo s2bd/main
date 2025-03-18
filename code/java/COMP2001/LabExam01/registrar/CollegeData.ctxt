@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CollegeData
+comment0.text=\n\ This\ test\ data\ can\ be\ used\ by\ unit\ tests.\n\n
+comment1.params=cr
+comment1.target=java.util.ArrayList\ load(CollegeRecords)
+comment1.text=\n\ Return\ an\ arraylist\ of\ Registrations\ loaded\ from\ the\ above\ data.\n\n
+numComments=2

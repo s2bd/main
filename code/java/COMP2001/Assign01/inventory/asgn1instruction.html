@@ -1,0 +1,27 @@
+<h1 id="comp2001-f2022-assignment-1-instructions">COMP2001 F2022 Assignment 1 Instructions</h1>
+<h2 id="objectives">Objectives</h2>
+<p>Practice ArrayList coding.</p>
+<h2 id="activity">Activity</h2>
+<ul>
+<li><p>The assignment is based on (and extends) exercises 4.56 - 4.60 in the textbook.</p></li>
+<li><p>Checkout comp2001-assign1 repository from github classroom for the following credit work</p></li>
+<li><p>Confirm that the <strong>inventory</strong> package and the <strong>grading</strong> package are present in the project</p></li>
+<li><p>Open the assign1 project <code>inventory</code> package<br />
+</p></li>
+<li><p>Modify the <strong>StockManager</strong> class to implement the methods as described in <strong>StockManagerInterface</strong> so you can compile the java code in the package. This will produce compile errors until the method signatures required by the <strong>StockManagerInterface</strong> are satisfied by your code changes to <strong>StockManager</strong>. Note the declaration line of <strong>StockManager</strong> has been modified to indicate the implementation requirement to the compiler.</p>
+<ul>
+<li><p>In your solution, make changes to StockManager code but do not alter the class declaration line</p>
+<pre><code>   public class StockManager implements StockManagerInterface</code></pre></li>
+<li><p>Do not alter the StockManagerInterface class.</p></li>
+</ul></li>
+<li><p>Modify the <strong>StockManager</strong> class to comply with the method signatures required by the <strong>StockManagerInterface</strong>. This should allow the <strong>StockManager</strong> class to compile without compile errors.</p>
+<ul>
+<li>Add an additional ArrayList of Product called onOrder to the StockManager class. The quantity field of Product in the onOrder ArrayList is used to indicate the number of items on order, instead of the number of items in stock.</li>
+</ul></li>
+<li><p>Open the <strong>grading</strong> package to run the JUNIT tests. You should now be able to compile and run the JUNIT tests included in <strong>StockManagerTest</strong> class of the <strong>grading</strong> package to check your lab score based on the run time behaviour of your <strong>StockManager</strong> code. Test scores should appear in the terminal window when you run the JUNIT tests. Results of the tests and the comments in the <strong>StockManagerInterface</strong> will help you figure out how to correctly implement the interface in order to pass the tests.</p>
+<ul>
+<li>The tests depend on <strong>StockManager.loadSampleData</strong> method so you should implement that early. This method should load the data from a two dimensional array into the stock ArrayList. Note the tests will be using your method on the array in the class <strong>StockData</strong>. (This is our substitute for loading data from disk, as we haven’t covered I/O operations yet.) Do not modify the data in StockData class.</li>
+</ul></li>
+<li><p>Modify the <strong>package-info</strong> file to include your name as author and identify any assistance you obtained using javadoc <span class="citation" data-cites="author">@author</span> and <span class="citation" data-cites="attribution">@attribution</span> tags as shown in the file.</p></li>
+<li><p>Commit and push your project that includes your modification to the <strong>StockManager</strong> class <em>before the due date</em>. Only the most recent push to the remote git repository at github classroom prior to the end of the due date will count toward the grade. Since you can commit and push as many times as you want, you should consider pushing your changes wherever your score improves.</p></li>
+</ul>

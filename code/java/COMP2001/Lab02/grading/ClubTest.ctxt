@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ClubTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ loadData()
+comment3.params=
+comment3.target=void\ tearDown()
+comment4.params=
+comment4.target=void\ join()
+comment5.params=
+comment5.target=void\ numberOfMembers()
+comment6.params=
+comment6.target=void\ joinedInMonth()
+comment7.params=
+comment7.target=void\ purge()
+comment8.params=
+comment8.target=void\ find()
+numComments=9

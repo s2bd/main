@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ExamSetterTests
+comment1.params=adders
+comment1.target=void\ insertTestRecords(java.lang.String[])
+comment2.params=dat
+comment2.target=registrar.Registration\ splitRegistration(java.lang.String)
+comment3.params=
+comment3.target=int\ countSection()
+comment4.params=
+comment4.target=void\ setUp()
+comment5.params=
+comment5.target=void\ tearDown()
+comment6.params=
+comment6.target=void\ setters()
+comment6.text=\n\ \ \ \ \ \ add\ a\ setter\ methods/mutator\ for\ ()\ \ Registration\ fields.\n
+numComments=7
