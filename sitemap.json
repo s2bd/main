@@ -52,10 +52,17 @@
                 "styles.css": null
             }
         },
-        "sitemap.json": null,
+        "sitemap.html": null,
         "assets": {
+            "images": {
+                "blanc": null,
+                "MuxDay discordbot banner.png": null,
+                "MuxDay_bot_banner.png": null,
+                "MuxMusic_bot_banner.png": null
+            },
             "css": {
                 "blog.css": null,
+                "chatbot.css": null,
                 "common.css": null,
                 "post.css": null,
                 "propjockey.css": null,
@@ -63,14 +70,9 @@
             },
             "js": {
                 "categories.js": null,
+                "chatbot.js": null,
                 "lbox.js": null,
                 "propjockey.js": null
-            },
-            "images": {
-                "blanc": null,
-                "MuxDay discordbot banner.png": null,
-                "MuxDay_bot_banner.png": null,
-                "MuxMusic_bot_banner.png": null
             },
             "icons": {
                 "dev.png": null,
@@ -86,17 +88,11 @@
                 "youtube.png": null
             }
         },
+        "sitemap.json": null,
         "sitemapper.py": null,
         "_config.yml": null,
         "_data": {
             "author.yml": null
-        },
-        "video": {
-            "delta-telekom-gameplay.mp4": null,
-            "dewan-mukto-co-brand-intro.mp4": null,
-            "freehold-domains.mp4": null,
-            "ITWD-game-menu.mp4": null,
-            "mandelzoom.mp4": null
         },
         "_layouts": {
             "blog.html": null,
@@ -106,6 +102,15 @@
             "dewanmukto": {
                 "2022-05-20-discordbot.md": null
             }
+        },
+        "video": {
+            "delta-telekom-gameplay.mp4": null,
+            "dewan-mukto-co-brand-intro.mp4": null,
+            "freehold-domains.mp4": null,
+            "ITWD-game-menu.mp4": null,
+            "mandelzoom.mp4": null,
+            "mux domains premium.mp4": null,
+            "mux domains.mp4": null
         },
         "_includes": {
             "bio.html": null,
@@ -447,37 +452,36 @@
             "CGPT DALLE 3.jpeg": null,
             "CGPT DALLE 3.webp": null,
             "confettiasphalt.png": null,
-            "d5876980-b07a-42a3-9fc4-51b7076ca0eb.jpeg": null,
-            "DALL\u00b7E 2024-12-12 23.48.20 - A scenic outdoor setting with a gentle river flowing through a lush green meadow, surrounded by tall, majestic trees with dense foliage. The sky is a .webp": null,
-            "DALL\u00b7E 2025-01-09 15.47.38 - A serene landscape at sunrise featuring a tranquil lake surrounded by lush green hills, with mist gently rising from the water. The sky is painted in .webp": null,
-            "DALL\u00b7E 2025-01-09 15.49.19 - A serene scene of a lush green forest with sunlight streaming through tall trees, creating a magical ambiance. The forest floor is covered in moss and.webp": null,
-            "DALL\u00b7E 2025-01-09 15.50.45 - A surreal and vivid landscape featuring a bright, colorful sunset over rolling hills covered in wildflowers. A single large tree with sprawling branch.webp": null,
+            "dalle-peaceful-0.webp": null,
+            "dalle-peaceful-1.jpeg": null,
+            "dalle-peaceful-1.webp": null,
+            "dalle-peaceful-2.webp": null,
+            "dalle-peaceful-3.webp": null,
             "deepseacoral.png": null,
             "dma_01_mockup01.png": null,
             "dma_01_mockup02.png": null,
             "dwnlding_on_exhdd.png": null,
             "dwnlding_on_exhdd2.png": null,
-            "faction_akamine_111.png": null,
             "CGPT": {
-                "9f9323b6-a598-4988-954c-eeb2fc3aeb07": null,
-                "DALL\u00b7E 2025-02-14 04.15.48 - A picturesque cottagecore scene featuring a cozy thatched-roof cottage surrounded by a lush wildflower meadow and towering oak trees. A babbling brook.webp": null,
-                "DALL\u00b7E 2025-02-14 04.17.29 - A breathtaking cosmic depiction of the structure of the universe based on the Quran. Seven celestial layers, each glowing with divine light, extend in.webp": null,
-                "DALL\u00b7E 2025-02-14 04.18.53 - A mysterious depiction of a jinn based on Islamic descriptions. The jinn appears as a towering, shadowy figure with elongated limbs, its body made of .webp": null,
-                "DALL\u00b7E 2025-02-14 04.20.42 - A determined, ultra-manly warrior with a chiseled face, sharp eyes, and an unbreakable spirit, despite his skinny and malnourished physique. He wears .webp": null,
-                "DALL\u00b7E 2025-02-14 04.26.46 - A unique fantasy humanoid creature with a mix of human and mystical features. The creature has glowing, ethereal skin, shimmering scales on its arms, .webp": null,
-                "DALL\u00b7E 2025-02-14 04.28.10 - A unique fantasy humanoid creature with intricate features_ glowing eyes, ethereal skin that shifts in color, long flowing hair made of mist, and shar.webp": null,
-                "DALL\u00b7E 2025-02-14 04.28.43 - A unique fantasy humanoid creature in a cinematic environment. The creature has glowing emerald eyes and translucent skin that shimmers with an ethere.webp": null,
-                "DALL\u00b7E 2025-02-14 04.29.15 - A unique fantasy humanoid creature, combining dragon-like features with an ethereal humanoid form. The creature stands tall with shimmering, transluce.webp": null,
-                "DALL\u00b7E 2025-02-14 04.29.43 - A unique fantasy humanoid creature standing in a cinematic environment. The creature has tall, elegant features, with translucent skin that glows fain.webp": null,
-                "DALL\u00b7E 2025-02-14 04.31.18 - A unique fantasy humanoid creature standing in a cinematic environment. The creature has long, ethereal flowing hair that glows softly, with intricate.webp": null,
-                "DALL\u00b7E 2025-02-14 04.31.47 - A unique fantasy humanoid creature standing in an enchanting, cinematic environment. The creature has an elegant, otherworldly design with glowing tat.webp": null,
-                "DALL\u00b7E 2025-02-14 04.32.13 - A unique fantasy humanoid creature in a cinematic environment. The creature is tall and slender with iridescent scales that shift colors, ranging from.webp": null,
-                "DALL\u00b7E 2025-02-14 04.32.50 - A unique fantasy humanoid creature standing in a cinematic environment. The creature is tall and slender, with iridescent scales that shimmer in vario.webp": null,
-                "DALL\u00b7E 2025-02-14 04.33.41 - A unique fantasy humanoid creature in a cinematic environment. The creature has smooth, iridescent skin with a mix of vibrant colors, blending blue, p.webp": null,
-                "DALL\u00b7E 2025-02-14 04.34.13 - A unique fantasy humanoid creature with ethereal features, blending elements of both organic and magical forms. The creature has translucent skin that.webp": null,
-                "DALL\u00b7E 2025-02-14 04.34.52 - A unique fantasy humanoid warrior spiritual creature standing in a cinematic environment. The creature has intricate armor with glowing mystical symbo.webp": null,
-                "DALL\u00b7E 2025-02-14 04.35.30 - A unique fantasy warrior humanoid ethereal creature in a cinematic environment. The creature is tall and majestic, with glowing translucent skin and o.webp": null
+                "dalle-cosmos.webp": null,
+                "dalle-cottagecore.webp": null,
+                "dalle-fantasy-angel.webp": null,
+                "dalle-fantasy-female-2.webp": null,
+                "dalle-fantasy-female-3.webp": null,
+                "dalle-fantasy-female-4.webp": null,
+                "dalle-fantasy-female-5.webp": null,
+                "dalle-fantasy-female-6.webp": null,
+                "dalle-fantasy-female-7.webp": null,
+                "dalle-fantasy-female-angel.webp": null,
+                "dalle-fantasy-female-dragon.webp": null,
+                "dalle-fantasy-female.webp": null,
+                "dalle-fantasy-spriggan-2.webp": null,
+                "dalle-fantasy-spriggan-3.webp": null,
+                "dalle-fantasy-spriggan.webp": null,
+                "dalle-mysterious.webp": null,
+                "dalle-warrior.webp": null
             },
+            "faction_akamine_111.png": null,
             "faction_alkyne_111.png": null,
             "faction_sirutov_111.png": null,
             "fiverr gig thumb 2.png": null,
@@ -833,11 +837,11 @@
                     "bladeball.json": null,
                     "chat.json": null,
                     "hiiamabot.json": null,
-                    "immaffkk.json": null,
                     "dist": {
                         "MuxRepeat.exe": null,
                         "MuxRepeater.ico": null
                     },
+                    "immaffkk.json": null,
                     "jjkshena.json": null,
                     "MuxRepeat.py": null,
                     "MuxRepeat.spec": null,
@@ -2706,7 +2710,6 @@
                 },
                 "Discord Bot": {
                     "config.h": null,
-                    "discord_bot": null,
                     "main.cpp": null,
                     "DPP": {
                         "CMakeLists.txt": null,
@@ -2751,12 +2754,12 @@
                             "make_struct.php": null,
                             "classes": {
                                 "StructGeneratorInterface.php": null,
+                                "Packager": {
+                                    "Vcpkg.php": null
+                                },
                                 "Generator": {
                                     "CoroGenerator.php": null,
                                     "SyncGenerator.php": null
-                                },
-                                "Packager": {
-                                    "Vcpkg.php": null
                                 }
                             },
                             "make_vcpkg.php": null,

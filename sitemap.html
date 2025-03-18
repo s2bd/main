@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWP Map</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        svg { width: 100vw; height: 100vh; }
+        text {
+            pointer-events: none;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <h2>Mux Web Presence</h2>
+    <svg></svg>
+    <script>
+        async function fetchSitemap() {
+            const response = await fetch("sitemap.json");
+            return response.json();
+        }
+
+        function parseSitemap(data, parentPath = "", nodes = [], links = [], depth = 0) {
+            Object.entries(data).forEach(([name, children]) => {
+                const path = parentPath ? `${parentPath}/${name}` : name;
+                const node = { name, path, size: Array.isArray(children) ? children.length : 0, depth };
+                nodes.push(node);
+                if (parentPath) links.push({ source: parentPath, target: path });
+                if (children) parseSitemap(children, path, nodes, links, depth + 1);
+            });
+            return { nodes, links };
+        }
+
+        async function visualizeGraph() {
+            const sitemapData = await fetchSitemap();
+            const { nodes, links } = parseSitemap(sitemapData.main);
+
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            const svg = d3.select("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            // Simulation with force-directed layout
+            const simulation = d3.forceSimulation(nodes)
+                .force("link", d3.forceLink(links).id(d => d.path).distance(10))
+                .force("charge", d3.forceManyBody().strength(-0.5))
+                .force("center", d3.forceCenter(width / 2, height / 2));
+
+            const link = svg.append("g").selectAll("line")
+                .data(links)
+                .enter().append("line")
+                .style("stroke", "#999");
+
+            const node = svg.append("g").selectAll("circle")
+                .data(nodes)
+                .enter().append("circle")
+                .attr("r", d => 5 + d.size * 2) // Size nodes based on the number of files
+                .style("fill", d => {
+                    // Assign colors based on depth
+                    const colors = ["#FF6347", "#FFD700", "#32CD32", "#1E90FF", "#8A2BE2"];
+                    return d.depth < colors.length ? colors[d.depth] : "#8A2BE2"; // Default color for deeper levels
+                })
+                .call(d3.drag()
+                    .on("start", dragStarted)
+                    .on("drag", dragged)
+                    .on("end", dragEnded));
+
+            // Text for all nodes (folders and files), color according to depth
+            const allText = svg.append("g").selectAll("text")
+                .data(nodes)
+                .enter().append("text")
+                .text(d => d.name)
+                .attr("x", 12)
+                .attr("y", 3)
+                .style("visibility", "visible") // Make sure all labels are visible
+                .style("fill", d => {
+                    // Color labels based on node depth (same as node fill)
+                    const colors = ["#FF6347", "#FFD700", "#32CD32", "#1E90FF", "#8A2BE2"];
+                    return d.depth < colors.length ? colors[d.depth] : "#8A2BE2"; // Default color for deeper levels
+                });
+
+            simulation.on("tick", () => {
+                link.attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                node.attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+
+                allText.attr("x", d => d.x + 12)
+                    .attr("y", d => d.y + 3);
+            });
+
+            function dragStarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragEnded(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+        }
+
+        visualizeGraph();
+    </script>
+</body>
+</html>
