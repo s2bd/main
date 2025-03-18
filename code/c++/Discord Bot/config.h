@@ -23,7 +23,7 @@ Config loadConfig() {
     config.leaveIdleCountdown = 60;
     config.leaveFinish = false;
     config.leaveStop = false;
-    config.webhookId = 980158201297248257;
+    config.webhookId = 0;
     config.webhookToken = ""; // Replace with your webhook token
     return config;
 }
