@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=InventoryForm
+comment1.params=
+comment1.target=InventoryForm()
+comment2.params=
+comment2.target=void\ initComponents()
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=
+comment6.target=void\ addItem()
+comment7.params=
+comment7.target=void\ saveInventoryToFile()
+comment8.params=
+comment8.target=void\ loadInventoryFromFile()
+comment9.params=
+comment9.target=void\ generateReport()
+numComments=10

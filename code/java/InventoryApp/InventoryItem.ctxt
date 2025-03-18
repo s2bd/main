@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=InventoryItem
+comment1.params=name\ category\ quantity\ price
+comment1.target=InventoryItem(java.lang.String,\ java.lang.String,\ int,\ double)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=java.lang.String\ toCSV()
+numComments=4

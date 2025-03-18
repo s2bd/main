@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=WifiNetworksApp
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=message
+comment10.target=void\ showErrorMessage(java.lang.String)
+comment2.params=
+comment2.target=WifiNetworksApp()
+comment3.params=
+comment3.target=void\ initialize()
+comment4.params=tp\ msg\ set
+comment4.target=void\ appendToPane(javax.swing.JTextPane,\ java.lang.String,\ javax.swing.text.AttributeSet)
+comment5.params=
+comment5.target=java.util.List\ getWifiNetworks()
+comment6.params=
+comment6.target=boolean\ isWindows()
+comment7.params=
+comment7.target=boolean\ isLinux()
+comment8.params=
+comment8.target=java.util.List\ getWifiNetworksWindows()
+comment9.params=
+comment9.target=java.util.List\ getWifiNetworksLinux()
+numComments=11

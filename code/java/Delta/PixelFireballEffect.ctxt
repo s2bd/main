@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=PixelFireballEffect
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=g2d\ x\ y
+comment3.target=void\ drawFireball(java.awt.Graphics2D,\ int,\ int)
+comment4.params=intensity
+comment4.target=java.awt.Color\ getFireballColor(int)
+numComments=5
