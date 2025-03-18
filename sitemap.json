@@ -52,7 +52,7 @@
                 "styles.css": null
             }
         },
-        "sitemapper.py": null,
+        "sitemap.json": null,
         "assets": {
             "css": {
                 "blog.css": null,
@@ -86,9 +86,17 @@
                 "youtube.png": null
             }
         },
+        "sitemapper.py": null,
         "_config.yml": null,
         "_data": {
             "author.yml": null
+        },
+        "video": {
+            "delta-telekom-gameplay.mp4": null,
+            "dewan-mukto-co-brand-intro.mp4": null,
+            "freehold-domains.mp4": null,
+            "ITWD-game-menu.mp4": null,
+            "mandelzoom.mp4": null
         },
         "_layouts": {
             "blog.html": null,
@@ -105,30 +113,6 @@
             "footer.html": null,
             "head.html": null,
             "header.html": null
-        },
-        "doc": {
-            "Colors-Of-Infinite-Grief-Dewan-Mukto-cover.pdf": null,
-            "Colors-Of-Infinite-Grief-Dewan-Mukto.pdf": null,
-            "Cooper-Black-Dewan-Mukto-cover.pdf": null,
-            "Cooper-Black-Dewan-Mukto.pdf": null,
-            "Dead-Man-Alive-Dewan-Mukto-cover.pdf": null,
-            "Dead-Man-Alive-Dewan-Mukto.pdf": null,
-            "IELTS-Guide-Dewan-Mukto-cover.pdf": null,
-            "IELTS-Guide-Dewan-Mukto.pdf": null,
-            "In-The-Wildest-Dimensions-BD-Dewan-Mukto-cover.pdf": null,
-            "In-The-Wildest-Dimensions-BD-Dewan-Mukto.pdf": null,
-            "In-The-Wildest-Dimensions-Dewan-Mukto-cover.pdf": null,
-            "In-The-Wildest-Dimensions-Dewan-Mukto.pdf": null,
-            "Knightspeak-Dewan-Mukto-cover.pdf": null,
-            "Knightspeak-Dewan-Mukto.pdf": null,
-            "One-Dewan-Mukto-cover.pdf": null,
-            "One-Dewan-Mukto.pdf": null,
-            "Sun-Of-A-Beach-Dewan-Mukto-cover.pdf": null,
-            "Sun-Of-A-Beach-Dewan-Mukto.pdf": null,
-            "Synaesthetic-Symphonies-Dewan-Mukto-cover.pdf": null,
-            "Synaesthetic-Symphonies-Dewan-Mukto.pdf": null,
-            "The-Inkmaster-Dewan-Mukto-cover.pdf": null,
-            "The-Inkmaster-Dewan-Mukto.pdf": null
         },
         "audio": {
             "ai": {
@@ -203,146 +187,33 @@
                 }
             }
         },
-        "code": {
-            "roblox": {
-                "Broken.rbxl": null,
-                "Demon_Hunting_Paradise.rbxl": null,
-                "Goofy_Gunners.rbxl": null
-            },
-            "php": {
-                "muxlink": {
-                    "index.php": null
-                },
-                "bracket": {
-                    "avatar.png": null,
-                    "chat.php": null,
-                    "db_connection.php": null,
-                    "css": {
-                        "chat.css": null,
-                        "index.css": null
-                    },
-                    "db_init.sql": null,
-                    "index.php": null,
-                    "img": {
-                        "background.jpg": null
-                    },
-                    "searchUsers.php": null,
-                    "js": {
-                        "chat.js": null,
-                        "index.js": null
-                    }
-                },
-                "baribhara": {
-                    "404.php": null,
-                    "add-property.php": null,
-                    "admin-dashboard.php": null,
-                    "admin-signin.php": null,
-                    "admin-signup.php": null,
-                    "admin_styles.css": null,
-                    "client-dashboard.php": null,
-                    "client-register.php": null,
-                    "client-signin.php": null,
-                    "client.php": null,
-                    "client_styles.css": null,
-                    "dbconnect.php": null,
-                    "db_init.sql": null,
-                    "delete-property.php": null,
-                    "edit-property.php": null,
-                    "get-property-details.php": null,
-                    "index.php": null,
-                    "index_1.html": null,
-                    "logout.php": null,
-                    "owner-dashboard.php": null,
-                    "owner-signin.php": null,
-                    "owner-signup.php": null,
-                    "process_payment.php": null,
-                    "scripts.js": null,
-                    "styles.css": null,
-                    "update-profile.php": null
-                }
-            },
-            "python": {
-                "bookworm.py": null,
-                "oozbok": {
-                    "Oozbok.exe": null,
-                    "yip.ico": null
-                },
-                "painigger": {
-                    "automation.py": null,
-                    "gui.py": null,
-                    "__pycache__": {
-                        "automation.cpython-312.pyc": null
-                    }
-                },
-                "googformer": {
-                    "GoogFormer.exe": null,
-                    "GoogFormer.py": null,
-                    "GoogFormer_v0.py": null,
-                    "GoogFormer_v1.py": null,
-                    "GoogFormer_v2.1.py": null,
-                    "GoogFormer_v2.py": null,
-                    "GoogFormer_v3.1.py": null,
-                    "GoogFormer_v3.py": null,
-                    "GoogSheeter.py": null,
-                    "jackbus.py": null,
-                    "ooz.ico": null,
-                    "Oozbok.exe": null,
-                    "Oozbok.py": null,
-                    "Oozbok_v0.2.py": null,
-                    "Oozbok_vE.py": null,
-                    "sheet.xlsx": null,
-                    "Survey Sheet.xlsx": null,
-                    "yip.ico": null
-                },
-                "muxrepeat": {
-                    "automation.json": null,
-                    "automation2.json": null,
-                    "bladeball.json": null,
-                    "chat.json": null,
-                    "hiiamabot.json": null,
-                    "immaffkk.json": null,
-                    "dist": {
-                        "MuxRepeat.exe": null,
-                        "MuxRepeater.ico": null
-                    },
-                    "jjkshena.json": null,
-                    "MuxRepeat.py": null,
-                    "MuxRepeat.spec": null,
-                    "MuxRepeater.ico": null,
-                    "MuxRepeat_20250205_0.py": null,
-                    "MuxRepeat_20250206_0.py": null,
-                    "MuxRepeat_20250206_1.py": null,
-                    "build": {
-                        "MuxRepeat": {
-                            "Analysis-00.toc": null,
-                            "base_library.zip": null,
-                            "EXE-00.toc": null,
-                            "MuxRepeat.pkg": null,
-                            "PKG-00.toc": null,
-                            "PYZ-00.pyz": null,
-                            "PYZ-00.toc": null,
-                            "warn-MuxRepeat.txt": null,
-                            "localpycs": {
-                                "pyimod01_archive.pyc": null,
-                                "pyimod02_importers.pyc": null,
-                                "pyimod03_ctypes.pyc": null,
-                                "pyimod04_pywin32.pyc": null,
-                                "struct.pyc": null
-                            },
-                            "xref-MuxRepeat.html": null
-                        }
-                    },
-                    "MuxRepeat_20250206_2.1.py": null,
-                    "MuxRepeat_20250206_2.2.1.py": null,
-                    "MuxRepeat_20250206_2.2.py": null,
-                    "MuxRepeat_20250206_2.py": null,
-                    "Ohio_lol2.json": null,
-                    "Ohio_lolwalk3.json": null,
-                    "Ohio_walkjumplol.json": null,
-                    "rivalsshoot.json": null,
-                    "spinaround.json": null
-                }
-            }
+        "doc": {
+            "Cant_Stop_Marker_README.pdf": null,
+            "Colors-Of-Infinite-Grief-Dewan-Mukto-cover.pdf": null,
+            "Colors-Of-Infinite-Grief-Dewan-Mukto.pdf": null,
+            "Cooper-Black-Dewan-Mukto-cover.pdf": null,
+            "Cooper-Black-Dewan-Mukto.pdf": null,
+            "Dead-Man-Alive-Dewan-Mukto-cover.pdf": null,
+            "Dead-Man-Alive-Dewan-Mukto.pdf": null,
+            "dewan-mukto-resume-technical.pdf": null,
+            "IELTS-Guide-Dewan-Mukto-cover.pdf": null,
+            "IELTS-Guide-Dewan-Mukto.pdf": null,
+            "In-The-Wildest-Dimensions-BD-Dewan-Mukto-cover.pdf": null,
+            "In-The-Wildest-Dimensions-BD-Dewan-Mukto.pdf": null,
+            "In-The-Wildest-Dimensions-Dewan-Mukto-cover.pdf": null,
+            "In-The-Wildest-Dimensions-Dewan-Mukto.pdf": null,
+            "Knightspeak-Dewan-Mukto-cover.pdf": null,
+            "Knightspeak-Dewan-Mukto.pdf": null,
+            "One-Dewan-Mukto-cover.pdf": null,
+            "One-Dewan-Mukto.pdf": null,
+            "Sun-Of-A-Beach-Dewan-Mukto-cover.pdf": null,
+            "Sun-Of-A-Beach-Dewan-Mukto.pdf": null,
+            "Synaesthetic-Symphonies-Dewan-Mukto-cover.pdf": null,
+            "Synaesthetic-Symphonies-Dewan-Mukto.pdf": null,
+            "TaskforceNL_Website_Review.pdf": null,
+            "The-Inkmaster-Dewan-Mukto-cover.pdf": null,
+            "The-Inkmaster-Dewan-Mukto.pdf": null,
+            "UI_Prototype_Sketches.pdf": null
         },
         "site": {
             "amrella": {
@@ -557,6 +428,7 @@
             "6d62b72ceb51b55232be70b4cfaa6622.png": null,
             "797971786_Nendoroid_.png": null,
             "805595708_Nendoroid.png": null,
+            "asbtract.png": null,
             "asdasd.jpg": null,
             "asdasdasd.jpg": null,
             "Asenturisk 2023 banner.png": null,
@@ -564,41 +436,71 @@
             "Asenturisk logo 2019 main.png": null,
             "CBTH bookcover.png": null,
             "CGPT DALLE 1.jpeg": null,
-            "CGPT DALLE 1.webp": null,
             "bongojukti": {
                 "bangjukti banner 2025.png": null,
                 "Bongojukti logo 2025.png": null,
                 "Bongojukti_icon.jpg": null
             },
+            "CGPT DALLE 1.webp": null,
             "CGPT DALLE 2.jpeg": null,
             "CGPT DALLE 2.webp": null,
             "CGPT DALLE 3.jpeg": null,
             "CGPT DALLE 3.webp": null,
+            "confettiasphalt.png": null,
             "d5876980-b07a-42a3-9fc4-51b7076ca0eb.jpeg": null,
             "DALL\u00b7E 2024-12-12 23.48.20 - A scenic outdoor setting with a gentle river flowing through a lush green meadow, surrounded by tall, majestic trees with dense foliage. The sky is a .webp": null,
             "DALL\u00b7E 2025-01-09 15.47.38 - A serene landscape at sunrise featuring a tranquil lake surrounded by lush green hills, with mist gently rising from the water. The sky is painted in .webp": null,
             "DALL\u00b7E 2025-01-09 15.49.19 - A serene scene of a lush green forest with sunlight streaming through tall trees, creating a magical ambiance. The forest floor is covered in moss and.webp": null,
             "DALL\u00b7E 2025-01-09 15.50.45 - A surreal and vivid landscape featuring a bright, colorful sunset over rolling hills covered in wildflowers. A single large tree with sprawling branch.webp": null,
+            "deepseacoral.png": null,
             "dma_01_mockup01.png": null,
             "dma_01_mockup02.png": null,
             "dwnlding_on_exhdd.png": null,
             "dwnlding_on_exhdd2.png": null,
             "faction_akamine_111.png": null,
+            "CGPT": {
+                "9f9323b6-a598-4988-954c-eeb2fc3aeb07": null,
+                "DALL\u00b7E 2025-02-14 04.15.48 - A picturesque cottagecore scene featuring a cozy thatched-roof cottage surrounded by a lush wildflower meadow and towering oak trees. A babbling brook.webp": null,
+                "DALL\u00b7E 2025-02-14 04.17.29 - A breathtaking cosmic depiction of the structure of the universe based on the Quran. Seven celestial layers, each glowing with divine light, extend in.webp": null,
+                "DALL\u00b7E 2025-02-14 04.18.53 - A mysterious depiction of a jinn based on Islamic descriptions. The jinn appears as a towering, shadowy figure with elongated limbs, its body made of .webp": null,
+                "DALL\u00b7E 2025-02-14 04.20.42 - A determined, ultra-manly warrior with a chiseled face, sharp eyes, and an unbreakable spirit, despite his skinny and malnourished physique. He wears .webp": null,
+                "DALL\u00b7E 2025-02-14 04.26.46 - A unique fantasy humanoid creature with a mix of human and mystical features. The creature has glowing, ethereal skin, shimmering scales on its arms, .webp": null,
+                "DALL\u00b7E 2025-02-14 04.28.10 - A unique fantasy humanoid creature with intricate features_ glowing eyes, ethereal skin that shifts in color, long flowing hair made of mist, and shar.webp": null,
+                "DALL\u00b7E 2025-02-14 04.28.43 - A unique fantasy humanoid creature in a cinematic environment. The creature has glowing emerald eyes and translucent skin that shimmers with an ethere.webp": null,
+                "DALL\u00b7E 2025-02-14 04.29.15 - A unique fantasy humanoid creature, combining dragon-like features with an ethereal humanoid form. The creature stands tall with shimmering, transluce.webp": null,
+                "DALL\u00b7E 2025-02-14 04.29.43 - A unique fantasy humanoid creature standing in a cinematic environment. The creature has tall, elegant features, with translucent skin that glows fain.webp": null,
+                "DALL\u00b7E 2025-02-14 04.31.18 - A unique fantasy humanoid creature standing in a cinematic environment. The creature has long, ethereal flowing hair that glows softly, with intricate.webp": null,
+                "DALL\u00b7E 2025-02-14 04.31.47 - A unique fantasy humanoid creature standing in an enchanting, cinematic environment. The creature has an elegant, otherworldly design with glowing tat.webp": null,
+                "DALL\u00b7E 2025-02-14 04.32.13 - A unique fantasy humanoid creature in a cinematic environment. The creature is tall and slender with iridescent scales that shift colors, ranging from.webp": null,
+                "DALL\u00b7E 2025-02-14 04.32.50 - A unique fantasy humanoid creature standing in a cinematic environment. The creature is tall and slender, with iridescent scales that shimmer in vario.webp": null,
+                "DALL\u00b7E 2025-02-14 04.33.41 - A unique fantasy humanoid creature in a cinematic environment. The creature has smooth, iridescent skin with a mix of vibrant colors, blending blue, p.webp": null,
+                "DALL\u00b7E 2025-02-14 04.34.13 - A unique fantasy humanoid creature with ethereal features, blending elements of both organic and magical forms. The creature has translucent skin that.webp": null,
+                "DALL\u00b7E 2025-02-14 04.34.52 - A unique fantasy humanoid warrior spiritual creature standing in a cinematic environment. The creature has intricate armor with glowing mystical symbo.webp": null,
+                "DALL\u00b7E 2025-02-14 04.35.30 - A unique fantasy warrior humanoid ethereal creature in a cinematic environment. The creature is tall and majestic, with glowing translucent skin and o.webp": null
+            },
             "faction_alkyne_111.png": null,
             "faction_sirutov_111.png": null,
+            "fiverr gig thumb 2.png": null,
             "genshin_impact_firstimpression.png": null,
             "genshin_impact_firstimpression2.png": null,
             "genshin_impact_update.png": null,
+            "grassymess.png": null,
+            "greenstreak.png": null,
             "hnkai_loading.png": null,
             "hnkai_scrnsht_colections.png": null,
+            "holyflowers.png": null,
             "images_12.jpeg": null,
             "IMG_20210824_193952.jpg": null,
             "IMG_20210910_205537_844.jpg": null,
             "InerTIA DriFT.png": null,
+            "mandelbrotweird.png": null,
+            "MandelEx - github og image 2.png": null,
+            "MandelEx - github og image.png": null,
             "mockup_ACBL_20210330-nontp.png": null,
             "mockup_CBEE_20210330.jpg": null,
             "mockup_PSN_20210401.jpg": null,
             "mu-xin.jpg": null,
+            "Muxday banner.png": null,
             "OIG1 (1).jpg": null,
             "OIG1 (2).jpg": null,
             "OIG2.b.jpg": null,
@@ -607,9 +509,14 @@
             "OIG4.h.jpg": null,
             "OIG4.jpg": null,
             "one-one-one-icon_orig.png": null,
+            "pixelgarbage.png": null,
+            "post1.jpg": null,
             "qe2e.jpg": null,
-            "wallpaper9.png": null,
+            "saturnrings.png": null,
+            "sliceofchaos.png": null,
             "mux": {
+                "black.png": null,
+                "blue.png": null,
                 "Data that Matters.jpg": null,
                 "Mux Anime logo icon 2025.png": null,
                 "Mux App logo icon 2025.png": null,
@@ -619,7 +526,3469 @@
                 "mux logo.svg": null,
                 "mux studios banner.png": null,
                 "Mux Studios logo icon 2025.png": null,
-                "mux.best_logo.png": null
+                "mux.best_logo.png": null,
+                "pink-gradient.png": null,
+                "purple-gradient.png": null
+            },
+            "wallpaper9.png": null,
+            "woodplank.png": null,
+            "woodplank_hued.png": null,
+            "wrappedarteries.png": null
+        },
+        "code": {
+            "assembly": {
+                "gui.asm": null,
+                "mandelbrot.asm": null,
+                "min.asm": null,
+                "min.o": null,
+                "min_binary": null
+            },
+            "roblox": {
+                "Broken.rbxl": null,
+                "Demon_Hunting_Paradise.rbxl": null,
+                "Goofy_Gunners.rbxl": null
+            },
+            "fortran": {
+                "CALCUS.f90": null,
+                "donut3": null,
+                "donut3.f90": null,
+                "template.f90": null,
+                "test.f90": null,
+                "1510": {
+                    "Lab02": {
+                        "rectangles": null,
+                        "rectangles.f90": null
+                    },
+                    "LabProb01": {
+                        "reals": null,
+                        "reals.f90": null
+                    },
+                    "LabProb03": {
+                        "loan": null,
+                        "loan.f90": null
+                    },
+                    "LabProb04": {
+                        "binomial": null,
+                        "binomial.f90": null
+                    },
+                    "Lab03": {
+                        "fibfun_1477000.txt": null,
+                        "fibonacci": null,
+                        "fibonacci.f90": null,
+                        "fibonacci_1000000.txt": null,
+                        "fibonacci_fun": null,
+                        "fibonacci_fun.f90": null
+                    },
+                    "LabProb02": {
+                        "LabProb02_rubric.pdf": null,
+                        "rebate": null,
+                        "rebate.f90": null,
+                        "rebate_v1.f90": null,
+                        "rebate_v2.f90": null
+                    },
+                    "LabProb05": {
+                        "binomial": null,
+                        "binomial.f90": null,
+                        "binomial_file.f90": null,
+                        "fort.1": null
+                    },
+                    "LabProb06": {
+                        "type_vector3d.mod": null,
+                        "vector3d": null,
+                        "vector3d.f90": null,
+                        "vector3d_module.f90": null,
+                        "vector3d_test.f90": null
+                    },
+                    "tester.f90": null,
+                    "ProbSet03": {
+                        "p.csv": null,
+                        "result.txt": null,
+                        "sineaccuracy": null,
+                        "sineaccuracy.f90": null,
+                        "spreadsheetwork.xlsx": null
+                    },
+                    "ProbSet04": {
+                        "collatz.f90": null,
+                        "libcollatz.so": null,
+                        "terminaloutput.txt": null,
+                        "test": null,
+                        "test.f90": null
+                    },
+                    "ProbSet01": {
+                        "COMP1510_P_1.pdf": null,
+                        "CS1510_ProblemSet01_DewanMukto_202004321.pdf": null,
+                        "CS1510_ProbSet01_DewanMukto_202004321.docx": null,
+                        "CS1510_ProbSet01_DewanMukto_202004321.odt": null,
+                        "CS1510_ProbSet01_DewanMukto_202004321.pdf": null,
+                        "energy": null,
+                        "energy.f90": null,
+                        "pendulum": null,
+                        "pendulum.f90": null,
+                        "pendulum_old.f90": null
+                    },
+                    "Lecture3": {
+                        "a.out": null,
+                        "lec3": null,
+                        "lec3.f90": null,
+                        "line_eqn": null,
+                        "line_eqn.f90": null,
+                        "line_eqn_compressed.f90": null,
+                        "macaulay.f90": null,
+                        "macaulay2": null,
+                        "macaulay2.f90": null,
+                        "subroutine": null,
+                        "subroutine.f90": null
+                    },
+                    "ProbSet02": {
+                        "COMP1510_P_2.pdf": null,
+                        "euler_inverse": null,
+                        "euler_inverse.f90": null,
+                        "euler_inverse_test": null,
+                        "euler_inverse_test.f90": null,
+                        "euler_inverse_test_v1.f90": null,
+                        "euler_inverse_v0.f90": null,
+                        "line_eqn": null,
+                        "line_eqn.f90": null,
+                        "ProbSet02_rubric.pdf": null,
+                        "toll_amt": null,
+                        "toll_amt.f90": null
+                    }
+                }
+            },
+            "php": {
+                "muxlink": {
+                    "index.php": null
+                },
+                "bracket": {
+                    "avatar.png": null,
+                    "chat.php": null,
+                    "db_connection.php": null,
+                    "db_init.sql": null,
+                    "css": {
+                        "chat.css": null,
+                        "index.css": null
+                    },
+                    "index.php": null,
+                    "img": {
+                        "background.jpg": null
+                    },
+                    "searchUsers.php": null,
+                    "js": {
+                        "chat.js": null,
+                        "index.js": null
+                    }
+                },
+                "baribhara": {
+                    "404.php": null,
+                    "add-property.php": null,
+                    "admin-dashboard.php": null,
+                    "admin-signin.php": null,
+                    "admin-signup.php": null,
+                    "admin_styles.css": null,
+                    "client-dashboard.php": null,
+                    "client-register.php": null,
+                    "client-signin.php": null,
+                    "client.php": null,
+                    "client_styles.css": null,
+                    "dbconnect.php": null,
+                    "db_init.sql": null,
+                    "delete-property.php": null,
+                    "edit-property.php": null,
+                    "get-property-details.php": null,
+                    "index.php": null,
+                    "index_1.html": null,
+                    "logout.php": null,
+                    "owner-dashboard.php": null,
+                    "owner-signin.php": null,
+                    "owner-signup.php": null,
+                    "process_payment.php": null,
+                    "scripts.js": null,
+                    "styles.css": null,
+                    "update-profile.php": null
+                }
+            },
+            "python": {
+                "asteroids.py": null,
+                "bookworm.py": null,
+                "browser.py": null,
+                "discordclient.py": null,
+                "discord_webhook.py": null,
+                "jammytube.py": null,
+                "Monty.py": null,
+                "dist": {
+                    "wifi_checker": null,
+                    "wifi_checker_linux": null,
+                    "wifi_checker_windows": null
+                },
+                "MuxRepeat_20250206_2.2.1.py": null,
+                "mygame.py": null,
+                "PrimeNumbers.py": null,
+                "oozbok": {
+                    "Oozbok.exe": null,
+                    "yip.ico": null
+                },
+                "pygobject.py": null,
+                "requester.py": null,
+                "requester_cli.py": null,
+                "painigger": {
+                    "automation.py": null,
+                    "gui.py": null,
+                    "__pycache__": {
+                        "automation.cpython-312.pyc": null
+                    }
+                },
+                "build": {
+                    "wifi_checker_linux": {
+                        "Analysis-00.toc": null,
+                        "base_library.zip": null,
+                        "EXE-00.toc": null,
+                        "PKG-00.toc": null,
+                        "PYZ-00.pyz": null,
+                        "PYZ-00.toc": null,
+                        "warn-wifi_checker_linux.txt": null,
+                        "localpycs": {
+                            "pyimod01_archive.pyc": null,
+                            "pyimod02_importers.pyc": null,
+                            "pyimod03_ctypes.pyc": null,
+                            "struct.pyc": null
+                        },
+                        "wifi_checker_linux.pkg": null,
+                        "xref-wifi_checker_linux.html": null
+                    },
+                    "wifi_checker": {
+                        "Analysis-00.toc": null,
+                        "base_library.zip": null,
+                        "EXE-00.toc": null,
+                        "PKG-00.toc": null,
+                        "PYZ-00.pyz": null,
+                        "PYZ-00.toc": null,
+                        "Tree-00.toc": null,
+                        "localpycs": {
+                            "pyimod01_archive.pyc": null,
+                            "pyimod02_importers.pyc": null,
+                            "pyimod03_ctypes.pyc": null,
+                            "struct.pyc": null
+                        },
+                        "Tree-01.toc": null,
+                        "warn-wifi_checker.txt": null,
+                        "wifi_checker.pkg": null,
+                        "xref-wifi_checker.html": null
+                    },
+                    "wifi_checker_windows": {
+                        "Analysis-00.toc": null,
+                        "base_library.zip": null,
+                        "EXE-00.toc": null,
+                        "PKG-00.toc": null,
+                        "PYZ-00.pyz": null,
+                        "PYZ-00.toc": null,
+                        "Tree-00.toc": null,
+                        "localpycs": {
+                            "pyimod01_archive.pyc": null,
+                            "pyimod02_importers.pyc": null,
+                            "pyimod03_ctypes.pyc": null,
+                            "struct.pyc": null
+                        },
+                        "Tree-01.toc": null,
+                        "warn-wifi_checker_windows.txt": null,
+                        "wifi_checker_windows.pkg": null,
+                        "xref-wifi_checker_windows.html": null
+                    }
+                },
+                "wholesale.py": null,
+                "WifiChecker.exe": null,
+                "Wholesale": {
+                    "inventory.py": null,
+                    "main.py": null
+                },
+                "wifi_checker.py": null,
+                "wifi_checker.spec": null,
+                "wifi_checker_cli.py": null,
+                "wifi_checker_linux.py": null,
+                "googformer": {
+                    "GoogFormer.exe": null,
+                    "GoogFormer.py": null,
+                    "GoogFormer_v0.py": null,
+                    "GoogFormer_v1.py": null,
+                    "GoogFormer_v2.1.py": null,
+                    "GoogFormer_v2.py": null,
+                    "GoogFormer_v3.1.py": null,
+                    "GoogFormer_v3.py": null,
+                    "GoogSheeter.py": null,
+                    "jackbus.py": null,
+                    "ooz.ico": null,
+                    "Oozbok.exe": null,
+                    "Oozbok.py": null,
+                    "Oozbok_v0.2.py": null,
+                    "Oozbok_vE.py": null,
+                    "sheet.xlsx": null,
+                    "Survey Sheet.xlsx": null,
+                    "yip.ico": null
+                },
+                "wifi_checker_linux.spec": null,
+                "wifi_checker_windows.py": null,
+                "wifi_checker_windows.spec": null,
+                "muxrepeat": {
+                    "automation.json": null,
+                    "automation2.json": null,
+                    "bladeball.json": null,
+                    "chat.json": null,
+                    "hiiamabot.json": null,
+                    "immaffkk.json": null,
+                    "dist": {
+                        "MuxRepeat.exe": null,
+                        "MuxRepeater.ico": null
+                    },
+                    "jjkshena.json": null,
+                    "MuxRepeat.py": null,
+                    "MuxRepeat.spec": null,
+                    "MuxRepeater.ico": null,
+                    "MuxRepeat_20250205_0.py": null,
+                    "MuxRepeat_20250206_0.py": null,
+                    "MuxRepeat_20250206_1.py": null,
+                    "build": {
+                        "MuxRepeat": {
+                            "Analysis-00.toc": null,
+                            "base_library.zip": null,
+                            "EXE-00.toc": null,
+                            "MuxRepeat.pkg": null,
+                            "PKG-00.toc": null,
+                            "PYZ-00.pyz": null,
+                            "PYZ-00.toc": null,
+                            "warn-MuxRepeat.txt": null,
+                            "localpycs": {
+                                "pyimod01_archive.pyc": null,
+                                "pyimod02_importers.pyc": null,
+                                "pyimod03_ctypes.pyc": null,
+                                "pyimod04_pywin32.pyc": null,
+                                "struct.pyc": null
+                            },
+                            "xref-MuxRepeat.html": null
+                        }
+                    },
+                    "MuxRepeat_20250206_2.1.py": null,
+                    "MuxRepeat_20250206_2.2.1.py": null,
+                    "MuxRepeat_20250206_2.2.py": null,
+                    "MuxRepeat_20250206_2.py": null,
+                    "Ohio_lol2.json": null,
+                    "Ohio_lolwalk3.json": null,
+                    "Ohio_walkjumplol.json": null,
+                    "rivalsshoot.json": null,
+                    "spinaround.json": null
+                }
+            },
+            "c": {
+                "2CAS": null,
+                "2cas.c": null,
+                "2dsim": null,
+                "2dsim.c": null,
+                "calculator": null,
+                "calculator.c": null,
+                "dronezone": null,
+                "dronezone.c": null,
+                "dronezone_0": null,
+                "dronezone_0.c": null,
+                "dronezone_ubuntu24_64bit": null,
+                "1510": {
+                    "LabProb07": {
+                        "product.c": null,
+                        "product_v1.c": null,
+                        "product_v2.c": null,
+                        "tester": null
+                    },
+                    "ProbSet05": {
+                        "palindrome.c": null,
+                        "palindrome_v1.c": null,
+                        "palindrome_v2.c": null,
+                        "palindrome_v3.c": null,
+                        "tester": null
+                    },
+                    "ProbSet06": {
+                        "divisibleby11.c": null,
+                        "divisibleby11_v1.c": null,
+                        "divisibleby11_v2.c": null,
+                        "divisibleby11_v3.c": null,
+                        "primenumbers.c": null,
+                        "tester": null
+                    },
+                    "QuizTesting": {
+                        "quiz7": null,
+                        "quiz7.c": null,
+                        "quiz8.c": null,
+                        "quiz8_2.c": null,
+                        "quiz9.c": null,
+                        "quiz9_2.c": null,
+                        "tester": null
+                    }
+                },
+                "drone_simulation": null,
+                "drone_simulation.c": null,
+                "empty": null,
+                "empty.c": null,
+                "font.ttf": null,
+                "gameoflife": null,
+                "gameoflife.c": null,
+                "hexeditor": null,
+                "hexeditor.c": null,
+                "highscore.txt": null,
+                "inventory.csv": null,
+                "inventory.txt": null,
+                "inventory_manager": null,
+                "inventory_manager.c": null,
+                "keyboard_backlight_sync.c": null,
+                "mandelbrot": null,
+                "mandelbrot.c": null,
+                "min.o": null,
+                "min_binary": null,
+                "peripheral_vision": null,
+                "peripheral_vision.c": null,
+                "primenumbers": null,
+                "primenumbers.c": null,
+                "quantum": null,
+                "quantum.c": null,
+                "rat_simulation": null,
+                "requester": null,
+                "requester.c": null,
+                "scare_rats.c": null,
+                "screenrecorder.c": null,
+                "screen_recorder_gtk": null,
+                "Sigmar-Regular.ttf": null,
+                "usb_probe": null,
+                "usb_probe.c": null,
+                "wholesale": null,
+                "wholesale.c": null,
+                "wific": null,
+                "wifichecker.c": null,
+                "wifi_checker": null,
+                "WineLauncher.c": null,
+                "wine_launcher": null
+            },
+            "nodejs": {
+                "Dolly": {
+                    "config.js": null,
+                    "core.js": null,
+                    "fixlater": {
+                        "messageCreate.js": null
+                    },
+                    "index.js": null,
+                    "notes.md": null,
+                    "handlers": {
+                        "loadCommands.js": null,
+                        "loadDistube.js": null,
+                        "loadEvents.js": null
+                    },
+                    "package-lock.json": null,
+                    "package.json": null,
+                    "Jobs": {
+                        "basic.json": null,
+                        "law.json": null,
+                        "specialist.json": null
+                    },
+                    "Gacha": {
+                        "characters.json": null,
+                        "common.json": null,
+                        "epic.json": null,
+                        "legendary.json": null,
+                        "rare.json": null,
+                        "uncommon.json": null
+                    },
+                    "serverinvites.txt": null,
+                    "events": {
+                        "guild": {
+                            "guildCreate.js": null,
+                            "messageCreate.js": null
+                        },
+                        "distube": {
+                            "addList.js": null,
+                            "addSong.js": null,
+                            "empty.js": null,
+                            "finish.js": null,
+                            "playSong.js": null,
+                            "searchNoResult.js": null
+                        },
+                        "client": {
+                            "disconnect.js": null,
+                            "ready.js": null,
+                            "reconnecting.js": null,
+                            "shardDisconnect.js": null,
+                            "shardError.js": null,
+                            "shardReady.js": null,
+                            "shardReconnecting.js": null,
+                            "shardResume.js": null,
+                            "voiceStateUpdate.js": null
+                        }
+                    },
+                    "structures": {
+                        "pagequeue.js": null
+                    },
+                    "whitelinks.json": null,
+                    "Shop": {
+                        "protection.json": null,
+                        "tools.json": null,
+                        "weapons.json": null
+                    },
+                    "commands": {
+                        "gacha": {
+                            "cardroll.js": null
+                        },
+                        "social": {
+                            "webhooktest.js": null
+                        },
+                        "fun": {
+                            "amongus.js": null,
+                            "meme.js": null,
+                            "nsfwmeme.js": null,
+                            "reddit.js": null
+                        },
+                        "account": {
+                            "balance.js": null,
+                            "cards.js": null,
+                            "createacc.js": null,
+                            "crimerecords.js": null,
+                            "inventory.js": null,
+                            "transfer.js": null
+                        },
+                        "economy": {
+                            "apply.js": null,
+                            "beg.js": null,
+                            "buy.js": null,
+                            "daily.js": null,
+                            "fish.js": null,
+                            "jobs.js": null,
+                            "rich.js": null,
+                            "sell.js": null,
+                            "shop.js": null,
+                            "steal.js": null,
+                            "work.js": null
+                        },
+                        "image": {
+                            "anime.js": null,
+                            "automobiles.js": null,
+                            "cats.js": null,
+                            "dogs.js": null,
+                            "ducks.js": null,
+                            "foxes.js": null,
+                            "husbando.js": null,
+                            "image.js": null,
+                            "nsfwwaifu.js": null,
+                            "owls.js": null,
+                            "rabbits.js": null,
+                            "waifu.js": null
+                        },
+                        "utility": {
+                            "authinfo.js": null,
+                            "avatar.js": null,
+                            "ban.js": null,
+                            "botinfo.js": null,
+                            "count.js": null,
+                            "countfrom.js": null,
+                            "delete.js": null,
+                            "domains.js": null,
+                            "emojistorm.js": null,
+                            "filterlist.js": null,
+                            "help.js": null,
+                            "invite.js": null,
+                            "kick.js": null,
+                            "leaveserver.js": null,
+                            "serverinvite.js": null,
+                            "serverwelcome.js": null,
+                            "showinvites.js": null,
+                            "stopbot.js": null,
+                            "template.js": null
+                        }
+                    },
+                    "UserAccs": {
+                        "1073392564251672639.json": null,
+                        "523963627913478184.json": null,
+                        "531811739746959360.json": null,
+                        "543841753350799500.json": null,
+                        "674660356819517440.json": null,
+                        "735485879946182758.json": null,
+                        "757148419277193218.json": null,
+                        "757540477279928330.json": null,
+                        "784119755111661569.json": null,
+                        "843549307415035925.json": null,
+                        "854404138107928576.json": null,
+                        "936329222048346163.json": null,
+                        "939812858034810880.json": null
+                    },
+                    "Serverwise": {
+                        "AlienX185's server 1": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Broken": {
+                            "broken-chat": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Bangjukti \ud83c\udde7\ud83c\udde9 \u09ac\u0999\u09cd\u0997\u099c\u09c1\u0995\u09cd\u09a4\u09bf": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "\u09a6\u09c8\u09a8\u09a8\u09cd\u09a6\u09bf\u09a8-\u099c\u09c0\u09ac\u09a8-\ud83c\udfe0": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Amrella HQ": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "chat-about-amrella": {
+                                "MESSAGES.log": null
+                            },
+                            "landing": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "CapTanTeChieF's Bot Testing server": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "bot-command": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "CooperBlackServers": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Delusitic HQ": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "commands": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "DeCyphered": {
+                            "general": {
+                                "MESSAGES.log": null
+                            },
+                            "kek": {
+                                "MESSAGES.log": null
+                            },
+                            "onboarding": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "checkibg": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            },
+                            "kek": {
+                                "MESSAGES.log": null
+                            },
+                            "land": {
+                                "MESSAGES.log": null
+                            },
+                            "raid": {
+                                "MESSAGES.log": null
+                            },
+                            "whitelist-links": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Dewan Mukto HQ": {
+                            "muktoposting": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udd12bot-testing": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udd12server": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "D'sCord": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "bot-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "casual-talk": {
+                                "MESSAGES.log": null
+                            },
+                            "isekai-bot": {
+                                "MESSAGES.log": null
+                            },
+                            "kspeak-bot": {
+                                "MESSAGES.log": null
+                            },
+                            "landing-portal": {
+                                "MESSAGES.log": null
+                            },
+                            "roguex-bot": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Game&Gain": {
+                            "bot-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "lobby": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "English Practising": {
+                            "count-to-infinity": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            },
+                            "music-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "promotion": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "FoxBot HQ": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "bug-reports": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            },
+                            "image-urls": {
+                                "MESSAGES.log": null
+                            },
+                            "protocols": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Gay Homies": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcacgeneral": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udd16all-bots": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Higher Heaven": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "commands": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Knightspeak Tavern": {
+                            "bot-testing": {
+                                "MESSAGES.log": null
+                            },
+                            "portal": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "GameAdda": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "\u300e\ud83c\udf89\u300fgiveaways": {
+                                "MESSAGES.log": null
+                            },
+                            "\u300e\ud83d\udcac\u300fgeneral": {
+                                "MESSAGES.log": null
+                            },
+                            "\u300e\ud83d\udd22\u300fcounting": {
+                                "MESSAGES.log": null
+                            },
+                            "\u300e\ud83d\ude02\u300fmemes": {
+                                "MESSAGES.log": null
+                            },
+                            "\u300e\ud83e\udd16\u300fbot-commands": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Just Us (Virtual Home with mates and a private room)": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "bot-place": {
+                                "MESSAGES.log": null
+                            },
+                            "general-chat": {
+                                "MESSAGES.log": null
+                            },
+                            "project-trees-025-not-finalised": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Life": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "arrivals-\ud83d\udeec": {
+                                "MESSAGES.log": null
+                            },
+                            "bot-commands-\ud83d\udcbb": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "MAC11's server": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "beats": {
+                                "MESSAGES.log": null
+                            },
+                            "robotknowledge": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Muktoverse [North America]": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "thoughts-n-opinions": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Music Server AMN": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "MUX Anime Studios [\ud83c\udde7\ud83c\udde9\ud83c\uddef\ud83c\uddf5]": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Miku Miku Land": {
+                            "appeals": {
+                                "MESSAGES.log": null
+                            },
+                            "bot-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            },
+                            "ideas-and-feedback": {
+                                "MESSAGES.log": null
+                            },
+                            "just-me": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "MuxDay Experimental server": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "New Yakuza \u65b0\u7740": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "weapons": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "MUN Bangladesh Community \ud83c\udde7\ud83c\udde9 MUNBDC": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "bot-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "music-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "post-memes": {
+                                "MESSAGES.log": null
+                            },
+                            "talk-\u0995\u09a5\u09be": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcbb-computer-science": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\ude8c-bus-and-taxi": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "nuke's server": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "commandments": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Royalty of Loyalty": {
+                            "bot-commands": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "TECCORD": {
+                            "\ud83c\udfbcmusic": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udd16bot-fun": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "MuxBots HQ": {
+                            "commands": {
+                                "MESSAGES.log": null
+                            },
+                            "drop-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "moderator-only": {
+                                "MESSAGES.log": null
+                            },
+                            "music": {
+                                "MESSAGES.log": null
+                            },
+                            "rules": {
+                                "MESSAGES.log": null
+                            },
+                            "sfzfzdfv": {
+                                "MESSAGES.log": null
+                            },
+                            "talk": {
+                                "MESSAGES.log": null
+                            },
+                            "vip-spam": {
+                                "MESSAGES.log": null
+                            },
+                            "vip-talk": {
+                                "MESSAGES.log": null
+                            },
+                            "welcome": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "The breaking bad RV": {
+                            "art": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "TahmidWah490's server": {
+                            "bot-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "bot-tests": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            },
+                            "invite-links": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Tempat Nongkrong": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "base-utama-\ud83d\uddff": {
+                                "MESSAGES.log": null
+                            },
+                            "mabar-lah": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "the imageboard": {
+                            "welcome": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "The Nit Zone": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "The Hypes": {
+                            "\ud83d\udca3spam": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcac\u2503general": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcf8\u2503media": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udd16\u2503commands": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Procrastination Palace": {
+                            "announcements": {
+                                "MESSAGES.log": null
+                            },
+                            "art-and-things": {
+                                "MESSAGES.log": null
+                            },
+                            "channel-or-role-ideas": {
+                                "MESSAGES.log": null
+                            },
+                            "chit-chat": {
+                                "MESSAGES.log": null
+                            },
+                            "chit-chat-dead-chat": {
+                                "MESSAGES.log": null
+                            },
+                            "cuddle-rp": {
+                                "MESSAGES.log": null
+                            },
+                            "memes": {
+                                "MESSAGES.log": null
+                            },
+                            "no-mic": {
+                                "MESSAGES.log": null
+                            },
+                            "programming-nerds": {
+                                "MESSAGES.log": null
+                            },
+                            "venting": {
+                                "MESSAGES.log": null
+                            },
+                            "vr-pics": {
+                                "MESSAGES.log": null
+                            },
+                            "welcum": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "VewDew Mine": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Vengeance's server": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "general": {
+                                "MESSAGES.log": null
+                            },
+                            "private": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "ValampZ's Dojo": {
+                            "\ud83c\udfbcmusic": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcc1lobby": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udda5techie-talk": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udd16bot-fun": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Walker Fans": {
+                            "dump": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Phoenix Nation": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "admin-chat": {
+                                "MESSAGES.log": null
+                            },
+                            "free-games": {
+                                "MESSAGES.log": null
+                            },
+                            "\u23f3-6-hours-chat": {
+                                "MESSAGES.log": null
+                            },
+                            "\u2705verify": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83c\udf88-funnnn-bot2-btw": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83c\udfa7-music-commands": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83c\udfb5-producer-socials": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83c\udfb5-submissions": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83c\udfba-just-doot": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcac-general-chat": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udce2-announcements": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcfa-phoenix-uploads": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udd17-drop-your-links": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\ude02-memes": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udd16-bot-commands": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "\u20b2\u20b3\u20a5\u0246\u2c64\u2c6b' \u2c60\u0246\u20b3\u20b2\u0244\u0246": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83c\udfb5music-requests\ud83c\udfb5": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "\u09aa\u09cd\u09b0\u099f\u0982 - Protong": {
+                            "fitness-challenge": {
+                                "MESSAGES.log": null
+                            },
+                            "random-pix": {
+                                "MESSAGES.log": null
+                            },
+                            "welcome": {
+                                "MESSAGES.log": null
+                            },
+                            "\u267ecount-to-infinity": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcacgeneral": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcda-book-resources": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcdaresources": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udd16system": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udeaapromotion": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "TheHypes": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "chatbot": {
+                                "MESSAGES.log": null
+                            },
+                            "counting": {
+                                "MESSAGES.log": null
+                            },
+                            "join-leave": {
+                                "MESSAGES.log": null
+                            },
+                            "no-mic": {
+                                "MESSAGES.log": null
+                            },
+                            "spam": {
+                                "MESSAGES.log": null
+                            },
+                            "\u26a1\ud83c\udfbchyperbass": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83c\udfac\u2503uploads": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udc51\u2503staff-chat": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcac\u2503general": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udcbe\u2503self-promotion": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udce8\u2503talk-with-staff": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udddd\u2503server-logs": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\ude02\u2503memes": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udd16\u2503commands": {
+                                "MESSAGES.log": null
+                            }
+                        },
+                        "Vibe Zone": {
+                            "ACTIVITIES": {
+                                "MESSAGES.log": null
+                            },
+                            "aotd": {
+                                "MESSAGES.log": null
+                            },
+                            "chubs-media-dump": {
+                                "MESSAGES.log": null
+                            },
+                            "facilitator-chat": {
+                                "MESSAGES.log": null
+                            },
+                            "message-logs": {
+                                "MESSAGES.log": null
+                            },
+                            "niko-fanart-compilation": {
+                                "MESSAGES.log": null
+                            },
+                            "qotd": {
+                                "MESSAGES.log": null
+                            },
+                            "reply": {
+                                "MESSAGES.log": null
+                            },
+                            "report-requests": {
+                                "MESSAGES.log": null
+                            },
+                            "snd-castle": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83c\udfaegame-related": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udce2announcements": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udd07no-mic": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udd8ccreations": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\udde3general": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83d\ude02memes": {
+                                "MESSAGES.log": null
+                            },
+                            "\ud83e\udd16bot": {
+                                "MESSAGES.log": null
+                            }
+                        }
+                    }
+                }
+            },
+            "java": {
+                "cantstop0318.jar": null,
+                "CantStopGame.jar": null,
+                "exam2code.jar": null,
+                "fireball.png": null,
+                "GlitchedVeclocity-CopperCube.png": null,
+                "jbluegit": null,
+                "lab8posted.jar": null,
+                "quicktips.md": null,
+                "blyat": {
+                    "CircleSimulator$1.class": null,
+                    "CircleSimulator$Circle.class": null,
+                    "CircleSimulator$Entity.class": null,
+                    "CircleSimulator.class": null,
+                    "CircleSimulator.ctxt": null,
+                    "CircleSimulator.java": null,
+                    "GamePanel.class": null,
+                    "GamePanel.ctxt": null,
+                    "GamePanel.java": null,
+                    "HexagonalTruchetPattern.class": null,
+                    "HexagonalTruchetPattern.ctxt": null,
+                    "HexagonalTruchetPattern.java": null,
+                    "package.bluej": null,
+                    "README.TXT": null,
+                    "ShaderVisualization.class": null,
+                    "ShaderVisualization.ctxt": null,
+                    "ShaderVisualization.java": null,
+                    "Simple3D.java": null
+                },
+                "ImageColor": {
+                    "about.html": null,
+                    "contact.html": null,
+                    "ImageColorInfoViewer$1.class": null,
+                    "ImageColorInfoViewer$2.class": null,
+                    "ImageColorInfoViewer.class": null,
+                    "ImageColorInfoViewer.ctxt": null,
+                    "ImageColorInfoViewer.java": null,
+                    "index.html": null,
+                    "package.bluej": null,
+                    "README.TXT": null,
+                    "styles.css": null
+                },
+                "MandelEx3": {
+                    "Enemy.class": null,
+                    "GamePanel.class": null,
+                    "GameState.class": null,
+                    "Item.class": null,
+                    "MandelbrotExplorer.class": null,
+                    "MandelbrotExplorer.ctxt": null,
+                    "MandelbrotExplorer.java": null,
+                    "package.bluej": null,
+                    "README.TXT": null
+                },
+                "ITWD": {
+                    "adam0.png": null,
+                    "banner.png": null,
+                    "GameMenu$1.class": null,
+                    "GameMenu$2.class": null,
+                    "GameMenu$Square.class": null,
+                    "GameMenu.class": null,
+                    "GameMenu.ctxt": null,
+                    "GameMenu.java": null,
+                    "inksplash.png": null,
+                    "ITWD-v0.1.jar": null,
+                    "Assets": {
+                        "adam.png": null,
+                        "click.wav": null,
+                        "cursor.png": null,
+                        "eternal.ttf": null,
+                        "Gugi.ttf": null,
+                        "help.txt": null,
+                        "hover.wav": null,
+                        "LeningradDisco.ttf": null,
+                        "theme.wav": null
+                    },
+                    "MANIFEST.MF": null,
+                    "package.bluej": null,
+                    "README.TXT": null
+                },
+                "wifichecker": {
+                    "package.bluej": null,
+                    "README.TXT": null,
+                    "WifiNetworksApp$Network.class": null,
+                    "WifiNetworksApp.class": null,
+                    "WifiNetworksApp.ctxt": null,
+                    "WifiNetworksApp.java": null
+                },
+                "InventoryApp": {
+                    "inventory.txt": null,
+                    "InventoryApp.class": null,
+                    "InventoryApp.ctxt": null,
+                    "InventoryApp.java": null,
+                    "InventoryForm$1.class": null,
+                    "InventoryForm$2.class": null,
+                    "InventoryForm$3.class": null,
+                    "InventoryForm.class": null,
+                    "InventoryForm.ctxt": null,
+                    "InventoryForm.java": null,
+                    "InventoryItem.class": null,
+                    "InventoryItem.ctxt": null,
+                    "InventoryItem.java": null,
+                    "inventory_report.txt": null,
+                    "package.bluej": null,
+                    "README.TXT": null
+                },
+                "textguigame": {
+                    "Game.class": null,
+                    "Game.ctxt": null,
+                    "Game.java": null,
+                    "package.bluej": null,
+                    "README.TXT": null,
+                    "TitleScreenHandler.class": null,
+                    "doc": {
+                        "allclasses.html": null,
+                        "constant-values.html": null,
+                        "element-list": null,
+                        "Game.html": null,
+                        "index.html": null,
+                        "logfile.txt": null,
+                        "package-summary.html": null,
+                        "script.js": null,
+                        "stylesheet.css": null
+                    }
+                },
+                "FractalGame3D": {
+                    "Fractal.class": null,
+                    "Fractal.ctxt": null,
+                    "Fractal.java": null,
+                    "Game.class": null,
+                    "Game.ctxt": null,
+                    "Game.java": null,
+                    "GameLoop.class": null,
+                    "GameLoop.ctxt": null,
+                    "GameLoop.java": null,
+                    "package.bluej": null,
+                    "Player.class": null,
+                    "Player.ctxt": null,
+                    "Player.java": null,
+                    "README.TXT": null,
+                    "Room.class": null,
+                    "Room.ctxt": null,
+                    "Room.java": null,
+                    "Vector.class": null,
+                    "Vector.ctxt": null,
+                    "Vector.java": null,
+                    "Wall.class": null,
+                    "Wall.ctxt": null,
+                    "Wall.java": null
+                },
+                "CantStop": {
+                    "Board.class": null,
+                    "Board.ctxt": null,
+                    "Board.java": null,
+                    "CantStop.iml": null,
+                    "Character.class": null,
+                    "Character.ctxt": null,
+                    "Character.java": null,
+                    "Dice.class": null,
+                    "Dice.ctxt": null,
+                    "Assets": {
+                        "1.png": null,
+                        "2.png": null,
+                        "3.png": null,
+                        "4.png": null,
+                        "5.png": null,
+                        "6.png": null,
+                        "7.png": null,
+                        "8.png": null,
+                        "spritesheet.png": null
+                    },
+                    "Dice.java": null,
+                    "Game.class": null,
+                    "Game.ctxt": null,
+                    "Game.java": null,
+                    "Main.class": null,
+                    "Main.ctxt": null,
+                    "Main.java": null,
+                    "Main_structure.puml": null,
+                    "Menu$1.class": null,
+                    "Menu$PlayerColumn.class": null,
+                    "Menu$PlayerInfo.class": null,
+                    "Menu$scrollBarUI.class": null,
+                    "Menu.class": null,
+                    "Menu.ctxt": null,
+                    "Menu.java": null,
+                    "Menu_structure.puml": null,
+                    "package.bluej": null,
+                    "PlayerInfo.class": null,
+                    "PlayerInfo.ctxt": null,
+                    "PlayerInfo.java": null,
+                    "README.TXT": null
+                },
+                "MandelEx2": {
+                    "Explorer.class": null,
+                    "Explorer.ctxt": null,
+                    "Explorer.java": null,
+                    "Main.class": null,
+                    "Main.ctxt": null,
+                    "Main.java": null,
+                    "MandelEx.jar": null,
+                    "MANIFEST.MF": null,
+                    "package.bluej": null,
+                    "README.MD": null,
+                    "README.TXT": null,
+                    "doc": {
+                        "copy.svg": null,
+                        "element-list": null,
+                        "image1.png": null,
+                        "index.html": null,
+                        "link.svg": null,
+                        "logfile.txt": null,
+                        "package-summary.html": null,
+                        "legal": {
+                            "ADDITIONAL_LICENSE_INFO": null,
+                            "ASSEMBLY_EXCEPTION": null,
+                            "LICENSE": null
+                        },
+                        "script.js": null,
+                        "serialized-form.html": null,
+                        "stylesheet.css": null
+                    },
+                    "Renderer.class": null,
+                    "Renderer.ctxt": null,
+                    "Renderer.java": null,
+                    "Settings$Mode.class": null,
+                    "Settings.class": null,
+                    "Settings.ctxt": null,
+                    "Settings.java": null
+                },
+                "MandelEx": {
+                    "ComplexNumber.class": null,
+                    "ComplexNumber.ctxt": null,
+                    "ComplexNumber.java": null,
+                    "MandelbrotExplorer.class": null,
+                    "MandelbrotExplorer.ctxt": null,
+                    "MandelbrotExplorer.java": null,
+                    "MandelbrotRenderer.class": null,
+                    "MandelbrotRenderer.ctxt": null,
+                    "MandelbrotRenderer.java": null,
+                    "MandelEx.class": null,
+                    "MandelEx.ctxt": null,
+                    "MandelEx.java": null,
+                    "package.bluej": null,
+                    "README.TXT": null,
+                    "Settings.class": null,
+                    "doc": {
+                        "copy.svg": null,
+                        "element-list": null,
+                        "index.html": null,
+                        "link.svg": null,
+                        "logfile.txt": null,
+                        "MandelbrotExplorer.html": null,
+                        "legal": {
+                            "ADDITIONAL_LICENSE_INFO": null,
+                            "ASSEMBLY_EXCEPTION": null,
+                            "LICENSE": null
+                        },
+                        "MandelbrotRenderer.html": null,
+                        "package-summary.html": null,
+                        "script.js": null,
+                        "serialized-form.html": null,
+                        "stylesheet.css": null
+                    },
+                    "Settings.ctxt": null,
+                    "Settings.java": null,
+                    "ZoomController.class": null,
+                    "ZoomController.ctxt": null,
+                    "ZoomController.java": null
+                },
+                "TopDown2D": {
+                    "Game.class": null,
+                    "Game.ctxt": null,
+                    "Game.java": null,
+                    "GamePanel.class": null,
+                    "GamePanel.ctxt": null,
+                    "GamePanel.java": null,
+                    "Minds.class": null,
+                    "Minds.ctxt": null,
+                    "Minds.java": null,
+                    "NPC.class": null,
+                    "NPC.ctxt": null,
+                    "NPC.java": null,
+                    "package.bluej": null,
+                    "Player.class": null,
+                    "Player.ctxt": null,
+                    "Player.java": null,
+                    "spritesheet.png": null
+                },
+                "2001": {
+                    "assign02_error_logs": null,
+                    "Lab03": {
+                        "package.bluej": null,
+                        "README.TXT": null,
+                        "team.defs": null,
+                        "grading": {
+                            "AnimalMonitorTest.java": null,
+                            "GradeValue.class": null,
+                            "GradeValue.ctxt": null,
+                            "GradeValue.java": null,
+                            "GradingTestWatcher.class": null,
+                            "GradingTestWatcher.ctxt": null,
+                            "GradingTestWatcher.java": null,
+                            "package.bluej": null,
+                            "ReportItem.class": null
+                        },
+                        "animal": {
+                            "AnimalMonitor.java": null,
+                            "AnimalMonitorInterface.java": null,
+                            "Lab3instructions.html": null,
+                            "Lab3instructions.md": null,
+                            "package-info.txt": null,
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "Sighting.java": null,
+                            "SightingReader.java": null,
+                            "sightings.csv": null
+                        }
+                    },
+                    "Assign03": {
+                        "asgn3instructions.html": null,
+                        "asgn3instructions.md": null,
+                        "Comment.class": null,
+                        "Comment.ctxt": null,
+                        "Comment.java": null,
+                        "package-info.txt": null,
+                        "package.bluej": null,
+                        "README.TXT": null,
+                        "SalesItem.class": null,
+                        "SalesItem.ctxt": null,
+                        "SalesItem.java": null,
+                        "SalesTest.class": null,
+                        "SalesTest.ctxt": null,
+                        "SalesTest.java": null,
+                        "team.defs": null
+                    },
+                    "Assign02": {
+                        "package.bluej": null,
+                        "README.TXT": null,
+                        "team.defs": null,
+                        "doc": {
+                            "element-list": null,
+                            "index.html": null,
+                            "logfile.txt": null,
+                            "script.js": null,
+                            "legal": {
+                                "ADDITIONAL_LICENSE_INFO": null,
+                                "ASSEMBLY_EXCEPTION": null,
+                                "LICENSE": null
+                            },
+                            "stylesheet.css": null,
+                            "registrar": {
+                                "CollegeRecords.html": null,
+                                "package-summary.html": null
+                            }
+                        },
+                        "grading": {
+                            "CollegeRecordsTest.class": null,
+                            "CollegeRecordsTest.ctxt": null,
+                            "CollegeRecordsTest.java": null,
+                            "GradeValue.class": null,
+                            "GradeValue.ctxt": null,
+                            "GradeValue.java": null,
+                            "GradingTestWatcher.class": null,
+                            "GradingTestWatcher.ctxt": null,
+                            "GradingTestWatcher.java": null,
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "ReportItem.class": null
+                        },
+                        "registrar": {
+                            "asgn2instructions.html": null,
+                            "asgn2instructions.md": null,
+                            "CollegeRecords.class": null,
+                            "CollegeRecords.ctxt": null,
+                            "CollegeRecords.java": null,
+                            "CollegeRecordsInterface.class": null,
+                            "CollegeRecordsInterface.ctxt": null,
+                            "CollegeRecordsInterface.java": null,
+                            "package-info.txt": null,
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "Registration.class": null,
+                            "Registration.ctxt": null,
+                            "Registration.java": null
+                        }
+                    },
+                    "Assign01": {
+                        "package.bluej": null,
+                        "README.TXT": null,
+                        "team.defs": null,
+                        "doc": {
+                            "allclasses.html": null,
+                            "constant-values.html": null,
+                            "element-list": null,
+                            "index.html": null,
+                            "logfile.txt": null,
+                            "script.js": null,
+                            "stylesheet.css": null,
+                            "inventory": {
+                                "package-summary.html": null,
+                                "StockManager.html": null,
+                                "StockManagerInterface.html": null
+                            }
+                        },
+                        "grading": {
+                            "GradeValue.class": null,
+                            "GradeValue.java": null,
+                            "GradingTestWatcher.class": null,
+                            "GradingTestWatcher.java": null,
+                            "package.bluej": null,
+                            "ReportItem.class": null,
+                            "StockManagerTest.class": null,
+                            "StockManagerTest.java": null
+                        },
+                        "inventory": {
+                            "asgn1instruction.html": null,
+                            "asgn1instruction.md": null,
+                            "package-info.txt": null,
+                            "package.bluej": null,
+                            "Product.class": null,
+                            "Product.java": null,
+                            "products.iml": null,
+                            "README.TXT": null,
+                            "StockData.class": null,
+                            "StockData.java": null,
+                            "StockDemo.class": null,
+                            "StockDemo.ctxt": null,
+                            "StockDemo.java": null,
+                            "StockManager.class": null,
+                            "StockManager.ctxt": null,
+                            "StockManager.java": null,
+                            "StockManagerInterface.class": null,
+                            "StockManagerInterface.java": null
+                        }
+                    },
+                    "Lab02": {
+                        "package.bluej": null,
+                        "README.TXT": null,
+                        "team.defs": null,
+                        "club": {
+                            "Club.class": null,
+                            "Club.java": null,
+                            "ClubDemo.java": null,
+                            "ClubInterface.class": null,
+                            "ClubInterface.java": null,
+                            "lab2instructions.html": null,
+                            "lab2instructions.md": null,
+                            "Membership.class": null,
+                            "Membership.java": null,
+                            "package-info.txt": null,
+                            "package.bluej": null,
+                            "README.TXT": null
+                        },
+                        "grading": {
+                            "ClubTest.class": null,
+                            "ClubTest.ctxt": null,
+                            "ClubTest.java": null,
+                            "CompleteClubTest.class": null,
+                            "CompleteClubTest.ctxt": null,
+                            "CompleteClubTest.java": null,
+                            "GradeValue.class": null,
+                            "GradeValue.ctxt": null,
+                            "GradeValue.java": null,
+                            "GradingTestWatcher.class": null,
+                            "GradingTestWatcher.ctxt": null,
+                            "GradingTestWatcher.java": null,
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "ReportItem.class": null
+                        }
+                    },
+                    "Lab04": {
+                        "package.bluej": null,
+                        "README.TXT": null,
+                        "team.defs": null,
+                        "grading": {
+                            "GradeValue.class": null,
+                            "GradeValue.ctxt": null,
+                            "GradeValue.java": null,
+                            "GradingTestWatcher.class": null,
+                            "GradingTestWatcher.ctxt": null,
+                            "GradingTestWatcher.java": null,
+                            "package.bluej": null,
+                            "ReportItem.class": null,
+                            "ResponderData.class": null,
+                            "ResponderTest.class": null,
+                            "ResponderTest.ctxt": null,
+                            "ResponderTest.java": null
+                        },
+                        "techsupport4": {
+                            "InputReader.class": null,
+                            "InputReader.ctxt": null,
+                            "InputReader.java": null,
+                            "lab4instructions.html": null,
+                            "lab4instructions.md": null,
+                            "package-info.txt": null,
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "Responder.class": null,
+                            "Responder.ctxt": null,
+                            "Responder.java": null,
+                            "SupportSystem.class": null,
+                            "SupportSystem.ctxt": null,
+                            "SupportSystem.java": null
+                        }
+                    },
+                    "LabExam01": {
+                        "exam1nstructions.html": null,
+                        "exam1nstructions.md": null,
+                        "package.bluej": null,
+                        "README.TXT": null,
+                        "team.defs": null,
+                        "registrar": {
+                            "CollegeData.class": null,
+                            "CollegeData.ctxt": null,
+                            "CollegeData.java": null,
+                            "CollegeRecords.class": null,
+                            "CollegeRecords.ctxt": null,
+                            "CollegeRecords.java": null,
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "Registration.class": null,
+                            "Registration.ctxt": null,
+                            "Registration.java": null
+                        },
+                        "techsupport4": {
+                            "InputReader.class": null,
+                            "InputReader.ctxt": null,
+                            "InputReader.java": null,
+                            "lab4instructions.html": null,
+                            "lab4instructions.md": null,
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "Responder.class": null,
+                            "Responder.ctxt": null,
+                            "Responder.java": null,
+                            "SupportSystem.class": null,
+                            "SupportSystem.ctxt": null,
+                            "SupportSystem.java": null
+                        },
+                        "grading": {
+                            "ExamRegistrarTests.class": null,
+                            "ExamRegistrarTests.ctxt": null,
+                            "ExamRegistrarTests.java": null,
+                            "ExamResponderTest.class": null,
+                            "ExamResponderTest.ctxt": null,
+                            "ExamResponderTest.java": null,
+                            "ExamSetterTests.class": null,
+                            "ExamSetterTests.ctxt": null,
+                            "ExamSetterTests.java": null,
+                            "GradeValue.class": null,
+                            "GradeValue.ctxt": null,
+                            "GradeValue.java": null,
+                            "GradingTestWatcher.class": null,
+                            "GradingTestWatcher.ctxt": null,
+                            "GradingTestWatcher.java": null,
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "ReportItem.class": null,
+                            "ResponderData.class": null
+                        }
+                    },
+                    "Lab01": {
+                        "testing_code_pad": {
+                            "package.bluej": null,
+                            "README.TXT": null
+                        },
+                        "comp2001-lab1": {
+                            "lab1distro5.iml": null,
+                            "images": {
+                                "BK1.png": null
+                            },
+                            "package.bluej": null,
+                            "README.TXT": null,
+                            "team.defs": null,
+                            "doc": {
+                                "allclasses.html": null,
+                                "constant-values.html": null,
+                                "element-list": null,
+                                "index.html": null,
+                                "logfile.txt": null,
+                                "script.js": null,
+                                "stylesheet.css": null,
+                                "mailtoo": {
+                                    "MailClientInterface.html": null,
+                                    "package-summary.html": null
+                                }
+                            },
+                            "grading": {
+                                "GradeValue.class": null,
+                                "GradeValue.ctxt": null,
+                                "GradeValue.java": null,
+                                "GradingTestWatcher.class": null,
+                                "GradingTestWatcher.ctxt": null,
+                                "GradingTestWatcher.java": null,
+                                "MailTest.class": null,
+                                "MailTest.ctxt": null,
+                                "MailTest.java": null,
+                                "package.bluej": null,
+                                "README.TXT": null,
+                                "ReportItem.class": null
+                            },
+                            "mailtoo": {
+                                "Lab1Instructions.html": null,
+                                "Lab1Instructions.md": null,
+                                "MailClient.class": null,
+                                "MailClient.ctxt": null,
+                                "MailClient.java": null,
+                                "MailClientInterface.class": null,
+                                "MailClientInterface.ctxt": null,
+                                "MailClientInterface.java": null,
+                                "MailItem.class": null,
+                                "MailItem.java": null,
+                                "MailServer.class": null,
+                                "MailServer.java": null,
+                                "package.bluej": null,
+                                "README.TXT": null
+                            }
+                        },
+                        "lab_1_picture": {
+                            "Canvas$1.class": null,
+                            "Canvas$CanvasPane.class": null,
+                            "Canvas$ShapeDescription.class": null,
+                            "Canvas.class": null,
+                            "Canvas.ctxt": null,
+                            "Canvas.java": null,
+                            "Circle.class": null,
+                            "Circle.ctxt": null,
+                            "Circle.java": null,
+                            "MyPicture.class": null,
+                            "MyPicture.ctxt": null,
+                            "MyPicture.java": null,
+                            "package.bluej": null,
+                            "Person.class": null,
+                            "Person.ctxt": null,
+                            "Person.java": null,
+                            "README.TXT": null,
+                            "Square.class": null,
+                            "Square.ctxt": null,
+                            "Square.java": null,
+                            "doc": {
+                                "allclasses.html": null,
+                                "Circle.html": null,
+                                "constant-values.html": null,
+                                "element-list": null,
+                                "index.html": null,
+                                "logfile.txt": null,
+                                "MyPicture.html": null,
+                                "package-summary.html": null,
+                                "Person.html": null,
+                                "script.js": null,
+                                "stylesheet.css": null
+                            },
+                            "Triangle.class": null,
+                            "Triangle.ctxt": null,
+                            "Triangle.java": null
+                        }
+                    },
+                    "Assign4": {
+                        "asgn4instructions.html": null,
+                        "asgn4instructions.md": null,
+                        "package.bluej": null,
+                        "README.TXT": null,
+                        "team.defs": null,
+                        "grading": {
+                            "ControllerTest.class": null,
+                            "ControllerTest.ctxt": null,
+                            "ControllerTest.java": null,
+                            "GradeValue.class": null,
+                            "GradeValue.ctxt": null,
+                            "GradeValue.java": null,
+                            "GradingTestWatcher.class": null,
+                            "GradingTestWatcher.ctxt": null,
+                            "GradingTestWatcher.java": null,
+                            "package.bluej": null,
+                            "ReportItem.class": null,
+                            "SwUtils.class": null
+                        },
+                        "sim": {
+                            "Animal.class": null,
+                            "Animal.ctxt": null,
+                            "Animal.java": null,
+                            "AnimalCollector.class": null,
+                            "AnimalCollector.ctxt": null,
+                            "AnimalCollector.java": null,
+                            "Counter.class": null,
+                            "Counter.ctxt": null,
+                            "Counter.java": null,
+                            "Field.class": null,
+                            "Field.ctxt": null,
+                            "Field.java": null,
+                            "FieldStats.class": null,
+                            "FieldStats.ctxt": null,
+                            "FieldStats.java": null,
+                            "Fox.class": null,
+                            "Fox.ctxt": null,
+                            "Fox.java": null,
+                            "Location.class": null,
+                            "Location.ctxt": null,
+                            "Location.java": null,
+                            "package-info.txt": null,
+                            "package.bluej": null,
+                            "Rabbit.class": null,
+                            "Rabbit.ctxt": null,
+                            "Rabbit.java": null,
+                            "Randomizer.class": null,
+                            "Randomizer.ctxt": null,
+                            "Randomizer.java": null,
+                            "README.TXT": null,
+                            "SimController.class": null,
+                            "SimController.ctxt": null,
+                            "SimController.java": null,
+                            "Simulator.class": null,
+                            "Simulator.ctxt": null,
+                            "Simulator.java": null,
+                            "SimulatorOutp$FieldView.class": null,
+                            "SimulatorOutp.class": null,
+                            "SimulatorOutp.ctxt": null,
+                            "SimulatorOutp.java": null,
+                            "SimulatorView$FieldView.class": null,
+                            "SimulatorView.class": null,
+                            "SimulatorView.ctxt": null,
+                            "SimulatorView.java": null
+                        }
+                    }
+                },
+                "Delta": {
+                    "Character.class": null,
+                    "Character.ctxt": null,
+                    "Character.java": null,
+                    "CosmicNebulaEffect.class": null,
+                    "CosmicNebulaEffect.ctxt": null,
+                    "CosmicNebulaEffect.java": null,
+                    "CursedFlameEffect.class": null,
+                    "CursedFlameEffect.ctxt": null,
+                    "CursedFlameEffect.java": null,
+                    "Assets": {
+                        "1.png": null,
+                        "2.png": null,
+                        "3.png": null,
+                        "4.png": null,
+                        "5.png": null,
+                        "6.png": null,
+                        "7.png": null,
+                        "8.png": null,
+                        "spritesheet.png": null
+                    },
+                    "DeltaTelekom-v0.1.4.jar": null,
+                    "DialogueNode.class": null,
+                    "DialogueNode.ctxt": null,
+                    "DialogueNode.java": null,
+                    "ElectricShockEffect.class": null,
+                    "ElectricShockEffect.ctxt": null,
+                    "ElectricShockEffect.java": null,
+                    "ElectricStormEffect.class": null,
+                    "ElectricStormEffect.ctxt": null,
+                    "ElectricStormEffect.java": null,
+                    "FieryEmberEffect.class": null,
+                    "FieryEmberEffect.ctxt": null,
+                    "FieryEmberEffect.java": null,
+                    "FloatingBubblesEffect$Bubble.class": null,
+                    "doc": {
+                        "copy.svg": null,
+                        "element-list": null,
+                        "index.html": null,
+                        "link.svg": null,
+                        "logfile.txt": null,
+                        "package-summary.html": null,
+                        "legal": {
+                            "ADDITIONAL_LICENSE_INFO": null,
+                            "ASSEMBLY_EXCEPTION": null,
+                            "LICENSE": null
+                        },
+                        "Player.html": null,
+                        "script.js": null,
+                        "stylesheet.css": null
+                    },
+                    "FloatingBubblesEffect.class": null,
+                    "FloatingBubblesEffect.ctxt": null,
+                    "FloatingBubblesEffect.java": null,
+                    "FractalPixelArtScene.class": null,
+                    "FractalPixelArtScene.ctxt": null,
+                    "FractalPixelArtScene.java": null,
+                    "Game.class": null,
+                    "Game.ctxt": null,
+                    "Game.java": null,
+                    "Main.class": null,
+                    "Main.ctxt": null,
+                    "Main.java": null,
+                    "MANIFEST.MF": null,
+                    "Menu$1.class": null,
+                    "Menu$CustomScrollBarUI.class": null,
+                    "Menu.class": null,
+                    "Menu.ctxt": null,
+                    "Menu.java": null,
+                    "MessagePanel$1.class": null,
+                    "MessagePanel.class": null,
+                    "MessagePanel.ctxt": null,
+                    "MessagePanel.java": null,
+                    "MysticalWaterfallEffect.class": null,
+                    "MysticalWaterfallEffect.ctxt": null,
+                    "MysticalWaterfallEffect.java": null,
+                    "NPC.class": null,
+                    "NPC.ctxt": null,
+                    "NPC.java": null,
+                    "package.bluej": null,
+                    "ParticleEffect$Particle.class": null,
+                    "ParticleEffect.class": null,
+                    "ParticleEffect.ctxt": null,
+                    "ParticleEffect.java": null,
+                    "ParticleSystem$Particle.class": null,
+                    "ParticleSystem.class": null,
+                    "ParticleSystem.ctxt": null,
+                    "ParticleSystem.java": null,
+                    "PerlinStarfieldEffect$Star.class": null,
+                    "PerlinStarfieldEffect.class": null,
+                    "PerlinStarfieldEffect.ctxt": null,
+                    "PerlinStarfieldEffect.java": null,
+                    "PixelFireballEffect.class": null,
+                    "PixelFireballEffect.ctxt": null,
+                    "PixelFireballEffect.java": null,
+                    "PixelRaindropEffect.class": null,
+                    "PixelRaindropEffect.ctxt": null,
+                    "PixelRaindropEffect.java": null,
+                    "PixelStarryNightEffect.class": null,
+                    "PixelStarryNightEffect.ctxt": null,
+                    "PixelStarryNightEffect.java": null,
+                    "PixelTorchlightEffect.class": null,
+                    "PixelTorchlightEffect.ctxt": null,
+                    "PixelTorchlightEffect.java": null,
+                    "PixelWaterRippleEffect$1.class": null,
+                    "PixelWaterRippleEffect$Ripple.class": null,
+                    "PixelWaterRippleEffect.class": null,
+                    "PixelWaterRippleEffect.ctxt": null,
+                    "PixelWaterRippleEffect.java": null,
+                    "Player.class": null,
+                    "Player.ctxt": null,
+                    "Player.java": null,
+                    "RadiantLightningEffect.class": null,
+                    "RadiantLightningEffect.ctxt": null,
+                    "RadiantLightningEffect.java": null,
+                    "RadiantMagicalAuraEffect.class": null,
+                    "RadiantMagicalAuraEffect.ctxt": null,
+                    "RadiantMagicalAuraEffect.java": null,
+                    "README.TXT": null,
+                    "StarfieldEffect$Star.class": null,
+                    "StarfieldEffect.class": null,
+                    "StarfieldEffect.ctxt": null,
+                    "StarfieldEffect.java": null,
+                    "UnderwaterDistortionEffect.class": null,
+                    "UnderwaterDistortionEffect.ctxt": null,
+                    "UnderwaterDistortionEffect.java": null,
+                    "WaterfallEffect.class": null,
+                    "WaterfallEffect.ctxt": null,
+                    "WaterfallEffect.java": null,
+                    "WavesEffect.class": null,
+                    "WavesEffect.ctxt": null,
+                    "WavesEffect.java": null
+                }
+            },
+            "c++": {
+                "2CAS": null,
+                "2cas.cpp": null,
+                "2dgame": null,
+                "2dgame.cpp": null,
+                "android_screen_mirror": null,
+                "android_screen_mirror.cpp": null,
+                "calculator": null,
+                "calculator.cpp": null,
+                "crowd_simulator": null,
+                "crowd_simulator.cpp": null,
+                "database_invmgmt.invdata": null,
+                "database_invmgmt.txt": null,
+                "fractal_explorer": null,
+                "fractal_explorer.cpp": null,
+                "grapher": null,
+                "grapher.cpp": null,
+                "inventory_manager": null,
+                "inventory_manager.cpp": null,
+                "levelofdetail": null,
+                "levelofdetail.cpp": null,
+                "Mandelbrot Explorer": {
+                    "libgcc_s_seh-1.dll": null,
+                    "libstdc++-6.dll": null,
+                    "libwinpthread-1.dll": null,
+                    "mandelbrot.cpp": null,
+                    "mandelbrot.exe": null,
+                    "MandelEx": null,
+                    "MandelEx.zip": null,
+                    "sfml-graphics-2.dll": null,
+                    "sfml-system-2.dll": null,
+                    "sfml-window-2.dll": null
+                },
+                "Discord Bot": {
+                    "config.h": null,
+                    "discord_bot": null,
+                    "main.cpp": null,
+                    "DPP": {
+                        "CMakeLists.txt": null,
+                        "CMakeSettings.json": null,
+                        "CODE_OF_CONDUCT.md": null,
+                        "CONTRIBUTING.md": null,
+                        "Dockerfile": null,
+                        "Doxyfile": null,
+                        "doxygen-awesome-css": {},
+                        "dpp.pc.in": null,
+                        "library": {
+                            "CMakeLists.txt": null
+                        },
+                        "LICENSE": null,
+                        "library-vcpkg": {
+                            "CMakeLists.txt": null
+                        },
+                        "makerelease.sh": null,
+                        "cmake": {
+                            "ARM64ToolChain.cmake": null,
+                            "ARMv6ToolChain.cmake": null,
+                            "ARMv7ToolChain.cmake": null,
+                            "colour.cmake": null,
+                            "CPackSetup.cmake": null,
+                            "DetectArchitecture.cmake": null,
+                            "dpp-config.cmake": null,
+                            "dppConfig.cmake.in": null,
+                            "FindOpus.cmake": null,
+                            "FindSodium.cmake": null,
+                            "LINUXx86ToolChain.cmake": null,
+                            "PostInstall.cmake": null,
+                            "Win32Toolchain.cmake": null,
+                            "Raw-Files": {
+                                "dpp.json": null
+                            }
+                        },
+                        "README.md": null,
+                        "buildtools": {
+                            "changelog.php": null,
+                            "composer.json": null,
+                            "emojis.php": null,
+                            "make_struct.php": null,
+                            "classes": {
+                                "StructGeneratorInterface.php": null,
+                                "Generator": {
+                                    "CoroGenerator.php": null,
+                                    "SyncGenerator.php": null
+                                },
+                                "Packager": {
+                                    "Vcpkg.php": null
+                                }
+                            },
+                            "make_vcpkg.php": null,
+                            "vendor": {
+                                "autoload.php": null,
+                                "composer": {
+                                    "autoload_classmap.php": null,
+                                    "autoload_namespaces.php": null,
+                                    "autoload_psr4.php": null,
+                                    "autoload_real.php": null,
+                                    "autoload_static.php": null,
+                                    "ClassLoader.php": null,
+                                    "LICENSE": null
+                                }
+                            }
+                        },
+                        "SECURITY.md": null,
+                        "settings.json": null,
+                        "sign.sh": null,
+                        "testdata": {
+                            "DPP-Logo.png": null,
+                            "Robot.pcm": null
+                        },
+                        "vcpkg": {
+                            "ports": {
+                                "dpp": {
+                                    "portfile.cmake": null,
+                                    "vcpkg.json": null
+                                }
+                            },
+                            "versions": {
+                                "baseline.json": null,
+                                "d-": {
+                                    "dpp.json": null
+                                }
+                            }
+                        },
+                        "include": {
+                            "dpp": {
+                                "appcommand.h": null,
+                                "application.h": null,
+                                "auditlog.h": null,
+                                "automod.h": null,
+                                "ban.h": null,
+                                "bignum.h": null,
+                                "cache.h": null,
+                                "channel.h": null,
+                                "cluster.h": null,
+                                "cluster_coro_calls.h": null,
+                                "cluster_sync_calls.h": null,
+                                "collector.h": null,
+                                "colors.h": null,
+                                "commandhandler.h": null,
+                                "coro.h": null,
+                                "discordclient.h": null,
+                                "discordevents.h": null,
+                                "discordvoiceclient.h": null,
+                                "dispatcher.h": null,
+                                "dns.h": null,
+                                "dpp.h": null,
+                                "coro": {
+                                    "async.h": null,
+                                    "awaitable.h": null,
+                                    "coro.h": null,
+                                    "coroutine.h": null,
+                                    "job.h": null,
+                                    "task.h": null,
+                                    "when_any.h": null
+                                },
+                                "dtemplate.h": null,
+                                "emoji.h": null,
+                                "entitlement.h": null,
+                                "etf.h": null,
+                                "event.h": null,
+                                "event_router.h": null,
+                                "exception.h": null,
+                                "export.h": null,
+                                "guild.h": null,
+                                "httpsclient.h": null,
+                                "integration.h": null,
+                                "intents.h": null,
+                                "invite.h": null,
+                                "isa_detection.h": null,
+                                "json.h": null,
+                                "json_fwd.h": null,
+                                "json_interface.h": null,
+                                "managed.h": null,
+                                "isa": {
+                                    "avx.h": null,
+                                    "avx2.h": null,
+                                    "avx512.h": null,
+                                    "fallback.h": null,
+                                    "neon.h": null
+                                },
+                                "message.h": null,
+                                "misc-enum.h": null,
+                                "once.h": null,
+                                "permissions.h": null,
+                                "nlohmann": {
+                                    "json.hpp": null,
+                                    "json_fwd.hpp": null
+                                },
+                                "presence.h": null,
+                                "prune.h": null,
+                                "queues.h": null,
+                                "restrequest.h": null,
+                                "restresults.h": null,
+                                "role.h": null,
+                                "scheduled_event.h": null,
+                                "sku.h": null,
+                                "snowflake.h": null,
+                                "socket.h": null,
+                                "sslclient.h": null,
+                                "stage_instance.h": null,
+                                "stringops.h": null,
+                                "sync.h": null,
+                                "sysdep.h": null,
+                                "thread.h": null,
+                                "timed_listener.h": null,
+                                "timer.h": null,
+                                "unicode_emoji.h": null,
+                                "user.h": null,
+                                "utility.h": null,
+                                "version.h": null,
+                                "voiceregion.h": null,
+                                "voicestate.h": null,
+                                "webhook.h": null,
+                                "win32_safe_warnings.h": null,
+                                "wsclient.h": null
+                            }
+                        },
+                        "src": {
+                            "coro_loop": {
+                                "coro_loop.cpp": null
+                            },
+                            "soaktest": {
+                                "soak.cpp": null
+                            },
+                            "unittest": {
+                                "coro.cpp": null,
+                                "test.cpp": null,
+                                "test.h": null,
+                                "unittest.cpp": null
+                            },
+                            "dpp": {
+                                "application.cpp": null,
+                                "auditlog.cpp": null,
+                                "automod.cpp": null,
+                                "ban.cpp": null,
+                                "bignum.cpp": null,
+                                "cache.cpp": null,
+                                "channel.cpp": null,
+                                "cluster.cpp": null,
+                                "cluster_coro_calls.cpp": null,
+                                "cluster_sync_calls.cpp": null,
+                                "commandhandler.cpp": null,
+                                "discordclient.cpp": null,
+                                "discordevents.cpp": null,
+                                "discordvoiceclient.cpp": null,
+                                "dispatcher.cpp": null,
+                                "dns.cpp": null,
+                                "dpp.rc.in": null,
+                                "dtemplate.cpp": null,
+                                "emoji.cpp": null,
+                                "entitlement.cpp": null,
+                                "etf.cpp": null,
+                                "guild.cpp": null,
+                                "httpsclient.cpp": null,
+                                "integration.cpp": null,
+                                "invite.cpp": null,
+                                "message.cpp": null,
+                                "permissions.cpp": null,
+                                "presence.cpp": null,
+                                "prune.cpp": null,
+                                "queues.cpp": null,
+                                "cluster": {
+                                    "appcommand.cpp": null,
+                                    "automod.cpp": null,
+                                    "channel.cpp": null,
+                                    "confirmation.cpp": null,
+                                    "dm.cpp": null,
+                                    "emoji.cpp": null,
+                                    "entitlement.cpp": null,
+                                    "gateway.cpp": null,
+                                    "guild.cpp": null,
+                                    "guild_member.cpp": null,
+                                    "invite.cpp": null,
+                                    "json_interface.cpp": null,
+                                    "message.cpp": null,
+                                    "role.cpp": null,
+                                    "scheduled_event.cpp": null,
+                                    "sku.cpp": null,
+                                    "stage_instance.cpp": null,
+                                    "sticker.cpp": null,
+                                    "template.cpp": null,
+                                    "thread.cpp": null,
+                                    "timer.cpp": null,
+                                    "user.cpp": null,
+                                    "voice.cpp": null,
+                                    "webhook.cpp": null
+                                },
+                                "role.cpp": null,
+                                "scheduled_event.cpp": null,
+                                "sku.cpp": null,
+                                "slashcommand.cpp": null,
+                                "snowflake.cpp": null,
+                                "sslclient.cpp": null,
+                                "stage_instance.cpp": null,
+                                "thread.cpp": null,
+                                "user.cpp": null,
+                                "utility.cpp": null,
+                                "voiceregion.cpp": null,
+                                "voicestate.cpp": null,
+                                "webhook.cpp": null,
+                                "wsclient.cpp": null,
+                                "events": {
+                                    "automod_rule_create.cpp": null,
+                                    "automod_rule_delete.cpp": null,
+                                    "automod_rule_execute.cpp": null,
+                                    "automod_rule_update.cpp": null,
+                                    "channel_create.cpp": null,
+                                    "channel_delete.cpp": null,
+                                    "channel_pins_update.cpp": null,
+                                    "channel_update.cpp": null,
+                                    "entitlement_create.cpp": null,
+                                    "entitlement_delete.cpp": null,
+                                    "entitlement_update.cpp": null,
+                                    "guild_audit_log_entry_create.cpp": null,
+                                    "guild_ban_add.cpp": null,
+                                    "guild_ban_remove.cpp": null,
+                                    "guild_create.cpp": null,
+                                    "guild_delete.cpp": null,
+                                    "guild_emojis_update.cpp": null,
+                                    "guild_integrations_update.cpp": null,
+                                    "guild_join_request_delete.cpp": null,
+                                    "guild_members_chunk.cpp": null,
+                                    "guild_member_add.cpp": null,
+                                    "guild_member_remove.cpp": null,
+                                    "guild_member_update.cpp": null,
+                                    "guild_role_create.cpp": null,
+                                    "guild_role_delete.cpp": null,
+                                    "guild_role_update.cpp": null,
+                                    "guild_scheduled_event_create.cpp": null,
+                                    "guild_scheduled_event_delete.cpp": null,
+                                    "guild_scheduled_event_update.cpp": null,
+                                    "guild_scheduled_event_user_add.cpp": null,
+                                    "guild_scheduled_event_user_remove.cpp": null,
+                                    "guild_stickers_update.cpp": null,
+                                    "guild_update.cpp": null,
+                                    "integration_create.cpp": null,
+                                    "integration_delete.cpp": null,
+                                    "integration_update.cpp": null,
+                                    "interaction_create.cpp": null,
+                                    "invite_create.cpp": null,
+                                    "invite_delete.cpp": null,
+                                    "logger.cpp": null,
+                                    "message_create.cpp": null,
+                                    "message_delete.cpp": null,
+                                    "message_delete_bulk.cpp": null,
+                                    "message_poll_vote_add.cpp": null,
+                                    "message_poll_vote_remove.cpp": null,
+                                    "message_reaction_add.cpp": null,
+                                    "message_reaction_remove.cpp": null,
+                                    "message_reaction_remove_all.cpp": null,
+                                    "message_reaction_remove_emoji.cpp": null,
+                                    "message_update.cpp": null,
+                                    "presence_update.cpp": null,
+                                    "ready.cpp": null,
+                                    "resumed.cpp": null,
+                                    "stage_instance_create.cpp": null,
+                                    "stage_instance_delete.cpp": null,
+                                    "stage_instance_update.cpp": null,
+                                    "thread_create.cpp": null,
+                                    "thread_delete.cpp": null,
+                                    "thread_list_sync.cpp": null,
+                                    "thread_members_update.cpp": null,
+                                    "thread_member_update.cpp": null,
+                                    "thread_update.cpp": null,
+                                    "typing_start.cpp": null,
+                                    "user_update.cpp": null,
+                                    "voice_server_update.cpp": null,
+                                    "voice_state_update.cpp": null,
+                                    "webhooks_update.cpp": null
+                                }
+                            }
+                        },
+                        "docpages": {
+                            "01_frequently_asked_questions.md": null,
+                            "02_disdppgloss.md": null,
+                            "03_installing.md": null,
+                            "04_building_a_bot.md": null,
+                            "05_example_programs.md": null,
+                            "06_advanced_reference.md": null,
+                            "07_deprecated_list.md": null,
+                            "DPP-markdown-logo.png": null,
+                            "dl.dpp.dev": {
+                                "dlcount.php": null,
+                                "index.php": null
+                            },
+                            "footer.html": null,
+                            "footer.template.html": null,
+                            "building": {
+                                "02_build.md": null,
+                                "freebsd.md": null,
+                                "linux.md": null,
+                                "openbsd.md": null,
+                                "osx.md": null,
+                                "windows.md": null
+                            },
+                            "header.html": null,
+                            "header.template.html": null,
+                            "INDEX.md": null,
+                            "advanced_reference": {
+                                "automating-with-jenkins.md": null,
+                                "clusters_shards_and_guilds.md": null,
+                                "coding_style_standards.md": null,
+                                "docs-style-standards.md": null,
+                                "governance.md": null,
+                                "lambdas_and_locals.md": null,
+                                "roadmap.md": null,
+                                "security.md": null,
+                                "separate-events.md": null,
+                                "thread_model.md": null,
+                                "unit_tests.md": null,
+                                "voice_model.md": null
+                            },
+                            "include": {
+                                "coro_warn.dox": null,
+                                "install_prebuilt_footer.dox": null
+                            },
+                            "makedocs-gh-single.php": null,
+                            "makedocs-gh.php": null,
+                            "makedocs.php": null,
+                            "style.css": null,
+                            "example_programs": {
+                                "interactions_and_components.md": null,
+                                "misc.md": null,
+                                "music_and_audio.md": null,
+                                "the_basics.md": null,
+                                "using_coroutines.md": null,
+                                "music_and_audio": {
+                                    "join_voice.md": null,
+                                    "mp3.md": null,
+                                    "oggopus.md": null,
+                                    "record_user.md": null,
+                                    "soundboard.md": null
+                                },
+                                "using_coroutines": {
+                                    "awaiting_events.md": null,
+                                    "coro_introduction.md": null,
+                                    "coro_simple_commands.md": null,
+                                    "expiring_buttons.md": null
+                                },
+                                "misc": {
+                                    "cache_messages.md": null,
+                                    "checking-member-permissions.md": null,
+                                    "collect_reactions.md": null,
+                                    "eval.md": null,
+                                    "http_request.md": null,
+                                    "making_threads.md": null,
+                                    "setting_status.md": null,
+                                    "spdlog.md": null,
+                                    "using-emojis.md": null,
+                                    "using_timers.md": null
+                                },
+                                "interactions_and_components": {
+                                    "components-menu.md": null,
+                                    "context_menus.md": null,
+                                    "modal_dialog_interactions.md": null,
+                                    "resolved_objects.md": null,
+                                    "components": {
+                                        "components.md": null,
+                                        "components2.md": null,
+                                        "components3.md": null,
+                                        "default_select_value.md": null,
+                                        "editing_message_after_click.md": null
+                                    },
+                                    "slashcommands-menu.md": null,
+                                    "thinking.md": null,
+                                    "user-only-messages.md": null,
+                                    "slashcommands": {
+                                        "autocomplete.md": null,
+                                        "clearing_slashcommands.md": null,
+                                        "commandhandler.md": null,
+                                        "slashcommands.md": null,
+                                        "subcommands.md": null,
+                                        "upload_parameter.md": null
+                                    }
+                                },
+                                "the_basics": {
+                                    "attachments.md": null,
+                                    "detecting-messages.md": null,
+                                    "editing-channels-and-messages.md": null,
+                                    "embeds.md": null,
+                                    "firstbot.md": null,
+                                    "private-messaging.md": null,
+                                    "using_cache.md": null,
+                                    "using_callback_functions.md": null,
+                                    "webhooks.md": null
+                                }
+                            },
+                            "install": {
+                                "install-arch-aur.md": null,
+                                "install-brew.md": null,
+                                "install-gentoo-portage.md": null,
+                                "install-linux-deb.md": null,
+                                "install-linux-rpm.md": null,
+                                "install-vcpkg.md": null,
+                                "install-void-xbps.md": null,
+                                "install-windows-vs-zip.md": null,
+                                "install-xmake.md": null
+                            },
+                            "make_a_bot": {
+                                "clion.md": null,
+                                "clion_windows.md": null,
+                                "cmake.md": null,
+                                "meson.md": null,
+                                "replit.md": null,
+                                "token.md": null,
+                                "windows_vs.md": null,
+                                "windows_wsl.md": null,
+                                "xcode.md": null
+                            },
+                            "example_code": {
+                                "attachments1.cpp": null,
+                                "attachments2.cpp": null,
+                                "attachments3.cpp": null,
+                                "autocomplete.cpp": null,
+                                "cache_messages.cpp": null,
+                                "callbacks.cpp": null,
+                                "clearing_slashcommands.cpp": null,
+                                "CMakeLists.txt": null,
+                                "collect_reactions.cpp": null,
+                                "commandhandler.cpp": null,
+                                "components.cpp": null,
+                                "components2.cpp": null,
+                                "components3.cpp": null,
+                                "components3_rolemenu.cpp": null,
+                                "context_menus.cpp": null,
+                                "coding_style_standards": {
+                                    "comments.cpp": null,
+                                    "curly_braces.cpp": null,
+                                    "dot_notation.cpp": null,
+                                    "fluent_design.cpp": null,
+                                    "fluent_design2.cpp": null,
+                                    "lists.cpp": null,
+                                    "symbol_exporting.cpp": null
+                                },
+                                "coro_awaiting_events.cpp": null,
+                                "coro_expiring_buttons.cpp": null,
+                                "coro_intro.cpp": null,
+                                "coro_simple_commands1.cpp": null,
+                                "coro_simple_commands2.cpp": null,
+                                "default_select_value.cpp": null,
+                                "detecting_messages.cpp": null,
+                                "editing_messages1.cpp": null,
+                                "editing_messages2.cpp": null,
+                                "editing_messages3.cpp": null,
+                                "editing_message_after_click.cpp": null,
+                                "editing_message_after_click2.cpp": null,
+                                "embeds.cpp": null,
+                                "ephemeral.cpp": null,
+                                "eval.cpp": null,
+                                "eval.h": null,
+                                "firstbot.cpp": null,
+                                "firstbot1.cpp": null,
+                                "firstbot2.cpp": null,
+                                "firstbot3.cpp": null,
+                                "firstbot4.cpp": null,
+                                "firstbot5.cpp": null,
+                                "firstbot6.cpp": null,
+                                "http_request.cpp": null,
+                                "join_voice.cpp": null,
+                                "making_threads1.cpp": null,
+                                "making_threads2.cpp": null,
+                                "making_threads3.cpp": null,
+                                "modal_dialog_interactions.cpp": null,
+                                "mp3.cpp": null,
+                                "oggopus.cpp": null,
+                                "oggopus2.cpp": null,
+                                "private_messaging.cpp": null,
+                                "record_user.cpp": null,
+                                "resolved_objects.cpp": null,
+                                "setting_status1.cpp": null,
+                                "setting_status2.cpp": null,
+                                "slashcommands1.cpp": null,
+                                "slashcommands2.cpp": null,
+                                "slashcommands3.cpp": null,
+                                "slashcommands4.cpp": null,
+                                "soundboard.cpp": null,
+                                "subcommands.cpp": null,
+                                "thinking.cpp": null,
+                                "timers_example1.cpp": null,
+                                "timers_example2.cpp": null,
+                                "timers_example3.cpp": null,
+                                "upload_parameter.cpp": null,
+                                "using_cache.cpp": null,
+                                "using_emojis1.cpp": null,
+                                "using_emojis2.cpp": null,
+                                "using_emojis3.cpp": null,
+                                "webhooks.cpp": null
+                            },
+                            "images": {
+                                "badwordfilter.png": null,
+                                "botonlinestatus.png": null,
+                                "botonlinestatus2.png": null,
+                                "botonlinestatus3.png": null,
+                                "buildhistoryjenkins.png": null,
+                                "buildstepjenkins.png": null,
+                                "button.png": null,
+                                "button_2.png": null,
+                                "callback_functions.png": null,
+                                "clionvstoolchain.png": null,
+                                "clionvstoolchain2.png": null,
+                                "code_editor.png": null,
+                                "context_menu_user_command.png": null,
+                                "context_menu_user_command_showcase.png": null,
+                                "cprog.png": null,
+                                "create_application_add_bot.png": null,
+                                "create_application_bot_overview.png": null,
+                                "create_application_confirm_popup.png": null,
+                                "create_application_navigate_to_url_generator.png": null,
+                                "creating_thread.png": null,
+                                "creating_thread_2.png": null,
+                                "creating_thread_3.png": null,
+                                "default_select_value.png": null,
+                                "default_select_value_2.png": null,
+                                "delorean-time-travel.gif": null,
+                                "DPP-Logo.png": null,
+                                "DPP-Small.png": null,
+                                "DPP_Architecture.dia": null,
+                                "DPP_Architecture.svg": null,
+                                "embed.png": null,
+                                "eval_example.png": null,
+                                "file_example_listeners.png": null,
+                                "jenkinsproject.png": null,
+                                "jsprog.png": null,
+                                "modal_dialog.png": null,
+                                "privatemessageexample.png": null,
+                                "privatemessageexample2.png": null,
+                                "progs.png": null,
+                                "repl.png": null,
+                                "runbot.png": null,
+                                "shelljenkins.png": null,
+                                "stuff_edit1.png": null,
+                                "stuff_edit2.png": null,
+                                "stuff_edit3.png": null,
+                                "stuff_edit4.png": null,
+                                "stuff_edit5.png": null,
+                                "stuff_edit6.png": null,
+                                "timers_example1.png": null,
+                                "timers_example3.png": null,
+                                "uptimerobot.png": null,
+                                "user_only_messages_image.png": null,
+                                "using_emojis1.png": null,
+                                "using_emojis2.png": null,
+                                "using_emojis3.png": null,
+                                "vcpkg.png": null,
+                                "vsproj_1.png": null,
+                                "vsproj_10.png": null,
+                                "vsproj_11.png": null,
+                                "vsproj_12.png": null,
+                                "vsproj_13.png": null,
+                                "vsproj_14.png": null,
+                                "vsproj_2.png": null,
+                                "vsproj_3.png": null,
+                                "vsproj_4.png": null,
+                                "vsproj_5.png": null,
+                                "vsproj_6.png": null,
+                                "vsproj_7.png": null,
+                                "vsproj_8.png": null,
+                                "vsproj_9.png": null,
+                                "waiting_coroutine.jpg": null,
+                                "winbuild_0.png": null,
+                                "winbuild_1.png": null,
+                                "winbuild_2.png": null,
+                                "winbuild_3.png": null,
+                                "winbuild_4.png": null,
+                                "xcode_output.png": null,
+                                "xcode_run.png": null,
+                                "xcode_token.png": null,
+                                "zip_vsproj_1.png": null,
+                                "zip_vsproj_10.png": null,
+                                "zip_vsproj_11.png": null,
+                                "zip_vsproj_12.png": null,
+                                "zip_vsproj_13.png": null,
+                                "zip_vsproj_14.png": null,
+                                "zip_vsproj_2.png": null,
+                                "zip_vsproj_3.png": null,
+                                "zip_vsproj_4.png": null,
+                                "zip_vsproj_5.png": null,
+                                "zip_vsproj_6.png": null,
+                                "zip_vsproj_7.png": null,
+                                "zip_vsproj_8.png": null,
+                                "zip_vsproj_9.png": null
+                            }
+                        },
+                        "win32": {
+                            "32": {
+                                "bin": {
+                                    "libcrypto-1_1.dll": null,
+                                    "libsodium.dll": null,
+                                    "libssl-1_1.dll": null,
+                                    "opus.dll": null,
+                                    "zlib1.dll": null
+                                },
+                                "lib": {
+                                    "libcrypto.lib": null,
+                                    "libsodium.lib": null,
+                                    "libssl.lib": null,
+                                    "opus.lib": null,
+                                    "zlib.lib": null
+                                }
+                            },
+                            "lib": {
+                                "libcrypto.lib": null,
+                                "libsodium.lib": null,
+                                "libssl.lib": null,
+                                "opus.lib": null,
+                                "zlib.lib": null,
+                                "pkgconfig": {
+                                    "opus.pc": null,
+                                    "zlib.pc": null
+                                }
+                            },
+                            "bin": {
+                                "c_rehash.pl": null,
+                                "libcrypto-1_1-x64.dll": null,
+                                "libcrypto-1_1-x64.pdb": null,
+                                "libsodium.dll": null,
+                                "libssl-1_1-x64.dll": null,
+                                "libssl-1_1-x64.pdb": null,
+                                "openssl.pdb": null,
+                                "opus.dll": null,
+                                "zlib.pdb": null,
+                                "zlib1.dll": null
+                            },
+                            "include": {
+                                "sodium.h": null,
+                                "zconf.h": null,
+                                "zlib.h": null,
+                                "opus": {
+                                    "opus.h": null,
+                                    "opus_custom.h": null,
+                                    "opus_defines.h": null,
+                                    "opus_multistream.h": null,
+                                    "opus_projection.h": null,
+                                    "opus_types.h": null
+                                },
+                                "sodium": {
+                                    "core.h": null,
+                                    "crypto_aead_aes256gcm.h": null,
+                                    "crypto_aead_chacha20poly1305.h": null,
+                                    "crypto_aead_xchacha20poly1305.h": null,
+                                    "crypto_auth.h": null,
+                                    "crypto_auth_hmacsha256.h": null,
+                                    "crypto_auth_hmacsha512.h": null,
+                                    "crypto_auth_hmacsha512256.h": null,
+                                    "crypto_box.h": null,
+                                    "crypto_box_curve25519xchacha20poly1305.h": null,
+                                    "crypto_box_curve25519xsalsa20poly1305.h": null,
+                                    "crypto_core_ed25519.h": null,
+                                    "crypto_core_hchacha20.h": null,
+                                    "crypto_core_hsalsa20.h": null,
+                                    "crypto_core_ristretto255.h": null,
+                                    "crypto_core_salsa20.h": null,
+                                    "crypto_core_salsa2012.h": null,
+                                    "crypto_core_salsa208.h": null,
+                                    "crypto_generichash.h": null,
+                                    "crypto_generichash_blake2b.h": null,
+                                    "crypto_hash.h": null,
+                                    "crypto_hash_sha256.h": null,
+                                    "crypto_hash_sha512.h": null,
+                                    "crypto_kdf.h": null,
+                                    "crypto_kdf_blake2b.h": null,
+                                    "crypto_kx.h": null,
+                                    "crypto_onetimeauth.h": null,
+                                    "crypto_onetimeauth_poly1305.h": null,
+                                    "crypto_pwhash.h": null,
+                                    "crypto_pwhash_argon2i.h": null,
+                                    "crypto_pwhash_argon2id.h": null,
+                                    "crypto_pwhash_scryptsalsa208sha256.h": null,
+                                    "crypto_scalarmult.h": null,
+                                    "crypto_scalarmult_curve25519.h": null,
+                                    "crypto_scalarmult_ed25519.h": null,
+                                    "crypto_scalarmult_ristretto255.h": null,
+                                    "crypto_secretbox.h": null,
+                                    "crypto_secretbox_xchacha20poly1305.h": null,
+                                    "crypto_secretbox_xsalsa20poly1305.h": null,
+                                    "crypto_secretstream_xchacha20poly1305.h": null,
+                                    "crypto_shorthash.h": null,
+                                    "crypto_shorthash_siphash24.h": null,
+                                    "crypto_sign.h": null,
+                                    "crypto_sign_ed25519.h": null,
+                                    "crypto_sign_edwards25519sha512batch.h": null,
+                                    "crypto_stream.h": null,
+                                    "crypto_stream_chacha20.h": null,
+                                    "crypto_stream_salsa20.h": null,
+                                    "crypto_stream_salsa2012.h": null,
+                                    "crypto_stream_salsa208.h": null,
+                                    "crypto_stream_xchacha20.h": null,
+                                    "crypto_stream_xsalsa20.h": null,
+                                    "crypto_verify_16.h": null,
+                                    "crypto_verify_32.h": null,
+                                    "crypto_verify_64.h": null,
+                                    "export.h": null,
+                                    "randombytes.h": null,
+                                    "randombytes_internal_random.h": null,
+                                    "randombytes_sysrandom.h": null,
+                                    "runtime.h": null,
+                                    "utils.h": null,
+                                    "version.h": null
+                                },
+                                "openssl": {
+                                    "aes.h": null,
+                                    "applink.c": null,
+                                    "asn1.h": null,
+                                    "asn1err.h": null,
+                                    "asn1t.h": null,
+                                    "asn1_mac.h": null,
+                                    "async.h": null,
+                                    "asyncerr.h": null,
+                                    "bio.h": null,
+                                    "bioerr.h": null,
+                                    "blowfish.h": null,
+                                    "bn.h": null,
+                                    "bnerr.h": null,
+                                    "buffer.h": null,
+                                    "buffererr.h": null,
+                                    "camellia.h": null,
+                                    "cast.h": null,
+                                    "cmac.h": null,
+                                    "cms.h": null,
+                                    "cmserr.h": null,
+                                    "comp.h": null,
+                                    "comperr.h": null,
+                                    "conf.h": null,
+                                    "conferr.h": null,
+                                    "conf_api.h": null,
+                                    "crypto.h": null,
+                                    "cryptoerr.h": null,
+                                    "ct.h": null,
+                                    "cterr.h": null,
+                                    "des.h": null,
+                                    "dh.h": null,
+                                    "dherr.h": null,
+                                    "dsa.h": null,
+                                    "dsaerr.h": null,
+                                    "dtls1.h": null,
+                                    "ebcdic.h": null,
+                                    "ec.h": null,
+                                    "ecdh.h": null,
+                                    "ecdsa.h": null,
+                                    "ecerr.h": null,
+                                    "engine.h": null,
+                                    "engineerr.h": null,
+                                    "err.h": null,
+                                    "evp.h": null,
+                                    "evperr.h": null,
+                                    "e_os2.h": null,
+                                    "hmac.h": null,
+                                    "idea.h": null,
+                                    "kdf.h": null,
+                                    "kdferr.h": null,
+                                    "lhash.h": null,
+                                    "md2.h": null,
+                                    "md4.h": null,
+                                    "md5.h": null,
+                                    "mdc2.h": null,
+                                    "modes.h": null,
+                                    "objects.h": null,
+                                    "objectserr.h": null,
+                                    "obj_mac.h": null,
+                                    "ocsp.h": null,
+                                    "ocsperr.h": null,
+                                    "opensslconf.h": null,
+                                    "opensslv.h": null,
+                                    "ossl_typ.h": null,
+                                    "pem.h": null,
+                                    "pem2.h": null,
+                                    "pemerr.h": null,
+                                    "pkcs12.h": null,
+                                    "pkcs12err.h": null,
+                                    "pkcs7.h": null,
+                                    "pkcs7err.h": null,
+                                    "rand.h": null,
+                                    "randerr.h": null,
+                                    "rand_drbg.h": null,
+                                    "rc2.h": null,
+                                    "rc4.h": null,
+                                    "rc5.h": null,
+                                    "ripemd.h": null,
+                                    "rsa.h": null,
+                                    "rsaerr.h": null,
+                                    "safestack.h": null,
+                                    "seed.h": null,
+                                    "sha.h": null,
+                                    "srp.h": null,
+                                    "srtp.h": null,
+                                    "ssl.h": null,
+                                    "ssl2.h": null,
+                                    "ssl3.h": null,
+                                    "sslerr.h": null,
+                                    "stack.h": null,
+                                    "store.h": null,
+                                    "storeerr.h": null,
+                                    "symhacks.h": null,
+                                    "tls1.h": null,
+                                    "ts.h": null,
+                                    "tserr.h": null,
+                                    "txt_db.h": null,
+                                    "ui.h": null,
+                                    "uierr.h": null,
+                                    "whrlpool.h": null,
+                                    "x509.h": null,
+                                    "x509err.h": null,
+                                    "x509v3.h": null,
+                                    "x509v3err.h": null,
+                                    "x509_vfy.h": null,
+                                    "__DECC_INCLUDE_EPILOGUE.H": null,
+                                    "__DECC_INCLUDE_PROLOGUE.H": null
+                                }
+                            }
+                        },
+                        "build": {
+                            "CMakeCache.txt": null,
+                            "cmake_install.cmake": null,
+                            "compile_commands.json": null,
+                            "CPackConfig.cmake": null,
+                            "CPackSourceConfig.cmake": null,
+                            "CTestTestfile.cmake": null,
+                            "dpp-config-version.cmake": null,
+                            "dpp.pc": null,
+                            "install_manifest.txt": null,
+                            "CMakeFiles": {
+                                "cmake.check_cache": null,
+                                "CMakeConfigureLog.yaml": null,
+                                "CMakeDirectoryInformation.cmake": null,
+                                "Makefile.cmake": null,
+                                "Makefile2": null,
+                                "pkgRedirects": {},
+                                "progress.marks": null,
+                                "3.28.3": {
+                                    "CMakeCXXCompiler.cmake": null,
+                                    "CMakeDetermineCompilerABI_CXX.bin": null,
+                                    "CMakeSystem.cmake": null,
+                                    "CompilerIdCXX": {
+                                        "a.out": null,
+                                        "CMakeCXXCompilerId.cpp": null,
+                                        "tmp": {}
+                                    }
+                                },
+                                "TargetDirectories.txt": null
+                            },
+                            "Makefile": null,
+                            "library": {
+                                "cmake_install.cmake": null,
+                                "coro_loop": null,
+                                "CTestTestfile.cmake": null,
+                                "libdpp.so": null,
+                                "libdpp.so.10.0.32": null,
+                                "Makefile": null,
+                                "soaktest": null,
+                                "unittest": null,
+                                "CMakeFiles": {
+                                    "CMakeDirectoryInformation.cmake": null,
+                                    "progress.marks": null,
+                                    "Export": {
+                                        "16ad203aa931542c2196b1414f19b7d2": {
+                                            "dpp-noconfig.cmake": null,
+                                            "dpp.cmake": null
+                                        }
+                                    },
+                                    "coro_loop.dir": {
+                                        "build.make": null,
+                                        "cmake_clean.cmake": null,
+                                        "compiler_depend.internal": null,
+                                        "compiler_depend.make": null,
+                                        "compiler_depend.ts": null,
+                                        "depend.make": null,
+                                        "DependInfo.cmake": null,
+                                        "flags.make": null,
+                                        "link.txt": null,
+                                        "progress.make": null,
+                                        "__": {
+                                            "src": {
+                                                "coro_loop": {
+                                                    "coro_loop.cpp.o": null,
+                                                    "coro_loop.cpp.o.d": null
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "soaktest.dir": {
+                                        "build.make": null,
+                                        "cmake_clean.cmake": null,
+                                        "compiler_depend.internal": null,
+                                        "compiler_depend.make": null,
+                                        "compiler_depend.ts": null,
+                                        "depend.make": null,
+                                        "DependInfo.cmake": null,
+                                        "flags.make": null,
+                                        "link.txt": null,
+                                        "progress.make": null,
+                                        "__": {
+                                            "src": {
+                                                "soaktest": {
+                                                    "soak.cpp.o": null,
+                                                    "soak.cpp.o.d": null
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "unittest.dir": {
+                                        "build.make": null,
+                                        "cmake_clean.cmake": null,
+                                        "compiler_depend.internal": null,
+                                        "compiler_depend.make": null,
+                                        "compiler_depend.ts": null,
+                                        "depend.make": null,
+                                        "DependInfo.cmake": null,
+                                        "flags.make": null,
+                                        "link.txt": null,
+                                        "progress.make": null,
+                                        "__": {
+                                            "src": {
+                                                "unittest": {
+                                                    "coro.cpp.o": null,
+                                                    "coro.cpp.o.d": null,
+                                                    "test.cpp.o": null,
+                                                    "test.cpp.o.d": null,
+                                                    "unittest.cpp.o": null,
+                                                    "unittest.cpp.o.d": null
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "dpp.dir": {
+                                        "build.make": null,
+                                        "cmake_clean.cmake": null,
+                                        "compiler_depend.internal": null,
+                                        "compiler_depend.make": null,
+                                        "compiler_depend.ts": null,
+                                        "depend.make": null,
+                                        "DependInfo.cmake": null,
+                                        "flags.make": null,
+                                        "link.txt": null,
+                                        "progress.make": null,
+                                        "__": {
+                                            "src": {
+                                                "dpp": {
+                                                    "application.cpp.o": null,
+                                                    "application.cpp.o.d": null,
+                                                    "auditlog.cpp.o": null,
+                                                    "auditlog.cpp.o.d": null,
+                                                    "automod.cpp.o": null,
+                                                    "automod.cpp.o.d": null,
+                                                    "ban.cpp.o": null,
+                                                    "ban.cpp.o.d": null,
+                                                    "bignum.cpp.o": null,
+                                                    "bignum.cpp.o.d": null,
+                                                    "cache.cpp.o": null,
+                                                    "cache.cpp.o.d": null,
+                                                    "channel.cpp.o": null,
+                                                    "channel.cpp.o.d": null,
+                                                    "cluster.cpp.o": null,
+                                                    "cluster.cpp.o.d": null,
+                                                    "cluster_coro_calls.cpp.o": null,
+                                                    "cluster_coro_calls.cpp.o.d": null,
+                                                    "cluster_sync_calls.cpp.o": null,
+                                                    "cluster_sync_calls.cpp.o.d": null,
+                                                    "commandhandler.cpp.o": null,
+                                                    "commandhandler.cpp.o.d": null,
+                                                    "discordclient.cpp.o": null,
+                                                    "discordclient.cpp.o.d": null,
+                                                    "discordevents.cpp.o": null,
+                                                    "discordevents.cpp.o.d": null,
+                                                    "discordvoiceclient.cpp.o": null,
+                                                    "discordvoiceclient.cpp.o.d": null,
+                                                    "dispatcher.cpp.o": null,
+                                                    "dispatcher.cpp.o.d": null,
+                                                    "dns.cpp.o": null,
+                                                    "dns.cpp.o.d": null,
+                                                    "dtemplate.cpp.o": null,
+                                                    "dtemplate.cpp.o.d": null,
+                                                    "emoji.cpp.o": null,
+                                                    "emoji.cpp.o.d": null,
+                                                    "entitlement.cpp.o": null,
+                                                    "entitlement.cpp.o.d": null,
+                                                    "etf.cpp.o": null,
+                                                    "etf.cpp.o.d": null,
+                                                    "guild.cpp.o": null,
+                                                    "guild.cpp.o.d": null,
+                                                    "httpsclient.cpp.o": null,
+                                                    "httpsclient.cpp.o.d": null,
+                                                    "integration.cpp.o": null,
+                                                    "integration.cpp.o.d": null,
+                                                    "invite.cpp.o": null,
+                                                    "invite.cpp.o.d": null,
+                                                    "message.cpp.o": null,
+                                                    "message.cpp.o.d": null,
+                                                    "permissions.cpp.o": null,
+                                                    "permissions.cpp.o.d": null,
+                                                    "presence.cpp.o": null,
+                                                    "presence.cpp.o.d": null,
+                                                    "prune.cpp.o": null,
+                                                    "prune.cpp.o.d": null,
+                                                    "queues.cpp.o": null,
+                                                    "queues.cpp.o.d": null,
+                                                    "role.cpp.o": null,
+                                                    "role.cpp.o.d": null,
+                                                    "scheduled_event.cpp.o": null,
+                                                    "cluster": {
+                                                        "appcommand.cpp.o": null,
+                                                        "appcommand.cpp.o.d": null,
+                                                        "automod.cpp.o": null,
+                                                        "automod.cpp.o.d": null,
+                                                        "channel.cpp.o": null,
+                                                        "channel.cpp.o.d": null,
+                                                        "confirmation.cpp.o": null,
+                                                        "confirmation.cpp.o.d": null,
+                                                        "dm.cpp.o": null,
+                                                        "dm.cpp.o.d": null,
+                                                        "emoji.cpp.o": null,
+                                                        "emoji.cpp.o.d": null,
+                                                        "entitlement.cpp.o": null,
+                                                        "entitlement.cpp.o.d": null,
+                                                        "gateway.cpp.o": null,
+                                                        "gateway.cpp.o.d": null,
+                                                        "guild.cpp.o": null,
+                                                        "guild.cpp.o.d": null,
+                                                        "guild_member.cpp.o": null,
+                                                        "guild_member.cpp.o.d": null,
+                                                        "invite.cpp.o": null,
+                                                        "invite.cpp.o.d": null,
+                                                        "json_interface.cpp.o": null,
+                                                        "json_interface.cpp.o.d": null,
+                                                        "message.cpp.o": null,
+                                                        "message.cpp.o.d": null,
+                                                        "role.cpp.o": null,
+                                                        "role.cpp.o.d": null,
+                                                        "scheduled_event.cpp.o": null,
+                                                        "scheduled_event.cpp.o.d": null,
+                                                        "sku.cpp.o": null,
+                                                        "sku.cpp.o.d": null,
+                                                        "stage_instance.cpp.o": null,
+                                                        "stage_instance.cpp.o.d": null,
+                                                        "sticker.cpp.o": null,
+                                                        "sticker.cpp.o.d": null,
+                                                        "template.cpp.o": null,
+                                                        "template.cpp.o.d": null,
+                                                        "thread.cpp.o": null,
+                                                        "thread.cpp.o.d": null,
+                                                        "timer.cpp.o": null,
+                                                        "timer.cpp.o.d": null,
+                                                        "user.cpp.o": null,
+                                                        "user.cpp.o.d": null,
+                                                        "voice.cpp.o": null,
+                                                        "voice.cpp.o.d": null,
+                                                        "webhook.cpp.o": null,
+                                                        "webhook.cpp.o.d": null
+                                                    },
+                                                    "scheduled_event.cpp.o.d": null,
+                                                    "sku.cpp.o": null,
+                                                    "sku.cpp.o.d": null,
+                                                    "slashcommand.cpp.o": null,
+                                                    "slashcommand.cpp.o.d": null,
+                                                    "snowflake.cpp.o": null,
+                                                    "snowflake.cpp.o.d": null,
+                                                    "sslclient.cpp.o": null,
+                                                    "sslclient.cpp.o.d": null,
+                                                    "stage_instance.cpp.o": null,
+                                                    "stage_instance.cpp.o.d": null,
+                                                    "thread.cpp.o": null,
+                                                    "thread.cpp.o.d": null,
+                                                    "user.cpp.o": null,
+                                                    "user.cpp.o.d": null,
+                                                    "utility.cpp.o": null,
+                                                    "utility.cpp.o.d": null,
+                                                    "voiceregion.cpp.o": null,
+                                                    "voiceregion.cpp.o.d": null,
+                                                    "voicestate.cpp.o": null,
+                                                    "voicestate.cpp.o.d": null,
+                                                    "webhook.cpp.o": null,
+                                                    "webhook.cpp.o.d": null,
+                                                    "wsclient.cpp.o": null,
+                                                    "wsclient.cpp.o.d": null,
+                                                    "events": {
+                                                        "automod_rule_create.cpp.o": null,
+                                                        "automod_rule_create.cpp.o.d": null,
+                                                        "automod_rule_delete.cpp.o": null,
+                                                        "automod_rule_delete.cpp.o.d": null,
+                                                        "automod_rule_execute.cpp.o": null,
+                                                        "automod_rule_execute.cpp.o.d": null,
+                                                        "automod_rule_update.cpp.o": null,
+                                                        "automod_rule_update.cpp.o.d": null,
+                                                        "channel_create.cpp.o": null,
+                                                        "channel_create.cpp.o.d": null,
+                                                        "channel_delete.cpp.o": null,
+                                                        "channel_delete.cpp.o.d": null,
+                                                        "channel_pins_update.cpp.o": null,
+                                                        "channel_pins_update.cpp.o.d": null,
+                                                        "channel_update.cpp.o": null,
+                                                        "channel_update.cpp.o.d": null,
+                                                        "entitlement_create.cpp.o": null,
+                                                        "entitlement_create.cpp.o.d": null,
+                                                        "entitlement_delete.cpp.o": null,
+                                                        "entitlement_delete.cpp.o.d": null,
+                                                        "entitlement_update.cpp.o": null,
+                                                        "entitlement_update.cpp.o.d": null,
+                                                        "guild_audit_log_entry_create.cpp.o": null,
+                                                        "guild_audit_log_entry_create.cpp.o.d": null,
+                                                        "guild_ban_add.cpp.o": null,
+                                                        "guild_ban_add.cpp.o.d": null,
+                                                        "guild_ban_remove.cpp.o": null,
+                                                        "guild_ban_remove.cpp.o.d": null,
+                                                        "guild_create.cpp.o": null,
+                                                        "guild_create.cpp.o.d": null,
+                                                        "guild_delete.cpp.o": null,
+                                                        "guild_delete.cpp.o.d": null,
+                                                        "guild_emojis_update.cpp.o": null,
+                                                        "guild_emojis_update.cpp.o.d": null,
+                                                        "guild_integrations_update.cpp.o": null,
+                                                        "guild_integrations_update.cpp.o.d": null,
+                                                        "guild_join_request_delete.cpp.o": null,
+                                                        "guild_join_request_delete.cpp.o.d": null,
+                                                        "guild_members_chunk.cpp.o": null,
+                                                        "guild_members_chunk.cpp.o.d": null,
+                                                        "guild_member_add.cpp.o": null,
+                                                        "guild_member_add.cpp.o.d": null,
+                                                        "guild_member_remove.cpp.o": null,
+                                                        "guild_member_remove.cpp.o.d": null,
+                                                        "guild_member_update.cpp.o": null,
+                                                        "guild_member_update.cpp.o.d": null,
+                                                        "guild_role_create.cpp.o": null,
+                                                        "guild_role_create.cpp.o.d": null,
+                                                        "guild_role_delete.cpp.o": null,
+                                                        "guild_role_delete.cpp.o.d": null,
+                                                        "guild_role_update.cpp.o": null,
+                                                        "guild_role_update.cpp.o.d": null,
+                                                        "guild_scheduled_event_create.cpp.o": null,
+                                                        "guild_scheduled_event_create.cpp.o.d": null,
+                                                        "guild_scheduled_event_delete.cpp.o": null,
+                                                        "guild_scheduled_event_delete.cpp.o.d": null,
+                                                        "guild_scheduled_event_update.cpp.o": null,
+                                                        "guild_scheduled_event_update.cpp.o.d": null,
+                                                        "guild_scheduled_event_user_add.cpp.o": null,
+                                                        "guild_scheduled_event_user_add.cpp.o.d": null,
+                                                        "guild_scheduled_event_user_remove.cpp.o": null,
+                                                        "guild_scheduled_event_user_remove.cpp.o.d": null,
+                                                        "guild_stickers_update.cpp.o": null,
+                                                        "guild_stickers_update.cpp.o.d": null,
+                                                        "guild_update.cpp.o": null,
+                                                        "guild_update.cpp.o.d": null,
+                                                        "integration_create.cpp.o": null,
+                                                        "integration_create.cpp.o.d": null,
+                                                        "integration_delete.cpp.o": null,
+                                                        "integration_delete.cpp.o.d": null,
+                                                        "integration_update.cpp.o": null,
+                                                        "integration_update.cpp.o.d": null,
+                                                        "interaction_create.cpp.o": null,
+                                                        "interaction_create.cpp.o.d": null,
+                                                        "invite_create.cpp.o": null,
+                                                        "invite_create.cpp.o.d": null,
+                                                        "invite_delete.cpp.o": null,
+                                                        "invite_delete.cpp.o.d": null,
+                                                        "logger.cpp.o": null,
+                                                        "logger.cpp.o.d": null,
+                                                        "message_create.cpp.o": null,
+                                                        "message_create.cpp.o.d": null,
+                                                        "message_delete.cpp.o": null,
+                                                        "message_delete.cpp.o.d": null,
+                                                        "message_delete_bulk.cpp.o": null,
+                                                        "message_delete_bulk.cpp.o.d": null,
+                                                        "message_poll_vote_add.cpp.o": null,
+                                                        "message_poll_vote_add.cpp.o.d": null,
+                                                        "message_poll_vote_remove.cpp.o": null,
+                                                        "message_poll_vote_remove.cpp.o.d": null,
+                                                        "message_reaction_add.cpp.o": null,
+                                                        "message_reaction_add.cpp.o.d": null,
+                                                        "message_reaction_remove.cpp.o": null,
+                                                        "message_reaction_remove.cpp.o.d": null,
+                                                        "message_reaction_remove_all.cpp.o": null,
+                                                        "message_reaction_remove_all.cpp.o.d": null,
+                                                        "message_reaction_remove_emoji.cpp.o": null,
+                                                        "message_reaction_remove_emoji.cpp.o.d": null,
+                                                        "message_update.cpp.o": null,
+                                                        "message_update.cpp.o.d": null,
+                                                        "presence_update.cpp.o": null,
+                                                        "presence_update.cpp.o.d": null,
+                                                        "ready.cpp.o": null,
+                                                        "ready.cpp.o.d": null,
+                                                        "resumed.cpp.o": null,
+                                                        "resumed.cpp.o.d": null,
+                                                        "stage_instance_create.cpp.o": null,
+                                                        "stage_instance_create.cpp.o.d": null,
+                                                        "stage_instance_delete.cpp.o": null,
+                                                        "stage_instance_delete.cpp.o.d": null,
+                                                        "stage_instance_update.cpp.o": null,
+                                                        "stage_instance_update.cpp.o.d": null,
+                                                        "thread_create.cpp.o": null,
+                                                        "thread_create.cpp.o.d": null,
+                                                        "thread_delete.cpp.o": null,
+                                                        "thread_delete.cpp.o.d": null,
+                                                        "thread_list_sync.cpp.o": null,
+                                                        "thread_list_sync.cpp.o.d": null,
+                                                        "thread_members_update.cpp.o": null,
+                                                        "thread_members_update.cpp.o.d": null,
+                                                        "thread_member_update.cpp.o": null,
+                                                        "thread_member_update.cpp.o.d": null,
+                                                        "thread_update.cpp.o": null,
+                                                        "thread_update.cpp.o.d": null,
+                                                        "typing_start.cpp.o": null,
+                                                        "typing_start.cpp.o.d": null,
+                                                        "user_update.cpp.o": null,
+                                                        "user_update.cpp.o.d": null,
+                                                        "voice_server_update.cpp.o": null,
+                                                        "voice_server_update.cpp.o.d": null,
+                                                        "voice_state_update.cpp.o": null,
+                                                        "voice_state_update.cpp.o.d": null,
+                                                        "webhooks_update.cpp.o": null,
+                                                        "webhooks_update.cpp.o.d": null
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
