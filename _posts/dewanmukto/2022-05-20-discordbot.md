@@ -2,9 +2,11 @@
 layout: post
 title: My Discord Bot
 date: 2022-05-20
-categories: [discordbot]
+author: dmimukto
+categories: [discord]
 published: true
 ---
+
 <head>
 <meta property="og:site_name" content="MuxDay | Discord Bot"><meta property="og:title" content="MuxDay | Discord Bot"><meta property="og:type" content="website"><meta property="og:description" content="A multi-purpose bot for every server's needs!"><meta property="og:image" content="/assets/images/MuxDay_bot_banner.png"><meta property="og:image:type" content="image/png"><meta property="og:url" content="https://muxday.muxsites.com/discordbot"><meta property="twitter:card" content="summary_large_image"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,900italic,200,200italic,400,400italic,700,700italic" rel="stylesheet" type="text/css">
 </head>

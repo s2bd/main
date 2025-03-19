@@ -1,5 +1,0 @@
-[Sun May 29 2022 12:14:49]wumpus#9713 said: does raddit have any public api?
-[Sun May 29 2022 12:15:15]wumpus#9713 said: md reddit mildlyinteresting
-[Sun May 29 2022 12:15:27]wumpus#9713 said: how you fetch this data
-[Sun May 29 2022 12:41:18]DMukto#8483 said: well... maybe it does. But I'm using a NPM package called `reddit-image-fetcher`
-[Sun May 29 2022 12:41:27]DMukto#8483 said: instead of Reddit's own API

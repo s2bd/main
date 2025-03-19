@@ -60,19 +60,20 @@
                 "MuxDay_bot_banner.png": null,
                 "MuxMusic_bot_banner.png": null
             },
+            "js": {
+                "categories.js": null,
+                "chatbot.js": null,
+                "lbox.js": null,
+                "propjockey.js": null
+            },
             "css": {
                 "blog.css": null,
                 "chatbot.css": null,
                 "common.css": null,
                 "post.css": null,
                 "propjockey.css": null,
+                "styles.css": null,
                 "syntax.css": null
-            },
-            "js": {
-                "categories.js": null,
-                "chatbot.js": null,
-                "lbox.js": null,
-                "propjockey.js": null
             },
             "icons": {
                 "dev.png": null,
@@ -94,14 +95,26 @@
         "_data": {
             "author.yml": null
         },
+        "doc": {
+            "Cant_Stop_Marker_README.pdf": null,
+            "Colors-Of-Infinite-Grief-Dewan-Mukto.pdf": null,
+            "Cooper-Black-Dewan-Mukto.pdf": null,
+            "Dead-Man-Alive-Dewan-Mukto.pdf": null,
+            "dewan-mukto-resume-technical.pdf": null,
+            "IELTS-Guide-Dewan-Mukto.pdf": null,
+            "In-The-Wildest-Dimensions-BD-Dewan-Mukto.pdf": null,
+            "In-The-Wildest-Dimensions-Dewan-Mukto.pdf": null,
+            "Knightspeak-Dewan-Mukto.pdf": null,
+            "One-Dewan-Mukto.pdf": null,
+            "Sun-Of-A-Beach-Dewan-Mukto.pdf": null,
+            "Synaesthetic-Symphonies-Dewan-Mukto.pdf": null,
+            "TaskforceNL_Website_Review.pdf": null,
+            "The-Inkmaster-Dewan-Mukto.pdf": null,
+            "UI_Prototype_Sketches.pdf": null
+        },
         "_layouts": {
             "blog.html": null,
             "post.html": null
-        },
-        "_posts": {
-            "dewanmukto": {
-                "2022-05-20-discordbot.md": null
-            }
         },
         "video": {
             "delta-telekom-gameplay.mp4": null,
@@ -191,34 +204,6 @@
                     "\u767e\u306e\u7406\u7531.mp3": null
                 }
             }
-        },
-        "doc": {
-            "Cant_Stop_Marker_README.pdf": null,
-            "Colors-Of-Infinite-Grief-Dewan-Mukto-cover.pdf": null,
-            "Colors-Of-Infinite-Grief-Dewan-Mukto.pdf": null,
-            "Cooper-Black-Dewan-Mukto-cover.pdf": null,
-            "Cooper-Black-Dewan-Mukto.pdf": null,
-            "Dead-Man-Alive-Dewan-Mukto-cover.pdf": null,
-            "Dead-Man-Alive-Dewan-Mukto.pdf": null,
-            "dewan-mukto-resume-technical.pdf": null,
-            "IELTS-Guide-Dewan-Mukto-cover.pdf": null,
-            "IELTS-Guide-Dewan-Mukto.pdf": null,
-            "In-The-Wildest-Dimensions-BD-Dewan-Mukto-cover.pdf": null,
-            "In-The-Wildest-Dimensions-BD-Dewan-Mukto.pdf": null,
-            "In-The-Wildest-Dimensions-Dewan-Mukto-cover.pdf": null,
-            "In-The-Wildest-Dimensions-Dewan-Mukto.pdf": null,
-            "Knightspeak-Dewan-Mukto-cover.pdf": null,
-            "Knightspeak-Dewan-Mukto.pdf": null,
-            "One-Dewan-Mukto-cover.pdf": null,
-            "One-Dewan-Mukto.pdf": null,
-            "Sun-Of-A-Beach-Dewan-Mukto-cover.pdf": null,
-            "Sun-Of-A-Beach-Dewan-Mukto.pdf": null,
-            "Synaesthetic-Symphonies-Dewan-Mukto-cover.pdf": null,
-            "Synaesthetic-Symphonies-Dewan-Mukto.pdf": null,
-            "TaskforceNL_Website_Review.pdf": null,
-            "The-Inkmaster-Dewan-Mukto-cover.pdf": null,
-            "The-Inkmaster-Dewan-Mukto.pdf": null,
-            "UI_Prototype_Sketches.pdf": null
         },
         "site": {
             "amrella": {
@@ -310,13 +295,6 @@
                     "productpitch": {
                         "index.html": null
                     },
-                    "metrobus-tracker": {
-                        "favicon.ico": null,
-                        "favicon.png": null,
-                        "index.html": null,
-                        "script.js": null,
-                        "styles.css": null
-                    },
                     "bracu": {
                         "courses": {
                             "favicon.ico": null,
@@ -326,6 +304,13 @@
                             "script.js": null,
                             "styles.css": null
                         }
+                    },
+                    "metrobus-tracker": {
+                        "favicon.ico": null,
+                        "favicon.png": null,
+                        "index.html": null,
+                        "script.js": null,
+                        "styles.css": null
                     }
                 },
                 "home": {
@@ -390,6 +375,68 @@
                         "SynSym_cover.png": null
                     }
                 }
+            }
+        },
+        "_posts": {
+            "dewanmukto": {
+                "2019-12-25-ielts-training.md": null,
+                "2020-03-08-youtube-stats.md": null,
+                "2020-06-17-importance-of-computer-science.md": null,
+                "2020-11-25-why-do-we-tell-stories.md": null,
+                "2021-01-20-learn-html-like-a-thug.md": null,
+                "2021-02-05-my-history-of-reading.md": null,
+                "2021-03-02-be-tidy-be-clean.md": null,
+                "2021-03-03-binary-bits.md": null,
+                "2021-03-03-the-gift.md": null,
+                "2021-03-03-who-is-cooper-black.md": null,
+                "2021-03-04-knightspeak-emen.md": null,
+                "2021-03-04-knightspeak-seven-council.md": null,
+                "2021-03-04-worlds-of-knightspeak.md": null,
+                "2021-04-06-what-is-life.md": null,
+                "2021-04-07-alan-walker-criticism.md": null,
+                "2021-04-21-the-most-ideal-life.md": null,
+                "2021-05-04-aa4mm.md": null,
+                "2021-06-29-discordbots.md": null,
+                "2021-11-03-learn-python.md": null,
+                "2021-11-04-using-muxsites.md": null,
+                "2021-11-05-procrastination-problems.md": null,
+                "2021-11-12-intro-to-computer-science.md": null,
+                "2021-11-13-quantum-immortality.md": null,
+                "2022-01-20-website-to-apk.md": null,
+                "2022-01-29-linux-on-mobile.md": null,
+                "2022-01-30-nl-store-crypto.md": null,
+                "2022-02-27-nl-debt-crisis.md": null,
+                "2022-03-20-st-johns-mosque-vandalism.md": null,
+                "2022-03-21-why-memorial-university.md": null,
+                "2022-04-09-measuring-speed-of-light.md": null,
+                "2022-05-19-i-love-vrchat.md": null,
+                "2022-05-20-discordbot.md": null,
+                "2022-08-25-poetry-worth.md": null,
+                "2022-10-21-next-generation-inventory-tracking.md": null,
+                "2023-04-15-where-did-amrella-go.md": null,
+                "2023-04-25-my-levels-of-detail.md": null,
+                "2023-09-17-what-is-charge.md": null,
+                "2023-10-17-cheapest-domains.md": null,
+                "2023-10-20-get-a-free-domain.md": null,
+                "2023-10-21-wevovh-landing-pages.md": null,
+                "2023-11-04-publishing-a-story-or-book.md": null,
+                "2023-11-05-minecraft-tlauncher-is-malware.md": null,
+                "2024-01-10-everything-you-missed-in-itwd.md": null,
+                "2024-02-15-an-attempt-to-explain-everything.md": null,
+                "2024-03-02-make-your-own-social-platform.md": null,
+                "2024-03-08-create-your-own-social-platform.md": null,
+                "2024-05-02-prime-number-formula.md": null,
+                "2024-06-30-june-2024-devlog.md": null,
+                "2024-07-31-july-2024-devlog.md": null,
+                "2024-09-01-august-2024-devlog.md": null,
+                "2024-09-20-sad-songs.md": null,
+                "2024-09-30-building-your-own-smartphones.md": null,
+                "2024-10-01-sept-2024-devlog.md": null,
+                "2024-10-14-pocket-sized-essays.md": null,
+                "2024-10-26-oct-2024-devlog.md": null,
+                "2024-11-24-impact-of-climate-on-human-behavior.md": null,
+                "2024-11-29-useful-mobile-apps.md": null,
+                "hashnode-promo-sawpmansite": null
             }
         },
         "img": {
@@ -504,6 +551,7 @@
             "mockup_CBEE_20210330.jpg": null,
             "mockup_PSN_20210401.jpg": null,
             "mu-xin.jpg": null,
+            "mukto_tech_logo.jpg": null,
             "Muxday banner.png": null,
             "OIG1 (1).jpg": null,
             "OIG1 (2).jpg": null,
@@ -667,11 +715,11 @@
                     "avatar.png": null,
                     "chat.php": null,
                     "db_connection.php": null,
-                    "db_init.sql": null,
                     "css": {
                         "chat.css": null,
                         "index.css": null
                     },
+                    "db_init.sql": null,
                     "index.php": null,
                     "img": {
                         "background.jpg": null
@@ -749,6 +797,158 @@
                     "sfml-window-2.dll": null
                 }
             },
+            "nodejs": {
+                "Dolly": {
+                    "config.js": null,
+                    "core.js": null,
+                    "fixlater": {
+                        "messageCreate.js": null
+                    },
+                    "index.js": null,
+                    "notes.md": null,
+                    "handlers": {
+                        "loadCommands.js": null,
+                        "loadDistube.js": null,
+                        "loadEvents.js": null
+                    },
+                    "package-lock.json": null,
+                    "package.json": null,
+                    "Jobs": {
+                        "basic.json": null,
+                        "law.json": null,
+                        "specialist.json": null
+                    },
+                    "Gacha": {
+                        "characters.json": null,
+                        "common.json": null,
+                        "epic.json": null,
+                        "legendary.json": null,
+                        "rare.json": null,
+                        "uncommon.json": null
+                    },
+                    "serverinvites.txt": null,
+                    "Serverwise": {},
+                    "events": {
+                        "guild": {
+                            "guildCreate.js": null,
+                            "messageCreate.js": null
+                        },
+                        "distube": {
+                            "addList.js": null,
+                            "addSong.js": null,
+                            "empty.js": null,
+                            "finish.js": null,
+                            "playSong.js": null,
+                            "searchNoResult.js": null
+                        },
+                        "client": {
+                            "disconnect.js": null,
+                            "ready.js": null,
+                            "reconnecting.js": null,
+                            "shardDisconnect.js": null,
+                            "shardError.js": null,
+                            "shardReady.js": null,
+                            "shardReconnecting.js": null,
+                            "shardResume.js": null,
+                            "voiceStateUpdate.js": null
+                        }
+                    },
+                    "structures": {
+                        "pagequeue.js": null
+                    },
+                    "Shop": {
+                        "protection.json": null,
+                        "tools.json": null,
+                        "weapons.json": null
+                    },
+                    "whitelinks.json": null,
+                    "commands": {
+                        "gacha": {
+                            "cardroll.js": null
+                        },
+                        "social": {
+                            "webhooktest.js": null
+                        },
+                        "fun": {
+                            "amongus.js": null,
+                            "meme.js": null,
+                            "nsfwmeme.js": null,
+                            "reddit.js": null
+                        },
+                        "account": {
+                            "balance.js": null,
+                            "cards.js": null,
+                            "createacc.js": null,
+                            "crimerecords.js": null,
+                            "inventory.js": null,
+                            "transfer.js": null
+                        },
+                        "economy": {
+                            "apply.js": null,
+                            "beg.js": null,
+                            "buy.js": null,
+                            "daily.js": null,
+                            "fish.js": null,
+                            "jobs.js": null,
+                            "rich.js": null,
+                            "sell.js": null,
+                            "shop.js": null,
+                            "steal.js": null,
+                            "work.js": null
+                        },
+                        "image": {
+                            "anime.js": null,
+                            "automobiles.js": null,
+                            "cats.js": null,
+                            "dogs.js": null,
+                            "ducks.js": null,
+                            "foxes.js": null,
+                            "husbando.js": null,
+                            "image.js": null,
+                            "nsfwwaifu.js": null,
+                            "owls.js": null,
+                            "rabbits.js": null,
+                            "waifu.js": null
+                        },
+                        "utility": {
+                            "authinfo.js": null,
+                            "avatar.js": null,
+                            "ban.js": null,
+                            "botinfo.js": null,
+                            "count.js": null,
+                            "countfrom.js": null,
+                            "delete.js": null,
+                            "domains.js": null,
+                            "emojistorm.js": null,
+                            "filterlist.js": null,
+                            "help.js": null,
+                            "invite.js": null,
+                            "kick.js": null,
+                            "leaveserver.js": null,
+                            "serverinvite.js": null,
+                            "serverwelcome.js": null,
+                            "showinvites.js": null,
+                            "stopbot.js": null,
+                            "template.js": null
+                        }
+                    },
+                    "UserAccs": {
+                        "1073392564251672639.json": null,
+                        "523963627913478184.json": null,
+                        "531811739746959360.json": null,
+                        "543841753350799500.json": null,
+                        "674660356819517440.json": null,
+                        "735485879946182758.json": null,
+                        "757148419277193218.json": null,
+                        "757540477279928330.json": null,
+                        "784119755111661569.json": null,
+                        "843549307415035925.json": null,
+                        "854404138107928576.json": null,
+                        "936329222048346163.json": null,
+                        "939812858034810880.json": null
+                    }
+                }
+            },
             "python": {
                 "asteroids.py": null,
                 "bookworm.py": null,
@@ -764,16 +964,16 @@
                 },
                 "MuxRepeat_20250206_2.2.1.py": null,
                 "mygame.py": null,
-                "PrimeNumbers.py": null,
                 "oozbok": {
                     "Oozbok.exe": null,
                     "yip.ico": null
                 },
-                "pygobject.py": null,
+                "PrimeNumbers.py": null,
                 "painigger": {
                     "automation.py": null,
                     "gui.py": null
                 },
+                "pygobject.py": null,
                 "requester.py": null,
                 "requester_cli.py": null,
                 "wholesale.py": null,
@@ -924,855 +1124,6 @@
                 "WineLauncher.c": null,
                 "wine_launcher": null
             },
-            "nodejs": {
-                "Dolly": {
-                    "config.js": null,
-                    "core.js": null,
-                    "fixlater": {
-                        "messageCreate.js": null
-                    },
-                    "index.js": null,
-                    "notes.md": null,
-                    "handlers": {
-                        "loadCommands.js": null,
-                        "loadDistube.js": null,
-                        "loadEvents.js": null
-                    },
-                    "package-lock.json": null,
-                    "package.json": null,
-                    "Jobs": {
-                        "basic.json": null,
-                        "law.json": null,
-                        "specialist.json": null
-                    },
-                    "Gacha": {
-                        "characters.json": null,
-                        "common.json": null,
-                        "epic.json": null,
-                        "legendary.json": null,
-                        "rare.json": null,
-                        "uncommon.json": null
-                    },
-                    "serverinvites.txt": null,
-                    "events": {
-                        "guild": {
-                            "guildCreate.js": null,
-                            "messageCreate.js": null
-                        },
-                        "distube": {
-                            "addList.js": null,
-                            "addSong.js": null,
-                            "empty.js": null,
-                            "finish.js": null,
-                            "playSong.js": null,
-                            "searchNoResult.js": null
-                        },
-                        "client": {
-                            "disconnect.js": null,
-                            "ready.js": null,
-                            "reconnecting.js": null,
-                            "shardDisconnect.js": null,
-                            "shardError.js": null,
-                            "shardReady.js": null,
-                            "shardReconnecting.js": null,
-                            "shardResume.js": null,
-                            "voiceStateUpdate.js": null
-                        }
-                    },
-                    "structures": {
-                        "pagequeue.js": null
-                    },
-                    "whitelinks.json": null,
-                    "Shop": {
-                        "protection.json": null,
-                        "tools.json": null,
-                        "weapons.json": null
-                    },
-                    "commands": {
-                        "gacha": {
-                            "cardroll.js": null
-                        },
-                        "social": {
-                            "webhooktest.js": null
-                        },
-                        "fun": {
-                            "amongus.js": null,
-                            "meme.js": null,
-                            "nsfwmeme.js": null,
-                            "reddit.js": null
-                        },
-                        "account": {
-                            "balance.js": null,
-                            "cards.js": null,
-                            "createacc.js": null,
-                            "crimerecords.js": null,
-                            "inventory.js": null,
-                            "transfer.js": null
-                        },
-                        "economy": {
-                            "apply.js": null,
-                            "beg.js": null,
-                            "buy.js": null,
-                            "daily.js": null,
-                            "fish.js": null,
-                            "jobs.js": null,
-                            "rich.js": null,
-                            "sell.js": null,
-                            "shop.js": null,
-                            "steal.js": null,
-                            "work.js": null
-                        },
-                        "image": {
-                            "anime.js": null,
-                            "automobiles.js": null,
-                            "cats.js": null,
-                            "dogs.js": null,
-                            "ducks.js": null,
-                            "foxes.js": null,
-                            "husbando.js": null,
-                            "image.js": null,
-                            "nsfwwaifu.js": null,
-                            "owls.js": null,
-                            "rabbits.js": null,
-                            "waifu.js": null
-                        },
-                        "utility": {
-                            "authinfo.js": null,
-                            "avatar.js": null,
-                            "ban.js": null,
-                            "botinfo.js": null,
-                            "count.js": null,
-                            "countfrom.js": null,
-                            "delete.js": null,
-                            "domains.js": null,
-                            "emojistorm.js": null,
-                            "filterlist.js": null,
-                            "help.js": null,
-                            "invite.js": null,
-                            "kick.js": null,
-                            "leaveserver.js": null,
-                            "serverinvite.js": null,
-                            "serverwelcome.js": null,
-                            "showinvites.js": null,
-                            "stopbot.js": null,
-                            "template.js": null
-                        }
-                    },
-                    "UserAccs": {
-                        "1073392564251672639.json": null,
-                        "523963627913478184.json": null,
-                        "531811739746959360.json": null,
-                        "543841753350799500.json": null,
-                        "674660356819517440.json": null,
-                        "735485879946182758.json": null,
-                        "757148419277193218.json": null,
-                        "757540477279928330.json": null,
-                        "784119755111661569.json": null,
-                        "843549307415035925.json": null,
-                        "854404138107928576.json": null,
-                        "936329222048346163.json": null,
-                        "939812858034810880.json": null
-                    },
-                    "Serverwise": {
-                        "AlienX185's server 1": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Broken": {
-                            "broken-chat": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Bangjukti \ud83c\udde7\ud83c\udde9 \u09ac\u0999\u09cd\u0997\u099c\u09c1\u0995\u09cd\u09a4\u09bf": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "\u09a6\u09c8\u09a8\u09a8\u09cd\u09a6\u09bf\u09a8-\u099c\u09c0\u09ac\u09a8-\ud83c\udfe0": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Amrella HQ": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "chat-about-amrella": {
-                                "MESSAGES.log": null
-                            },
-                            "landing": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "CapTanTeChieF's Bot Testing server": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "bot-command": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "CooperBlackServers": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Delusitic HQ": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "commands": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "DeCyphered": {
-                            "general": {
-                                "MESSAGES.log": null
-                            },
-                            "kek": {
-                                "MESSAGES.log": null
-                            },
-                            "onboarding": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "checkibg": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            },
-                            "kek": {
-                                "MESSAGES.log": null
-                            },
-                            "land": {
-                                "MESSAGES.log": null
-                            },
-                            "raid": {
-                                "MESSAGES.log": null
-                            },
-                            "whitelist-links": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Dewan Mukto HQ": {
-                            "muktoposting": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udd12bot-testing": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udd12server": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "D'sCord": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "bot-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "casual-talk": {
-                                "MESSAGES.log": null
-                            },
-                            "isekai-bot": {
-                                "MESSAGES.log": null
-                            },
-                            "kspeak-bot": {
-                                "MESSAGES.log": null
-                            },
-                            "landing-portal": {
-                                "MESSAGES.log": null
-                            },
-                            "roguex-bot": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Game&Gain": {
-                            "bot-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "lobby": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "English Practising": {
-                            "count-to-infinity": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            },
-                            "music-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "promotion": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "FoxBot HQ": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "bug-reports": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            },
-                            "image-urls": {
-                                "MESSAGES.log": null
-                            },
-                            "protocols": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Gay Homies": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcacgeneral": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udd16all-bots": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Higher Heaven": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "commands": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Knightspeak Tavern": {
-                            "bot-testing": {
-                                "MESSAGES.log": null
-                            },
-                            "portal": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "GameAdda": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "\u300e\ud83c\udf89\u300fgiveaways": {
-                                "MESSAGES.log": null
-                            },
-                            "\u300e\ud83d\udcac\u300fgeneral": {
-                                "MESSAGES.log": null
-                            },
-                            "\u300e\ud83d\udd22\u300fcounting": {
-                                "MESSAGES.log": null
-                            },
-                            "\u300e\ud83d\ude02\u300fmemes": {
-                                "MESSAGES.log": null
-                            },
-                            "\u300e\ud83e\udd16\u300fbot-commands": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Just Us (Virtual Home with mates and a private room)": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "bot-place": {
-                                "MESSAGES.log": null
-                            },
-                            "general-chat": {
-                                "MESSAGES.log": null
-                            },
-                            "project-trees-025-not-finalised": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Life": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "arrivals-\ud83d\udeec": {
-                                "MESSAGES.log": null
-                            },
-                            "bot-commands-\ud83d\udcbb": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "MAC11's server": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "beats": {
-                                "MESSAGES.log": null
-                            },
-                            "robotknowledge": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Muktoverse [North America]": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "thoughts-n-opinions": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Music Server AMN": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "MUX Anime Studios [\ud83c\udde7\ud83c\udde9\ud83c\uddef\ud83c\uddf5]": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Miku Miku Land": {
-                            "appeals": {
-                                "MESSAGES.log": null
-                            },
-                            "bot-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            },
-                            "ideas-and-feedback": {
-                                "MESSAGES.log": null
-                            },
-                            "just-me": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "MuxDay Experimental server": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "New Yakuza \u65b0\u7740": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "weapons": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "MUN Bangladesh Community \ud83c\udde7\ud83c\udde9 MUNBDC": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "bot-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "music-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "post-memes": {
-                                "MESSAGES.log": null
-                            },
-                            "talk-\u0995\u09a5\u09be": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcbb-computer-science": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\ude8c-bus-and-taxi": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "nuke's server": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "commandments": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Royalty of Loyalty": {
-                            "bot-commands": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "TECCORD": {
-                            "\ud83c\udfbcmusic": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udd16bot-fun": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "MuxBots HQ": {
-                            "commands": {
-                                "MESSAGES.log": null
-                            },
-                            "drop-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "moderator-only": {
-                                "MESSAGES.log": null
-                            },
-                            "music": {
-                                "MESSAGES.log": null
-                            },
-                            "rules": {
-                                "MESSAGES.log": null
-                            },
-                            "sfzfzdfv": {
-                                "MESSAGES.log": null
-                            },
-                            "talk": {
-                                "MESSAGES.log": null
-                            },
-                            "vip-spam": {
-                                "MESSAGES.log": null
-                            },
-                            "vip-talk": {
-                                "MESSAGES.log": null
-                            },
-                            "welcome": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "The breaking bad RV": {
-                            "art": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "TahmidWah490's server": {
-                            "bot-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "bot-tests": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            },
-                            "invite-links": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Tempat Nongkrong": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "base-utama-\ud83d\uddff": {
-                                "MESSAGES.log": null
-                            },
-                            "mabar-lah": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "the imageboard": {
-                            "welcome": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "The Nit Zone": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "The Hypes": {
-                            "\ud83d\udca3spam": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcac\u2503general": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcf8\u2503media": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udd16\u2503commands": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Procrastination Palace": {
-                            "announcements": {
-                                "MESSAGES.log": null
-                            },
-                            "art-and-things": {
-                                "MESSAGES.log": null
-                            },
-                            "channel-or-role-ideas": {
-                                "MESSAGES.log": null
-                            },
-                            "chit-chat": {
-                                "MESSAGES.log": null
-                            },
-                            "chit-chat-dead-chat": {
-                                "MESSAGES.log": null
-                            },
-                            "cuddle-rp": {
-                                "MESSAGES.log": null
-                            },
-                            "memes": {
-                                "MESSAGES.log": null
-                            },
-                            "no-mic": {
-                                "MESSAGES.log": null
-                            },
-                            "programming-nerds": {
-                                "MESSAGES.log": null
-                            },
-                            "venting": {
-                                "MESSAGES.log": null
-                            },
-                            "vr-pics": {
-                                "MESSAGES.log": null
-                            },
-                            "welcum": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "VewDew Mine": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Vengeance's server": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "general": {
-                                "MESSAGES.log": null
-                            },
-                            "private": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "ValampZ's Dojo": {
-                            "\ud83c\udfbcmusic": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcc1lobby": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udda5techie-talk": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udd16bot-fun": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Walker Fans": {
-                            "dump": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Phoenix Nation": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "admin-chat": {
-                                "MESSAGES.log": null
-                            },
-                            "free-games": {
-                                "MESSAGES.log": null
-                            },
-                            "\u23f3-6-hours-chat": {
-                                "MESSAGES.log": null
-                            },
-                            "\u2705verify": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83c\udf88-funnnn-bot2-btw": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83c\udfa7-music-commands": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83c\udfb5-producer-socials": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83c\udfb5-submissions": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83c\udfba-just-doot": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcac-general-chat": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udce2-announcements": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcfa-phoenix-uploads": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udd17-drop-your-links": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\ude02-memes": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udd16-bot-commands": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "\u20b2\u20b3\u20a5\u0246\u2c64\u2c6b' \u2c60\u0246\u20b3\u20b2\u0244\u0246": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83c\udfb5music-requests\ud83c\udfb5": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "\u09aa\u09cd\u09b0\u099f\u0982 - Protong": {
-                            "fitness-challenge": {
-                                "MESSAGES.log": null
-                            },
-                            "random-pix": {
-                                "MESSAGES.log": null
-                            },
-                            "welcome": {
-                                "MESSAGES.log": null
-                            },
-                            "\u267ecount-to-infinity": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcacgeneral": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcda-book-resources": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcdaresources": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udd16system": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udeaapromotion": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "TheHypes": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "chatbot": {
-                                "MESSAGES.log": null
-                            },
-                            "counting": {
-                                "MESSAGES.log": null
-                            },
-                            "join-leave": {
-                                "MESSAGES.log": null
-                            },
-                            "no-mic": {
-                                "MESSAGES.log": null
-                            },
-                            "spam": {
-                                "MESSAGES.log": null
-                            },
-                            "\u26a1\ud83c\udfbchyperbass": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83c\udfac\u2503uploads": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udc51\u2503staff-chat": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcac\u2503general": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udcbe\u2503self-promotion": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udce8\u2503talk-with-staff": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udddd\u2503server-logs": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\ude02\u2503memes": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udd16\u2503commands": {
-                                "MESSAGES.log": null
-                            }
-                        },
-                        "Vibe Zone": {
-                            "ACTIVITIES": {
-                                "MESSAGES.log": null
-                            },
-                            "aotd": {
-                                "MESSAGES.log": null
-                            },
-                            "chubs-media-dump": {
-                                "MESSAGES.log": null
-                            },
-                            "facilitator-chat": {
-                                "MESSAGES.log": null
-                            },
-                            "message-logs": {
-                                "MESSAGES.log": null
-                            },
-                            "niko-fanart-compilation": {
-                                "MESSAGES.log": null
-                            },
-                            "qotd": {
-                                "MESSAGES.log": null
-                            },
-                            "reply": {
-                                "MESSAGES.log": null
-                            },
-                            "report-requests": {
-                                "MESSAGES.log": null
-                            },
-                            "snd-castle": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83c\udfaegame-related": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udce2announcements": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udd07no-mic": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udd8ccreations": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\udde3general": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83d\ude02memes": {
-                                "MESSAGES.log": null
-                            },
-                            "\ud83e\udd16bot": {
-                                "MESSAGES.log": null
-                            }
-                        }
-                    }
-                }
-            },
             "java": {
                 "cantstop0318.jar": null,
                 "CantStopGame.jar": null,
@@ -1836,7 +1187,6 @@
                     "GameMenu.ctxt": null,
                     "GameMenu.java": null,
                     "inksplash.png": null,
-                    "ITWD-v0.1.jar": null,
                     "Assets": {
                         "adam.png": null,
                         "click.wav": null,
@@ -1848,17 +1198,10 @@
                         "LeningradDisco.ttf": null,
                         "theme.wav": null
                     },
+                    "ITWD-v0.1.jar": null,
                     "MANIFEST.MF": null,
                     "package.bluej": null,
                     "README.TXT": null
-                },
-                "wifichecker": {
-                    "package.bluej": null,
-                    "README.TXT": null,
-                    "WifiNetworksApp$Network.class": null,
-                    "WifiNetworksApp.class": null,
-                    "WifiNetworksApp.ctxt": null,
-                    "WifiNetworksApp.java": null
                 },
                 "InventoryApp": {
                     "inventory.txt": null,
@@ -1877,6 +1220,14 @@
                     "inventory_report.txt": null,
                     "package.bluej": null,
                     "README.TXT": null
+                },
+                "wifichecker": {
+                    "package.bluej": null,
+                    "README.TXT": null,
+                    "WifiNetworksApp$Network.class": null,
+                    "WifiNetworksApp.class": null,
+                    "WifiNetworksApp.ctxt": null,
+                    "WifiNetworksApp.java": null
                 },
                 "textguigame": {
                     "Game.class": null,
@@ -2540,12 +1891,12 @@
                         "index.html": null,
                         "link.svg": null,
                         "logfile.txt": null,
-                        "package-summary.html": null,
                         "legal": {
                             "ADDITIONAL_LICENSE_INFO": null,
                             "ASSEMBLY_EXCEPTION": null,
                             "LICENSE": null
                         },
+                        "package-summary.html": null,
                         "Player.html": null,
                         "script.js": null,
                         "stylesheet.css": null
