@@ -36,7 +36,7 @@ canvas{
 <canvas id="canvas" width="100%" height="4000px"></canvas>
 
 <audio preload="auto" autoplay loop>
-   <source src="https://dewanmukto.com/asset/audio/frlegendsost2.mp3" type="audio/mpeg" preload="auto" />
+   <source src="https://dewanmukto.github.io/asset/audio/frlegendsost2.mp3" type="audio/mpeg" preload="auto" />
 </audio>
 
 Categories, tags, and other nonsense identifiers to keep things organized

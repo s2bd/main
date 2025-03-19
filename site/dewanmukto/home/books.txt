@@ -1,7 +1,7 @@
-In The Wildest Dimensions///2024///https://dewanmukto.com/asset/images/ITWD_cover.png///https://dewanmukto.com/books/itwd
-Prison of Sentience///2022///https://dewanmukto.com/asset/images/PrisonOfSentience_cover.png///https://www.webnovel.com/book/24195556306955805
-IELTS Guide///2019///https://dewanmukto.com/asset/images/IELTS_cover.png///https://dewanmukto.com/books/ielts-guide
-Synaesthetic Symphonies///2019///https://dewanmukto.com/asset/images/SynSym_cover.png///https://dewanmukto.com/books/syn-sym
-Dead Man Alive///2017///https://dewanmukto.com/asset/images/DMA_cover.png///https://dewanmukto.com/books/dead-man-alive
-A Khajiit's Tale///2017///https://dewanmukto.com/asset/images/AKhajiitsTale_cover.png///https://play.google.com/store/books/details/Dewan_Mukto_A_Khajiit_s_Tale?id=yyGIEAAAQBAJ&hl=as&gl=US
-Cooper Black///2016///https://dewanmukto.com/asset/images/CooperBlack_cover.png///https://dewanmukto.com/books/cooper-black
+In The Wildest Dimensions///2024///https://dewanmukto.github.io/asset/images/ITWD_cover.png///https://dewanmukto.github.io/books/itwd
+Prison of Sentience///2022///https://dewanmukto.github.io/asset/images/PrisonOfSentience_cover.png///https://www.webnovel.com/book/24195556306955805
+IELTS Guide///2019///https://dewanmukto.github.io/asset/images/IELTS_cover.png///https://dewanmukto.github.io/books/ielts-guide
+Synaesthetic Symphonies///2019///https://dewanmukto.github.io/asset/images/SynSym_cover.png///https://dewanmukto.github.io/books/syn-sym
+Dead Man Alive///2017///https://dewanmukto.github.io/asset/images/DMA_cover.png///https://dewanmukto.github.io/books/dead-man-alive
+A Khajiit's Tale///2017///https://dewanmukto.github.io/asset/images/AKhajiitsTale_cover.png///https://play.google.com/store/books/details/Dewan_Mukto_A_Khajiit_s_Tale?id=yyGIEAAAQBAJ&hl=as&gl=US
+Cooper Black///2016///https://dewanmukto.github.io/asset/images/CooperBlack_cover.png///https://dewanmukto.github.io/books/cooper-black

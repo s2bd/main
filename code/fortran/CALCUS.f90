@@ -1,4 +1,4 @@
-! CALCUS by Dewan Mukto (www.dewanmukto.com)
+! CALCUS by Dewan Mukto (www.dewanmukto.github.io)
 ! CALCUS is a multi-purpose "calculation utility service" based on
 ! Fortran 90. Currently, this version is for beta testing only.
 ! Expect almost NO GUARANTEE of stability or confirmation that certain
@@ -79,7 +79,7 @@ do while (command != "exit" .or. "quit")
          print *, "What do you mean? CALCUS is so easy to understand that"
          print *, "even a 9-year old child can use it!"
          print *, "(Okay, just kidding!)"
-         print *, "Refer to the website : dewanmukto.com/calcus for more"
+         print *, "Refer to the website : dewanmukto.github.io/calcus for more"
          print *, "information. This program is supposed to be compact"
          print *, "and versatile. So no extra effort has been made to"
          print *, "improve the user interface. Sorry about that!"

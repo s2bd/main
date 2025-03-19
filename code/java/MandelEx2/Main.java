@@ -117,7 +117,7 @@ public class Main {
         String aboutText = "<html><b>Mandelbrot Explorer</b> <font color='#cfcfcf'>v1.3 2024-10-09</font><br>" +
                 "&copy; Muxday 2024 <br><br><br>" +
                 "Based on Benoit Mandelbrot's fractal discovery,<br>programmed by Dewan Mukto<br>" +
-                "<a href='https://dewanmukto.com'>dewanmukto.com</a></html>";
+                "<a href='https://dewanmukto.github.io'>dewanmukto.github.io</a></html>";
         JOptionPane.showMessageDialog(null, aboutText, "About", JOptionPane.INFORMATION_MESSAGE);
     }
 

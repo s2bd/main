@@ -1,16 +1,16 @@
 ফোচেতন///Kotlin, Android SDK///https://3375821954-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2FJBVe8XQC5nJphwncl83k%2Fsites%2Fsite_gTVyX%2Fsocialpreview%2FcfF0UxOzNPX7PGdDmf33%2Fpika-1741275556108-1x.png?alt=media&amp;token=31982534-f9e4-4533-8867-6bc7a05bd822///https://phocheton.bd.mux8.com/
-MuxWow///PeerJS, PHP///https://dewanmukto.com/asset/images/appimage05.png///https://www.linkedin.com/embed/feed/update/urn:li:share:7300407161774321664
+MuxWow///PeerJS, PHP///https://dewanmukto.github.io/asset/images/appimage05.png///https://www.linkedin.com/embed/feed/update/urn:li:share:7300407161774321664
 MuxRepeat///Python, Pynput///https://cdn.mux8.com/images/ogimage-muxrepeat.png///https://repeat.mux8.com/
 MuxPaint///HTML, CSS, JS///https://apps.mux8.com/paint/ogimage.png///https://apps.mux8.com/paint/
 BRACU Course Search///HTML, CSS, JS///https://apps.mux8.com/bracu/courses/ogimage.png///https://apps.mux8.com/bracu/courses/
-Jackbus///HTML, CSS, LeafletJS///https://dewanmukto.com/asset/images/appimage04.png///https://apps.mux8.com/metrobus/
-Oozbok///Python, Selenium, Pandas///https://dewanmukto.com/asset/images/appimage03.png///https://dewanmukto.com/apps/oozbok
-Zen G///Python, OpenGL///https://dewanmukto.com/asset/images/appimage02.jpg///https://dewanmukto.com/apps/zen-g
-Bracket///PHP, MySQL///https://dewanmukto.com/asset/images/appimage01.png///https://dewanmukto.com/apps/bracket-messenger
-Delta Telekom///Java///https://github.com/diztil/delta-telekom/raw/main/thumb.png///https://dewanmukto.com/apps/delta-telekom
-Mandel Ex///Java///https://i.ytimg.com/vi/xIjsIrgbri4/maxresdefault.jpg///https://dewanmukto.com/apps/mandelex
-Broken.///Lua, Roblox Studio///https://i.ytimg.com/vi/3RvrimRlD7U/maxresdefault.jpg///https://dewanmukto.com/apps/broken
+Jackbus///HTML, CSS, LeafletJS///https://dewanmukto.github.io/asset/images/appimage04.png///https://apps.mux8.com/metrobus/
+Oozbok///Python, Selenium, Pandas///https://dewanmukto.github.io/asset/images/appimage03.png///https://dewanmukto.github.io/apps/oozbok
+Zen G///Python, OpenGL///https://dewanmukto.github.io/asset/images/appimage02.jpg///https://dewanmukto.github.io/apps/zen-g
+Bracket///PHP, MySQL///https://dewanmukto.github.io/asset/images/appimage01.png///https://dewanmukto.github.io/apps/bracket-messenger
+Delta Telekom///Java///https://github.com/diztil/delta-telekom/raw/main/thumb.png///https://dewanmukto.github.io/apps/delta-telekom
+Mandel Ex///Java///https://i.ytimg.com/vi/xIjsIrgbri4/maxresdefault.jpg///https://dewanmukto.github.io/apps/mandelex
+Broken.///Lua, Roblox Studio///https://i.ytimg.com/vi/3RvrimRlD7U/maxresdefault.jpg///https://dewanmukto.github.io/apps/broken
 JammyTube///HTML, CSS, JS, YouTube API///https://apps.mux8.com/yt/ogimage.jpg///https://apps.mux8.com/yt/
-Muktoverse///A-Frame (WebVR)///https://3d.dewanmukto.com/public/assets/ogimage.gif///https://3d.dewanmukto.com/public/
-Amrella///Wordpress, Android SDK///https://i.ytimg.com/vi/j1eKwfCIhbk/maxresdefault.jpg///https://dewanmukto.com/apps/amrella
-Dolly///Node.js///https://dewanmukto.com/asset/images/post1.jpg///https://dewanmukto.com/apps/discordbot
+Muktoverse///A-Frame (WebVR)///https://3d.dewanmukto.github.io/public/assets/ogimage.gif///https://3d.dewanmukto.github.io/public/
+Amrella///Wordpress, Android SDK///https://i.ytimg.com/vi/j1eKwfCIhbk/maxresdefault.jpg///https://dewanmukto.github.io/apps/amrella
+Dolly///Node.js///https://dewanmukto.github.io/asset/images/post1.jpg///https://dewanmukto.github.io/apps/discordbot

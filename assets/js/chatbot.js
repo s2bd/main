@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Fetch and process sitemap
     try {
-        const response = await fetch("https://mux.best/sitemap.json");
+        const response = await fetch("/sitemap.json");
         const sitemapData = await response.json();
         processedSitemap = preprocessSitemap(sitemapData);
         console.log("✅ Processed Sitemap:", processedSitemap); // Debugging
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         if (sender === "bot") {
             const img = document.createElement("img");
-            img.src = "https://mux.best/img/mux/pink-gradient.png";
+            img.src = "/img/mux/pink-gradient.png";
             messageElement.appendChild(img);
         }
 
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const bestMatch = findBestMatch(userMessage);
     if (!bestMatch) return "Sorry, I couldn't find that resource.";
 
-    let fullUrl = `https://mux.best${bestMatch}`;
+    let fullUrl = `https://mux8.com${bestMatch}`;
 
     // Select a random response template
     const randomTemplate = responseTemplates[Math.floor(Math.random() * responseTemplates.length)];

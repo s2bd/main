@@ -28,7 +28,7 @@ function showCategory(category) {
 
         if (category === 'articles') {
             // If the category is "Articles", open an iframe
-            const iframeUrl = 'https://dewanmukto.com/archive/'; // Replace with your actual URL
+            const iframeUrl = 'https://dewanmukto.github.io/archive/'; // Replace with your actual URL
             const iframe = document.createElement('iframe');
             iframe.src = iframeUrl;
             iframe.className = 'articles-iframe';

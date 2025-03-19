@@ -11,7 +11,7 @@ permalink: /apps/discordbot
 |:---:|:---:|:---:|:---:|
 | Chatbot | Node.js, Discord.js | JavaScript | Web |
 
-![](https://dewanmukto.com/asset/images/post1.jpg)
+![](https://dewanmukto.github.io/asset/images/post1.jpg)
 
 ## Download/Use
 
