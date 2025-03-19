@@ -18,7 +18,7 @@ permalink: /apps/mandelex
 ## Download/Use
 You need to have [Java 8](https://www.java.com/en/) or above installed on your device.
 
-### [[ Download ]](https://github.com/diztil/mandelbrot-explorer/releases/download/v1.3/MandelEx.jar)
+### [[ Download ]](https://github.com/dewanmukto/mandelbrot-explorer/releases/download/v1.3/MandelEx.jar)
 To run, just double-click on the **.JAR** file or type `java -jar MandelEx.jar` in your terminal/console.
 
-### [[ Source Code ]](https://github.com/diztil/mandelbrot-explorer)
+### [[ Source Code ]](https://github.com/dewanmukto/mandelbrot-explorer)

@@ -15,4 +15,4 @@ permalink: /apps/discordbot
 
 ## Download/Use
 
-### [[ Source Code ]](https://github.com/diztil/Dolly)
+### [[ Source Code ]](https://github.com/dewanmukto/Dolly)

@@ -7,7 +7,7 @@ Jackbus///HTML, CSS, LeafletJS///https://dewanmukto.github.io/asset/images/appim
 Oozbok///Python, Selenium, Pandas///https://dewanmukto.github.io/asset/images/appimage03.png///https://dewanmukto.github.io/apps/oozbok
 Zen G///Python, OpenGL///https://dewanmukto.github.io/asset/images/appimage02.jpg///https://dewanmukto.github.io/apps/zen-g
 Bracket///PHP, MySQL///https://dewanmukto.github.io/asset/images/appimage01.png///https://dewanmukto.github.io/apps/bracket-messenger
-Delta Telekom///Java///https://github.com/diztil/delta-telekom/raw/main/thumb.png///https://dewanmukto.github.io/apps/delta-telekom
+Delta Telekom///Java///https://github.com/dewanmukto/delta-telekom/raw/main/thumb.png///https://dewanmukto.github.io/apps/delta-telekom
 Mandel Ex///Java///https://i.ytimg.com/vi/xIjsIrgbri4/maxresdefault.jpg///https://dewanmukto.github.io/apps/mandelex
 Broken.///Lua, Roblox Studio///https://i.ytimg.com/vi/3RvrimRlD7U/maxresdefault.jpg///https://dewanmukto.github.io/apps/broken
 JammyTube///HTML, CSS, JS, YouTube API///https://apps.mux8.com/yt/ogimage.jpg///https://apps.mux8.com/yt/

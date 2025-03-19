@@ -50,7 +50,7 @@ jekyll-theme-WuK:
 |:---|:---|:---|
 |Streaming|[@DeluDeluMux](https://www.roblox.com/users/4195779252/profile)|01/1/**2023**|
 |Publicity|[@DewanMukto](https://www.roblox.com/users/4463653477/profile)|27/3/**2023**|
-|Content|[@Diztil](https://www.roblox.com/users/4937080074/profile)|17/8/**2023**|
+|Content|[@dewanmukto](https://www.roblox.com/users/4937080074/profile)|17/8/**2023**|
 |Gaming|[@mux_to](https://www.roblox.com/users/4674969761/profile)|03/6/**2023**|
 |Chronology|[@Nuke_Car](https://www.roblox.com/users/1845735440/profile)|25/8/**2020**|
 |Trolling|[@Dwscwd](https://www.roblox.com/users/4909724479/profile)|9/8/**2023**|

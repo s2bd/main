@@ -21,7 +21,7 @@ def generate_primes(nmax):
             xn = x[-1] + x[-2] - x[-3]
             if not any(xn % xi == 0 for xi in x):
                 # if the Xn is not divisible by any of its previous "values"
-                # (see Note on my website https://diztil.github.io/research/mathematics/discovery/2024/05/02/prime-number-formula)
+                # (see Note on my website https://dewanmukto.github.io/research/mathematics/discovery/2024/05/02/prime-number-formula)
                 print(xn, end=", ")
                 x.append(xn)
                 n += 1

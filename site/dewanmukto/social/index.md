@@ -41,7 +41,7 @@ jekyll-theme-WuK:
 
 ## 💻 Code
 
-- [GitHub](https://github.com/diztil) `Random code and source files`
+- [GitHub](https://github.com/dewanmukto) `Random code and source files`
 - [CodePen](https://codepen.io/distil) `Web-oriented code`
 - [Replit](https://replit.com/@dewanmukto) `Testing code and hosting mini websites`
 

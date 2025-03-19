@@ -116,7 +116,7 @@ function toggleAboutPanel() {
              <a href="https://www.linkedin.com/in/dewanmukto/" target="_blank"><i class="fa-brands fa-linkedin socials"></i></a>
              <a href="https://www.youtube.com/@DewanMukto" target="_blank"><i class="fa-brands fa-youtube socials"></i></a>
              <a href="https://www.behance.net/dmkto" target="_blank"><i class="fa-brands fa-behance socials"></i></a>
-             <a href="https://github.com/diztil" target="_blank"><i class="fa-brands fa-github socials"></i></a>
+             <a href="https://github.com/dewanmukto" target="_blank"><i class="fa-brands fa-github socials"></i></a>
              <a href="https://x.com/dewan_mukto" target="_blank"><i class="fa-brands fa-twitter socials"></i></a>
              <a href="mailto:website@den.ovh" target="_blank"><i class="fa-solid fa-envelope socials"></i></a>
              <br><br>

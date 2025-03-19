@@ -18,6 +18,6 @@ permalink: /apps/delta-telekom
 ## Download/Use
 You need to have [Java 8](https://www.java.com/en/) or above installed on your device.
 
-### [[ Download ]](https://github.com/diztil/delta-telekom/releases/tag/v0.1.4)
+### [[ Download ]](https://github.com/dewanmukto/delta-telekom/releases/tag/v0.1.4)
 
-### [[ Source Code ]](https://github.com/diztil/delta-telekom)
+### [[ Source Code ]](https://github.com/dewanmukto/delta-telekom)

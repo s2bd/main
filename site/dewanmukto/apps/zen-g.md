@@ -11,4 +11,4 @@ permalink: /apps/zen-g
 |:---:|:---:|:---:|:---:|
 | Game prototype | OpenGL | Python | Windows, Linux |
 
-### [[ Source Code ]](https://github.com/diztil/cse423-s11-g12)
+### [[ Source Code ]](https://github.com/dewanmukto/cse423-s11-g12)
