@@ -2,20 +2,18 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <div class="read-progress"></div>
-    <main class="article">
-      {% include header.html %}
-      {% include bio.html %}
+    <main>
+      {% include header.html %} {% include bio.html %}
       <section class="articles">
         {% for post in site.posts %}
-        <article class="article">
+        <article class="glassmorphic-card article">
           <h2 class="article-title">
-            <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+            <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
           </h2>
           <small class="date">{{post.date | date_to_string}}</small>
           <div class="categories">
             {% for c in post.categories %}
-            <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
+            <a href="#" class="category">{{c}}</a>
             {% endfor %}
           </div>
         </article>

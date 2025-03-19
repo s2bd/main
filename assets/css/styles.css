@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+}
+
+.glassmorphic-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.glassmorphic-header, .glassmorphic-footer {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 15px;
+  text-align: center;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.article-title a {
+  color: #222;
+  text-decoration: none;
+}
+
+.article-title a:hover {
+  text-decoration: underline;
+}
+
+.category {
+  background: rgba(0, 122, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.bio-text {
+  font-size: 16px;
+}
+
+.social-link {
+  margin-right: 10px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
