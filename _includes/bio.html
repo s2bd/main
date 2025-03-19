@@ -1,15 +1,15 @@
-<section id="bio">
-  <section id="img-wrapper">
-    <img src="{{site.data.author.dp}}" alt="" />
-  </section>
-  <section id="bio-wrapper">
+<section id="bio" class="article">
+  <div id="img-wrapper">
+    <img src="{{site.data.author.dp}}" alt="Author Image" />
+  </div>
+  <div id="bio-wrapper">
     <div id="text-wrapper">{{site.data.author.description}}</div>
     <div id="social-wrapper">
       {% for i in site.data.author.contact %}
       <a href="{{i.url}}" target="_blank">
         <img src="{{site.baseurl}}/assets/icons/{{i.title}}.png" alt="{{i.title}}" />
       </a>
-      {%endfor%}
+      {% endfor %}
     </div>
-  </section>
+  </div>
 </section>
