@@ -2,9 +2,10 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <main>
-      
-      {% include header.html %} {% include bio.html %}
+    <div class="read-progress"></div>
+    <main class="article">
+      {% include header.html %}
+      {% include bio.html %}
       <section class="articles">
         {% for post in site.posts %}
         <article class="article">
@@ -14,17 +15,14 @@
           <small class="date">{{post.date | date_to_string}}</small>
           <div class="categories">
             {% for c in post.categories %}
-            <a href="#!" data-base-url="{{site.baseurl}}" class="category"
-              >{{c}}</a
-            >
+            <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
             {% endfor %}
           </div>
         </article>
-        {%endfor%}
+        {% endfor %}
       </section>
       {% include footer.html %}
-      
     </main>
-    {% include category-modal.html%}
+    {% include category-modal.html %}
   </body>
 </html>
