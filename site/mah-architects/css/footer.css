@@ -1,0 +1,27 @@
+.footer {
+    background: #f5f5f5;
+    padding: 3rem 2rem;
+  }
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-logo {
+    font-size: 1.5rem;
+  }
+  .footer-columns {
+    display: flex;
+    gap: 2rem;
+  }
+  .footer-col h4 {
+    margin-bottom: 1rem;
+  }
+  .footer-col p {
+    margin-bottom: 0.5rem;
+  }
+  .footer-bottom {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  

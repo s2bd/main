@@ -1,261 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Architectural Firm</title>
-    <!-- FontAwesome for search icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAH Architects Inc.</title>
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/hero.css">
+<link rel="stylesheet" href="css/alternating-section.css">
+<link rel="stylesheet" href="css/values.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/responsive.css">
 
-        body {
-            overflow-x: hidden;
-        }
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 
-        .navbar {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            right: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 100;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 30px;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: #333;
-            font-size: 16px;
-        }
-
-        .search-icon {
-            color: #333;
-            font-size: 20px;
-        }
-
-        .hero-section {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        .hero-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-
-        .text-overlay {
-            position: absolute;
-            bottom: 50px;
-            left: 50px;
-            color: #333;
-        }
-
-        .main-title {
-            font-size: 48px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            line-height: 1.2;
-        }
-
-        .subtitle {
-            font-size: 16px;
-        }
-
-        .arrows {
-            position: absolute;
-            bottom: 50px;
-            right: 50px;
-            display: flex;
-            gap: 20px;
-        }
-
-        .arrow {
-            width: 40px;
-            cursor: pointer;
-        }
-
-        .counter {
-            position: absolute;
-            bottom: 50px;
-            right: 130px;
-            color: #333;
-            font-size: 16px;
-        }
-
-        /* Animation Classes */
-        .fade-out-zoom-in {
-            animation: fadeOutZoomIn 0.5s ease forwards;
-        }
-
-        .fade-in-zoom-out {
-            animation: fadeInZoomOut 0.5s ease forwards;
-        }
-
-        .text-fade-out-slide-down {
-            animation: textFadeOutSlideDown 0.5s ease forwards;
-        }
-
-        .text-fade-in-slide-up {
-            animation: textFadeInSlideUp 0.5s ease forwards;
-        }
-
-        @keyframes fadeOutZoomIn {
-            0% {
-                opacity: 1;
-                transform: scale(1);
-            }
-            100% {
-                opacity: 0;
-                transform: scale(1.1);
-            }
-        }
-
-        @keyframes fadeInZoomOut {
-            0% {
-                opacity: 0;
-                transform: scale(1.1);
-            }
-            100% {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-
-        @keyframes textFadeOutSlideDown {
-            0% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-            100% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-        }
-
-        @keyframes textFadeInSlideUp {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">HANDEL ARCHITECTS LLP</div>
-        <div class="nav-links">
-            <a href="#">Projects</a>
-            <a href="#">Expertise</a>
-            <a href="#">Firm</a>
-            <a href="#">Values</a>
-            <a href="#">Latest</a>
-            <a href="#">Contact</a>
+
+  <!-- Navbar -->
+  <header id="navbar" class="navbar">
+    <div class="container">
+        <div class="logo-container">
+            <div class="logo">
+                <span class="mah-word">MAH</span>
+                <div class="name-block">
+                    <span class="arch-label">Architects</span>
+                    <span class="inc-label">Inc.</span>
+                </div>
+            </div>
+          </div>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <i class="fas fa-search"></i>
+      </nav>
+      <div class="burger" id="burger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#projects">Projects</a>
+    <a href="#expertise">Expertise</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <img src="images/project_images/bangladesh/Apartment Building at Banani, Dhaka.jpg" class="hero-image" alt="Hero Image">
+    <div class="text-overlay">
+      <h1 class="main-title">We are specialists in multifamily residential design.</h1>
+      <p class="subtitle">OZMA RESIDENCES: Ahead of the Curve in DC's NoMa Neighborhood</p>
+    </div>
+    <div class="counter">01 / 03</div>
+    <div class="arrows">
+      <img src="https://handelarchitects.com/images/left-arrow.svg" class="arrow left-arrow" alt="Left Arrow">
+      <img src="https://handelarchitects.com/images/right-arrow.svg" class="arrow right-arrow" alt="Right Arrow">
+    </div>
+  </section>
+  
+
+  <!-- Alternating Image-Text Section -->
+  <section class="alternating-section">
+    <div class="alt-row">
+      <div class="alt-images">
+        <img src="images/profile_pics/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" class="focused" />
+        <img src="images/profile_pics/alexander-krivitskiy-tfq5eYDlxLw-unsplash.jpg" class="unfocused" />
+      </div>
+      <div class="alt-text">
+        <h2>Project Title</h2>
+        <p>Brief description about the project or idea.</p>
+        <a href="#" class="alt-link">Explore <span class="underscore">_</span></a>
+      </div>
+    </div>
+    <div class="alt-row reverse">
+      <div class="alt-text">
+        <h2>Another Highlight</h2>
+        <p>Another supporting paragraph explaining context.</p>
+        <a href="#" class="alt-link">Explore <span class="underscore">_</span></a>
+      </div>
+      <div class="alt-images">
+        <img src="images/gallery_images/luke-van-zyl-koH7IVuwRLw-unsplash.jpg" class="focused" />
+        <img src="images/gallery_images/ricardo-gomez-angel-opFPVxMRpP8-unsplash.jpg" class="unfocused" />
+      </div>
+    </div>
+    <div class="alt-row">
+      <div class="alt-images">
+        <img src="images/gallery_images/sunguk-kim-Q5D4oYiZKAE-unsplash.jpg" class="focused" />
+        <img src="images/gallery_images/chris-reyem-l_h4zrtTnwE-unsplash.jpg" class="unfocused" />
+      </div>
+      <div class="alt-text">
+        <h2>Third Feature</h2>
+        <p>Details about this image and its context or story.</p>
+        <a href="#" class="alt-link">Explore <span class="underscore">_</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Centered Value Statement -->
+  <section class="centered-values">
+    <h2>MAH Architects Inc. takes pride in having a heritage backed by cooperation, integrity and pure passion.</h2>
+    <div class="value-links">
+      <a href="#" class="primary-link">Learn more about our values</a>
+      <a href="#" class="secondary-link">Become part of us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo"><img src="images/logos/Logo-JPG.jpg" width="120px" alt="Logo" /></div>
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>Firm</h4>
+          <a href="/about"><p>About</p></a>
+          <a href="/about#insights"><p>Insights</p></a>
         </div>
-        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
-    </nav>
-
-    <section class="hero-section">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="hero-image" alt="Architecture">
-        <div class="text-overlay">
-            <h1 class="main-title">We are specialists in multifamily residential design.</h1>
-            <p class="subtitle">OZMA RESIDENCES: Ahead of the Curve in DC's NoMa Neighborhood</p>
+        <div class="footer-col">
+          <h4>Expertise</h4>
+          <p>Feasibility Studies/ Facility Assessments</p>
+          <p>Architectural and Interior Design</p>
+          <p>Zoning Amendment/ Site Plan Approvals/ Committee of Adjustments/ Building Permit</p>
+          <p>Structural and MEP Engineering supports</p>
+          <p>Bidding and Contract negotiations</p>
+          <p>Project Contract Administration and Construction Management</p>
         </div>
-        <div class="counter">01 / 08</div>
-        <div class="arrows">
-            <img src="https://handelarchitects.com/images/left-arrow.svg" class="arrow left-arrow" alt="Left Arrow">
-            <img src="https://handelarchitects.com/images/right-arrow.svg" class="arrow right-arrow" alt="Right Arrow">
+        <div class="footer-col">
+          <h4>Projects</h4>
+          <p>Custom Residence</p>
+          <p>Duplex, Triplex and Fourplex</p>
+          <p>Laneway/Garden suites</p>
+          <p>Low-Mid Rise Condominium</p>
+          <p>Industrial Buildings</p>
+          <p>Commercial Buildings</p>
+          <p>Restaurant and Cafes</p>
+          <p>Institutional/ Healthcare/ Hospitality</p>
         </div>
-    </section>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <p>Contact Us</p>
+          <p>Facebook</p>
+          <p>LinkedIn</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025. All rights reserved. As an employer conscious about equality and diversity, we welcome all applicants who have sufficient qualifications regardless of age, race, gender, nationality, ethnicity, or status or any other personal traits under legal protection.</p>
+    </div>
+  </footer>
 
-    <script>
-        const images = [
-            'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
-            'images/project_images/bangladesh/Apartment Building at Banani, Dhaka.jpg',
-            'images/project_images/bangladesh/Apartment Building at Gulshan-2, Dhaka.jpg'
-        ];
-
-        const texts = [
-            {
-                title: 'We are specialists in multifamily residential design.',
-                subtitle: 'OZMA RESIDENCES: Ahead of the Curve in DC\'s NoMa Neighborhood'
-            },
-            {
-                title: 'Creating spaces that inspire communities.',
-                subtitle: 'Project X: Modern Living in Downtown'
-            },
-            {
-                title: 'Innovative designs for modern living.',
-                subtitle: 'Project Y: Sustainable Architecture'
-            }
-        ];
-
-        let currentIndex = 0;
-        const heroImage = document.querySelector('.hero-image');
-        const mainTitle = document.querySelector('.main-title');
-        const subtitle = document.querySelector('.subtitle');
-        const counter = document.querySelector('.counter');
-        const leftArrow = document.querySelector('.left-arrow');
-        const rightArrow = document.querySelector('.right-arrow');
-
-        function updateContent() {
-            // Update image
-            heroImage.classList.add('fade-out-zoom-in');
-            setTimeout(() => {
-                heroImage.src = images[currentIndex];
-                heroImage.classList.add('fade-in-zoom-out');
-            }, 500);
-
-            // Update text
-            mainTitle.classList.add('text-fade-out-slide-down');
-            subtitle.classList.add('text-fade-out-slide-down');
-            setTimeout(() => {
-                mainTitle.textContent = texts[currentIndex].title;
-                subtitle.textContent = texts[currentIndex].subtitle;
-                mainTitle.classList.add('text-fade-in-slide-up');
-                subtitle.classList.add('text-fade-in-slide-up');
-            }, 500);
-
-            // Update counter
-            counter.textContent = `0${currentIndex + 1} / 0${images.length}`;
-        }
-
-        leftArrow.addEventListener('click', () => {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            updateContent();
-        });
-
-        rightArrow.addEventListener('click', () => {
-            currentIndex = (currentIndex + 1) % images.length;
-            updateContent();
-        });
-    </script>
+  <script src="script.js"></script>
 </body>
 </html>

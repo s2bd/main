@@ -1,71 +1,110 @@
-// Carousel functionality
-let carouselIndex = 0;
-const carouselImgs = document.querySelectorAll('.carousel-img');
-const totalImgs = carouselImgs.length;
-const carouselCaptions = [
-  "Modern Duplex", // Example caption for first image
-  "Historic Museum", // Example caption for second image
-  "Custom Residence", // Example caption for third image
-  "Public Gathering Space", // Example caption for fourth image
-  "Urban Living" // Example caption for fifth image
-];
-
-const captionBox = document.querySelector('.carousel-caption-text');
-
-function carousel() {
-  carouselImgs.forEach((img, index) => {
-    img.classList.remove('active');
-  });
-
-  carouselIndex = (carouselIndex + 1) % totalImgs;
-  carouselImgs[carouselIndex].classList.add('active');
-  captionBox.textContent = carouselCaptions[carouselIndex]; // Update caption based on active image
-}
-
-setInterval(carousel, 4000);
-
-// Shrinking Titles on Scroll
-const titles = document.querySelectorAll('h2');
-
-window.addEventListener('scroll', () => {
-  titles.forEach(title => {
-    if (window.scrollY > 100) {
-      title.style.fontSize = '36px';
-    } else {
-      title.style.fontSize = '48px';
-    }
-  });
+// Burger Menu
+document.getElementById("burger").addEventListener("click", () => {
+  document.getElementById("mobileMenu").classList.toggle("active");
 });
 
+// Sticky Navbar Show/Hide on Scroll
+let lastScroll = 0;
+const navbar = document.getElementById("navbar");
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
 
-// Navbar scroll tracker with dynamic width + horizontal movement
-const sections = document.querySelectorAll('section');
-const navLinks = document.querySelectorAll('.navbar a');
-const navHighlight = document.querySelector('.nav-highlight');
-
-function updateHighlight() {
-  let currentId = '';
-  sections.forEach(section => {
-    const top = section.offsetTop;
-    const height = section.offsetHeight;
-    if (pageYOffset >= top - height / 3) {
-      currentId = section.getAttribute('id');
-    }
-  });
-
-  navLinks.forEach(link => link.classList.remove('active'));
-
-  const activeLink = [...navLinks].find(link => link.getAttribute('href') === `#${currentId}`);
-  if (activeLink) {
-    activeLink.classList.add('active');
-    const linkRect = activeLink.getBoundingClientRect();
-    const parentRect = activeLink.parentElement.getBoundingClientRect();
-
-    navHighlight.style.width = `${linkRect.width}px`;
-    navHighlight.style.transform = `translateX(${linkRect.left - parentRect.left}px)`;
+  if (currentScroll <= 0) {
+    navbar.style.top = "0";
+    navbar.classList.remove("scrolled-up");
+    navbar.classList.remove("scrolled-down");
+  } else if (currentScroll > lastScroll) {
+    navbar.style.top = "-100px";
+    navbar.classList.add("scrolled-down");
+    navbar.classList.remove("scrolled-up");
+  } else {
+    navbar.style.top = "0";
+    navbar.classList.add("scrolled-up");
+    navbar.classList.remove("scrolled-down");
   }
+
+  lastScroll = currentScroll;
+});
+
+// Hero Slider
+const images = [
+  'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+  'images/project_images/bangladesh/Apartment Building at Banani, Dhaka.jpg',
+  'images/project_images/bangladesh/Apartment Building at Gulshan-2, Dhaka.jpg'
+];
+
+const texts = [
+  {
+    title: 'We are specialists in multifamily residential design.',
+    subtitle: 'OZMA RESIDENCES: Ahead of the Curve in DC\'s NoMa Neighborhood'
+  },
+  {
+    title: 'Creating spaces that inspire communities.',
+    subtitle: 'Project X: Modern Living in Downtown'
+  },
+  {
+    title: 'Innovative designs for modern living.',
+    subtitle: 'Project Y: Sustainable Architecture'
+  }
+];
+
+let currentIndex = 0;
+
+const heroImage = document.querySelector('.hero-image');
+const mainTitle = document.querySelector('.main-title');
+const subtitle = document.querySelector('.subtitle');
+const counter = document.querySelector('.counter');
+const leftArrow = document.querySelector('.left-arrow');
+const rightArrow = document.querySelector('.right-arrow');
+
+function updateArrowStates() {
+  leftArrow.classList.toggle('disabled', currentIndex === 0);
+  rightArrow.classList.toggle('disabled', currentIndex === images.length - 1);
 }
 
-window.addEventListener('scroll', updateHighlight);
-window.addEventListener('load', updateHighlight);
+function updateContent() {
+  heroImage.classList.remove('fade-in-zoom-out');
+  heroImage.classList.add('fade-out-zoom-in');
+
+  mainTitle.classList.remove('text-fade-in-slide-up');
+  subtitle.classList.remove('text-fade-in-slide-up');
+  mainTitle.classList.add('text-fade-out-slide-down');
+  subtitle.classList.add('text-fade-out-slide-down');
+
+  setTimeout(() => {
+    heroImage.src = images[currentIndex];
+    heroImage.classList.remove('fade-out-zoom-in');
+    heroImage.classList.add('fade-in-zoom-out');
+
+    mainTitle.textContent = texts[currentIndex].title;
+    subtitle.textContent = texts[currentIndex].subtitle;
+
+    mainTitle.classList.remove('text-fade-out-slide-down');
+    subtitle.classList.remove('text-fade-out-slide-down');
+    mainTitle.classList.add('text-fade-in-slide-up');
+    subtitle.classList.add('text-fade-in-slide-up');
+
+    counter.textContent = `0${currentIndex + 1} / 0${images.length}`;
+
+    updateArrowStates();
+  }, 500);
+}
+
+leftArrow.addEventListener('click', () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    updateContent();
+  }
+});
+
+rightArrow.addEventListener('click', () => {
+  if (currentIndex < images.length - 1) {
+    currentIndex++;
+    updateContent();
+  }
+});
+
+// Initial load
+updateContent();
+
 

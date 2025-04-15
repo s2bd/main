@@ -1,0 +1,48 @@
+.alternating-section {
+    background: white;
+    padding: 4rem 2rem;
+  }
+  .alt-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  .alt-row.reverse {
+    flex-direction: row-reverse;
+  }
+  .alt-images {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+  }
+  .alt-images img {
+    transition: 0.5s;
+    max-width: 250px;
+    height: auto;
+  }
+  .focused {
+    filter: none;
+    opacity: 1;
+  }
+  .unfocused {
+    filter: grayscale(100%);
+    opacity: 0.5;
+  }
+  .alt-text {
+    flex: 1;
+  }
+  .alt-link {
+    color: #1245a8;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  .alt-link .underscore {
+    transition: all 0.3s;
+  }
+  .alt-link:hover .underscore {
+    content: "→";
+    color: #1245a8;
+    font-weight: bold;
+  }
+  

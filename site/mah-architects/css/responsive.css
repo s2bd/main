@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    .burger {
+      display: block;
+    }
+    .mobile-menu.active {
+      display: flex;
+    }
+    .alt-row,
+    .alt-row.reverse {
+      flex-direction: column;
+    }
+  }
+  

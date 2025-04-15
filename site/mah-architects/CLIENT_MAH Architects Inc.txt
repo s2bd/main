@@ -1,0 +1,129 @@
+Updates:
+[+] Dark themes preferred
+[+] White, grey, black, orange palette
+
+Client = Mohona Das Orthi
+Budget = 200 CAD
+
+Brand = MAH Architects Inc.
+Color Scheme = Classical Monochrome (black, white, grey) + Business Teal/Orange accents (very few)
+No. of sections = 4
+
+Section 1: Home
+Contains: (!) Introduction to company
+
+Section 1.5: About
+About:
+MAH Architects Inc., previously known as A&A, was established in 2018 in Ontario, Canada. The firm has completed numerous projects and offers architectural services for various building types, including residential, commercial, retail, industrial, institutional, restaurant and café, healthcare, and hospitality facilities such as hotels and motels.
+
+Why you Choose us
+MAH Architects Inc. is dedicated to client-first sustainable architecture. We believe great architecture is a collaborative process, reflecting the input and ideas of everyone involved rather than solely the architect's vision.
+Our team comprises licensed, registered, and experienced architects, visionary designers, and supporting engineering professionals. This integrated team efficiently leverages their expertise to create architectural masterpieces.
+Our working tools included modern technology such as Building Information Modeling software (BIM) and contract administration software to ensure seamless construction and compliance with jurisdictional construction standards. 
+Our practice rules and regulations are followed as standardized by the Royal Architectural Institute of Canada (RAIC), Ontario Association of Architects (OAA), and other local and International regulatory bodies.
+
+
+Section 2: Team
+Contains: Team Member Profiles + Biography
+Requires: (!) Member photographs, (!) Brief member introductions
+
+Team:
+
+Canada
+
+Mohd Alamgir Hossain
+Principal Architect
+OAA. MRAIC. MIAB.
+Designated RHFAC professional
+
+Alamgir; a licensed and registered Architect at OAA, a member of RAIC, IAB, and a designated RHFAC accessibility professional with over 20 years of experience in the architectural service industry. His practice encompasses various project types, including residential, commercial, industrial, retail, restaurant and café, institutional, healthcare, and hospitality facilities. A core principle of his practice is sustainability and adaptability, incorporating universal accessible design principles in the built environment. 
+
+Babita Babita
+Administrative Assistant
+
+Mohona Das Orthi
+Architectural Designer
+
+
+Bangladesh
+
+Mohammed Ali Alaul Haque
+Managing Director, 
+Dhaka and Khulna Office
+
+
+
+Insights
+
+Why your project requires Architects?
+
+The Architect, who functions as advisor, coordinator, and technical manager, in addition to being a creative artist, can design and administer a contract that ensures a project is completed on time, within budget, and meets the required standards of quality.
+According to Ontario jurisdiction by law, certain types of projects must involve an architect to ensure public health, safety, welfare, sustainable growth, and environmental protection. When determining if your project requires architectural services, hiring a qualified architect can be beneficial. Architects have expertise in built environments and are knowledgeable about complex regulatory requirements such as building codes, zoning bylaws, the construction process, and environmental considerations.
+
+
+
+Section 3: Services
+Contains: Gallery of project samples
+Project variations: (a) Custom Residence, (b) Duplex, Triplex and Fourplex, (c) Laneway/Garden suites, (d) Low-Mid Rise Condominium, (e) Industrial Buildings, (f) Commercial Buildings, (g) Restaurant and Cafes, (h) Institutional/ Healthcare/ Hospitality.
+Requires: (!) Sketches + Text. And slots for each.
+
+Services We Offer
+Feasibility Studies/ Facility Assessments
+Architectural and Interior Design
+Zoning Amendment/ Site Plan Approvals/ Committee of Adjustments/ Building Permit
+Structural and MEP Engineering supports
+Bidding and Contract negotiations
+Project Contract Administration and Construction Management
+
+
+Section 4: Contact
+Contains: Social platform links
+Requires: (!) LinkedIn, email address, etc. Icons. Redirection to new tab.
+Addresses:
+155 Dearbourne Blvd.
+Brampton, ON L6T1K1
+Canada
+
+Dhaka, Bangladesh
+Khulna, Bangladesh
+
+Section 5: Expertise
+
+We Expertise:
+Single and Multifamily Residential Buildings
+MAH Architects Inc. has successfully completed more than fifty (50) residential projects throughout the Greater Toronto Area. This includes custom homes, additions and renovations of residential buildings, as well as duplexes, triplexes, fourplexes, laneway and garden suites, and low to mid-rise condominium developments.
+Mixed-use Commercial, Retail, Restaurants and Café
+MAH Architects Inc. provides design services for commercial buildings, including office interior alterations, retail fit-outs, and restaurant/café design within the Greater Toronto Area and globally.
+Institutional (Colleges/ Schools and Training Centre)
+We had experience to design a specialized college by change of use of occupancy from Group D (office) to Occupancy Type Group (A2) at Toronto, Ontario, Canada as well design of new training center for newly recruited cadet and elementary schools at various locations in Bangladesh.
+Industrial (Warehouse and Distribution Center)
+We have extensive experience in designing, permitting, and administrating the construction of warehouses and distribution centers across Ontario and Canada.
+Hospitality Design
+We have successfully designed several luxury hotels and resorts on a global scale and are now striving to establish a presence in the North American market to promote the development of sustainable hospitality facilities.
+
+Healthcare Facilities Design
+We have experience in designing a 200-bed general hospital for the Bangladesh Navy, along with the specialized design of a trauma and burn unit, as well as an ICU building for CMH Hospital located in Dhaka, Bangladesh.
+We worked on interior alterations for small clinics in Ontario and are dedicated to serving healthcare establishments of all sizes.
+
+Accessibility Assessment and Recommendation
+
+Meaningful accessibility and a universal design approach are key points of our practice. As designated accessibility professionals, we conduct assessments of built environments and provide expert opinions and recommendations to ensure building accessibility for everyone.
+
+Technical aspects of Design and Visualization
+We possess technical expertise and a comprehensive understanding of building codes, bylaws, and regulations. Our team consists of specialists in BIM who simulate, analyze, and optimize design and construction complexities upfront to ensure successful implementation. 
+Real-time 3D visualization is crucial for understanding the spatial, qualitative, material, and aesthetic aspects of building designs. It aids our design process, allowing clients and teams to conduct upfront reviews and contribute to creating a final masterpiece.
+
+
+			Copyright 2025. All rights reserved. As an employer conscious about equality and diversity, we welcome all applicants who have sufficient qualifications regardless of age, race, gender, nationality, ethnicity, or status or any other personal traits under legal protection.
+
+Hosting requirements: static site level (HTML, CSS, JS)
+Domain requirements: connect to Vercel, Render, GitHub Pages.
+
+Competitor Website For Inspiration:
+https://handelarchitects.com/
+https://www.clarkedesigngroup.com/
+https://makhnostudio.com/studio/portfolio/
+https://www.rdharch.com/
+https://www.caricarilee.com/
+https://mtarch.com/news/
+https://www.parkin.ca/
