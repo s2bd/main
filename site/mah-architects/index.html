@@ -1,141 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MAH Architects Inc.</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Raleway:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Firm</title>
+    <!-- FontAwesome for search icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .search-icon {
+            color: #333;
+            font-size: 20px;
+        }
+
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .text-overlay {
+            position: absolute;
+            bottom: 50px;
+            left: 50px;
+            color: #333;
+        }
+
+        .main-title {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            font-size: 16px;
+        }
+
+        .arrows {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .arrow {
+            width: 40px;
+            cursor: pointer;
+        }
+
+        .counter {
+            position: absolute;
+            bottom: 50px;
+            right: 130px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        /* Animation Classes */
+        .fade-out-zoom-in {
+            animation: fadeOutZoomIn 0.5s ease forwards;
+        }
+
+        .fade-in-zoom-out {
+            animation: fadeInZoomOut 0.5s ease forwards;
+        }
+
+        .text-fade-out-slide-down {
+            animation: textFadeOutSlideDown 0.5s ease forwards;
+        }
+
+        .text-fade-in-slide-up {
+            animation: textFadeInSlideUp 0.5s ease forwards;
+        }
+
+        @keyframes fadeOutZoomIn {
+            0% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(1.1);
+            }
+        }
+
+        @keyframes fadeInZoomOut {
+            0% {
+                opacity: 0;
+                transform: scale(1.1);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes textFadeOutSlideDown {
+            0% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+        }
+
+        @keyframes textFadeInSlideUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 <body>
-
-
-
-  <div class="logo-container">
-    <div class="logo">
-        <span class="mah-word">MAH</span>
-        <div class="name-block">
-            <span class="arch-label">Architects</span>
-            <span class="inc-label">Inc.</span>
+    <nav class="navbar">
+        <div class="logo">HANDEL ARCHITECTS LLP</div>
+        <div class="nav-links">
+            <a href="#">Projects</a>
+            <a href="#">Expertise</a>
+            <a href="#">Firm</a>
+            <a href="#">Values</a>
+            <a href="#">Latest</a>
+            <a href="#">Contact</a>
         </div>
-    </div>
-  </div>
-  
-  
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+    </nav>
 
-  <!-- Sticky Navbar -->
-  <nav class="navbar">
-    <ul id="navbar-links">
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#team">Team</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <div class="nav-highlight"></div>
-    </ul>
-  </nav>
-
-  <!-- Home -->
-  <section id="home" class="section home-section">
-    <div class="carousel" id="carousel">
-      <img src="images/gallery_images/lance-anderson-QdAAasrZhdk-unsplash.jpg" class="carousel-img active" />
-      <img src="images/gallery_images/chris-reyem-l_h4zrtTnwE-unsplash.jpg" class="carousel-img" />
-      <img src="images/gallery_images/ricardo-gomez-angel-opFPVxMRpP8-unsplash.jpg" class="carousel-img" />
-      <img src="images/gallery_images/luke-van-zyl-koH7IVuwRLw-unsplash.jpg" class="carousel-img" />
-      <img src="images/gallery_images/sunguk-kim-Q5D4oYiZKAE-unsplash.jpg" class="carousel-img" />
-    </div>
-  
-    <!-- Top-left Rectangle -->
-    <div class="top-left-rectangle">
-      <h1>Designing Space, Inspiring People</h1>
-      <p>At MAH Architects Inc., we reimagine living, working, and gathering spaces with clarity, creativity, and conscience.</p>
-    </div>
-  
-    <!-- Bottom-right Rectangle -->
-    <!-- Carousel caption -->
-    <div class="carousel-caption-box">
-      <p class="carousel-caption-text">Modern Duplex</p>
-    </div>
-  </section>
-
-  <!-- Team -->
-  <section id="team" class="section team-section">
-    <h2>Our Team</h2>
-    <div class="team-container">
-      <div class="team-member">
-        <img src="images/profile_pics/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" />
-        <div class="member-info">
-          <h3>John Doe</h3>
-          <p>Principal Architect with over 15 years of innovative design experience.</p>
+    <section class="hero-section">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="hero-image" alt="Architecture">
+        <div class="text-overlay">
+            <h1 class="main-title">We are specialists in multifamily residential design.</h1>
+            <p class="subtitle">OZMA RESIDENCES: Ahead of the Curve in DC's NoMa Neighborhood</p>
         </div>
-      </div>
-      <div class="team-member">
-        <img src="images/profile_pics/alexander-krivitskiy-tfq5eYDlxLw-unsplash.jpg" />
-        <div class="member-info">
-          <h3>Jane Smith</h3>
-          <p>Design Lead specializing in modern multi-use developments.</p>
+        <div class="counter">01 / 08</div>
+        <div class="arrows">
+            <img src="https://handelarchitects.com/images/left-arrow.svg" class="arrow left-arrow" alt="Left Arrow">
+            <img src="https://handelarchitects.com/images/right-arrow.svg" class="arrow right-arrow" alt="Right Arrow">
         </div>
-      </div>
-      <!-- <div class="team-member">
-        <img src="images/profile_pics/diego-hernandez-MSepzbKFz10-unsplash.jpg" />
-        <div class="member-info">
-          <h3>Richard Roe</h3>
-          <p>IT expert controlling the brand identity online.</p>
-        </div> -->
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Services -->
-  <section id="services" class="section services-section">
-    <h2>What We Do</h2>
-    <div class="service-tags">
-      <span>Custom Residence</span>
-      <span>Duplex, Triplex and Fourplex</span>
-      <span>Laneway/Garden suites</span>
-      <span>Low-Mid Rise Condominium</span>
-      <span>Industrial Buildings</span>
-      <span>Commercial Buildings</span>
-      <span>Restaurant and Cafes</span>
-      <span>Institutional/Healthcare/Hospitality</span>
-    </div>
-    <div class="gallery">
-      <div class="gallery-item">
-        <img src="images/gallery_images/lance-anderson-QdAAasrZhdk-unsplash.jpg" />
-        <div class="overlay-text">Modern Duplex</div>
-      </div>
-      <div class="gallery-item">
-        <img src="images/gallery_images/luke-van-zyl-koH7IVuwRLw-unsplash.jpg" />
-        <div class="overlay-text">Community Healthcare</div>
-      </div>
-    </div>
-  </section>
+    <script>
+        const images = [
+            'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+            'images/project_images/bangladesh/Apartment Building at Banani, Dhaka.jpg',
+            'images/project_images/bangladesh/Apartment Building at Gulshan-2, Dhaka.jpg'
+        ];
 
-  <!-- Contact -->
-  <section id="contact" class="section contact-section">
-    <h2>Connect With Us</h2>
-    <div class="contact-wrapper">
-      <div class="contact-icons">
-        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="mailto:test@mux8.com" target="_blank"><i class="fas fa-envelope"></i></a>
-      </div>
-      <form class="contact-form">
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email Address" />
-        <input type="tel" placeholder="Phone Number" />
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+        const texts = [
+            {
+                title: 'We are specialists in multifamily residential design.',
+                subtitle: 'OZMA RESIDENCES: Ahead of the Curve in DC\'s NoMa Neighborhood'
+            },
+            {
+                title: 'Creating spaces that inspire communities.',
+                subtitle: 'Project X: Modern Living in Downtown'
+            },
+            {
+                title: 'Innovative designs for modern living.',
+                subtitle: 'Project Y: Sustainable Architecture'
+            }
+        ];
 
-  <!-- Sticky Footer -->
-  <footer class="footer">
-    <p>&copy; 2025 MAH Architects Inc. All rights reserved.</p>
-  </footer>
+        let currentIndex = 0;
+        const heroImage = document.querySelector('.hero-image');
+        const mainTitle = document.querySelector('.main-title');
+        const subtitle = document.querySelector('.subtitle');
+        const counter = document.querySelector('.counter');
+        const leftArrow = document.querySelector('.left-arrow');
+        const rightArrow = document.querySelector('.right-arrow');
 
-  <script src="script.js"></script>
+        function updateContent() {
+            // Update image
+            heroImage.classList.add('fade-out-zoom-in');
+            setTimeout(() => {
+                heroImage.src = images[currentIndex];
+                heroImage.classList.add('fade-in-zoom-out');
+            }, 500);
+
+            // Update text
+            mainTitle.classList.add('text-fade-out-slide-down');
+            subtitle.classList.add('text-fade-out-slide-down');
+            setTimeout(() => {
+                mainTitle.textContent = texts[currentIndex].title;
+                subtitle.textContent = texts[currentIndex].subtitle;
+                mainTitle.classList.add('text-fade-in-slide-up');
+                subtitle.classList.add('text-fade-in-slide-up');
+            }, 500);
+
+            // Update counter
+            counter.textContent = `0${currentIndex + 1} / 0${images.length}`;
+        }
+
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateContent();
+        });
+
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateContent();
+        });
+    </script>
 </body>
 </html>
