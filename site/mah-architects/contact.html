@@ -1,11 +1,186 @@
-<form action="https://formspree.io/f/yourformid" method="POST">
-  <input type="text" name="name" placeholder="Your name" required>
-  <input type="email" name="_replyto" placeholder="Email" required>
-  <textarea name="message" placeholder="Message"></textarea>
-  <button type="submit">Send</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAH Architects Inc.</title>
 
-<div class="socials">
-  <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
-  <a href="mailto:hello@maharchitects.ca"><i class="fas fa-envelope"></i></a>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Fonts & Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header id="navbar" class="navbar">
+    <div class="container">
+      <div class="logo-container">
+        <a href="index.html"><div class="logo">
+              <span class="mah-word">MAH</span>
+              <div class="name-block">
+                  <span class="arch-label">Architects</span>
+                  <span class="inc-label">Inc.</span>
+              </div>
+          </div></a>
+        </div>
+      <nav class="nav-links">
+        <a href="projects.html">Projects</a>
+        <a href="expertise.html">Expertise</a>
+        <a href="#about">About</a>
+        <a href="#">Contact</a>
+        <i class="fas fa-search"></i>
+      </nav>
+      <div class="burger" id="burger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#projects">Projects</a>
+    <a href="#expertise">Expertise</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Page-Specific Content -->
+    <br /><br /><br /><br /><br /><br /><br /><br />
+        <main id="content" role="main">
+					<div class="page-header " data-sr-id="0" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 0.95s cubic-bezier(0.165, 0.84, 0.19, 0.95) 0.2s, transform 0.95s cubic-bezier(0.165, 0.84, 0.19, 0.95) 0.2s;">
+																		<h1>Contact Us</h1>
+				<div class="header-block-text">
+					<div class="text-block"><p>Select your inquiry type below and we'll get back to you shortly. Want to contact one of our offices? Scroll to the bottom of the page for contact information.</p></div>
+				</div>
+							
+
+			
+
+						
+
+	</div>
+
+		    <div class="info-grid horz-center">
+        
+    </div>
+	<div class="social-links horz-center">
+    <h1>Connect with us</h1>
+    <div class="social-links-list">
+                    <div class="social-block">
+                <a target="_blank" href="https://www.linkedin.com/company/">
+                <img src="https://s3-us-west-2.amazonaws.com/handel-architects/images/linkedin_170911_183711.svg">
+                <img class="hover-icon" src="https://s3-us-west-2.amazonaws.com/handel-architects/images/linkedin-b.svg">
+                </a>
+            </div>
+                    <div class="social-block">
+                <a target="_blank" href="https://www.instagram.com/">
+                <img src="https://s3-us-west-2.amazonaws.com/handel-architects/images/instagram.png">
+                <img class="hover-icon" src="https://s3-us-west-2.amazonaws.com/handel-architects/images/instagram-b.png">
+                </a>
+            </div>
+                    <div class="social-block">
+                <a target="_blank" href="https://www.facebook.com/">
+                <img src="https://s3-us-west-2.amazonaws.com/handel-architects/images/facebook_170911_183733.svg">
+                <img class="hover-icon" src="https://s3-us-west-2.amazonaws.com/handel-architects/images/facebook-b.svg">
+                </a>
+            </div>
+            </div>
 </div>
+
+	<div class="modal-bk processing" data-modal-id="contact-form">
+		<div class="modal-close js-close-modal">
+			<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="6.0-Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="R3---6.1-Team-Profile" transform="translate(-1378.000000, -45.000000)" fill="#FFFFFF">
+            <path d="M1394.4509,58.7960413 L1389.1503,53.5 L1394.4509,48.2039587 C1395.18303,47.4724613 1395.18303,46.2874355 1394.4509,45.555938 C1394.08484,45.1901893 1393.60164,45 1393.11843,45 C1392.64987,45 1392.16667,45.1901893 1391.8006,45.555938 L1386.5,50.8519793 L1381.1994,45.555938 C1380.83333,45.1901893 1380.35013,45 1379.86693,45 C1379.39836,45 1378.91516,45.1901893 1378.5491,45.555938 C1377.81697,46.2874355 1377.81697,47.4724613 1378.5491,48.2039587 L1383.8497,53.5 L1378.5491,58.7960413 C1377.81697,59.5275387 1377.81697,60.7125645 1378.5491,61.444062 C1378.91516,61.8098107 1379.39836,62 1379.86693,62 C1380.35013,62 1380.83333,61.8098107 1381.1994,61.444062 L1386.5,56.1480207 L1391.8006,61.444062 C1392.16667,61.8098107 1392.64987,62 1393.11843,62 C1393.60164,62 1394.08484,61.8098107 1394.4509,61.444062 C1395.18303,60.7125645 1395.18303,59.5275387 1394.4509,58.7960413 Z" id="close"></path>
+        </g>
+    </g>
+</svg>		</div>
+		<div class="modal modal-form modal-contact-form">
+			<div class="test">
+				<span class="loader">
+					<span class="loader-inner"></span>
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="office-grid offices-4">
+								<div class="office-grid-item ">
+				<img src="https://images.emojiterra.com/twitter/v14.0/256px/1f1e8-1f1e6.png">
+				<h3>Canada</h3>
+				<pre class="address">155 Dearbourne Blvd.
+Brampton, ON L6T1K1
+</pre>
+									<p></p>
+									
+							</div>
+								<div class="office-grid-item ">
+				<img src="https://images.emojiterra.com/twitter/v14.0/256px/1f1e7-1f1e9.png">
+				<h3>Bangladesh</h3>
+				<pre class="address">Dhaka, Bangladesh<br>Khulna, Bangladesh</pre>
+									
+									
+							</div>
+								
+								
+			</div>
+
+	
+
+		</main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo"><img src="images/logos/Logo-JPG.jpg" width="120px" alt="Logo" /></div>
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>Firm</h4>
+          <a href="/about"><p>About</p></a>
+          <a href="/about#insights"><p>Insights</p></a>
+        </div>
+        <div class="footer-col">
+          <h4>Expertise</h4>
+          <p>Feasibility Studies/ Facility Assessments</p>
+          <p>Architectural and Interior Design</p>
+          <p>Zoning Amendment/ Site Plan Approvals/ Committee of Adjustments/ Building Permit</p>
+          <p>Structural and MEP Engineering supports</p>
+          <p>Bidding and Contract negotiations</p>
+          <p>Project Contract Administration and Construction Management</p>
+        </div>
+        <div class="footer-col">
+          <h4>Projects</h4>
+          <p>Custom Residence</p>
+          <p>Duplex, Triplex and Fourplex</p>
+          <p>Laneway/Garden suites</p>
+          <p>Low-Mid Rise Condominium</p>
+          <p>Industrial Buildings</p>
+          <p>Commercial Buildings</p>
+          <p>Restaurant and Cafes</p>
+          <p>Institutional/ Healthcare/ Hospitality</p>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <p>Contact Us</p>
+          <p>Facebook</p>
+          <p>LinkedIn</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025. All rights reserved. As an employer conscious about equality and diversity, we welcome all applicants who have sufficient qualifications regardless of age, race, gender, nationality, ethnicity, or status or any other personal traits under legal protection.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

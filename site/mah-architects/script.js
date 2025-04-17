@@ -28,15 +28,15 @@ window.addEventListener("scroll", () => {
 
 // Hero Slider
 const images = [
-  'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+  'images/project_images/canada/220 ruggle render 11.jpg',
   'images/project_images/bangladesh/Apartment Building at Banani, Dhaka.jpg',
   'images/project_images/bangladesh/Apartment Building at Gulshan-2, Dhaka.jpg'
 ];
 
 const texts = [
   {
-    title: 'We are specialists in multifamily residential design.',
-    subtitle: 'OZMA RESIDENCES: Ahead of the Curve in DC\'s NoMa Neighborhood'
+    title: 'We are the architectural specialists you need!',
+    subtitle: 'MAH Architects Inc., previously known as A&A, was established in 2018 in Ontario, Canada. The firm has completed numerous projects and offers architectural services for various building types, including residential, commercial, retail, industrial, institutional, restaurant and café, healthcare, and hospitality facilities such as hotels and motels.'
   },
   {
     title: 'Creating spaces that inspire communities.',
@@ -54,13 +54,8 @@ const heroImage = document.querySelector('.hero-image');
 const mainTitle = document.querySelector('.main-title');
 const subtitle = document.querySelector('.subtitle');
 const counter = document.querySelector('.counter');
-const leftArrow = document.querySelector('.left-arrow');
-const rightArrow = document.querySelector('.right-arrow');
 
-function updateArrowStates() {
-  leftArrow.classList.toggle('disabled', currentIndex === 0);
-  rightArrow.classList.toggle('disabled', currentIndex === images.length - 1);
-}
+
 
 function updateContent() {
   heroImage.classList.remove('fade-in-zoom-out');
@@ -89,20 +84,6 @@ function updateContent() {
     updateArrowStates();
   }, 500);
 }
-
-leftArrow.addEventListener('click', () => {
-  if (currentIndex > 0) {
-    currentIndex--;
-    updateContent();
-  }
-});
-
-rightArrow.addEventListener('click', () => {
-  if (currentIndex < images.length - 1) {
-    currentIndex++;
-    updateContent();
-  }
-});
 
 // Initial load
 updateContent();
