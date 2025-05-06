@@ -1,6 +1,10 @@
 {
     "main": {
         "404.md": null,
+        "amongus.jpg": {
+            "amongcoth.gif": null,
+            "index.html": null
+        },
         "CNAME": null,
         "Gemfile": null,
         "Gemfile.lock": null,
@@ -47,6 +51,11 @@
                 "styles.css": null
             },
             "rong": {
+                "index.html": null,
+                "script.js": null,
+                "styles.css": null
+            },
+            "z": {
                 "index.html": null,
                 "script.js": null,
                 "styles.css": null
@@ -116,21 +125,24 @@
             "blog.html": null,
             "post.html": null
         },
-        "video": {
-            "delta-telekom-gameplay.mp4": null,
-            "dewan-mukto-co-brand-intro.mp4": null,
-            "freehold-domains.mp4": null,
-            "ITWD-game-menu.mp4": null,
-            "mandelzoom.mp4": null,
-            "mux domains premium.mp4": null,
-            "mux domains.mp4": null
-        },
         "_includes": {
             "bio.html": null,
             "category-modal.html": null,
             "footer.html": null,
             "head.html": null,
             "header.html": null
+        },
+        "video": {
+            "delta-telekom-gameplay.mp4": null,
+            "dewan-mukto-co-brand-intro.mp4": null,
+            "freehold-domains.mp4": null,
+            "how-to-find-the-ielts-guide-using-mux-chatbot.mp4": null,
+            "ITWD-game-menu.mp4": null,
+            "mandelzoom.mp4": null,
+            "mux domains premium.mp4": null,
+            "mux domains.mp4": null,
+            "mux8intro.mp4": null,
+            "rickcoth.mp4": null
         },
         "audio": {
             "ai": {
@@ -295,6 +307,13 @@
                     "productpitch": {
                         "index.html": null
                     },
+                    "metrobus-tracker": {
+                        "favicon.ico": null,
+                        "favicon.png": null,
+                        "index.html": null,
+                        "script.js": null,
+                        "styles.css": null
+                    },
                     "bracu": {
                         "courses": {
                             "favicon.ico": null,
@@ -304,13 +323,6 @@
                             "script.js": null,
                             "styles.css": null
                         }
-                    },
-                    "metrobus-tracker": {
-                        "favicon.ico": null,
-                        "favicon.png": null,
-                        "index.html": null,
-                        "script.js": null,
-                        "styles.css": null
                     }
                 },
                 "home": {
@@ -375,9 +387,128 @@
                         "SynSym_cover.png": null
                     }
                 }
+            },
+            "mah-architects": {
+                "CLIENT_MAH Architects Inc.txt": null,
+                "contact.html": null,
+                "content": {},
+                "expertise.html": null,
+                "Gemfile": null,
+                "Handel Architects _ World-class Architecture.html": null,
+                "index.md": null,
+                "index0.html": null,
+                "assets": {
+                    "js": {
+                        "main.js": null
+                    },
+                    "css": {
+                        "alternating-section.css": null,
+                        "contact.css": null,
+                        "flickity.css": null,
+                        "footer.css": null,
+                        "global.css": null,
+                        "hero.css": null,
+                        "navbar.css": null,
+                        "responsive.css": null,
+                        "values.css": null
+                    }
+                },
+                "projects": {},
+                "script.js": null,
+                "services.html": null,
+                "styles.css": null,
+                "team.html": null,
+                "_config.yml": null,
+                "writeups": {
+                    "Contact.docx": null,
+                    "Expertise.docx": null,
+                    "Practice.docx": null
+                },
+                "_posts": {},
+                "_layouts": {
+                    "default.html": null
+                },
+                "_includes": {
+                    "footer.html": null,
+                    "navbar.html": null
+                },
+                "Handel Architects _ World-class Architecture_files": {
+                    "00.851.11.013.jpg": null,
+                    "01.070.11.009.jpg": null,
+                    "01.150.12.067a.jpg": null,
+                    "01.272.11.204b.jpg": null,
+                    "01.272.11.208.jpg": null,
+                    "01.447.11.000c.jpg": null,
+                    "01.468.07.014a.JPG": null,
+                    "01.550.11.007.jpg": null,
+                    "analytics.js.download": null,
+                    "app.min.js.download": null,
+                    "Deb.jpg": null,
+                    "HA_logo_Medium.svg": null,
+                    "Insights-Antimicrobials.jpg": null,
+                    "Insights-Introduction-to-Phthalates-2.jpg": null,
+                    "js": null,
+                    "js(1)": null,
+                    "left-arrow.svg": null,
+                    "main.min.css": null,
+                    "office-hp.jpg": null,
+                    "plyr.css": null,
+                    "right-arrow.svg": null
+                },
+                "images": {
+                    "hero-image.webp": null,
+                    "gallery_images": {
+                        "chris-reyem-l_h4zrtTnwE-unsplash.jpg": null,
+                        "lance-anderson-QdAAasrZhdk-unsplash.jpg": null,
+                        "luke-van-zyl-koH7IVuwRLw-unsplash.jpg": null,
+                        "ricardo-gomez-angel-opFPVxMRpP8-unsplash.jpg": null,
+                        "sunguk-kim-Q5D4oYiZKAE-unsplash.jpg": null
+                    },
+                    "profile_pics": {
+                        "alexander-hipp-iEEBWgY_6lA-unsplash.jpg": null,
+                        "alexander-krivitskiy-tfq5eYDlxLw-unsplash.jpg": null,
+                        "diego-hernandez-MSepzbKFz10-unsplash.jpg": null
+                    },
+                    "logos": {
+                        "Logo-JPG.jpg": null,
+                        "logo.svg": null,
+                        "MAH Logo.ai": null,
+                        "OAA Logo.jpg": null,
+                        "raic-member-2024 (1).png": null,
+                        "RHFAC Professional.jpg": null
+                    },
+                    "project_images": {
+                        "canada": {
+                            "220 ruggle render 11.jpg": null,
+                            "All Project List.docx": null
+                        },
+                        "bangladesh": {
+                            "Apartment Building at Banani, Dhaka.jpg": null,
+                            "Apartment Building at Gulshan-2, Dhaka.jpg": null,
+                            "Apartment Building at Kakrail, Dhaka.jpg": null,
+                            "Apartment Building at Uttara, Dhaka.jpg": null,
+                            "Apartment Building, Gulshan-2, Dhaka.jpg": null,
+                            "BAF Training Institute, Sylhet.jpg": null,
+                            "Bank at Dhaka.JPG": null,
+                            "Beximco MDI plant at Gazipur.jpg": null,
+                            "Commercial Building at Gulshan, Dhaka.jpg": null,
+                            "Housing Complex at Naraynganj, Dhaka.jpg": null,
+                            "ISSB Testing Hall, Dhaka Cantt, Dhaka.jpg": null,
+                            "Mixed Use Building at Khulna.jpg": null,
+                            "Private House, Khulna.jpg": null,
+                            "Private Residence, Sylhet.jpg": null,
+                            "Prototype Cyclone shelter and Primary School at Bangladesh.jpg": null,
+                            "Shopping center at Savar, Dhaka.jpg": null,
+                            "Trauma Centre, CMH, Dhaka.jpg": null
+                        }
+                    }
+                }
             }
         },
         "_posts": {
+            "2025-03-26-roblox-gamebook.md": null,
+            "2025-03-27-github-badges-square.md": null,
+            "2025-04-04-how-to-pay-using-xoom.md": null,
             "dewanmukto": {
                 "2019-12-25-ielts-training.md": null,
                 "2020-03-08-youtube-stats.md": null,
@@ -438,154 +569,6 @@
                 "2024-11-29-useful-mobile-apps.md": null,
                 "hashnode-promo-sawpmansite": null
             }
-        },
-        "img": {
-            "1033519824_Gigachad.png": null,
-            "111 bookcover 2021.png": null,
-            "111 logo 2021.png": null,
-            "111logo_new_2021.png": null,
-            "111summary.png": null,
-            "111_wande_face.jpg": null,
-            "1267517807_Gigachad.png": null,
-            "1498700498_Gigachad.png": null,
-            "1532203096_A_dream_of_anime_girls__matte_painting_trending_on_artstation_HQ.png": null,
-            "1735437736_Gigachad.png": null,
-            "1739352178_Nendoroid.png": null,
-            "1790062026_Gigachad.png": null,
-            "181713322_Gigachad_wearing_sunglasses_and_smiling.png": null,
-            "1951009592_Nendoroid.png": null,
-            "1996505275_man_holding_laptop_up_with_one_arm.png": null,
-            "2017014777_Nendoroid.png": null,
-            "2119587175_Gigachad.png": null,
-            "2152809841_nendoroid.png": null,
-            "2197494297_Gigachad.png": null,
-            "2507290394_wearing_cool_sunglasses.png": null,
-            "2508398206_Gigachad.png": null,
-            "2571490546_Gigachad.png": null,
-            "2812079463_Gigachad (1).png": null,
-            "2812079463_Gigachad.png": null,
-            "2928077895_Gigachad.png": null,
-            "2945843421_Nendoroid.png": null,
-            "2986025469_Gigachad.png": null,
-            "3036216108_alan_walker_logo__realistic_trending_on_artstation_HQ.png": null,
-            "3190323008_Gigachad.png": null,
-            "3509468663_minecraft_logo__realistic_trending_on_artstation_HQ.png": null,
-            "3651672950_Nendoroid (1).png": null,
-            "3651672950_Nendoroid (2).png": null,
-            "393796715_Gigachad.png": null,
-            "402100757_Gigachad_driving_a_Ferrari.png": null,
-            "432836737_Gigachad.png": null,
-            "482341545_Nendoroid.png": null,
-            "492317965_A_dream_of_knights_fighting_dragons__matte_painting_trending_on_artstation_HQ.png": null,
-            "6d62b72ceb51b55232be70b4cfaa6622.png": null,
-            "797971786_Nendoroid_.png": null,
-            "805595708_Nendoroid.png": null,
-            "asbtract.png": null,
-            "asdasd.jpg": null,
-            "asdasdasd.jpg": null,
-            "Asenturisk 2023 banner.png": null,
-            "ASENTURISK CORPORATION banner 2.png": null,
-            "Asenturisk logo 2019 main.png": null,
-            "CBTH bookcover.png": null,
-            "CGPT DALLE 1.jpeg": null,
-            "bongojukti": {
-                "bangjukti banner 2025.png": null,
-                "Bongojukti logo 2025.png": null,
-                "Bongojukti_icon.jpg": null
-            },
-            "CGPT DALLE 1.webp": null,
-            "CGPT DALLE 2.jpeg": null,
-            "CGPT DALLE 2.webp": null,
-            "CGPT DALLE 3.jpeg": null,
-            "CGPT DALLE 3.webp": null,
-            "confettiasphalt.png": null,
-            "dalle-peaceful-0.webp": null,
-            "dalle-peaceful-1.jpeg": null,
-            "dalle-peaceful-1.webp": null,
-            "dalle-peaceful-2.webp": null,
-            "dalle-peaceful-3.webp": null,
-            "deepseacoral.png": null,
-            "dma_01_mockup01.png": null,
-            "dma_01_mockup02.png": null,
-            "dwnlding_on_exhdd.png": null,
-            "dwnlding_on_exhdd2.png": null,
-            "CGPT": {
-                "dalle-cosmos.webp": null,
-                "dalle-cottagecore.webp": null,
-                "dalle-fantasy-angel.webp": null,
-                "dalle-fantasy-female-2.webp": null,
-                "dalle-fantasy-female-3.webp": null,
-                "dalle-fantasy-female-4.webp": null,
-                "dalle-fantasy-female-5.webp": null,
-                "dalle-fantasy-female-6.webp": null,
-                "dalle-fantasy-female-7.webp": null,
-                "dalle-fantasy-female-angel.webp": null,
-                "dalle-fantasy-female-dragon.webp": null,
-                "dalle-fantasy-female.webp": null,
-                "dalle-fantasy-spriggan-2.webp": null,
-                "dalle-fantasy-spriggan-3.webp": null,
-                "dalle-fantasy-spriggan.webp": null,
-                "dalle-mysterious.webp": null,
-                "dalle-warrior.webp": null
-            },
-            "faction_akamine_111.png": null,
-            "faction_alkyne_111.png": null,
-            "faction_sirutov_111.png": null,
-            "fiverr gig thumb 2.png": null,
-            "genshin_impact_firstimpression.png": null,
-            "genshin_impact_firstimpression2.png": null,
-            "genshin_impact_update.png": null,
-            "grassymess.png": null,
-            "greenstreak.png": null,
-            "hnkai_loading.png": null,
-            "hnkai_scrnsht_colections.png": null,
-            "holyflowers.png": null,
-            "images_12.jpeg": null,
-            "IMG_20210824_193952.jpg": null,
-            "IMG_20210910_205537_844.jpg": null,
-            "InerTIA DriFT.png": null,
-            "mandelbrotweird.png": null,
-            "MandelEx - github og image 2.png": null,
-            "MandelEx - github og image.png": null,
-            "mockup_ACBL_20210330-nontp.png": null,
-            "mockup_CBEE_20210330.jpg": null,
-            "mockup_PSN_20210401.jpg": null,
-            "mu-xin.jpg": null,
-            "mukto_tech_logo.jpg": null,
-            "Muxday banner.png": null,
-            "OIG1 (1).jpg": null,
-            "OIG1 (2).jpg": null,
-            "OIG2.b.jpg": null,
-            "OIG2.jpg": null,
-            "OIG4 (2).jpg": null,
-            "OIG4.h.jpg": null,
-            "OIG4.jpg": null,
-            "one-one-one-icon_orig.png": null,
-            "pixelgarbage.png": null,
-            "post1.jpg": null,
-            "qe2e.jpg": null,
-            "saturnrings.png": null,
-            "sliceofchaos.png": null,
-            "mux": {
-                "black.png": null,
-                "blue.png": null,
-                "Data that Matters.jpg": null,
-                "Mux Anime logo icon 2025.png": null,
-                "Mux App logo icon 2025.png": null,
-                "Mux Games logo icon 2025.png": null,
-                "Mux logo icon 2025.gif": null,
-                "Mux logo icon 2025.png": null,
-                "mux logo.svg": null,
-                "mux studios banner.png": null,
-                "Mux Studios logo icon 2025.png": null,
-                "mux.best_logo.png": null,
-                "pink-gradient.png": null,
-                "purple-gradient.png": null
-            },
-            "wallpaper9.png": null,
-            "woodplank.png": null,
-            "woodplank_hued.png": null,
-            "wrappedarteries.png": null
         },
         "code": {
             "assembly": {
@@ -715,11 +698,11 @@
                     "avatar.png": null,
                     "chat.php": null,
                     "db_connection.php": null,
+                    "db_init.sql": null,
                     "css": {
                         "chat.css": null,
                         "index.css": null
                     },
-                    "db_init.sql": null,
                     "index.php": null,
                     "img": {
                         "background.jpg": null
@@ -856,12 +839,12 @@
                     "structures": {
                         "pagequeue.js": null
                     },
+                    "whitelinks.json": null,
                     "Shop": {
                         "protection.json": null,
                         "tools.json": null,
                         "weapons.json": null
                     },
-                    "whitelinks.json": null,
                     "commands": {
                         "gacha": {
                             "cardroll.js": null
@@ -964,16 +947,16 @@
                 },
                 "MuxRepeat_20250206_2.2.1.py": null,
                 "mygame.py": null,
+                "PrimeNumbers.py": null,
                 "oozbok": {
                     "Oozbok.exe": null,
                     "yip.ico": null
                 },
-                "PrimeNumbers.py": null,
+                "pygobject.py": null,
                 "painigger": {
                     "automation.py": null,
                     "gui.py": null
                 },
-                "pygobject.py": null,
                 "requester.py": null,
                 "requester_cli.py": null,
                 "wholesale.py": null,
@@ -1187,6 +1170,7 @@
                     "GameMenu.ctxt": null,
                     "GameMenu.java": null,
                     "inksplash.png": null,
+                    "ITWD-v0.1.jar": null,
                     "Assets": {
                         "adam.png": null,
                         "click.wav": null,
@@ -1198,10 +1182,17 @@
                         "LeningradDisco.ttf": null,
                         "theme.wav": null
                     },
-                    "ITWD-v0.1.jar": null,
                     "MANIFEST.MF": null,
                     "package.bluej": null,
                     "README.TXT": null
+                },
+                "wifichecker": {
+                    "package.bluej": null,
+                    "README.TXT": null,
+                    "WifiNetworksApp$Network.class": null,
+                    "WifiNetworksApp.class": null,
+                    "WifiNetworksApp.ctxt": null,
+                    "WifiNetworksApp.java": null
                 },
                 "InventoryApp": {
                     "inventory.txt": null,
@@ -1220,14 +1211,6 @@
                     "inventory_report.txt": null,
                     "package.bluej": null,
                     "README.TXT": null
-                },
-                "wifichecker": {
-                    "package.bluej": null,
-                    "README.TXT": null,
-                    "WifiNetworksApp$Network.class": null,
-                    "WifiNetworksApp.class": null,
-                    "WifiNetworksApp.ctxt": null,
-                    "WifiNetworksApp.java": null
                 },
                 "textguigame": {
                     "Game.class": null,
@@ -1891,12 +1874,12 @@
                         "index.html": null,
                         "link.svg": null,
                         "logfile.txt": null,
+                        "package-summary.html": null,
                         "legal": {
                             "ADDITIONAL_LICENSE_INFO": null,
                             "ASSEMBLY_EXCEPTION": null,
                             "LICENSE": null
                         },
-                        "package-summary.html": null,
                         "Player.html": null,
                         "script.js": null,
                         "stylesheet.css": null
@@ -1983,6 +1966,206 @@
                     "WavesEffect.ctxt": null,
                     "WavesEffect.java": null
                 }
+            }
+        },
+        "img": {
+            "1033519824_Gigachad.png": null,
+            "111 bookcover 2021.png": null,
+            "111 logo 2021.png": null,
+            "111logo_new_2021.png": null,
+            "111summary.png": null,
+            "111_wande_face.jpg": null,
+            "1267517807_Gigachad.png": null,
+            "1498700498_Gigachad.png": null,
+            "1532203096_A_dream_of_anime_girls__matte_painting_trending_on_artstation_HQ.png": null,
+            "1735437736_Gigachad.png": null,
+            "1739352178_Nendoroid.png": null,
+            "1790062026_Gigachad.png": null,
+            "181713322_Gigachad_wearing_sunglasses_and_smiling.png": null,
+            "1951009592_Nendoroid.png": null,
+            "1996505275_man_holding_laptop_up_with_one_arm.png": null,
+            "2017014777_Nendoroid.png": null,
+            "2119587175_Gigachad.png": null,
+            "2152809841_nendoroid.png": null,
+            "2197494297_Gigachad.png": null,
+            "2507290394_wearing_cool_sunglasses.png": null,
+            "2508398206_Gigachad.png": null,
+            "2571490546_Gigachad.png": null,
+            "2812079463_Gigachad (1).png": null,
+            "2812079463_Gigachad.png": null,
+            "2928077895_Gigachad.png": null,
+            "2945843421_Nendoroid.png": null,
+            "2986025469_Gigachad.png": null,
+            "3036216108_alan_walker_logo__realistic_trending_on_artstation_HQ.png": null,
+            "3190323008_Gigachad.png": null,
+            "3509468663_minecraft_logo__realistic_trending_on_artstation_HQ.png": null,
+            "3651672950_Nendoroid (1).png": null,
+            "3651672950_Nendoroid (2).png": null,
+            "393796715_Gigachad.png": null,
+            "402100757_Gigachad_driving_a_Ferrari.png": null,
+            "432836737_Gigachad.png": null,
+            "482341545_Nendoroid.png": null,
+            "492317965_A_dream_of_knights_fighting_dragons__matte_painting_trending_on_artstation_HQ.png": null,
+            "6d62b72ceb51b55232be70b4cfaa6622.png": null,
+            "797971786_Nendoroid_.png": null,
+            "805595708_Nendoroid.png": null,
+            "asbtract.png": null,
+            "asdasd.jpg": null,
+            "asdasdasd.jpg": null,
+            "Asenturisk 2023 banner.png": null,
+            "ASENTURISK CORPORATION banner 2.png": null,
+            "Asenturisk logo 2019 main.png": null,
+            "CBTH bookcover.png": null,
+            "CGPT DALLE 1.jpeg": null,
+            "bongojukti": {
+                "bangjukti banner 2025.png": null,
+                "Bongojukti logo 2025.png": null,
+                "Bongojukti_icon.jpg": null
+            },
+            "CGPT DALLE 1.webp": null,
+            "CGPT DALLE 2.jpeg": null,
+            "CGPT DALLE 2.webp": null,
+            "CGPT DALLE 3.jpeg": null,
+            "CGPT DALLE 3.webp": null,
+            "confettiasphalt.png": null,
+            "dalle-peaceful-0.webp": null,
+            "dalle-peaceful-1.jpeg": null,
+            "dalle-peaceful-1.webp": null,
+            "dalle-peaceful-2.webp": null,
+            "dalle-peaceful-3.webp": null,
+            "deepseacoral.png": null,
+            "dewan_mukto_brand_dark.png": null,
+            "dma_01_mockup01.png": null,
+            "dma_01_mockup02.png": null,
+            "dwnlding_on_exhdd.png": null,
+            "dwnlding_on_exhdd2.png": null,
+            "faction_akamine_111.png": null,
+            "faction_alkyne_111.png": null,
+            "faction_sirutov_111.png": null,
+            "CGPT": {
+                "AdamJucas0.webp": null,
+                "CooperBlack0.webp": null,
+                "dalle-cosmos.webp": null,
+                "dalle-cottagecore.webp": null,
+                "dalle-fantasy-angel.webp": null,
+                "dalle-fantasy-female-2.webp": null,
+                "dalle-fantasy-female-3.webp": null,
+                "dalle-fantasy-female-4.webp": null,
+                "dalle-fantasy-female-5.webp": null,
+                "dalle-fantasy-female-6.webp": null,
+                "dalle-fantasy-female-7.webp": null,
+                "dalle-fantasy-female-angel.webp": null,
+                "dalle-fantasy-female-dragon.webp": null,
+                "dalle-fantasy-female.webp": null,
+                "dalle-fantasy-spriggan-2.webp": null,
+                "dalle-fantasy-spriggan-3.webp": null,
+                "dalle-fantasy-spriggan.webp": null,
+                "dalle-mysterious.webp": null,
+                "dalle-warrior.webp": null,
+                "HarrisonGarison0.webp": null,
+                "WanDe0.webp": null
+            },
+            "fiverr gig thumb 2.png": null,
+            "genshin_impact_firstimpression.png": null,
+            "genshin_impact_firstimpression2.png": null,
+            "genshin_impact_update.png": null,
+            "grassymess.png": null,
+            "greenstreak.png": null,
+            "hnkai_loading.png": null,
+            "hnkai_scrnsht_colections.png": null,
+            "holyflowers.png": null,
+            "images_12.jpeg": null,
+            "IMG_20210824_193952.jpg": null,
+            "IMG_20210910_205537_844.jpg": null,
+            "InerTIA DriFT.png": null,
+            "mandelbrotweird.png": null,
+            "MandelEx - github og image 2.png": null,
+            "MandelEx - github og image.png": null,
+            "mockup_ACBL_20210330-nontp.png": null,
+            "mockup_CBEE_20210330.jpg": null,
+            "mockup_PSN_20210401.jpg": null,
+            "mu-xin.jpg": null,
+            "mukto_tech_logo.jpg": null,
+            "Muxday banner.png": null,
+            "OIG1 (1).jpg": null,
+            "OIG1 (2).jpg": null,
+            "OIG2.b.jpg": null,
+            "OIG2.jpg": null,
+            "OIG4 (2).jpg": null,
+            "OIG4.h.jpg": null,
+            "OIG4.jpg": null,
+            "one-one-one-icon_orig.png": null,
+            "pixelgarbage.png": null,
+            "post1.jpg": null,
+            "qe2e.jpg": null,
+            "saturnrings.png": null,
+            "sliceofchaos.png": null,
+            "mux": {
+                "black.png": null,
+                "blue.png": null,
+                "Data that Matters.jpg": null,
+                "Mux Anime logo icon 2025.png": null,
+                "Mux App logo icon 2025.png": null,
+                "Mux Games logo icon 2025.png": null,
+                "Mux logo icon 2025.gif": null,
+                "Mux logo icon 2025.png": null,
+                "mux logo.svg": null,
+                "mux studios banner.png": null,
+                "Mux Studios logo icon 2025.png": null,
+                "mux.best_logo.png": null,
+                "pink-gradient.png": null,
+                "purple-gradient.png": null
+            },
+            "wallpaper9.png": null,
+            "woodplank.png": null,
+            "woodplank_hued.png": null,
+            "wrappedarteries.png": null,
+            "github-badges-square": {
+                "Analytics.png": null,
+                "Android Studio.png": null,
+                "Android.png": null,
+                "Apache.png": null,
+                "C.png": null,
+                "Canva.png": null,
+                "Cloudflare.png": null,
+                "CSS.png": null,
+                "Electronjs.png": null,
+                "Expressjs.png": null,
+                "Figma.png": null,
+                "Fortran.png": null,
+                "GIMP.png": null,
+                "Gitbook.png": null,
+                "Gradle.png": null,
+                "HTML.png": null,
+                "Java.png": null,
+                "JavaScript.png": null,
+                "Jekyllrb.png": null,
+                "JSON.png": null,
+                "Kotlin.png": null,
+                "Lua.png": null,
+                "Mariadb.png": null,
+                "Mongodb.png": null,
+                "MySQL.png": null,
+                "Netlify.png": null,
+                "Nodejs.png": null,
+                "Numpy.png": null,
+                "OpenGL.png": null,
+                "Overleaf.png": null,
+                "Pandas.png": null,
+                "PHP.png": null,
+                "PhpMyAdmin.png": null,
+                "Python.png": null,
+                "Qt.png": null,
+                "Reactjs.png": null,
+                "Render.png": null,
+                "Replit.png": null,
+                "Selenium.png": null,
+                "SFML.png": null,
+                "Tailwind.png": null,
+                "Vercel.png": null,
+                "VSCode.png": null,
+                "Wireshark.png": null,
+                "XAMPP.png": null
             }
         }
     }

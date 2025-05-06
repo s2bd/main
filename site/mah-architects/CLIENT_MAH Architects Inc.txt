@@ -29,25 +29,25 @@ Requires: (!) Member photographs, (!) Brief member introductions
 
 Team:
 
-Canada
+[Canada]
 
-Mohd Alamgir Hossain
+# Mohd Alamgir Hossain
 Principal Architect
 OAA. MRAIC. MIAB.
 Designated RHFAC professional
 
 Alamgir; a licensed and registered Architect at OAA, a member of RAIC, IAB, and a designated RHFAC accessibility professional with over 20 years of experience in the architectural service industry. His practice encompasses various project types, including residential, commercial, industrial, retail, restaurant and café, institutional, healthcare, and hospitality facilities. A core principle of his practice is sustainability and adaptability, incorporating universal accessible design principles in the built environment. 
 
-Babita Babita
+# Babita Babita
 Administrative Assistant
 
-Mohona Das Orthi
+# Mohona Das Orthi
 Architectural Designer
 
 
-Bangladesh
+[Bangladesh]
 
-Mohammed Ali Alaul Haque
+# Mohammed Ali Alaul Haque
 Managing Director, 
 Dhaka and Khulna Office
 
@@ -55,7 +55,7 @@ Dhaka and Khulna Office
 
 Insights
 
-Why your project requires Architects?
+Why your project requires architects?
 
 The Architect, who functions as advisor, coordinator, and technical manager, in addition to being a creative artist, can design and administer a contract that ensures a project is completed on time, within budget, and meets the required standards of quality.
 According to Ontario jurisdiction by law, certain types of projects must involve an architect to ensure public health, safety, welfare, sustainable growth, and environmental protection. When determining if your project requires architectural services, hiring a qualified architect can be beneficial. Architects have expertise in built environments and are knowledgeable about complex regulatory requirements such as building codes, zoning bylaws, the construction process, and environmental considerations.
@@ -89,15 +89,20 @@ Khulna, Bangladesh
 
 Section 5: Expertise
 
-We Expertise:
+Our Expertise:
+
 Single and Multifamily Residential Buildings
 MAH Architects Inc. has successfully completed more than fifty (50) residential projects throughout the Greater Toronto Area. This includes custom homes, additions and renovations of residential buildings, as well as duplexes, triplexes, fourplexes, laneway and garden suites, and low to mid-rise condominium developments.
+
 Mixed-use Commercial, Retail, Restaurants and Café
 MAH Architects Inc. provides design services for commercial buildings, including office interior alterations, retail fit-outs, and restaurant/café design within the Greater Toronto Area and globally.
+
 Institutional (Colleges/ Schools and Training Centre)
 We had experience to design a specialized college by change of use of occupancy from Group D (office) to Occupancy Type Group (A2) at Toronto, Ontario, Canada as well design of new training center for newly recruited cadet and elementary schools at various locations in Bangladesh.
+
 Industrial (Warehouse and Distribution Center)
 We have extensive experience in designing, permitting, and administrating the construction of warehouses and distribution centers across Ontario and Canada.
+
 Hospitality Design
 We have successfully designed several luxury hotels and resorts on a global scale and are now striving to establish a presence in the North American market to promote the development of sustainable hospitality facilities.
 
@@ -106,7 +111,6 @@ We have experience in designing a 200-bed general hospital for the Bangladesh Na
 We worked on interior alterations for small clinics in Ontario and are dedicated to serving healthcare establishments of all sizes.
 
 Accessibility Assessment and Recommendation
-
 Meaningful accessibility and a universal design approach are key points of our practice. As designated accessibility professionals, we conduct assessments of built environments and provide expert opinions and recommendations to ensure building accessibility for everyone.
 
 Technical aspects of Design and Visualization
@@ -127,3 +131,32 @@ https://www.rdharch.com/
 https://www.caricarilee.com/
 https://mtarch.com/news/
 https://www.parkin.ca/
+
+
+Architecture & Planning Excellence
+
+Designing Tomorrow’s Spaces
+
+Innovative Architecture | Thoughtful Planning
+
+Where Vision Meets Structure
+
+
+Creative & Inspiring:
+
+Shaping Spaces, Inspiring Lives
+
+Crafting the Future of Design
+
+From Concept to Concrete
+
+Art Meets Architecture
+
+
+Minimal & Elegant:
+
+Architecture. Planning. Vision.
+
+Spaces that Speak
+
+Design with Purpose

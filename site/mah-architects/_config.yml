@@ -1,0 +1,43 @@
+title: MAH Architects Inc.
+email: contact@maharchitects.com
+description: >- 
+  MAH Architects Inc. is an Ontario-based architecture firm offering residential, commercial, and institutional designs.
+baseurl: "" # Leave blank for GitHub Pages at root
+url: "https://dewanmukto.github.io" # Replace with your actual GitHub Pages URL
+
+# Homepage dynamic content
+hero:
+  title: "We are the architectural specialists you need!"
+  description: >
+    **MAH Architects Inc.**, previously known as A&A, was established in 2018 in Ontario, Canada. 
+    We offer services across various sectors, using BIM and RAIC/OAA standards.
+
+why_choose_us: >
+  We believe great architecture is a collaborative process. Our team comprises registered architects, engineers, and designers.
+
+# Markdown processing
+markdown: kramdown
+theme: minima  # optional if you want to use a base theme as fallback
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
+
+permalink: /:categories/:title/
+
+# Exclude these from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
