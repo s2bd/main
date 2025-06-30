@@ -196,6 +196,7 @@
       "Python"
     ],
     "type": "Desktop app",
+    "icon": "https://cdn.mux8.com/images/ogimage-muxrepeat.ico",
     "repo": "https://github.com/s2bd/universal-macro-automation",
     "url": null,
     "problem_solved": "All your repetitive works performed by the machine while you relax and focus on the better things in life",
@@ -250,6 +251,7 @@
       "JS"
     ],
     "type": "Webapp",
+    "icon":"https://jammytube.netlify.app/player/jammyicon.png",
     "repo": "https://github.com/s2bd/youtube-video-dimmer",
     "url": "https://s2bd.github.io/youtube-video-dimmer",
     "problem_solved": "Listen to hour-long music compilations ad-free without showing off the questionable thumbnail to peeking eyes",
@@ -277,6 +279,7 @@
       "PeerJS"
     ],
     "type": "Webapp",
+    "icon": "https://dmkto.mux8.com/asset/images/muxwow.png",
     "repo": "https://github.com/s2bd/p2p-video-meetings",
     "url": null,
     "problem_solved": "Conduct virtual conferences while keeping intruders out or scratching their heads",
@@ -291,6 +294,7 @@
       "JS"
     ],
     "type": "Webapp",
+    "icon": "https://apps.mux8.com/paint/favicon.png",
     "repo": "https://github.com/s2bd/online-whiteboard",
     "url": "https://s2bd.github.io/online-whiteboard",
     "problem_solved": "Instantly begin annotating or sketching in case your regular whiteboard breaks down",
@@ -317,6 +321,7 @@
       "LeafletJS"
     ],
     "type": "Webapp",
+    "icon": "https://apps.mux8.com/metrobus/favicon.png",
     "repo": "https://github.com/s2bd/metrobus-tracker",
     "url": "https://s2bd.github.io/metrobus-tracker",
     "problem_solved": "Decide for the fastest route by locating the bus nearest to your stop",
@@ -382,7 +387,7 @@
     ],
     "type": "Discord bot",
     "repo": "https://github.com/s2bd/dolly-discord-bot",
-    "url": "https://s2bd.github.io/dolly-discord-bot",
+    "url": "https://discord.com/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot",
     "problem_solved": "Keep your Discord server alive with conversation by introducing a virtual economy and entertainment system",
     "category": "Bots"
   },
@@ -442,7 +447,7 @@
     ],
     "type": "Discord bot",
     "repo": "https://github.com/s2bd/guardian-discord-bot",
-    "url": null,
+    "url": "https://discord.com/api/oauth2/authorize?client_id=856019083686051860&permissions=8&scope=bot",
     "problem_solved": "Sleep peacefully knowing that your server will never see any unauthorized links or inappropriate messages",
     "category": "Bots"
   },
