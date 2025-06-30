@@ -307,6 +307,7 @@
       "Kotlin"
     ],
     "type": "Mobile app",
+    "icon": "s2bd.github.io/mobile-security-app/ic_launcher_foreground.webp",
     "repo": "https://github.com/s2bd/mobile-security-app",
     "url": null,
     "problem_solved": "Stay informed about your phone's health without paying for insurance",
@@ -386,6 +387,7 @@
       "Node.js"
     ],
     "type": "Discord bot",
+    "icon":"https://cdn.discordapp.com/avatars/977262952354828308/717ec6ab78bfbf77205aea2d1482342f.png?size=1024",
     "repo": "https://github.com/s2bd/dolly-discord-bot",
     "url": "https://discord.com/oauth2/authorize?client_id=977262952354828308&permissions=1644971949559&scope=bot",
     "problem_solved": "Keep your Discord server alive with conversation by introducing a virtual economy and entertainment system",
@@ -434,6 +436,7 @@
       "Node.js"
     ],
     "type": "Discord bot",
+    "icon":"https://cdn.discordapp.com/avatars/859684633896812565/77341a449b3f587dde9ffc704e41554b.png?size=1024",
     "repo": "https://github.com/s2bd/discord-bot-spyware",
     "url": null,
     "problem_solved": "Monitor or keep a backup of all activity in your Discord servers the easy way",
@@ -446,6 +449,7 @@
       "Python"
     ],
     "type": "Discord bot",
+    "icon":"https://cdn.discordapp.com/avatars/856019083686051860/0a15c84bfa840cf0bbd1ebd64ae7c9a7.png?size=1024",
     "repo": "https://github.com/s2bd/guardian-discord-bot",
     "url": "https://discord.com/api/oauth2/authorize?client_id=856019083686051860&permissions=8&scope=bot",
     "problem_solved": "Sleep peacefully knowing that your server will never see any unauthorized links or inappropriate messages",
