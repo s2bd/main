@@ -1,0 +1,461 @@
+[
+  {
+    "title": "Disorder",
+    "description": "Anonymous peer-to-peer chat and file sharing platform with no database, no persistent storage and no server.",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "PeerJS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/disorder",
+    "url": "https://exalux.github.io/disorder/",
+    "icon": "https://disorderchat.web.app/asset/img/favicon.png",
+    "problem_solved": "Discuss and share items fearlessly over the internet with all details lost upon disconnection",
+    "category": "Communication"
+  },
+  {
+    "title": "Jargonify",
+    "description": "Silly experiment with the Datamuse API for paraphrasing text using random synonyms.",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "JS",
+      "Datamuse API"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/jargonify",
+    "url": "https://exalux.github.io/jargonify/",
+    "problem_solved": null,
+    "category": "AI Tools"
+  },
+  {
+    "title": "BRACU RS69 Routine",
+    "description": "Schedule builder for the 69th Residential Semester",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/bracu-rs69-routine",
+    "url": "http://s2bd.github.io/bracu-rs69-routine/",
+    "problem_solved": "Worry no more about reading the inconvenient schedule image and simply get your meal and class timings all in one schedule!",
+    "category": "BRACU Student Tools"
+  },
+  {
+    "title": "BRACU Course Search",
+    "description": "Quick lookup for course info from the Connect SLMS",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/bracu-course-search",
+    "url": "https://s2bd.github.io/bracu-course-search/",
+    "problem_solved": "Know exactly which faculty teaches which section of your desired courses for the upcoming semester comfortably and conveniently!",
+    "category": "BRACU Student Tools"
+  },
+  {
+    "title": "AIP1.3",
+    "description": "AI vs AI chess battleground",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "Chess.js"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/ai-projects",
+    "url": "https://s2bd.github.io/ai-projects/Chess-AI/index.html",
+    "problem_solved": "Applying MCTS and Q-Learning to entertain chess fanatics",
+    "category": "AI Sandbox"
+  },
+  {
+    "title": "AIP1.2",
+    "description": "Visualizer for basic pathfinding algorithms",
+    "technologies": [
+      "HTML",
+      "TailwindCSS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/ai-projects",
+    "url": "https://s2bd.github.io/ai-projects/Maze-Pathfinding/index.html",
+    "problem_solved": "Making it easier to see how an AI agent may find its way through a maze",
+    "category": "Visualizer"
+  },
+  {
+    "title": "AIP1.1",
+    "description": "Unbeatable tictactoe AI using the minimax algorithm",
+    "technologies": [
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/ai-projects",
+    "url": "https://s2bd.github.io/ai-projects/Tic-Tac-Toe/index.html",
+    "problem_solved": "Example of instances where AI cannot be defeated",
+    "category": "AI Sandbox"
+  },
+  {
+    "title": "ALG1.1",
+    "description": "Visualizer for multiple sorting algorithms",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/algorithms/blob/main/Sorting/index.html",
+    "url": "https://s2bd.github.io/algorithms/Sorting",
+    "problem_solved": "Simple and easy visualization for new learners to the world of algorithms",
+    "category": "Visualizer"
+  },
+  {
+    "title": "Wine Launcher",
+    "description": "Ultra minimalist way to launch Windows software (.exe) from Linux.",
+    "technologies": [
+      "C",
+      "GTK"
+    ],
+    "type": "Desktop app",
+    "repo": "https://github.com/s2bd/exe-launcher",
+    "url": null,
+    "problem_solved": "One-click EXE program running made easy",
+    "category": "Utilities"
+  },
+  {
+    "title": "HH",
+    "description": "Hex/binary editor for any type of file",
+    "technologies": [
+      "C"
+    ],
+    "type": "CLI app",
+    "repo": "https://github.com/s2bd/raw-hex-editor",
+    "url": null,
+    "problem_solved": "Minimalist analysis of raw data from any file without breaking a sweat",
+    "category": "Utilities"
+  },
+  {
+    "title": "YASS",
+    "description": "Custom shell within the terminal",
+    "technologies": [
+      "C"
+    ],
+    "type": "CLI app",
+    "repo": "https://github.com/s2bd/simple-shell-template",
+    "url": null,
+    "problem_solved": "Quick template for implementing custom shells anywhere, anytime",
+    "category": "Utilities"
+  },
+  {
+    "title": "CGPA Calc",
+    "description": "CGPA calculator for BRAC University, supporting PDF uploading and real-time GPA auto-calculation.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/bracu-cgpa-calculator",
+    "url": "https://s2bd.github.io/bracu-cgpa-calculator",
+    "problem_solved": "Go back in time to see how your CGPA would have been affected based on different grade combinations",
+    "category": "BRACU Student Tools"
+  },
+  {
+    "title": "Z",
+    "description": "Work-in-progress X/Twitter-clone with its own unique flavors",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "type": "Social platform",
+    "repo": "https://github.com/s2bd/x-clone",
+    "url": null,
+    "problem_solved": "Socializing the way you want without fear of data collection or the hassle of ads",
+    "category": "Social Platforms"
+  },
+  {
+    "title": "Archimore",
+    "description": "Website built for MAH Architects Inc.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "type": "2D website",
+    "repo": "https://github.com/s2bd/architecture-company-website",
+    "url": "https://maharchitects.com",
+    "problem_solved": "Establishing an online identity for the world to know about your brand",
+    "category": "Client Projects"
+  },
+  {
+    "title": "Repeat",
+    "description": "Automation recorder for keyboard and mouse input and can repeat them continuously.",
+    "technologies": [
+      "Python"
+    ],
+    "type": "Desktop app",
+    "repo": "https://github.com/s2bd/universal-macro-automation",
+    "url": null,
+    "problem_solved": "All your repetitive works performed by the machine while you relax and focus on the better things in life",
+    "category": "Utilities"
+  },
+  {
+    "title": "Multoverse",
+    "description": "Multiplayer 3D interactive space for showcasing my works",
+    "technologies": [
+      "AFrame.io",
+      "Node.js"
+    ],
+    "type": "3D website",
+    "repo": "https://github.com/s2bd/3d-metaverse-website",
+    "url": "https://s2bd.github.io/3d-metaverse-website",
+    "problem_solved": null,
+    "category": "Random"
+  },
+  {
+    "title": "Bookseller",
+    "description": "Customer order management webapp for online booksellers and bookstores",
+    "technologies": [
+      "PHP",
+      "MySQL"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/bookseller-website",
+    "url": null,
+    "problem_solved": "All your customer orders stored securely and safely in one convenient place",
+    "category": "Client Projects"
+  },
+  {
+    "title": "Netstate",
+    "description": "Check internet speed, local and global IP addresses, etc.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/internet-checker",
+    "url": "https://s2bd.github.io/internet-checker",
+    "problem_solved": "Get a quick glimpse of your current network speed and conditions while not having to think twice",
+    "category": "Utilities"
+  },
+  {
+    "title": "Jam",
+    "description": "Play/listen to YouTube music videos in peace, without any ads or distractions",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/youtube-video-dimmer",
+    "url": "https://s2bd.github.io/youtube-video-dimmer",
+    "problem_solved": "Listen to hour-long music compilations ad-free without showing off the questionable thumbnail to peeking eyes",
+    "category": "Media Players"
+  },
+  {
+    "title": "Drone Zone",
+    "description": "Simple survival game about Boids simulation and bees",
+    "technologies": [
+      "C",
+      "SDL2"
+    ],
+    "type": "2D game",
+    "repo": "https://github.com/s2bd/bee-survival-game",
+    "url": null,
+    "problem_solved": null,
+    "category": "Games"
+  },
+  {
+    "title": "Wow",
+    "description": "Raid-resistant peer-to-peer video chat and meetings platform",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "PeerJS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/p2p-video-meetings",
+    "url": null,
+    "problem_solved": "Conduct virtual conferences while keeping intruders out or scratching their heads",
+    "category": "Communication"
+  },
+  {
+    "title": "Paint",
+    "description": "Simple and easy instant whiteboard designed to be lightweight",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/online-whiteboard",
+    "url": "https://s2bd.github.io/online-whiteboard",
+    "problem_solved": "Instantly begin annotating or sketching in case your regular whiteboard breaks down",
+    "category": "Productivity"
+  },
+  {
+    "title": "SecHero",
+    "description": "Android app for checking device security integrity, app permissions, and diagnostic info.",
+    "technologies": [
+      "Kotlin"
+    ],
+    "type": "Mobile app",
+    "repo": "https://github.com/s2bd/mobile-security-app",
+    "url": null,
+    "problem_solved": "Stay informed about your phone's health without paying for insurance",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "Metrobus Tracker",
+    "description": "Track metrobuses to decide the fastest route",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "LeafletJS"
+    ],
+    "type": "Webapp",
+    "repo": "https://github.com/s2bd/metrobus-tracker",
+    "url": "https://s2bd.github.io/metrobus-tracker",
+    "problem_solved": "Decide for the fastest route by locating the bus nearest to your stop",
+    "category": "Productivity"
+  },
+  {
+    "title": "Romulus",
+    "description": "A simple pseudo-chatbot that talks arrogantly",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "type": "Chatbot app",
+    "repo": "https://github.com/s2bd/romulus-chatbot",
+    "url": "https://s2bd.github.io/romulus-chatbot",
+    "problem_solved": null,
+    "category": "Random"
+  },
+  {
+    "title": "BRACKET",
+    "description": "(Unfinished) messaging platform",
+    "technologies": [
+      "PHP",
+      "MySQL"
+    ],
+    "type": "Messaging app",
+    "repo": "https://github.com/s2bd/bracket-messenger",
+    "url": null,
+    "problem_solved": null,
+    "category": "Communication"
+  },
+  {
+    "title": "Zen-G",
+    "description": "(Unfinished) zombie survival game",
+    "technologies": [
+      "Python",
+      "OpenGL"
+    ],
+    "type": "2D game",
+    "repo": "https://github.com/s2bd/zeng",
+    "url": null,
+    "problem_solved": null,
+    "category": "Games"
+  },
+  {
+    "title": "Wildest Dimensions",
+    "description": "Visual novel-style game based on ITWD",
+    "technologies": [
+      "Java"
+    ],
+    "type": "2D game",
+    "repo": "https://github.com/s2bd/visual-novel-game",
+    "url": null,
+    "problem_solved": null,
+    "category": "Games"
+  },
+  {
+    "title": "Dolly",
+    "description": "Multi-modal and multipurpose Discord bot, inspired by MEE6, Dank Memer and many more",
+    "technologies": [
+      "Node.js"
+    ],
+    "type": "Discord bot",
+    "repo": "https://github.com/s2bd/dolly-discord-bot",
+    "url": "https://s2bd.github.io/dolly-discord-bot",
+    "problem_solved": "Keep your Discord server alive with conversation by introducing a virtual economy and entertainment system",
+    "category": "Bots"
+  },
+  {
+    "title": "Delta Telekom",
+    "description": "Top-down 2D game for making a parody of a few online users on Discord.",
+    "technologies": [
+      "Java"
+    ],
+    "type": "2D game",
+    "repo": "https://github.com/s2bd/topdown-2d-game",
+    "url": null,
+    "problem_solved": null,
+    "category": "Games"
+  },
+  {
+    "title": "MandelEx",
+    "description": "Fractal visualizer in real-time.",
+    "technologies": [
+      "Java"
+    ],
+    "type": "Desktop app",
+    "repo": "https://github.com/s2bd/mandelbrot-fractal-explorer",
+    "url": null,
+    "problem_solved": "Dive deep into the world of the Mandelbrot fractal, even if you don't own a beefy PC",
+    "category": "Visualizer"
+  },
+  {
+    "title": "HueCube",
+    "description": "Chrome extension for skipping YouTube ads gracefully",
+    "technologies": [
+      "JS"
+    ],
+    "type": "Browser extension",
+    "repo": "https://github.com/s2bd/youtube-ad-avoider",
+    "url": null,
+    "problem_solved": "YouTube ads kept at bay via their own tools",
+    "category": "Utilities"
+  },
+  {
+    "title": "Serverwise",
+    "description": "Message and event logging module for Discord.js bots",
+    "technologies": [
+      "Node.js"
+    ],
+    "type": "Discord bot",
+    "repo": "https://github.com/s2bd/discord-bot-spyware",
+    "url": null,
+    "problem_solved": "Monitor or keep a backup of all activity in your Discord servers the easy way",
+    "category": "Bots"
+  },
+  {
+    "title": "Guardian",
+    "description": "Discord.py bot with safety and pranking features",
+    "technologies": [
+      "Python"
+    ],
+    "type": "Discord bot",
+    "repo": "https://github.com/s2bd/guardian-discord-bot",
+    "url": null,
+    "problem_solved": "Sleep peacefully knowing that your server will never see any unauthorized links or inappropriate messages",
+    "category": "Bots"
+  },
+  {
+    "title": "Pcryt",
+    "description": "LFSR-based encryption in Base64",
+    "technologies": [
+      "Python"
+    ],
+    "type": "CLI app",
+    "repo": "https://github.com/s2bd/pcryt",
+    "url": null,
+    "problem_solved": null,
+    "category": "Cybersecurity"
+  }
+]
