@@ -188,7 +188,28 @@
   align-self: center;
   opacity: 0.8;
 }
+.intro-video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+#introVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
   </style>
 </head>
 <body class="relative overflow-x-hidden">
@@ -270,6 +291,16 @@
     });
   </script>
   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const introVideo = document.getElementById('introVideo');
+    introVideo.addEventListener('ended', function() {
+        const introVideoOverlay = document.getElementById('introVideoOverlay');
+    introVideoOverlay.style.animation = 'fadeOut 1s forwards';
+    introVideoOverlay.addEventListener('animationend', function() {
+        introVideoOverlay.remove();
+    });
+    });
+});
     let projects = [];
     fetch("/data/projects.json")
       .then(res => res.json())
