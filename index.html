@@ -4,190 +4,59 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mux8</title>
-  <script src="https://kit.fontawesome.com/a2e0e6bb3b.js" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    .modal { backdrop-filter: blur(5px); }
-    .glass {
-      background: rgba(0, 0, 0, 0.25);
-      backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
+    .modal {
+      backdrop-filter: blur(5px);
     }
-    .squircle {
-      border-radius: 30% / 25%;
-      aspect-ratio: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      font-size: 1.5rem;
-      background: #e5e7eb;
-      color: #1f2937;
-      overflow: hidden;
-    }
-    .orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(100px);
-      opacity: 0.3;
-      z-index: -1;
-      mix-blend-mode: lighten;
-    }
-    .orb1 {
-      background: radial-gradient(circle, #5b21b6, #3b0764);
-      width: 300px;
-      height: 300px;
-      top: -50px;
-      left: -50px;
-    }
-    .orb2 {
-      background: radial-gradient(circle, #9d174d, #831843);
-      width: 400px;
-      height: 400px;
-      bottom: -100px;
-      right: -100px;
-    }
-    .orb3 {
-      background: radial-gradient(circle, #047857, #064e3b);
-      width: 200px;
-      height: 200px;
-      top: 50%;
-      left: 60%;
-      transform: translate(-50%, -50%);
-    }
-    .chatbot-btn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 60px;
-      height: 60px;
-      background: url('/img/mux/pink-gradient.png') no-repeat center/cover;
-      border-radius: 50%;
-      z-index: 100;
-      cursor: pointer;
-      box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
-    }
-    .chatbot-modal {
-      display: none;
-      position: fixed;
-      bottom: 90px;
-      right: 20px;
-      width: 100%;
-      max-width: 500px;
-      height: 600px;
-      background: white;
-      border-radius: 1rem;
-      box-shadow: 0px 4px 30px rgba(0,0,0,0.4);
-      z-index: 100;
-      overflow: hidden;
-      flex-direction: column;
-    }
-    .chatbot-modal.active {
-      display: flex;
-    }
-    .chatbot-modal * {
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+.glass {
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
-
-.chatbot-modal .chat-container {
-  width: 100%;
-  max-width: 600px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background: white;
-  border-radius: 15px;
-  overflow: hidden;
-}
-
-.chatbot-modal .chat-header {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.chatbot-modal .chat-box {
-  flex: 1;
-  padding: 15px;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.chatbot-modal .chat-message {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  max-width: 80%;
-}
-
-.chatbot-modal .bot-message {
+.squircle {
+  border-radius: 30% / 25%;
+  aspect-ratio: 1;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: #e5e7eb;
+  color: #1f2937;
+  overflow: hidden;
 }
-
-.chatbot-modal .bot-message img {
-  width: 40px;
-  height: 40px;
+.orb {
+  position: absolute;
   border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.3;
+  z-index: -1;
+  mix-blend-mode: lighten;
 }
-
-.chatbot-modal .user-message {
-  background: black;
-  color: white;
-  padding: 12px 15px;
-  border-radius: 20px;
-  align-self: flex-end;
+.orb1 {
+  background: radial-gradient(circle, #5b21b6, #3b0764);
+  width: 300px;
+  height: 300px;
+  top: -50px;
+  left: -50px;
 }
-
-.chatbot-modal .chat-input-area {
-  display: flex;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+.orb2 {
+  background: radial-gradient(circle, #9d174d, #831843);
+  width: 400px;
+  height: 400px;
+  bottom: -100px;
+  right: -100px;
 }
-
-.chatbot-modal .chat-input-area input {
-  flex: 1;
-  padding: 12px;
-  border: none;
-  border-radius: 25px;
-  background: #eee;
-  font-size: 16px;
+.orb3 {
+  background: radial-gradient(circle, #047857, #064e3b);
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
 }
-
-.chatbot-modal .chat-input-area button {
-  padding: 12px;
-  border: none;
-  border-radius: 25px;
-  background: black;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-  transition: transform 0.1s ease;
-}
-
-.chatbot-modal .chat-input-area button:active {
-  transform: scale(0.95);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
-}
-
-.chatbot-modal .intro-message {
-  color: grey;
-  font-size: 14px;
-  padding: 10px 15px;
-  text-align: center;
-  max-width: 80%;
-  align-self: center;
-  opacity: 0.8;
-}
+    
 .intro-video-overlay {
     position: fixed;
     top: 0;
@@ -265,15 +134,6 @@
       </div>
     </div>
   </div>
-
-  <!-- Footer -->
-  <footer class="sticky bottom-0 w-full bg-black text-white text-center py-3">
-    <a href="https://www.linkedin.com/company/mux-ai/" target="_blank" class="hover:underline transition">
-      Powered by Mux
-    </a>
-  </footer>
-
-  <script src="assets/js/chatbot.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       const introVideo = document.getElementById('introVideo');
@@ -340,7 +200,6 @@
         container.appendChild(section);
       }
 
-      // Modal logic
       const modal = document.getElementById('modal');
       const modalContent = document.getElementById('modalContent');
       const modalTitle = document.getElementById('modalTitle');
