@@ -1,61 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-gray-100 text-gray-800">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mux AI | Search</title>
-    <link rel="stylesheet" href="assets/css/chatbot.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mux8</title>
+  <script src="https://kit.fontawesome.com/a2e0e6bb3b.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/chatbot.css">
+  <style>
+    .modal { backdrop-filter: blur(5px); }
+    .glass {
+      background: rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .squircle {
+      border-radius: 30% / 25%;
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+      background: #e5e7eb;
+      color: #1f2937;
+      overflow: hidden;
+    }
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      opacity: 0.3;
+      z-index: -1;
+      mix-blend-mode: lighten;
+    }
+    .orb1 {
+      background: radial-gradient(circle, #5b21b6, #3b0764);
+      width: 300px;
+      height: 300px;
+      top: -50px;
+      left: -50px;
+    }
+    .orb2 {
+      background: radial-gradient(circle, #9d174d, #831843);
+      width: 400px;
+      height: 400px;
+      bottom: -100px;
+      right: -100px;
+    }
+    .orb3 {
+      background: radial-gradient(circle, #047857, #064e3b);
+      width: 200px;
+      height: 200px;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+    }
+    .chatbot-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: url('/img/mux/pink-gradient.png') no-repeat center/cover;
+      border-radius: 50%;
+      z-index: 100;
+      cursor: pointer;
+      box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+    }
+    .chatbot-modal {
+      display: none;
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 100%;
+      max-width: 500px;
+      height: 600px;
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0px 4px 30px rgba(0,0,0,0.4);
+      z-index: 100;
+      overflow: hidden;
+      flex-direction: column;
+    }
+    .chatbot-modal.active {
+      display: flex;
+    }
+  </style>
 </head>
-<body>
-<style>
-.intro-video-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-#introVideo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+<body class="relative overflow-x-hidden">
+  <!-- Orbs -->
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
 
-@keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
-}
-</style>
-<div class="intro-video-overlay" id="introVideoOverlay">
+  <!-- Intro video overlay -->
+  <div class="intro-video-overlay" id="introVideoOverlay">
     <video autoplay muted id="introVideo">
-        <source src="video/mux8intro.mp4" type="video/mp4">
+      <source src="video/mux8intro.mp4" type="video/mp4">
     </video>
-</div>
-    <div class="chat-container">
-        <header class="chat-header">Search This Website</header>
-        <div class="chat-box" id="chatBox"></div>
-        <div class="chat-input-area">
-            <input type="text" id="userInput" placeholder="Ask me about a resource..." autofocus>
-            <button id="sendBtn">➤</button>
-        </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Search and Logo -->
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
+      <img src="/img/mux/mux logo.svg" alt="Mux" class="h-12" />
+      <input type="text" id="search" placeholder="Search projects..." class="w-full sm:w-80 px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white/80 backdrop-blur text-gray-800" />
     </div>
-    <script src="assets/js/chatbot.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const introVideo = document.getElementById('introVideo');
-    introVideo.addEventListener('ended', function() {
+    <div id="project-container" class="space-y-10"></div>
+  </div>
+
+  <!-- Project Modal -->
+  <div id="modal" class="fixed inset-0 z-50 hidden modal bg-black/50 items-center justify-center">
+    <div id="modalContent" class="bg-white rounded-xl p-6 max-w-md w-full relative shadow-xl">
+      <button id="closeModal" class="absolute top-2 right-2 text-gray-500 hover:text-black text-3xl leading-none w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-200">&times;</button>
+      <h2 id="modalTitle" class="text-2xl font-semibold mb-2"></h2>
+      <p id="modalDescription" class="mb-3"></p>
+      <p id="modalProblem" class="text-sm text-gray-600 mb-3"></p>
+      <div id="modalTechnologies" class="flex flex-wrap gap-2 mb-4 text-sm"></div>
+      <div class="flex gap-4 mt-2">
+        <a id="modalRepo" target="_blank" class="flex items-center gap-2 text-blue-600 hover:underline">
+          <i class="fab fa-github"></i> Source Code
+        </a>
+        <a id="modalVisit" target="_blank" class="flex items-center gap-2 text-green-600 hover:underline">
+          <i class="fas fa-globe"></i> Visit
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chatbot Elements -->
+  <div class="chatbot-btn" id="chatbotToggle"></div>
+  <div class="chatbot-modal" id="chatbotPanel">
+    <div class="chat-container">
+      <header class="chat-header">Search This Website</header>
+      <div class="chat-box" id="chatBox"></div>
+      <div class="chat-input-area">
+        <input type="text" id="userInput" placeholder="Ask me about a resource..." autofocus>
+        <button id="sendBtn">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="sticky bottom-0 w-full bg-black text-white text-center py-3">
+    <a href="https://www.linkedin.com/company/mux-ai/" target="_blank" class="hover:underline transition">
+      Powered by Mux
+    </a>
+  </footer>
+
+  <script src="assets/js/chatbot.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const introVideo = document.getElementById('introVideo');
+      introVideo.addEventListener('ended', function() {
         const introVideoOverlay = document.getElementById('introVideoOverlay');
-    introVideoOverlay.style.animation = 'fadeOut 1s forwards';
-    introVideoOverlay.addEventListener('animationend', function() {
-        introVideoOverlay.remove();
+        introVideoOverlay.style.animation = 'fadeOut 1s forwards';
+        introVideoOverlay.addEventListener('animationend', function() {
+          introVideoOverlay.remove();
+        });
+      });
+
+      document.getElementById("chatbotToggle").addEventListener("click", () => {
+        document.getElementById("chatbotPanel").classList.toggle("active");
+      });
     });
-    });
-});
-</script>
+  </script>
+  <script>
+    let projects = [];
+    fetch("/data/projects.json")
+      .then(res => res.json())
+      .then(data => {
+        projects = data;
+        initProjects(projects);
+      });
+
+    function initProjects(projects) {
+      const container = document.getElementById('project-container');
+      const grouped = {};
+      projects.forEach(p => {
+        if (!grouped[p.category]) grouped[p.category] = [];
+        grouped[p.category].push(p);
+      });
+      for (const [category, items] of Object.entries(grouped)) {
+        const section = document.createElement('section');
+        section.innerHTML = `
+          <div class="p-6 rounded-3xl glass shadow-lg">
+            <h2 class="text-xl font-bold mb-4 text-white">${category}</h2>
+            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
+              ${items.map((item, index) => `
+                <div class="cursor-pointer" data-index="${projects.indexOf(item)}">
+                  <div class="squircle bg-white/60 backdrop-blur-sm hover:scale-105 transition transform duration-200 shadow">
+                    ${item.icon ?
+                      `<img src="${item.icon}" alt="${item.title}" class="w-full h-full object-contain p-2" />` :
+                      `<span class="text-xl ${item.title.split(' ').length === 1 ? 'text-base sm:text-lg md:text-xl' : ''}">
+                        ${item.title.split(' ').length === 1 ? item.title : item.title.split(' ').map(w => w[0]).join('')}
+                      </span>`}
+                  </div>
+                  <p class="text-center text-sm mt-1 text-white truncate">${item.title}</p>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+        container.appendChild(section);
+      }
+
+      // Modal logic
+      const modal = document.getElementById('modal');
+      const modalContent = document.getElementById('modalContent');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalDescription = document.getElementById('modalDescription');
+      const modalProblem = document.getElementById('modalProblem');
+      const modalTechnologies = document.getElementById('modalTechnologies');
+      const modalRepo = document.getElementById('modalRepo');
+      const modalVisit = document.getElementById('modalVisit');
+
+      document.querySelectorAll('[data-index]').forEach(div => {
+        div.addEventListener('click', () => {
+          const project = projects[div.dataset.index];
+          modalTitle.textContent = project.title;
+          modalDescription.textContent = project.description;
+          modalProblem.textContent = project.problem_solved || '';
+          modalTechnologies.innerHTML = project.technologies.map(t => `<span class="px-2 py-1 bg-gray-200 rounded">${t}</span>`).join('');
+          modalRepo.href = project.repo;
+          modalVisit.href = project.url;
+          modal.classList.remove('hidden');
+          modal.classList.add('flex');
+        });
+      });
+
+      document.getElementById('closeModal').onclick = () => {
+        modal.classList.add('hidden');
+      };
+      modal.addEventListener('click', (e) => {
+        if (!modalContent.contains(e.target)) modal.classList.add('hidden');
+      });
+
+      const searchInput = document.getElementById('search');
+      searchInput.addEventListener('input', () => {
+        const query = searchInput.value.toLowerCase();
+        const allSections = document.querySelectorAll('#project-container section');
+        allSections.forEach(section => section.remove());
+        const filtered = projects.filter(p => (p.title + p.description + p.repo + p.url).toLowerCase().includes(query));
+        initProjects(filtered);
+      });
+    }
+  </script>
 </body>
 </html>
